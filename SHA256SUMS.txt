@@ -1,0 +1,4 @@
+61846fe3f96fffc9af2f69bafeb2fc49be812b02977153a795de449c848a9914 *papers/part-III_further-observations-on-powerful-numbers.pdf
+af81b2c63460fd101be701faedb0fc5316b480a9d6cf93100de83b666c105a5f *papers/part-II_pairs-of-consecutive-and-near-consecutive-powerful-numbers.pdf
+9aef9fcdef5f88f59b6c2d5abde8acaa5848c6313a7e4bb28fe2c3ee5753357f *papers/part-I_triples-of-consecutive-powerful-numbers.pdf
+df01f76dff77c0abfb4d5a8d39e428e0b20a74bf085031e3cdd41d9ed37c9ff2 *papers/volume_consecutive-powerful-numbers-and-pell-equations.pdf
