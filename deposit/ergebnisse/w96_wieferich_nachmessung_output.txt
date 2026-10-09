@@ -1,0 +1,57 @@
+====================================================================================================
+w96 — WIEFERICH-NACHMESSUNGEN (a) Beinahe-Treffer · (b) Ordnung · (c) Kreuzkorrelation, p ≤ 3,000,000   2026-09-24 20:41
+====================================================================================================
+  m =        7: 216,813 Primzahlen · 7s
+  m =       15: 216,813 Primzahlen · 9s
+  m =       23: 216,813 Primzahlen · 15s
+  m =       87: 216,813 Primzahlen · 8s
+  m =       39: 216,813 Primzahlen · 7s
+  m =      319: 216,810 Primzahlen · 9s
+  m =       47: 216,813 Primzahlen · 6s
+  m =   209991: 216,809 Primzahlen · 7s
+  m =     1903: 216,810 Primzahlen · 6s
+  m =       31: 216,811 Primzahlen · 6s
+  m =       55: 216,812 Primzahlen · 6s
+  m =      407: 216,812 Primzahlen · 7s
+  m =       79: 216,813 Primzahlen · 9s
+  m =       95: 216,813 Primzahlen · 8s
+  m =      159: 216,811 Primzahlen · 9s
+  m =      143: 216,813 Primzahlen · 9s
+  m =      183: 216,813 Primzahlen · 8s
+  m =       71: 216,812 Primzahlen · 9s
+  m =      119: 216,812 Primzahlen · 12s
+  m =      703: 216,810 Primzahlen · 23s
+  m =  4099215: 216,807 Primzahlen · 22s
+  m =      111: 216,812 Primzahlen · 21s
+  m =      255: 216,812 Primzahlen · 11s
+  m =      295: 216,811 Primzahlen · 23s
+  m =      327: 216,813 Primzahlen · 21s
+
+PK1 ✅  ε^(p−e) ≡ 1 (mod p) fuer alle 5,420,294 Paare (m, p).
+PK2 ✅  alle 50 Histogramme von w91 Klasse fuer Klasse gleich; dieselben 56 Treffer.
+PK3 ✅  die 16 Record-Treffer haben Ordnung ≡ 0 (mod 4), die 40 zusaetzlichen nicht.
+
+(a) BEINAHE-TREFFER — Anzahl y = q/p < t gegen die exakte Erwartung Σ ⌈t·p⌉/p
+    t = 1e-02: beobachtet   54,293  erwartet    54,234.16  z = +0.25
+    t = 1e-03: beobachtet    5,463  erwartet     5,457.63  z = +0.07
+    t = 1e-04: beobachtet      593  erwartet       583.89  z = +0.38
+    t = 1e-05: beobachtet      113  erwartet        99.46  z = +1.37
+    t = 1e-06: beobachtet       59  erwartet        53.31  z = +0.80
+    t = 1e-07: beobachtet       56  erwartet        50.71  z = +0.76
+    unterstes Prozent in 10 Teilklassen: χ² = 2.3, p = 0.985   (beobachtet [5463, 5418, 5387, 5372, 5447, 5437, 5385, 5448, 5440, 5496])
+
+(b) NACH ORDNUNG — Klasse s = v₂(ord ε mod p) und e = (m/p)
+    ungerade Ordnung       e = +1:   871,744 Primzahlen · χ² =  35.0, p = 0.014 · Treffer 12 gegen   7.1
+    ungerade Ordnung       e = -1:   872,524 Primzahlen · χ² =  20.9, p = 0.341 · Treffer 10 gegen   7.6
+    Ordnung ≡ 2 (mod 4)    e = +1:   871,672 Primzahlen · χ² =  17.0, p = 0.591 · Treffer  8 gegen   7.9
+    Ordnung ≡ 2 (mod 4)    e = -1:   871,682 Primzahlen · χ² =  13.8, p = 0.795 · Treffer 10 gegen   8.0
+    Ordnung ≡ 0 (mod 4)    e = +1:   965,179 Primzahlen · χ² =  14.1, p = 0.776 · Treffer 10 gegen   9.1
+    Ordnung ≡ 0 (mod 4)    e = -1:   967,493 Primzahlen · χ² =  18.8, p = 0.468 · Treffer  6 gegen  11.0
+
+(c) KREUZKORRELATION zwischen den Kernen, an ALLEN gemeinsamen Primzahlen
+PK4 ✅  gepflanzt (2 %): z = +10.0 erkannt; dasselbe Paar ohne Pflanzung z = +0.64; Selbst r = 1, um eine Primzahl verschoben z = -0.67.
+    300 Paare, je ~216,812 Primzahlen: |z| > 2,576 bei 3 (erwartet ~3), |z| > 1,96 bei 16 (~15); groesstes |z| = 3.61 (m = 209991 / 703), Bonferroni p = 0.092; Mittel +0.086, Streuung 1.020.
+
+====================================================================================================
+  KEINE der drei Nachmessungen weicht ab — auch nahe q = 0, auch nach Ordnung getrennt, auch an allen Primzahlen.
+====================================================================================================

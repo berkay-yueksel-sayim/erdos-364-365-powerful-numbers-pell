@@ -1,0 +1,40 @@
+================================================================================================
+w95 — PRIMALITAETS-BEWEIS (Pocklington, rekursiv) fuer die w89-Zeugen ueber ψ₁₂
+================================================================================================
+PK E1 ✅  naechste Primzahl nach 10³⁰ (sympy) = 10³⁰ + 57: bewiesen und vom zweiten Pruefer bestaetigt.
+PK E2 ✅  30-stelliges Produkt abgelehnt; Carmichael-Zahl 5394826801 (besteht Fermat zur Basis 2) abgelehnt.
+  15_67      kleinster  25 St.: ✅ bewiesen prim (pocklington)  0.0s
+  15_67      weiterer   36 St.: ✅ bewiesen prim (pocklington)  1.6s
+  15_107     kleinster  23 St.: ✅ bewiesen prim (mr12)  0.0s
+  15_109     kleinster  28 St.: ✅ bewiesen prim (pocklington)  0.1s
+  15_113     kleinster  35 St.: ✅ bewiesen prim (pocklington)  0.6s
+  15_405     kleinster  31 St.: ✅ bewiesen prim (pocklington)  0.2s
+  7_215      kleinster  21 St.: ✅ bewiesen prim (mr12)  0.0s
+  7_191      kleinster  17 St.: ✅ bewiesen prim (mr12)  0.0s
+  79_237     kleinster  19 St.: ✅ bewiesen prim (mr12)  0.0s
+  1903_55    kleinster  29 St.: ✅ bewiesen prim (pocklington)  0.0s
+  15_605     kleinster  27 St.: ✅ bewiesen prim (pocklington)  0.0s
+  39_325     kleinster  36 St.: ✅ bewiesen prim (pocklington)  0.1s
+  15_1035    kleinster  20 St.: ✅ bewiesen prim (mr12)  0.0s
+  95_475     kleinster  38 St.: ✅ bewiesen prim (pocklington)  0.6s
+  39_741     kleinster  29 St.: ✅ bewiesen prim (pocklington)  0.0s
+  295_177    kleinster  17 St.: ✅ bewiesen prim (mr12)  0.0s
+  95_855     kleinster  27 St.: ✅ bewiesen prim (pocklington)  0.1s
+  15_1875    kleinster  15 St.: ✅ bewiesen prim (mr12)  0.0s
+  183_549    kleinster  18 St.: ✅ bewiesen prim (mr12)  0.0s
+  71_355     kleinster  25 St.: ✅ bewiesen prim (pocklington)  0.0s
+  23_713     kleinster  18 St.: ✅ bewiesen prim (mr12)  0.0s
+  7_1253     kleinster  28 St.: ✅ bewiesen prim (pocklington)  0.1s
+  319_209    kleinster  13 St.: ✅ bewiesen prim (mr12)  0.0s
+  95_1045    kleinster  15 St.: ✅ bewiesen prim (mr12)  0.0s
+  7_1337     kleinster  10 St.: ✅ bewiesen prim (mr12)  0.0s
+  209991_17  kleinster  14 St.: ✅ bewiesen prim (mr12)  0.0s
+  295_295    kleinster  13 St.: ✅ bewiesen prim (mr12)  0.0s
+  319_253    kleinster  22 St.: ✅ bewiesen prim (mr12)  0.0s
+
+E3      Raenge, deren kleinster Zeuge ueber ψ₁₂ liegt: 12 — ✅ alle mit Beweis.
+PK E4 ✅  28 Zertifikate aus der Datei gelesen und vom zweiten Pruefer bestaetigt (ohne Zerlegung).
+E5      15_109     Kofaktor  70 St.: 12 Basen True, 12 andere Basen True, BPSW True
+E5      15_113     Kofaktor  66 St.: 12 Basen True, 12 andere Basen True, BPSW True
+E5      1903_55    Kofaktor 342 St.: 12 Basen True, 12 andere Basen True, BPSW True
+        Laufzeit 4s.

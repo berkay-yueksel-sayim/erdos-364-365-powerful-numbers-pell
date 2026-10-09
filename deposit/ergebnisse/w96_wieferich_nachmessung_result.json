@@ -1,0 +1,144 @@
+{
+ "skript": "w96_wieferich_nachmessung_2026-09-24.py",
+ "datum": "2026-09-24 20:46",
+ "p_max": 3000000,
+ "n_paare": 5420294,
+ "a_schwellen": [
+  {
+   "t": 0.01,
+   "beobachtet": 54293,
+   "erwartet": 54234.16,
+   "z": 0.25
+  },
+  {
+   "t": 0.001,
+   "beobachtet": 5463,
+   "erwartet": 5457.63,
+   "z": 0.07
+  },
+  {
+   "t": 0.0001,
+   "beobachtet": 593,
+   "erwartet": 583.89,
+   "z": 0.38
+  },
+  {
+   "t": 1e-05,
+   "beobachtet": 113,
+   "erwartet": 99.46,
+   "z": 1.37
+  },
+  {
+   "t": 1e-06,
+   "beobachtet": 59,
+   "erwartet": 53.31,
+   "z": 0.8
+  },
+  {
+   "t": 1e-07,
+   "beobachtet": 56,
+   "erwartet": 50.71,
+   "z": 0.76
+  }
+ ],
+ "a_unterstes_prozent": {
+  "beobachtet": [
+   5463,
+   5418,
+   5387,
+   5372,
+   5447,
+   5437,
+   5385,
+   5448,
+   5440,
+   5496
+  ],
+  "erwartet": [
+   5457.63,
+   5418.61,
+   5419.24,
+   5419.53,
+   5419.66,
+   5419.77,
+   5419.87,
+   5419.98,
+   5419.79,
+   5420.08
+  ],
+  "chi2": 2.31,
+  "p": 0.9846
+ },
+ "b_klassen": [
+  {
+   "klasse": "ungerade Ordnung",
+   "e": 1,
+   "n": 871744,
+   "chi2": 35.03,
+   "p": 0.0139,
+   "treffer": 12,
+   "erwartet": 7.13
+  },
+  {
+   "klasse": "ungerade Ordnung",
+   "e": -1,
+   "n": 872524,
+   "chi2": 20.92,
+   "p": 0.3411,
+   "treffer": 10,
+   "erwartet": 7.63
+  },
+  {
+   "klasse": "Ordnung ≡ 2 (mod 4)",
+   "e": 1,
+   "n": 871672,
+   "chi2": 16.98,
+   "p": 0.5914,
+   "treffer": 8,
+   "erwartet": 7.88
+  },
+  {
+   "klasse": "Ordnung ≡ 2 (mod 4)",
+   "e": -1,
+   "n": 871682,
+   "chi2": 13.82,
+   "p": 0.7949,
+   "treffer": 10,
+   "erwartet": 8.04
+  },
+  {
+   "klasse": "Ordnung ≡ 0 (mod 4)",
+   "e": 1,
+   "n": 965179,
+   "chi2": 14.14,
+   "p": 0.7763,
+   "treffer": 10,
+   "erwartet": 9.06
+  },
+  {
+   "klasse": "Ordnung ≡ 0 (mod 4)",
+   "e": -1,
+   "n": 967493,
+   "chi2": 18.83,
+   "p": 0.4679,
+   "treffer": 6,
+   "erwartet": 10.97
+  }
+ ],
+ "c": {
+  "paare": 300,
+  "ueber_2_576": 3,
+  "ueber_1_96": 16,
+  "z_max": [
+   3.609,
+   209991,
+   703
+  ],
+  "p_bonferroni": 0.0922,
+  "z_mittel": 0.0864,
+  "z_streuung": 1.0198,
+  "pk_gepflanzt_z": 9.98
+ },
+ "urteil": "KEINE der drei Nachmessungen weicht ab — auch nahe q = 0, auch nach Ordnung getrennt, auch an allen Primzahlen.",
+ "laufzeit_s": 290
+}
