@@ -1,0 +1,81 @@
+{
+ "skript": "w64_d2b_deutung_von_v_2026-09-20.py",
+ "N": 100000000000000,
+ "KMIN": 4,
+ "n_werte": 62118,
+ "n_kofaktoren": 9752,
+ "n_analyse_stufen": 3061,
+ "abdeckung_werte": 51658,
+ "decke": {
+  "r_split_half": 0.8144997966251909,
+  "spearman_brown": 0.8977678566182135,
+  "w63_ueber_alle_stufen": 0.864,
+  "n_stufen": 2936
+ },
+ "kc_gleich_1": {
+  "v": 1.7953032587442963,
+  "behandlung": "ausgeschlossen, struktureller Sonderfall (D19)"
+ },
+ "regression": {
+  "merkmale": [
+   "1",
+   "log kc",
+   "omega(kc)",
+   "log P+(kc)",
+   "log P-(kc)"
+  ],
+  "koeffizienten": [
+   0.6473598039846264,
+   -0.060808497282124105,
+   0.08986937470302693,
+   -0.02480762503671146,
+   0.015565134969379484
+  ],
+  "r2_in_sample": 0.4442210178691338,
+  "r2_ausserhalb": 0.4246157255854407,
+  "r2_permutiert": 0.0009919363868962083
+ },
+ "ablation": {
+  "einzeln": {
+   "log kc": 0.29352327668638145,
+   "omega(kc)": 0.010277652402089221,
+   "log P+(kc)": 0.24402456618857427,
+   "log P-(kc)": 0.07927271357564103
+  },
+  "verlust": {
+   "log kc": 0.07134527336198027,
+   "omega(kc)": 0.010303600868598162,
+   "log P+(kc)": 0.012095232311610915,
+   "log P-(kc)": 0.012192718822517379
+  }
+ },
+ "koeffizienten_stabilitaet": {
+  "vorzeichen_stabil": true,
+  "je_merkmal": {
+   "log kc": {
+    "mittel": -0.06080972233209484,
+    "sd": 0.003752082451046726
+   },
+   "omega(kc)": {
+    "mittel": 0.08968357534627618,
+    "sd": 0.01244360215388951
+   },
+   "log P+(kc)": {
+    "mittel": -0.024860196500590282,
+    "sd": 0.0018705335428144394
+   },
+   "log P-(kc)": {
+    "mittel": 0.015575050936321664,
+    "sd": 0.0019078942944978933
+   }
+  },
+  "hinweis": "starke Kollinearitaet: gemeinsames R2 belastbar, Einzelbetraege nicht"
+ },
+ "urteil": {
+  "anteil_des_erklaerbaren": 0.47296828735316776,
+  "rest": 0.47315213103277276
+ },
+ "abgrenzung": "Regression ueber endlichen Bestand, gegen die eigene Decke gelesen; kein Satz, keine Kausalitaet",
+ "laufzeit_s": 4.050279140472412,
+ "python": "3.12.10"
+}

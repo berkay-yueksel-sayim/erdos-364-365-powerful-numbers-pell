@@ -1,0 +1,5 @@
+PK ok: 4099215 (m|U1, T1 gerade, 228 Stellen), 209991 (m|U1, T1 ungerade), m=7 (7 teilt U1=3 nicht)
+A135735 (21 Glieder, OEIS 08.09.2026): ungerade Glieder nach Restklasse mod 8: {1: [1817, 5374184665, 1188580642033, 15826129757609, 18803675974841], 3: [1752299, 20256129307923], 5: [], 7: [209991, 4099215, 117477414815, 39028039587479]}
+Klasse 3: m = 1752299: m | U1 = True, T1 ungerade, log10 T1 = 116.795 (117 Stellen), Periode 235  -> keine Paare (T1 ungerade)
+Klasse 3: m = 20256129307923: m | U1 = True, T1 gerade, log10 T1 = 99133.033 (99134 Stellen), Periode 192219  -> erste Stufe (Paar) bei 10^99133.0, weit ueber (5.325e13)^1.5 = 3.9e20 und ueber H = 2000
+Folge: Klasse-3-Paarliste unbedingt vollstaendig bis min(3.88e20, 10^99133) = 3.88e20 (Reinhart-Schranke), fuer m nicht teilt U1 bis 2.7e37. Zeit 0.1s

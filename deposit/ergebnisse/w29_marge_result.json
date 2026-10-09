@@ -1,0 +1,19 @@
+{
+ "MMAX": 100000000,
+ "H": 2000.0,
+ "seed": 20260910,
+ "stichprobe_verworfen": 530,
+ "marge_min": 347219.19497411366,
+ "marge_median": 9531566184.181353,
+ "marge_max": 324255427901.4077,
+ "widerspruch": 0,
+ "rand_bis_3e6": [
+  [
+   21.566,
+   655,
+   655,
+   16
+  ]
+ ],
+ "sekunden": 4.3
+}

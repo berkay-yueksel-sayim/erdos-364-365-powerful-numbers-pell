@@ -1,0 +1,153 @@
+{
+ "skript": "w30c_ueberschneidung_137_606_2026-09-12.py",
+ "P_W20": 3000000,
+ "n_vollstaendig": 137,
+ "n_sichtbar": 113,
+ "n_unsichtbar": 24,
+ "unsichtbare": [
+  {
+   "m": 15,
+   "d": 23,
+   "kleinster_primfaktor": "51063980650397625961",
+   "n_primfaktoren": 1
+  },
+  {
+   "m": 15,
+   "d": 29,
+   "kleinster_primfaktor": "12160478479832564836254301",
+   "n_primfaktoren": 1
+  },
+  {
+   "m": 15,
+   "d": 31,
+   "kleinster_primfaktor": "41392441",
+   "n_primfaktoren": 3
+  },
+  {
+   "m": 15,
+   "d": 33,
+   "kleinster_primfaktor": "4359961",
+   "n_primfaktoren": 2
+  },
+  {
+   "m": 15,
+   "d": 37,
+   "kleinster_primfaktor": "229228022728681",
+   "n_primfaktoren": 2
+  },
+  {
+   "m": 15,
+   "d": 43,
+   "kleinster_primfaktor": "21427567845878329",
+   "n_primfaktoren": 2
+  },
+  {
+   "m": 15,
+   "d": 49,
+   "kleinster_primfaktor": "9308041",
+   "n_primfaktoren": 2
+  },
+  {
+   "m": 23,
+   "d": 15,
+   "kleinster_primfaktor": "4308961",
+   "n_primfaktoren": 2
+  },
+  {
+   "m": 39,
+   "d": 7,
+   "kleinster_primfaktor": "15581284993",
+   "n_primfaktoren": 1
+  },
+  {
+   "m": 39,
+   "d": 9,
+   "kleinster_primfaktor": "15587522497",
+   "n_primfaktoren": 1
+  },
+  {
+   "m": 39,
+   "d": 11,
+   "kleinster_primfaktor": "97227249518887489",
+   "n_primfaktoren": 1
+  },
+  {
+   "m": 39,
+   "d": 19,
+   "kleinster_primfaktor": "2278564283",
+   "n_primfaktoren": 2
+  },
+  {
+   "m": 55,
+   "d": 7,
+   "kleinster_primfaktor": "31799775934081",
+   "n_primfaktoren": 1
+  },
+  {
+   "m": 55,
+   "d": 15,
+   "kleinster_primfaktor": "229735559",
+   "n_primfaktoren": 2
+  },
+  {
+   "m": 71,
+   "d": 7,
+   "kleinster_primfaktor": "331486662473",
+   "n_primfaktoren": 2
+  },
+  {
+   "m": 79,
+   "d": 7,
+   "kleinster_primfaktor": "3663073",
+   "n_primfaktoren": 2
+  },
+  {
+   "m": 87,
+   "d": 13,
+   "kleinster_primfaktor": "48289123",
+   "n_primfaktoren": 2
+  },
+  {
+   "m": 87,
+   "d": 15,
+   "kleinster_primfaktor": "96501562375681",
+   "n_primfaktoren": 1
+  },
+  {
+   "m": 87,
+   "d": 25,
+   "kleinster_primfaktor": "1029500299",
+   "n_primfaktoren": 2
+  },
+  {
+   "m": 95,
+   "d": 7,
+   "kleinster_primfaktor": "224940580481",
+   "n_primfaktoren": 1
+  },
+  {
+   "m": 95,
+   "d": 19,
+   "kleinster_primfaktor": "11385346068552408504327088645393601",
+   "n_primfaktoren": 1
+  },
+  {
+   "m": 111,
+   "d": 5,
+   "kleinster_primfaktor": "24234373901",
+   "n_primfaktoren": 1
+  },
+  {
+   "m": 143,
+   "d": 7,
+   "kleinster_primfaktor": "188788601",
+   "n_primfaktoren": 1
+  },
+  {
+   "m": 143,
+   "d": 9,
+   "kleinster_primfaktor": "63039167",
+   "n_primfaktoren": 1
+  }
+ ]
+}

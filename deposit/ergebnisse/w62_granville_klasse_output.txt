@@ -1,0 +1,46 @@
+====================================================================================================
+W62 — GRANVILLES KLASSENGRENZE und powerful Φ_d(x)
+
+1. IST DIE KLASSE RICHTIG GELESEN?  Gegenprobe an Granvilles EIGENEM Beispiel r = 2, s = 1
+   Klasse erfuellt. n = 2 keine Ausnahme (r+s = 3); n = 6 Ausnahme (r²−rs+s² = 3 = 3·1²).
+   x₆ = 63 = 3^2·7 — beide Primteiler kommen frueher vor ⇒ kein charakteristischer Primteiler.
+   x₃·x₆ = 7·63 = 441 = 21²   ✓ genau das Beispiel aus seiner Einleitung.
+
+2. DIE KLASSE IN UNSERER SCHREIBWEISE:  x_n = (xⁿ−1)/(x−1), also r = x, s = 1
+   "2 | rs und 4 ∤ rs"  ⟺  **x ≡ 2 (mod 4)**
+   🔑 Unsere beiden powerful Φ₃-Funde liegen auf VERSCHIEDENEN Seiten dieser Grenze:
+      x = 18      (mod 4 = 2)  →  IN der Klasse
+      x = 88 916  (mod 4 = 0)  →  AUSSERHALB
+
+3. IST DIE KLASSE WESENTLICH ODER DEKORATIV?
+   Test: ist Φ_d(x) ein QUADRAT? Dann hat es keine Primzahl mit ungeradem Exponenten,
+   und Granvilles Schluss kann dort nicht gelten. (Notwendige Folge, nicht die Aussage selbst.)
+   Wertschranke Φ_d(x) ≤ 1e14, d ∈ [4, 5, 7, 8, 9, 10, 11, 12]
+      INNERHALB der Klasse (x ≡ 2 mod 4): 0 Quadrate
+      AUSSERHALB:                         1 Quadrate
+         x = 3, d = 5:  Φ_d = 121 = 11^2
+   ⇒ **Die Klassenbedingung ist WESENTLICH, nicht dekorativ.** Innen haelt es, aussen bricht es.
+   ⇒ Kleinstes Gegenbeispiel: x = 3, d = 5, Φ_d = 121 = 11^2
+
+4. TAFEL: powerful Werte von Φ_d(x)
+   ⚠️ Begrenzt nach dem WERT (Φ_d(x) ≤ 1e12), nicht nach x — deg Φ_d = φ(d), eine gemeinsame
+      x-Schranke waere ueber die Grade hinweg keine Schranke.
+   powerful-Menge bis 1,000,000,000,000: 2,158,391 Elemente.
+   x-Reichweite je Grad: d=3: 999,999 · d=4: 999,999 · d=5: 999 · d=6: 1,000,000 · d=7: 99 · d=8: 999 · d=9: 99 · d=10: 1,000 · d=11: 15 · d=12: 1,000
+   Geprueft: 3,004,199 Paare.   Treffer: 6
+      d =  3,  x =      18:   Φ_d(x) =            343 = 7^3
+      d =  3,  x =   88916:   Φ_d(x) =  7,906,143,973 = 7^2·13^3·271^2
+      d =  4,  x =     682:   Φ_d(x) =        465,125 = 5^3·61^2
+      d =  5,  x =       3:   Φ_d(x) =            121 = 11^2
+      d =  6,  x =      19:   Φ_d(x) =            343 = 7^3
+      d =  6,  x =   88917:   Φ_d(x) =  7,906,143,973 = 7^2·13^3·271^2
+   ⇒ 6 von 3,004,199 (0.0002 %). **Die Tafel ist duenn.**
+   🔑 **Betroffene Grade: d ∈ [3, 4, 5, 6]** — also NICHT nur die quadratischen Faelle d ∈ {3, 4, 6}.
+
+5. WAS DAS FUER DEN RECORD HEISST
+   `T12` (*„137 von 137 Raengen, 0 powerful"*) ist eine Aussage ueber RAENGE und bleibt richtig.
+   Diese Tafel ist eine Aussage ueber ARGUMENTE. ⇒ **Zwei verschiedene Fragen, und nur die erste
+   haben wir beantwortet.** Die Tafel steht hier, damit die zweite nicht stillschweigend
+   mitbeantwortet scheint.
+
+Zeit 63.0s

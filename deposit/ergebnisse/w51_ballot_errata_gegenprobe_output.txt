@@ -1,0 +1,33 @@
+====================================================================================================
+W51 — UNSERE BEWERTUNGSFORMEL GEGEN BALLOTS ERRATA (Fibonacci Quart. 57(4), 366)
+
+   gedruckt   (Ballot 2019, S. 265, Gl. 2):   v_p(U_n) = (nu - 1) + v_p(n)     fuer rho | n
+   korrigiert (Errata 2019, S. 366)      :   v_p(U_n) = nu + v_p(n/rho)       fuer rho | n
+   unsere Prop. 4.3                      :   v_p(T_{rt}) = v_p(T_r) + v_p(t)  fuer ungerades t
+
+   PK+ Fibonacci, p = 11: rho = 10, U_rho = 55 = 5*11, also nu = 1
+       echt 1   |   gedruckte Fassung 0   |   korrigierte Fassung 1
+       ⇒ die gedruckte Fassung ist an dieser Stelle nachweislich falsch, die korrigierte richtig.
+
+   (A) UNSERE T-FOLGE (Q = 1, also gibt es KEINE speziellen Primzahlen im Sinne Ballots):
+          m     T1      p   rho  nu |    t  v_p(T_rt) echt  unsere Formel  gedruckt
+          2      3      3     1   1 |    3               2              2         1
+          2      3      3     1   1 |    5               1              1         0
+          2      3      3     1   1 |    7               1              1         0
+          2      3      3     1   1 |    9               3              3         2
+          2      3     11     3   1 |    3               1              1         0
+          2      3     11     3   1 |    5               1              1         0
+          2      3     11     3   1 |    7               1              1         0
+          2      3     11     3   1 |    9               1              1         0
+      ... insgesamt 56 Faelle
+      UNSERE Formel korrekt in 56 von 56   (100.0 %)
+      GEDRUCKTE Fassung korrekt in 0 von 56   (0.0 %)
+
+   (B) ZWEITE, UNABHAENGIGE FAMILIE — Fibonacci (Q = -1, andere Folge, dieselbe Gesetzmaessigkeit):
+      korrigierte Fassung korrekt in 50 von 50 Faellen (100.0 %)
+      PK- ok: mit einem absichtlich falschen Rang (11 statt 10) stimmt sie nur in 0 von 3 Faellen.
+
+   ⇒ ERGEBNIS: unsere Prop. 4.3 ist die KORRIGIERTE Fassung. Die Errata bestaetigt uns, sie widerlegt uns nicht.
+     Ballots SATZ (spezielle Primzahlen, p | gcd(P,Q)) ist bei uns gegenstandslos, weil Q = 1.
+
+Zeit 0s

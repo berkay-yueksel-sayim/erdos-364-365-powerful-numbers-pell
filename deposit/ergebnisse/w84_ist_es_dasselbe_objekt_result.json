@@ -1,0 +1,159 @@
+{
+ "skript": "w84_ist_es_dasselbe_objekt_2026-09-22.py",
+ "datum": "2026-09-22",
+ "quelle_begriff": "OEIS A001220, Kommentar Felix Froehlich 27.05.2016, nach McIntosh-Roettger 2007 S. 2088",
+ "pk_pell": [
+  [
+   13,
+   -1,
+   true
+  ],
+  [
+   31,
+   1,
+   true
+  ],
+  [
+   1546463,
+   1,
+   true
+  ]
+ ],
+ "n_vergleichbar": 16,
+ "beide": 16,
+ "nur_unsere": 0,
+ "details": [
+  {
+   "m": 15,
+   "d": 45,
+   "p": 181,
+   "v": 2,
+   "e": 1,
+   "lucas": true
+  },
+  {
+   "m": 15,
+   "d": 130,
+   "p": 1039,
+   "v": 2,
+   "e": -1,
+   "lucas": true
+  },
+  {
+   "m": 15,
+   "d": 600364,
+   "p": 2401457,
+   "v": 2,
+   "e": 1,
+   "lucas": true
+  },
+  {
+   "m": 31,
+   "d": 39,
+   "p": 157,
+   "v": 2,
+   "e": 1,
+   "lucas": true
+  },
+  {
+   "m": 39,
+   "d": 1,
+   "p": 5,
+   "v": 2,
+   "e": 1,
+   "lucas": true
+  },
+  {
+   "m": 79,
+   "d": 253,
+   "p": 4049,
+   "v": 2,
+   "e": 1,
+   "lucas": true
+  },
+  {
+   "m": 87,
+   "d": 4,
+   "p": 17,
+   "v": 2,
+   "e": 1,
+   "lucas": true
+  },
+  {
+   "m": 95,
+   "d": 2734,
+   "p": 10937,
+   "v": 2,
+   "e": 1,
+   "lucas": true
+  },
+  {
+   "m": 143,
+   "d": 13,
+   "p": 311,
+   "v": 2,
+   "e": -1,
+   "lucas": true
+  },
+  {
+   "m": 255,
+   "d": 1308,
+   "p": 5231,
+   "v": 2,
+   "e": -1,
+   "lucas": true
+  },
+  {
+   "m": 319,
+   "d": 5,
+   "p": 20161,
+   "v": 2,
+   "e": 1,
+   "lucas": true
+  },
+  {
+   "m": 327,
+   "d": 417,
+   "p": 1667,
+   "v": 2,
+   "e": -1,
+   "lucas": true
+  },
+  {
+   "m": 407,
+   "d": 166,
+   "p": 1993,
+   "v": 2,
+   "e": 1,
+   "lucas": true
+  },
+  {
+   "m": 1903,
+   "d": 4,
+   "p": 17,
+   "v": 2,
+   "e": 1,
+   "lucas": true
+  },
+  {
+   "m": 209991,
+   "d": 18,
+   "p": 71,
+   "v": 2,
+   "e": -1,
+   "lucas": true
+  },
+  {
+   "m": 209991,
+   "d": 846,
+   "p": 10151,
+   "v": 2,
+   "e": -1,
+   "lucas": true
+  }
+ ],
+ "e4_geprueft": 25,
+ "e4_falsch_positiv": 0,
+ "urteil": "IDENTISCH auf dieser Familie — der etablierte Begriff trifft unser Objekt; McIntosh–Roettger gehoert zitiert.",
+ "laufzeit_s": 0.0
+}

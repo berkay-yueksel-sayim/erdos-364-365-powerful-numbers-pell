@@ -1,0 +1,18 @@
+W29 -- Marge der Negativ-Kontrolle zu Thm 3.1.  Kerne <= 1e+08, Stichprobe 530, H = 2000, Seed 20260910
+  PK m = 7: Periode l = 4, m' = 7, untere Schranke log10(T1) >= 0.2775 (wahr: 0.9031)
+      Marge = -1996.0 < 0  ->  korrekt NICHT verworfen.
+  PK-NEG ok: Periode 1 gibt die triviale Schranke 0, keine positive Marge.
+
+(a) Stichprobe: 531 quadratfreie Kerne gezogen, davon 530 verworfen (632 Versuche, 1s)
+    Widersprueche (verworfen, aber Marge <= 0): 0
+    kleinste Marge: 3.47e+05 Dezimalordnungen  (0.35e6)
+    Median: 9.53e+09   groesste: 3.24e+11
+
+(b) Familien am Rand der Schwelle (die eigentliche Probe): m' * log10(eps) knapp ueber H
+    Kerne <= 2e+05 mit Marge zwischen 0 und 50 Dezimalordnungen: 1
+      Marge   21.566  m =       655  m' =       655  Periode = 16
+    ⇒ kleinste Marge am Rand: 21.566 Dezimalordnungen (Kern 655).
+      Das ist die Zahl, die die Kontrolle eigentlich braucht: selbst die knappste verworfene
+      Familie ueberschiesst 10^2000 noch um 21.566 Dezimalordnungen, RIGOROS nach unten geschaetzt.
+
+Ergebnis in w29_marge_result.json  (4s)

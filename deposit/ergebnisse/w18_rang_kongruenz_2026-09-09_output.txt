@@ -1,0 +1,6 @@
+W18: P = 1000000 (78497 Primzahlen). PK ok: 29, 197, 2857 haben Rang 7 und sind ≡ ±1 (mod 28 = 4d).
+Behauptung 1 VERSCHAERFT (p ≡ ±1 mod 4d, da ord_p(eps) = 4d | p - (m|p)) an 425362 (p, d)-Paaren ueber 15 Kerne: erfuellt 425362, Verstoesse 0 []
+Behauptung 2 ueber alle 445 Gitterpunkte der Klasse 7: Teiler d >= 5 insgesamt 2149 (ausgeschlossen d in 1,3: 659); davon **ausweglos** (k < d(4d-1), Fluchtweg p | k/d unmoeglich): 1682 (78.3 %), mit moeglichem Fluchtweg: 467
+ausweglose Bedingungen je Punkt: min 0, Median 3, Mittel 3.8, max 12
+Bedingungen je Punkt insgesamt (Teiler d >= 5): min 0, Median 4, max 16
+Zeit 28s

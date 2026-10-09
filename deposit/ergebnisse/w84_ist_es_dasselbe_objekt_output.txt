@@ -1,0 +1,48 @@
+====================================================================================================
+w84 — IST ES DASSELBE OBJEKT? Unsere T-Bedingung gegen die Lucas-U-Bedingung   2026-09-22 18:38
+====================================================================================================
+Etablierter Begriff (OEIS A001220, Froehlich 2016, nach McIntosh–Roettger 2007 S. 2088):
+  p ist "Lucas-Wieferich prime associated to the pair (P, Q)"  :⟺  U_(p−e) ≡ 0 (mod p²),  e = (D/p).
+Unsere Fassung (Prop. 6.11): p² | T_{α(p)}, α = Rang in der BEGLEITfolge T = V/2.
+
+--- PK E1: stimmt die Uebersetzung eps <-> Lucas(P, Q) = (2T₁, 1)?
+    ✅ m=7: U^Lucas_n = U_n/U₁ fuer n = 1, 2, 3, 5, 8, 13 (exakt, T₁=8, U₁=3, P=16).
+
+--- PK E2: bekannte Lucas-Wieferich-Primzahlen der PELL-Folge (P, Q) = (2, −1)
+    Quelle: OEIS A238736 "Balancing Wieferich primes ... Pell quotient", Werte 13, 31, 1546463
+    (Kommentar dort: Williams 1982, S. 86 — die einzigen unter 10⁸; keine weiteren bis 10¹⁰).
+    p =        13: e = (8/p) = -1, U_(p−e) mod p² = 0  ✅
+    p =        31: e = (8/p) =  1, U_(p−e) mod p² = 0  ✅
+    p =   1546463: e = (8/p) =  1, U_(p−e) mod p² = 0  ✅
+    ✅ drei bekannte Treffer bestaetigt, fuenf Nicht-Treffer bleiben negativ. Der Test misst, was er soll.
+
+--- VERGLEICH auf unseren 16 Wieferich-Ereignissen (w77: p² | T_d)
+       m  d (T-Rang)          p  v_p(T_d)  e=(D/p)   Lucas-Bed.
+      15          45        181         2        1           JA
+      15         130       1039         2       -1           JA
+      15      600364    2401457         2        1           JA
+      31          39        157         2        1           JA
+      39           1          5         2        1           JA
+      79         253       4049         2        1           JA
+      87           4         17         2        1           JA
+      95        2734      10937         2        1           JA
+     143          13        311         2       -1           JA
+     255        1308       5231         2       -1           JA
+     319           5      20161         2        1           JA
+     327         417       1667         2       -1           JA
+     407         166       1993         2        1           JA
+    1903           4         17         2        1           JA
+  209991          18         71         2       -1           JA
+  209991         846      10151         2       -1           JA
+
+--- PK E4: Kontrolle — erfuellen auch GEWOEHNLICHE Rangprimzahlen die Lucas-Bedingung?
+    (Waere sie trivial wahr, saegte der Vergleich oben nichts.)
+    25 Primzahlen mit v_p(T_d) = 1 geprueft: 0 erfuellen die Lucas-Bedingung.
+    ✅ E4: die Lucas-Bedingung ist NICHT trivial wahr — der Vergleich oben traegt.
+
+====================================================================================================
+  Von 16 vergleichbaren Ereignissen erfuellen 16 AUCH die Lucas-Bedingung, 0 NICHT.
+  ⇒ IDENTISCH auf dieser Familie — der etablierte Begriff trifft unser Objekt; McIntosh–Roettger gehoert zitiert.
+====================================================================================================
+  ⚠️  Gemessen wurde auf 16 Faellen EINER Familie. Das ist ein Befund ueber diese Faelle,
+      kein Satz ueber die Begriffe. Ein Beweis der Aequivalenz waere eine eigene Aufgabe.

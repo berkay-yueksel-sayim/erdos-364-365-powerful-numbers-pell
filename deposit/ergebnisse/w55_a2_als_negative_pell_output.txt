@@ -1,0 +1,38 @@
+========================================================================================================
+W55 — TYP A2 IST EINE NEGATIVE PELL-FAMILIE
+
+   x^2 + 1 powerful   <=>   x^2 - b^3 y^2 = -1 fuer das quadratfreie b aus x^2+1 = a^2 b^3
+   Loesbar genau dann, wenn die Kettenbruchperiode von sqrt(b^3) UNGERADE ist.
+
+   PK+ ok: 682^2 - 125*61^2 = -1, und 682^2+1 = 5^3*61^2 ist powerful.
+   PK- ok: b = 2 (D = 8) hat keine Loesung.
+
+   b quadratfrei bis 300: 34 mit Loesung, 149 ohne   (2s)
+   ⇒ ALLE 34 erzeugen ein A2-Paar (x^2, x^2+1). Die Menge ist also nicht duenn, sondern LISTBAR.
+
+   DIE KLEINSTEN, nach x sortiert — und hier steht die Erklaerung unserer Suchen:
+          b  Stellen von x  x = u
+          5              3  682
+         17             16  1459639851109444
+         13             20  86149711981264908618
+         37             40  5484296027914919579181500526692857773246
+         29             62  86561658417582391418287752764846216523628730400009…
+         41             74  57107682001564627180453721210210070646804961497660…
+
+   🔑 Der kleinste ist x = 682 (b = 5) — UNSER BEKANNTER FALL.
+      Der ZWEITKLEINSTE ist x = 1459639851109444 (b = 17), also rund 10^15.
+      ⇒ W34 suchte bis 2*10^5, W52 bis 3*10^6. BEIDE konnten den zweiten gar nicht erreichen.
+      Das ist keine Seltenheit des Typs, sondern eine Luecke in der GROESSE.
+
+   Kontrolle an den ersten Loesungen: ist x^2+1 wirklich powerful?
+      b =   5: x^2+1 = b^3 * v^2 nachgerechnet ✓   powerful exakt geprueft: True
+      b =  17: x^2+1 = b^3 * v^2 nachgerechnet ✓   (zu gross fuer Probedivision; Form b^3*v^2 genuegt als Beweis)
+      b =  13: x^2+1 = b^3 * v^2 nachgerechnet ✓   (zu gross fuer Probedivision; Form b^3*v^2 genuegt als Beweis)
+      🔑 Der Beweis braucht keine Faktorisierung: b^3 v^2 hat bei jeder Primzahl Exponent >= 2.
+
+   WELCHE b gehen NICHT (erste 20) — und warum das kein Zufall ist:
+      [1, 2, 3, 6, 7, 10, 11, 14, 15, 19, 21, 22, 23, 26, 30, 31, 33, 34, 35, 38]
+      Ein Primteiler p = 3 (mod 4) in b macht die Gleichung unloesbar (u^2 = -1 mod p waere noetig).
+      Gegenprobe: 0 der Loesungs-b sind selbst = 3 (mod 4) — die Bedingung sitzt an den PRIMTEILERN, nicht an b selbst.
+
+Zeit 2s

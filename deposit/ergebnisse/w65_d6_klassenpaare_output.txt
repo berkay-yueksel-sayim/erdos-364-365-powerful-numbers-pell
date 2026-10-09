@@ -1,0 +1,74 @@
+====================================================================================================
+W65 — D6 SCHRITT 1: KLASSENPAARE BENACHBARTER POWERFUL NUMBERS
+
+   Klassen C_b = {a²b³}, b quadratfrei. Frage: haengen die Klassen BENACHBARTER Zahlen zusammen,
+   ueber die lokale Dichte hinaus?  Nullmodell: Klassenmarken im Fenster permutieren.
+
+   Bestand: 21,663,503 powerful bis 10^14, Klassenmarke gratis aus der Aufzaehlung (1s)
+   28,224 verschiedene Klassen; groesste: b=1 (10,000,000) · b=2 (3,535,533) · b=3 (1,924,500) · b=5 (894,427) · b=6 (680,413) · b=7 (539,949)
+   PK+ ok: Stichproben 4, 8, 9, 72, 108, 343, 1000 zerfallen korrekt in a²b³ mit b quadratfrei.
+
+   21,663,502 Nachbarpaare ⇒ 205,851 verschiedene Klassenpaare (b,d)   (0s)
+   davon mit b = d (gleiche Klasse): 2,779,291  =  12.829 %
+
+3. NULLMODELL — Klassenmarken im Fenster permutieren (Anordnung bleibt erhalten)
+      Fenster    100: b = d erwartet 5,326,028 ± 947   beobachtet 2,779,291   ⇒ Faktor 0.52
+      Fenster   1000: b = d erwartet 5,439,442 ± 1,873   beobachtet 2,779,291   ⇒ Faktor 0.51
+      Fenster  10000: b = d erwartet 5,452,353 ± 1,698   beobachtet 2,779,291   ⇒ Faktor 0.51
+
+   🔑 Der Faktor ist ueber alle drei Fensterbreiten zu lesen: haengt er stark von der Breite ab,
+      misst man das Fenster und nicht die Nachbarschaft.
+   ⇒ Faktoren: 0.52 · 0.51 · 0.51   Spanne 0.01
+
+4. WELCHE KLASSENPAARE SIND UEBER-/UNTERREPRAESENTIERT?
+   (nur Paare mit >= 200 beobachteten oder erwarteten Vorkommen: 2,894 Zellen)
+   UEBERrepraesentiert:
+      (b=    7, d=  129): beobachtet      447  erwartet      171  Faktor   2.61
+      (b=    1, d= 1002): beobachtet      220  erwartet      137  Faktor   1.61
+      (b=    1, d=  965): beobachtet      217  erwartet      139  Faktor   1.56
+      (b=  122, d=    7): beobachtet      292  erwartet      188  Faktor   1.55
+      (b=  869, d=    1): beobachtet      251  erwartet      166  Faktor   1.51
+      (b=  806, d=    1): beobachtet      279  erwartet      188  Faktor   1.48
+      (b=    1, d=  789): beobachtet      287  erwartet      194  Faktor   1.48
+      (b=  731, d=    1): beobachtet      312  erwartet      211  Faktor   1.48
+   UNTERrepraesentiert:
+      (b=   86, d=    5): beobachtet      204  erwartet      538  Faktor   0.38
+      (b=  402, d=    2): beobachtet       87  erwartet      211  Faktor   0.41
+      (b=    3, d=  181): beobachtet      154  erwartet      363  Faktor   0.42
+      (b=   14, d=   61): beobachtet      106  erwartet      208  Faktor   0.51
+      (b=   26, d=   30): beobachtet      134  erwartet      250  Faktor   0.54
+      (b=   31, d=   22): beobachtet      136  erwartet      253  Faktor   0.54
+      (b=   38, d=   22): beobachtet      118  erwartet      217  Faktor   0.54
+      (b=  110, d=    7): beobachtet      134  erwartet      226  Faktor   0.59
+
+5. VERBOTENE PAARE?  (mit der Abwesenheits-Auflage)
+   Zellen mit Erwartung > 0 und Beobachtung 0: 168,631
+   groesste Erwartung darunter: 574238
+      (b=    2, d=    2): erwartet 574238, beobachtet 0
+      (b=    3, d=    3): erwartet 169284, beobachtet 0
+      (b=    5, d=    5): erwartet 36069, beobachtet 0
+      (b=    6, d=    6): erwartet 20707, beobachtet 0
+      (b=    7, d=    7): erwartet 12935, beobachtet 0
+   ⇒ davon mit Erwartung >= 20: 73
+   ⚠️ **Eine leere Zelle mit kleiner Erwartung ist KEIN Befund** — sie ist erwartbar leer.
+      Ein Verbot waere erst eine Zelle mit HOHER Erwartung und Beobachtung 0.
+
+6. QUADRAT-SKALIERTE FAMILIEN — wie viele Paare sind primitiv?
+   Stichprobe: 401,176 Paare (jedes 54.) ueber den ganzen Bereich
+      gcd(n, g) = 1  (PRIMITIV):          191,328  =  47.69 %
+      gcd(n, g) > 1  (skalierte Kopie):   209,848  =  52.31 %
+   haeufigste gcd-Werte > 1: 4(50,973) · 9(24,952) · 8(22,998) · 16(12,744) · 25(9,492) · 36(8,845) · 27(6,988) · 32(5,664)
+   ✅ PK+ (T11): jeder dieser gcd muss POWERFUL sein.
+      geprueft an den 200 haeufigsten: alle powerful ✓
+
+   🔑 LESART, und sie ordnet die auffaelligen Zellen aus Abschnitt 4 ein:
+      Die Uebervertretung von (5,86) und (10,43) ist KEINE Klassen-Affinitaet, sondern EIN Basispaar,
+      das mit k² mitwandert und dabei seine Klassen mitnimmt. **Eine Zelle, viele Vorkommen, eine Ursache.**
+   ⚠️ UND DIE GRENZE MEINES NULLMODELLS, ausdruecklich:
+      Das Fenster-Permutieren zerstoert die Nachbarschaft, aber auch den MINDESTABSTAND innerhalb
+      einer Klasse. Deshalb ist die Diagonale (b = d) dort systematisch zu hoch erwartet — der
+      gemessene Faktor 0,5 ist ein ABSTANDSEFFEKT, kein arithmetischer Befund.
+      ⇒ Fuer die Diagonale taugt dieses Nullmodell NICHT. Fuer die Nebenzellen taugt es, und dort
+        zeigt es auf die skalierten Familien.
+
+Zeit 10s

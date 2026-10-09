@@ -1,0 +1,389 @@
+{
+ "skript": "w91_wieferich_landschaft_2026-09-24.py",
+ "datum": "2026-09-24 02:43",
+ "p_max": 3000000,
+ "klassen": 20,
+ "duennung": 20,
+ "kerne": [
+  7,
+  15,
+  23,
+  87,
+  39,
+  319,
+  47,
+  209991,
+  1903,
+  31,
+  55,
+  407,
+  79,
+  95,
+  159,
+  143,
+  183,
+  71,
+  119,
+  703,
+  4099215,
+  111,
+  255,
+  295,
+  327
+ ],
+ "treffer": [
+  {
+   "m": 15,
+   "p": 181,
+   "e": 1,
+   "im_record_w77": true
+  },
+  {
+   "m": 15,
+   "p": 1039,
+   "e": -1,
+   "im_record_w77": true
+  },
+  {
+   "m": 15,
+   "p": 2917,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 15,
+   "p": 2401457,
+   "e": 1,
+   "im_record_w77": true
+  },
+  {
+   "m": 23,
+   "p": 7,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 23,
+   "p": 733,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 87,
+   "p": 17,
+   "e": 1,
+   "im_record_w77": true
+  },
+  {
+   "m": 87,
+   "p": 757,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 87,
+   "p": 1123,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 39,
+   "p": 5,
+   "e": 1,
+   "im_record_w77": true
+  },
+  {
+   "m": 39,
+   "p": 7,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 39,
+   "p": 37,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 39,
+   "p": 163409,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 319,
+   "p": 139,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 319,
+   "p": 20161,
+   "e": 1,
+   "im_record_w77": true
+  },
+  {
+   "m": 209991,
+   "p": 43,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 209991,
+   "p": 71,
+   "e": -1,
+   "im_record_w77": true
+  },
+  {
+   "m": 209991,
+   "p": 2473,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 209991,
+   "p": 10151,
+   "e": -1,
+   "im_record_w77": true
+  },
+  {
+   "m": 1903,
+   "p": 17,
+   "e": 1,
+   "im_record_w77": true
+  },
+  {
+   "m": 1903,
+   "p": 29,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 1903,
+   "p": 101,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 31,
+   "p": 157,
+   "e": 1,
+   "im_record_w77": true
+  },
+  {
+   "m": 55,
+   "p": 571,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 407,
+   "p": 5,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 407,
+   "p": 139,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 407,
+   "p": 1571,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 407,
+   "p": 1993,
+   "e": 1,
+   "im_record_w77": true
+  },
+  {
+   "m": 79,
+   "p": 113,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 79,
+   "p": 4049,
+   "e": 1,
+   "im_record_w77": true
+  },
+  {
+   "m": 79,
+   "p": 6199,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 95,
+   "p": 6257,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 95,
+   "p": 10937,
+   "e": 1,
+   "im_record_w77": true
+  },
+  {
+   "m": 159,
+   "p": 61,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 143,
+   "p": 5,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 143,
+   "p": 311,
+   "e": -1,
+   "im_record_w77": true
+  },
+  {
+   "m": 183,
+   "p": 5,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 183,
+   "p": 673,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 183,
+   "p": 829,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 71,
+   "p": 67,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 71,
+   "p": 2953,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 71,
+   "p": 8863,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 119,
+   "p": 37,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 119,
+   "p": 1009,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 703,
+   "p": 971,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 4099215,
+   "p": 53,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 111,
+   "p": 107,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 111,
+   "p": 2473,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 255,
+   "p": 5231,
+   "e": -1,
+   "im_record_w77": true
+  },
+  {
+   "m": 255,
+   "p": 6491,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 255,
+   "p": 30071,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 295,
+   "p": 7,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 295,
+   "p": 53611,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 295,
+   "p": 944017,
+   "e": -1,
+   "im_record_w77": false
+  },
+  {
+   "m": 327,
+   "p": 19,
+   "e": 1,
+   "im_record_w77": false
+  },
+  {
+   "m": 327,
+   "p": 1667,
+   "e": -1,
+   "im_record_w77": true
+  }
+ ],
+ "n_treffer": 56,
+ "n_im_record": 16,
+ "heuristik_summe": 50.711,
+ "chi2_gesamt": {
+  "zerfallend": [
+   12.03,
+   0.8845
+  ],
+  "traege": [
+   18.98,
+   0.4584
+  ]
+ },
+ "einzeltests_unter_5prozent": 1,
+ "n_einzeltests": 50,
+ "urteil": "KEINE Abweichung von der Gleichverteilung sichtbar — die Wolke verhaelt sich, wie die Heuristik es sagt.",
+ "laufzeit_s": 304
+}

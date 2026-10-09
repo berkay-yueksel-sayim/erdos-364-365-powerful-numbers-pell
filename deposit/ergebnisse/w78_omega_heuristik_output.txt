@@ -1,0 +1,34 @@
+================================================================================================
+w78 — ω(Φ_d), HEURISTIK, PRUEFSTEIN FUER JURICEVIC
+================================================================================================
+PK E1 ✅  163 vollstaendig faktorisierte Φ_d, keines powerful.
+
+--- ④ ω(Φ_d) = Zahl der verschiedenen Primteiler:
+    ω = 1:  18 Faelle  (11 %)
+    ω = 2:  44 Faelle  (27 %)
+    ω = 3:  45 Faelle  (28 %)
+    ω = 4:  30 Faelle  (18 %)
+    ω = 5:  18 Faelle  (11 %)
+    ω = 6:   8 Faelle  (5 %)
+    Φ_d ist PRIM in 18 Faellen: Φ_5(39), Φ_5(143), Φ_5(111), Φ_7(15), Φ_7(39), Φ_7(55), Φ_7(95), Φ_7(143), Φ_9(15), Φ_9(39), Φ_9(143), Φ_11(39), Φ_15(87), Φ_19(95), Φ_23(15), Φ_29(15), Φ_51(15), Φ_59(15)
+    Φ_d ist Primzahlpotenz (ω = 1, e ≥ 2): 0  
+
+--- ③ PRUEFSTEIN: Juricevic-Uebertragung wuerde ω ≥ 2 fuer d ≥ 16 verlangen
+    ω = 1 mit d < 16  (ausserhalb der Reichweite des Satzes): [(39, 5), (143, 5), (111, 5), (15, 7), (39, 7), (55, 7), (95, 7), (143, 7), (15, 9), (39, 9), (143, 9), (39, 11), (87, 15)]
+    ω = 1 mit d ≥ 16  (WIDERSPRAECHE der Uebertragung):      [(95, 19), (15, 23), (15, 29), (15, 51), (15, 59)]
+    ⇒ ⚠️ Die naive Uebertragung greift NICHT fuer alle d ≥ 16. Entweder schliessen (1.12)/η/κ unser Paar
+       fuer diese d aus, oder die Rang-Korrespondenz (Rang d = U-Rang 2d) braucht eine Zusatzbedingung.
+       Das ist der Punkt, an dem Jones 2011 („still a mystery") recht behaelt. Bedingungen am Volltext pruefen.
+    groesstes d mit ω = 1: 59
+
+--- ⑤ HEURISTIK (Etikett: Modell, kein Beweis): P(Φ_d powerful) ≈ Π_{p|Φ_d} 1/p
+    E[# powerful Φ_d unter den 163] = Σ Π 1/p = 2.939e-04
+    die 5 groessten Beitraege:
+      Φ_5(15) = 19 · 199   →  2.64e-04
+      Φ_5(7) = 179 · 359   →  1.56e-05
+      Φ_7(15) = 234361   →  4.27e-06
+      Φ_9(15) = 238141   →  4.20e-06
+      Φ_5(143) = 328901   →  3.04e-06
+    ⇒ ein Gegenbeispiel unter den 163 waere ein Ereignis der Groessenordnung 10^-4.
+    ⚠️ Das ist die INNERE Heuristik (jeder Primteiler unabhaengig, W'keit 1/p). Die 16 realen Wieferich-
+       Ereignisse aus w77 zeigen, dass 1/p die richtige Groessenordnung hat (16 beobachtet gegen 20,03 erwartet).

@@ -1,0 +1,35 @@
+W17c: P = 3000000 (216815 ungerade Primzahlen), NKERNE = 25, NP = 1 Primzahlen je Rang; Sieb 0.7s
+Kerne: [7, 15, 23, 87, 39, 319, 47, 209991, 1903, 31, 55, 407, 79, 95, 159, 143, 183, 71, 119, 703, 4099215, 111, 255, 295, 327]
+PK ok (Raenge, Exponent, Negativ-PK)
+       m  Pkt  tau-Summe  besetzt  mit Zeuge  nur Wieferich  unbesetzt  Zeit
+       7  119        793      621        613              8        172  6s
+      15   74        776      608        578             30        168  6s
+      23   26        143      133        123             10         10  7s
+      87   20        105       91         87              4         14  6s
+      39   15        126       89         73             16         37  7s
+     319   12         55       35         31              4         20  7s
+      47   11         52       47         43              4          5  6s
+  209991   11         26       23         21              2          3  6s
+    1903   10         43       32         32              0         11  6s
+      31    9         40       39         37              2          1  6s
+      55    8         64       44         44              0         20  6s
+     407    7         28       23         23              0          5  6s
+      79    6         24       20         19              1          4  5s
+      95    6         46       34         32              2         12  6s
+     159    6         24       24         24              0          0  6s
+     143    5         40       35         33              2          5  6s
+     183    5         20       10         10              0         10  6s
+      71    4         14       12         11              1          2  6s
+     119    4         26       25         24              1          1  5s
+     703    4         14       14         13              1          0  6s
+ 4099215    4          7        7          7              0          0  6s
+     111    3         18       16         15              1          2  5s
+     255    3         32       25         25              0          7  5s
+     295    3         10        8          8              0          2  6s
+     327    3         10       10         10              0          0  6s
+
+GESAMT: 378 Punkte, 2536 Raenge (= Summe tau(k)), besetzt 2025 (79.9 %), mit Zeuge 1936 (95.60 % der besetzten), nur Wieferich 89, unbesetzt (Primzahl > P) 511
+tau(k) ueber die Punkte: min 1, Median 6, Mittel 6.7, max 18  (= Zahl der Bedingungen je Punkt)
+Verteilung tau(k): [(1, 2), (2, 25), (3, 6), (4, 134), (6, 35), (8, 110), (9, 3), (10, 4), (12, 44), (15, 1), (16, 11), (18, 3)] ...
+Lesart: ein Gegenbeispiel mit Index k muesste an allen tau(k) Raengen gleichzeitig scheitern; besetzte Raenge ohne Zeugen: 89.
+Verzerrung: unbesetzte Raenge haben ihre kleinste Primzahl oberhalb von 3000000; sie sind unbekannt, nicht zeugenfrei. Zeit gesamt 151s

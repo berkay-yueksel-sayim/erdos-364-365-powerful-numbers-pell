@@ -1,0 +1,154 @@
+{
+ "skript": "w48_spektrumkopf_2026-09-16.py",
+ "bounds": [
+  1000000000000,
+  10000000000000,
+  100000000000000
+ ],
+ "ergebnis": {
+  "1000000000000": {
+   "n_powerful": 2158391,
+   "n_luecken": 2158390,
+   "n_werte": 832161,
+   "anteil_pw_gesamt": 0.003128000471062691,
+   "sekunden": 9.050319910049438,
+   "top10_pw": 10,
+   "top20_pw": 20,
+   "top50_pw": 50,
+   "top100_pw": 93,
+   "top200_pw": 172,
+   "erster_nicht_pw_rang": 72,
+   "rang_900": 1,
+   "rang_44100": 3,
+   "rang_36": 103,
+   "top1": [
+    900,
+    95
+   ]
+  },
+  "10000000000000": {
+   "n_powerful": 6840384,
+   "n_luecken": 6840383,
+   "n_werte": 2593517,
+   "anteil_pw_gesamt": 0.001804885026780237,
+   "sekunden": 48.48593592643738,
+   "top10_pw": 10,
+   "top20_pw": 20,
+   "top50_pw": 50,
+   "top100_pw": 96,
+   "top200_pw": 181,
+   "erster_nicht_pw_rang": 61,
+   "rang_900": 2,
+   "rang_44100": 1,
+   "rang_36": 259,
+   "top1": [
+    44100,
+    126
+   ]
+  },
+  "100000000000000": {
+   "n_powerful": 21663503,
+   "n_luecken": 21663502,
+   "n_werte": 8235300,
+   "anteil_pw_gesamt": 0.0009946207181280584,
+   "sekunden": 269.247519493103,
+   "top10_pw": 10,
+   "top20_pw": 20,
+   "top50_pw": 50,
+   "top100_pw": 99,
+   "top200_pw": 190,
+   "erster_nicht_pw_rang": 53,
+   "rang_900": 9,
+   "rang_44100": 1,
+   "rang_36": 531,
+   "top1": [
+    44100,
+    163
+   ]
+  }
+ },
+ "mechanismus_top20": {
+  "44100": {
+   "anzahl": 163,
+   "verschoben": 53
+  },
+  "176400": {
+   "anzahl": 142,
+   "verschoben": 37
+  },
+  "220500": {
+   "anzahl": 141,
+   "verschoben": 36
+  },
+  "108900": {
+   "anzahl": 134,
+   "verschoben": 39
+  },
+  "132300": {
+   "anzahl": 134,
+   "verschoben": 37
+  },
+  "152100": {
+   "anzahl": 134,
+   "verschoben": 41
+  },
+  "88200": {
+   "anzahl": 133,
+   "verschoben": 39
+  },
+  "3600": {
+   "anzahl": 128,
+   "verschoben": 50
+  },
+  "900": {
+   "anzahl": 127,
+   "verschoben": 57
+  },
+  "4900": {
+   "anzahl": 123,
+   "verschoben": 53
+  },
+  "8100": {
+   "anzahl": 123,
+   "verschoben": 40
+  },
+  "13500": {
+   "anzahl": 122,
+   "verschoben": 38
+  },
+  "2700": {
+   "anzahl": 121,
+   "verschoben": 49
+  },
+  "3528": {
+   "anzahl": 121,
+   "verschoben": 51
+  },
+  "4500": {
+   "anzahl": 121,
+   "verschoben": 45
+  },
+  "396900": {
+   "anzahl": 121,
+   "verschoben": 30
+  },
+  "11025": {
+   "anzahl": 120,
+   "verschoben": 48
+  },
+  "441000": {
+   "anzahl": 120,
+   "verschoben": 29
+  },
+  "5400": {
+   "anzahl": 119,
+   "verschoben": 43
+  },
+  "12100": {
+   "anzahl": 119,
+   "verschoben": 44
+  }
+ },
+ "laufzeit_s": 328.6686677932739,
+ "python": "3.12.10"
+}

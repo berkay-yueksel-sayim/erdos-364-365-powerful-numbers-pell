@@ -1,0 +1,47 @@
+====================================================================================================
+W63 — D2b SCHRITT 1: IST v(kc) STABIL?
+
+   Gefragt wird NICHT, wovon v abhaengt, sondern ob v ueberhaupt eine bestimmte Groesse ist.
+   Zwei unabhaengige Anpassungen auf disjunkten Haelften — liefern sie dasselbe v?
+
+   Bestand 21,663,503 powerful bis 10^14; 62,118 Lueckenwerte mit >= 20 Vorkommen.
+   2,986 Kerne, 9,752 quadratfreie Kofaktoren ⇒ im Mittel 6.4 Werte je Kofaktor.
+
+   (A) ECHTE DATEN, fuenf Aufteilungen
+      Split 1:  r(v) = +0.758  auf 4,530 gemeinsamen Kofaktoren   ·   r(u) = +0.761  auf 710 Kernen
+      Split 2:  r(v) = +0.770  auf 4,587 gemeinsamen Kofaktoren   ·   r(u) = +0.780  auf 704 Kernen
+      Split 3:  r(v) = +0.760  auf 4,556 gemeinsamen Kofaktoren   ·   r(u) = +0.785  auf 701 Kernen
+      Split 4:  r(v) = +0.760  auf 4,561 gemeinsamen Kofaktoren   ·   r(u) = +0.780  auf 697 Kernen
+      Split 5:  r(v) = +0.757  auf 4,559 gemeinsamen Kofaktoren   ·   r(u) = +0.766  auf 714 Kernen
+      ⇒ r(v) = +0.761 ± 0.005      r(u) = +0.774 ± 0.010
+      ⇒ Streuung der DIFFERENZ, relativ zur Streuung von v: 0.692 ± 0.007
+                                            fuer u:         0.673 ± 0.015
+      🔑 Die zweite Zeile ist die strengere: sie fragt, wie genau die EINZELNE Stufe bestimmt ist,
+         nicht nur, ob beide Anpassungen dieselbe grobe Richtung haben.
+
+   (B) PK− : dieselbe Rechnung mit PERMUTIERTEN Zaehlungen
+      permutiert:  r(v) = -0.015 ± 0.008   r(u) = -0.047 ± 0.030
+      ✅ Zusammengebrochen ⇒ das Ergebnis in (A) misst Struktur, nicht die Maschinerie.
+
+   (C) WAS DARAUS FUER SCHRITT 2 FOLGT — die OBERGRENZE, gerechnet statt behauptet
+      Modell: jede Haelfte misst dieselbe Groesse plus unabhaengiges Rauschen, v_i = v + eps_i.
+      Dann gilt zweierlei, und beides ist hier messbar:
+         (i)  r  = Var(v) / (Var(v) + Var(eps))            [Korrelation der beiden Haelften]
+         (ii) sd(v1-v2) / sd(v) = sqrt( 2 Var(eps) / (Var(v)+Var(eps)) )
+      Aus der Differenzstreuung 0.692 folgt Var(eps)/Var(v) = 0.314
+      ⇒ vorhergesagtes r = 0.761     gemessenes r = 0.761
+      ⇒ Abweichung 0.000. Das Rauschmodell traegt.
+
+      🔑 **Spearman-Brown:** eine Haelfte hat Reliabilitaet 0.761; die VOLLEN Daten,
+         also doppelt so viele Werte je Stufe, haben 2r/(1+r) = **0.864**.
+      ⇒ ***Eine Regression von v auf Merkmale von kc kann hoechstens R² ≈ 0.86 erreichen.***
+         Alles darueber waere Anpassung an Rauschen. Und ein erreichtes R² ist gegen 0.86 zu lesen,
+         nicht gegen 1: R² = 0,50 hiesse 58% des ERKLAERBAREN, nicht 50 %.
+
+   ⇒ URTEIL: Schritt 2 (Deutung von v) ist ZULAESSIG, aber nur mit dieser Decke im Satz.
+
+   ⇒ URTEIL steht im Record. Hier nur die Zahlen.
+      Lesart: r(v) nahe 1 UND kleine relative Differenzstreuung ⇒ v ist eine bestimmte Groesse,
+      Schritt 2 (Deutung) ist zulaessig. Sonst nicht.
+
+Zeit 5s

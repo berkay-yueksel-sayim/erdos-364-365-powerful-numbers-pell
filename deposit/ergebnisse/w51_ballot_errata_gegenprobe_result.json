@@ -1,0 +1,14 @@
+{
+ "skript": "w51_ballot_errata_gegenprobe_2026-09-19.py",
+ "unsere_folge": {
+  "faelle": 56,
+  "unsere_formel_korrekt": 56,
+  "gedruckte_fassung_korrekt": 0
+ },
+ "fibonacci": {
+  "faelle": 50,
+  "korrigierte_fassung_korrekt": 50
+ },
+ "laufzeit_s": 0.09444403648376465,
+ "python": "3.12.10"
+}

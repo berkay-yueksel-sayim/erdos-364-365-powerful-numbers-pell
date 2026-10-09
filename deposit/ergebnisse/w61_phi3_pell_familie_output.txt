@@ -1,0 +1,35 @@
+====================================================================================================
+W61 — Φ₃ NIMMT UNENDLICH OFT POWERFUL WERTE AN (explizite Pell-Familie)
+
+1. DIE BRUECKE ZU De Koninck–Doyon–Luca 2011, Tabelle 1, k = 3
+   DKL: n = 37, n² + 3 = 1372 = 2^2·7^3   (kleinster Fall fuer k = 3)
+   ⇒ x = (n−1)/2 = 18:  Φ₃(18) = 343 = 7^3,  4·Φ₃ = 1372 = n²+3 ✓
+   ⇒ Spiegelpaar:        Φ₆(19) = 343 = 7^3 ✓
+   ⇒ **Der kleinste powerful Wert von Φ₃ steht in DKLs Tabelle 1.** Kein Neuheitsanspruch darauf.
+
+2. DIE UNENDLICHE FAMILIE   Φ₃(x) = 7m² mit 7|m   ⟺   y² − 28m² = −3,  y = 2x+1
+   Automorphismus (u,v) = (127,24):  u² − 28v² = 1
+   m mod 7 im Verlauf: [6, 5, 4, 3, 2, 1, 0, 6, 5, 4, 3, 2, 1, 0] …   ⇒ Periode 7, Treffer bei jedem 7. Schritt
+   Treffer in 24 Schritten: 4
+      Schritt  0:  x = 18   (2 Stellen)   Φ₃(x) = 343·t², powerful ✓
+      Schritt  7:  x = 1262403975253755261   (19 Stellen)   Φ₃(x) = 343·t², powerful ✓
+      Schritt 14:  x = 86096847085670000196084962450078322   (35 Stellen)   Φ₃(x) = 343·t², powerful ✓
+      Schritt 21:  x = 5871866077262015825128…9497319453   (52 Stellen)   Φ₃(x) = 343·t², powerful ✓
+   🔑 Powerful folgt STRUKTURELL: m = 7t ⇒ Φ₃(x) = 343t², v₇ ≥ 3, alle anderen Exponenten gerade ≥ 2.
+      Keine Faktorisierung noetig und keine moeglich — das dritte Glied hat 35 Stellen im Argument.
+
+3. ABGRENZUNG — was diese Familie NICHT ist
+   Unser zweiter bekannter Fall: Φ₃(88916) = 7906143973 = 7^2·13^3·271^2
+   Darstellung D·m² mit D quadratfrei: D = 13, m = 24661
+   ⇒ **D = 13, nicht 7** — er liegt in einer ANDEREN Familie. Es gibt mehrere.
+   ⇒ Diese Rechnung zeigt UNENDLICH VIELE, nicht ALLE.
+
+   Gegen unsere Suche bis x = 3·10⁷ (W53): 1 der 4 Familienglieder liegen darin — [18]
+   ⇒ Der naechste hat 19 Stellen. **Eine Suche kann diese Familie nicht sehen.**
+
+4. FOLGE FUER DEN RECORD
+   `T12` (*„137 von 137 Raengen, 0 powerful"*) bleibt richtig — es ist eine Aussage ueber RAENGE.
+   ⚠️ Aber allein gelesen legt sie nahe, Φ_d werde nicht powerful. **Das ist falsch.** Die Schranke
+   gehoert an die Aussage, und diese Rechnung ist der Beleg dafuer.
+
+Zeit 0.0s

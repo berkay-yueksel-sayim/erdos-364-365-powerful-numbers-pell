@@ -1,0 +1,80 @@
+====================================================================================================
+w91 — WIEFERICH-LANDSCHAFT der 25 Kerne, Primzahlen bis 3,000,000   2026-09-24 02:38
+====================================================================================================
+216,815 ungerade Primzahlen, 25 Kerne ⇒ ~5.4 Mio. Quotienten.
+  m =        7: 216,813 Primzahlen · Treffer  0 · χ²-p zerfallend 0.011, traege 0.069 · 11s
+  m =       15: 216,813 Primzahlen · Treffer  4 · χ²-p zerfallend 0.630, traege 0.133 · 10s
+  m =       23: 216,813 Primzahlen · Treffer  2 · χ²-p zerfallend 0.611, traege 0.496 · 11s
+  m =       87: 216,813 Primzahlen · Treffer  3 · χ²-p zerfallend 0.214, traege 0.103 · 10s
+  m =       39: 216,813 Primzahlen · Treffer  4 · χ²-p zerfallend 0.489, traege 0.616 · 10s
+  m =      319: 216,810 Primzahlen · Treffer  2 · χ²-p zerfallend 0.179, traege 0.333 · 11s
+  m =       47: 216,813 Primzahlen · Treffer  0 · χ²-p zerfallend 0.682, traege 0.171 · 11s
+  m =   209991: 216,809 Primzahlen · Treffer  4 · χ²-p zerfallend 0.526, traege 0.360 · 13s
+  m =     1903: 216,810 Primzahlen · Treffer  3 · χ²-p zerfallend 0.178, traege 0.116 · 15s
+  m =       31: 216,811 Primzahlen · Treffer  1 · χ²-p zerfallend 0.162, traege 0.139 · 14s
+  m =       55: 216,812 Primzahlen · Treffer  1 · χ²-p zerfallend 0.841, traege 0.610 · 12s
+  m =      407: 216,812 Primzahlen · Treffer  4 · χ²-p zerfallend 0.757, traege 0.103 · 13s
+  m =       79: 216,813 Primzahlen · Treffer  3 · χ²-p zerfallend 0.534, traege 0.207 · 14s
+  m =       95: 216,813 Primzahlen · Treffer  2 · χ²-p zerfallend 0.873, traege 0.639 · 12s
+  m =      159: 216,811 Primzahlen · Treffer  1 · χ²-p zerfallend 0.809, traege 0.905 · 13s
+  m =      143: 216,813 Primzahlen · Treffer  2 · χ²-p zerfallend 0.877, traege 0.138 · 12s
+  m =      183: 216,813 Primzahlen · Treffer  3 · χ²-p zerfallend 0.177, traege 0.318 · 13s
+  m =       71: 216,812 Primzahlen · Treffer  3 · χ²-p zerfallend 0.424, traege 0.321 · 13s
+  m =      119: 216,812 Primzahlen · Treffer  2 · χ²-p zerfallend 0.300, traege 0.935 · 12s
+  m =      703: 216,810 Primzahlen · Treffer  1 · χ²-p zerfallend 0.533, traege 0.640 · 12s
+  m =  4099215: 216,807 Primzahlen · Treffer  1 · χ²-p zerfallend 0.850, traege 0.829 · 15s
+  m =      111: 216,812 Primzahlen · Treffer  2 · χ²-p zerfallend 0.665, traege 0.443 · 12s
+  m =      255: 216,812 Primzahlen · Treffer  3 · χ²-p zerfallend 0.308, traege 0.921 · 10s
+  m =      295: 216,811 Primzahlen · Treffer  3 · χ²-p zerfallend 0.452, traege 0.176 · 12s
+  m =      327: 216,813 Primzahlen · Treffer  2 · χ²-p zerfallend 0.296, traege 0.451 · 14s
+
+PK E1 ✅  fuer alle 5,420,294 Primzahlen: ε^(p−e) ≡ 1 (mod p). Die Arithmetik stimmt.
+PK E2 ✅  alle 16 Wieferich-Ereignisse aus w77 erscheinen als q_p = 0.
+E3      Lucas-Wieferich-Primzahlen insgesamt: 56 — davon 16 im Record w77, 40 ZUSAETZLICH (Primzahlen, die kein T_k teilen).
+          zusaetzlich: m = 15, p = 2917, e = -1
+          zusaetzlich: m = 23, p = 7, e = +1
+          zusaetzlich: m = 23, p = 733, e = -1
+          zusaetzlich: m = 87, p = 757, e = -1
+          zusaetzlich: m = 87, p = 1123, e = +1
+          zusaetzlich: m = 39, p = 7, e = +1
+          zusaetzlich: m = 39, p = 37, e = -1
+          zusaetzlich: m = 39, p = 163409, e = -1
+          zusaetzlich: m = 319, p = 139, e = +1
+          zusaetzlich: m = 209991, p = 43, e = -1
+          zusaetzlich: m = 209991, p = 2473, e = +1
+          zusaetzlich: m = 1903, p = 29, e = -1
+          zusaetzlich: m = 1903, p = 101, e = +1
+          zusaetzlich: m = 55, p = 571, e = +1
+          zusaetzlich: m = 407, p = 5, e = -1
+          zusaetzlich: m = 407, p = 139, e = +1
+          zusaetzlich: m = 407, p = 1571, e = +1
+          zusaetzlich: m = 79, p = 113, e = -1
+          zusaetzlich: m = 79, p = 6199, e = +1
+          zusaetzlich: m = 95, p = 6257, e = -1
+          zusaetzlich: m = 159, p = 61, e = -1
+          zusaetzlich: m = 143, p = 5, e = -1
+          zusaetzlich: m = 183, p = 5, e = -1
+          zusaetzlich: m = 183, p = 673, e = -1
+          zusaetzlich: m = 183, p = 829, e = +1
+          zusaetzlich: m = 71, p = 67, e = +1
+          zusaetzlich: m = 71, p = 2953, e = -1
+          zusaetzlich: m = 71, p = 8863, e = +1
+          zusaetzlich: m = 119, p = 37, e = -1
+          zusaetzlich: m = 119, p = 1009, e = -1
+          zusaetzlich: m = 703, p = 971, e = +1
+          zusaetzlich: m = 4099215, p = 53, e = +1
+          zusaetzlich: m = 111, p = 107, e = +1
+          zusaetzlich: m = 111, p = 2473, e = -1
+          zusaetzlich: m = 255, p = 6491, e = -1
+          zusaetzlich: m = 255, p = 30071, e = +1
+          zusaetzlich: m = 295, p = 7, e = +1
+          zusaetzlich: m = 295, p = 53611, e = +1
+          zusaetzlich: m = 295, p = 944017, e = -1
+          zusaetzlich: m = 327, p = 19, e = +1
+E4      Gleichverteilung gesamt: zerfallend χ² = 12.0 (p = 0.884), traege χ² = 19.0 (p = 0.458).
+        Einzeltests: 1 von 50 unter 0,05 — erwartet bei reiner Zufaelligkeit: ~2.5.
+E5      Treffer 56 gegen die Heuristik Σ 1/p = 50.7.
+
+====================================================================================================
+  KEINE Abweichung von der Gleichverteilung sichtbar — die Wolke verhaelt sich, wie die Heuristik es sagt.
+====================================================================================================

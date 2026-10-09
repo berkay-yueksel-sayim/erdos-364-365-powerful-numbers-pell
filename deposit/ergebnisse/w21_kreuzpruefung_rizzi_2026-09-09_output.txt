@@ -1,0 +1,13 @@
+PK ok: die Mollin-Walsh-Mitte 130 576 328 ist 8 (mod 36), erfuellt Rizzis Bedingung; ihr Zeuge ist 29.
+
+Verteilung der Mitten mod 36 ueber die 371 Paare der Klasse 7: {0: 23, 8: 162, 12: 20, 24: 23, 28: 143}
+Rizzis Bedingung erfuellt: 328 Paare; nicht erfuellt: 43 Paare (Reste 12 und 24).
+Unsere Zeugensuche fand p = 3 bei: 43 Paaren.
+Beide Mengen identisch: True  (symmetrische Differenz: 0)
+
+Negativ-Kontrolle Klasse 3 (Mitte = 2 mod 4, nie tripel-faehig): von 832 Paaren erfuellen 0 Rizzis Bedingung (erwartet 0).
+
+Befund: Rizzis Bedingung modulo 36 und unsere Zeugen-Reduktion stimmen auf denselben 43 Punkten ueberein.
+  Grund: ist 3 ein Teiler der Mitte, aber 9 nicht, so hat 3 den Exponenten 1 und ist ein Zeuge (Thm 4.5).
+  Rizzis Bedingung ist damit der Fall p = 3 der Zeugen-Reduktion; die Uebereinstimmung ist eine unabhaengige
+  Kontrolle beider Rechnungen (verschiedene Methoden, dieselbe Teilmenge).

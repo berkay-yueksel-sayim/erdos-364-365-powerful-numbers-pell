@@ -1,0 +1,109 @@
+{
+ "skript": "w20_primitiver_teil_exponenten_2026-09-12.py",
+ "fassung": 2,
+ "P": 3000000,
+ "NKERNE": 25,
+ "NP": 5,
+ "kerne": [
+  7,
+  15,
+  23,
+  87,
+  39,
+  319,
+  47,
+  209991,
+  1903,
+  31,
+  55,
+  407,
+  79,
+  95,
+  159,
+  143,
+  183,
+  71,
+  119,
+  703,
+  4099215,
+  111,
+  255,
+  295,
+  327
+ ],
+ "P1": {
+  "n_paare": 1131,
+  "v": {
+   "1": 1128,
+   "2": 3
+  },
+  "erwartet_v_ge_2": 1.8233474638183695,
+  "beobachtet_v_ge_2": 3,
+  "erwartet_v_ge_3": 0.03756166254934318,
+  "beobachtet_v_ge_3": 0,
+  "n_raenge": 606,
+  "log10_summe": 214561.00491411632,
+  "log10_bekannt": 4745.541302279651,
+  "anteil_bekannt_prozent": 2.2117445358625063,
+  "raenge_ohne_zeugen": [
+   [
+    319,
+    5,
+    [
+     20161
+    ],
+    [
+     2
+    ]
+   ]
+  ],
+  "ausserhalb_d_klein": {
+   "n_paare": 85,
+   "v": {
+    "1": 84,
+    "2": 1
+   },
+   "raenge_ohne_zeugen": [
+    [
+     39,
+     1,
+     [
+      5
+     ],
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ "P2": {
+  "n_paare": 1932647,
+  "v": {
+   "1": 1932631,
+   "2": 16
+  },
+  "erwartet_v_ge_2": 20.025208347559595,
+  "beobachtet_v_ge_2": 16,
+  "erwartet_v_ge_3": 1.3751305354036942,
+  "beobachtet_v_ge_3": 0
+ },
+ "w17c_reproduktion": {
+  "pts": 378,
+  "tau": 2536,
+  "occ": 2025,
+  "wit": 1988,
+  "onlyw": 37,
+  "unbes": 511
+ },
+ "w17c_soll": {
+  "pts": 378,
+  "tau": 2536,
+  "occ": 2025,
+  "wit": 1988,
+  "onlyw": 37,
+  "unbes": 511
+ },
+ "laufzeit_s": 230.6603603363037,
+ "python": "3.12.10"
+}

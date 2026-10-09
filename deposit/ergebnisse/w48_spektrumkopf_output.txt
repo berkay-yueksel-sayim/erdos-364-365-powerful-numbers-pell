@@ -1,0 +1,60 @@
+W48 — Kopf des Lueckenspektrums, mit zwei Kontrollen.
+
+N = 10^12: 2,158,391 powerful · 832,161 Lueckenwerte · 2,603 davon powerful (0.31 %) · 9s
+N = 10^13: 6,840,384 powerful · 2,593,517 Lueckenwerte · 4,681 davon powerful (0.18 %) · 48s
+N = 10^14: 21,663,503 powerful · 8,235,300 Lueckenwerte · 8,191 davon powerful (0.10 %) · 269s
+
+(K1) HAELT DER BEFUND BEI GROESSERER SCHRANKE?
+  Schranke      Werte  % pw ges. |  Top10  Top20  Top50  Top100  Top200 |  1. nicht-pw |  Rang 900  Rang 44100
+--------------------------------------------------------------------------------------------------------------
+     10^12    832,161      0.31% |     10     20     50      93     172 |           72 |         1           3
+     10^13  2,593,517      0.18% |     10     20     50      96     181 |           61 |         2           1
+     10^14  8,235,300      0.10% |     10     20     50      99     190 |           53 |         9           1
+   Lesart: "Top50 = 50" heisst, alle 50 haeufigsten Lueckenwerte sind powerful.
+
+   NULLMODELL: waeren die Top 50 zufaellig aus allen 8,235,300 Werten gezogen, waeren davon
+   erwartet 0.05 powerful. Beobachtet: 50. ⇒ Das ist kein Zufallseffekt.
+
+(K2) DER MECHANISMUS: wie viele Vorkommen eines haeufigen g sind VERSCHOBENE PAARE (g | n)?
+       g  Anzahl  davon g|n   Anteil         Faktorisierung  = Quadrat von
+   44100     163         53    32.5%        2^2*3^2*5^2*7^2            210
+  176400     142         37    26.1%        2^4*3^2*5^2*7^2            420
+  220500     141         36    25.5%        2^2*3^2*5^3*7^2              -
+  108900     134         39    29.1%       2^2*3^2*5^2*11^2            330
+  132300     134         37    27.6%        2^2*3^3*5^2*7^2              -
+  152100     134         41    30.6%       2^2*3^2*5^2*13^2            390
+   88200     133         39    29.3%        2^3*3^2*5^2*7^2              -
+    3600     128         50    39.1%            2^4*3^2*5^2             60
+     900     127         57    44.9%            2^2*3^2*5^2             30
+    4900     123         53    43.1%            2^2*5^2*7^2             70
+    8100     123         40    32.5%            2^2*3^4*5^2             90
+   13500     122         38    31.1%            2^2*3^3*5^3              -
+    2700     121         49    40.5%            2^2*3^3*5^2              -
+    3528     121         51    42.1%            2^3*3^2*7^2              -
+    4500     121         45    37.2%            2^2*3^2*5^3              -
+  396900     121         30    24.8%        2^2*3^4*5^2*7^2            630
+   11025     120         48    40.0%            3^2*5^2*7^2            105
+  441000     120         29    24.2%        2^3*3^2*5^3*7^2              -
+    5400     119         43    36.1%            2^3*3^3*5^2              -
+   12100     119         44    37.0%           2^2*5^2*11^2            110
+   SUMME der Top 20: 859 von 2566 Vorkommen sind verschobene Paare (33.5 %).
+
+   GEGENPROBE an nicht-powerful Lueckenwerten aehnlicher Haeufigkeit:
+       g  Anzahl  davon g|n   Anteil         Faktorisierung
+   63900     112          0     0.0%       2^2*3^2*5^2*71^1
+   82908      98          0     0.0%       2^2*3^2*7^2*47^1
+   17100      97          0     0.0%       2^2*3^2*5^2*19^1
+   23324      96          0     0.0%           2^2*7^3*17^1
+  151900      90          0     0.0%       2^2*5^2*7^2*31^1
+  171900      90          0     0.0%      2^2*3^2*5^2*191^1
+    7100      89          0     0.0%           2^2*5^2*71^1
+   26100      89          0     0.0%       2^2*3^2*5^2*29^1
+   ⇒ Bei nicht-powerful g kann der Mechanismus gar nicht greifen: g*k und g*k+g = g(k+1) waeren nur
+   powerful, wenn g es ist. Der Anteil muss dort klein sein, und er ist es.
+
+ERGEBNIS in einem Satz:
+   Der Kopf des Lueckenspektrums ist powerful, WEIL der einzige Mechanismus, der viele Luecken derselben
+   Groesse erzeugt — das Skalieren eines Paares mit g — voraussetzt, dass g selbst powerful ist.
+   Die Beobachtung ist damit nicht nur gemessen, sondern erklaert.
+
+Zeit 329s

@@ -1,0 +1,112 @@
+========================================================================================================
+W59 — D2: DAS ZAEHLMODELL
+
+   Modell (vor dem Fit festgelegt):   log occ_h(g)  ≈  alpha(h) + beta(k),   k = g/h
+   A priori:  occ(g) = Summe ueber ALLE powerful Teiler h von g, nicht ueber die beobachteten.
+   (A) Teilung nach Zellen: haelt die Struktur?   (B) Teilung nach g: ist ein NEUES g vorhersagbar?
+   PK+ ok: Faktorisierung, sqfull, powerful Teiler gegen 44100 / 63900 / 900 geprueft.
+
+   Bestand: 21,663,503 powerful bis 10^14, 8,235,300 Lueckenwerte  (2s)
+   Untersucht: 62,118 Werte mit mindestens 20 Vorkommen; groesster 8,213,400
+   1,751,149 Vorkommen ⇒ 244,872 Zellen (g, h)   (2s)
+   PK+ ok: g = 900 zerfaellt in {900: 57, 225: 14, 100: 19, 36: 26, 25: 4, 9: 3, 4: 4} — wie in W49 Teil D.
+
+   Parameter: 3,006 Kerne + 51,034 Kofaktoren - 1 = 54,039 bei 244,872 Zellen   ⇒ 0.22 je Datenpunkt
+   (im Mittel 4.8 Zellen pro Kofaktor, 81 pro Kern — das Modell ist NICHT gesaettigt,
+    deshalb ist auch das In-sample-R² hier aussagekraeftig. Trotzdem entscheidet (B).)
+
+   (A) ZELLEN-SPLIT — haelt log occ_h(g) = alpha(h) + beta(k)?
+      in-sample R² = 0.892;  ausserhalb R² = 0.845  (42,992 Testzellen)
+      Wechselwirkung (Residuen gegen alpha·beta): r = +0.028
+
+   Faktorisierung von 62,118 Lueckenwerten (1s); im Mittel 6.5 powerful Teiler je g
+   ✅ Satz-Kontrolle: alle 244,872 beobachteten gcd-Werte sind powerful Teiler ihres g.
+
+   (B) g-SPLIT — ist occ(g) fuer einen NEUEN Lueckenwert vorhersagbar?  ⟵ das ist D2
+      2,904 von 12,367 zurueckgehaltenen g bewertbar (alle Stufen im Training bekannt)
+      SEPARABLES MODELL:   R² = 0.342   MAE = 5.46   bei Mittel 29.6
+      mit RUECKFALL auf den mittleren Effekt, alle 12,367 zurueckgehaltenen g:
+         R² = -0.416   MAE = 8.71   bei Mittel 28.2
+
+      GRUNDLINIE (rohe Praediktoren, beste von zwei Fassungen), dieselben 12,367 Werte:
+         auf Zaehlung R² = 0.307 · auf log-Zaehlung R² = 0.302  ⇒ 0.307
+      ⇒ Abstand des separablen Modells: -0.723
+      (die 0,333 vom 18.09. gilt fuer g <= 10^6 und ist mit dieser Menge nicht vergleichbar —
+       deshalb hier neu gerechnet.)
+
+      BODEN — nur die Anzahl der powerful Teiler von g, sonst nichts:
+         auf Zaehlung R² = 0.095 · auf log-Zaehlung R² = 0.067  ⇒ 0.095
+      ⇒ Zugewinn des SATZES ueber die bloße Teilerzahl: -0.512
+
+   (C) PK− — permutierte Zaehlungen, derselbe g-Split
+      permutiert R² = 0.123   gegen echt -0.416
+      Die Permutation mischt die ZAEHLUNGEN, laesst aber die Traegerstruktur intakt —
+      sie ist gegen den BODEN zu lesen, nicht gegen 0.
+
+   (C2) DIE URSACHE — wie einmalig sind die Kofaktoren?
+      51,034 verschiedene Kofaktoren fuer 62,118 Lueckenwerte  ⇒ 0.82 je Wert
+      davon in genau EINEM g: 24,798 (49%);  Median der g je Kofaktor: 2
+      ⇒ 77% der zurueckgehaltenen g bringen mindestens einen nie
+        gesehenen Kofaktor mit. Ein freier Parameter je Kofaktor hat dort nichts zu uebertragen.
+
+   (D) DIE STAERKSTE FASSUNG — alpha und beta als glatte Funktionen der Arithmetik
+      (nicht ein freier Parameter je Stufe, sondern aus log, omega, Omega, quadratfrei, log sqfull)
+      alpha(h) durch Arithmetik von h erklaert: R² = 0.338  (2,766 Kerne)
+      beta(k)  durch Arithmetik von k erklaert: R² = 0.494  (45,569 Kofaktoren)
+      ⇒ occ(g) roh, alle 12,367 zurueckgehaltenen g:  R² = -0.582   MAE = 10.47
+      ⇒ nach affiner Rueckkalibrierung (nur Trainingsteil, +19.98 +0.318·x):
+         glatte Stufen  R² = 0.177   MAE = 6.56
+         freie Stufen   R² = 0.348   MAE = 5.94   (7s)
+
+   ⇒ DIE BILANZ, an der D2 haengt   (alle 12,367 zurueckgehaltenen g, ein Split):
+      Boden — nur Anzahl powerful Teiler                     +0.095
+      permutierte Zaehlungen                                 +0.123
+      rohe Praediktoren (6 Merkmale von g)                   +0.307
+      separables Modell, freie Stufen, roh                    -0.416
+      separables Modell, freie Stufen, rueckkalibriert        +0.348
+      separables Modell, glatte Stufen, roh                   -0.582
+      separables Modell, glatte Stufen, rueckkalibriert  ⟵ staerkste Fassung  +0.177
+      dasselbe, freie Stufen, strenge Teilmenge (23%)        +0.342
+      ⇒ Zugewinn der staerksten Fassung ueber die rohen Praediktoren: -0.130
+
+   (E) STREUUNG — fuenf unabhaengige Aufteilungen, dieselbe Maschinerie
+      Split 1:  rohe Merkmale +0.304   separables Modell +0.326   Abstand +0.022
+      Split 2:  rohe Merkmale +0.307   separables Modell +0.330   Abstand +0.023
+      Split 3:  rohe Merkmale +0.310   separables Modell +0.321   Abstand +0.011
+      Split 4:  rohe Merkmale +0.303   separables Modell +0.300   Abstand -0.004
+      Split 5:  rohe Merkmale +0.311   separables Modell +0.317   Abstand +0.006
+      ⇒ rohe Merkmale     +0.307 ± 0.004
+      ⇒ separables Modell +0.319 ± 0.012
+      ⇒ ABSTAND           +0.012 ± 0.011   (kleinster -0.004, groesster +0.023)
+
+   (F) DIE VORREGISTRIERTEN VORHERSAGEN P1 und P2  (Roadmap-Wortlaut, Zerlegung g = sqfull(g)·kc)
+      2,986 verschiedene Kerne sqfull(g), 9,752 verschiedene quadratfreie Kofaktoren
+      ✅ alle 62,118 Kofaktoren kc sind quadratfrei — die Zerlegung ist die behauptete.
+      log occ(g) = u(sqfull) + v(kc):  in-sample R² = 0.685
+         ausserhalb, 10,910 von 12,367 zurueckgehaltenen g bewertbar (88%):  R² = 0.560
+      Wechselwirkung u·v gegen Residuen: r = +0.001   ⇒ P1/P2 vertraeglich
+      P2 einzeln: 4,105 Kofaktoren mit >= 3 Kernen; Streuung von log occ - u(Kern)
+         Median 0.116, gegen Gesamtstreuung von log occ 0.285
+
+   (G) ENTSCHEIDUNG — vorregistriertes Modell gegen rohe Merkmale, beide Skalen, fuenf Splits
+      Split 1:  log occ — Modell +0.528 / roh +0.319      occ — Modell +0.576 / roh +0.304
+      Split 2:  log occ — Modell +0.511 / roh +0.322      occ — Modell +0.523 / roh +0.307
+      Split 3:  log occ — Modell +0.523 / roh +0.326      occ — Modell +0.552 / roh +0.310
+      Split 4:  log occ — Modell +0.487 / roh +0.314      occ — Modell +0.516 / roh +0.299
+      Split 5:  log occ — Modell +0.524 / roh +0.326      occ — Modell +0.561 / roh +0.311
+      ⇒ log occ, vorregistriertes Modell   +0.514 ± 0.016
+      ⇒ log occ, rohe Merkmale             +0.321 ± 0.005
+      ⇒ occ,     vorregistriertes Modell   +0.545 ± 0.025
+      ⇒ occ,     rohe Merkmale             +0.306 ± 0.005
+      ⇒ ABSTAND auf log occ: +0.193 ± 0.013   (kleinster +0.173)
+      ⇒ ABSTAND auf occ:     +0.239 ± 0.024   (kleinster +0.216)
+
+   (H) WO sitzt die Kraft — Kern u(sqfull) oder Kofaktor v(kc)?
+      nur Kern u(sqfull(g))        +0.012 ± 0.012
+      nur Kofaktor v(kc)           +0.272 ± 0.011
+      beide                        +0.545 ± 0.025
+      rohe Merkmale (aus G)        +0.306 ± 0.005
+      ⇒ Zugewinn des Kofaktors ueber den Kern allein: +0.534
+      ⇒ Zugewinn des Kerns ueber den Kofaktor allein: +0.273
+
+Zeit 19s   — Urteil in den Record, hier nur Zahlen.

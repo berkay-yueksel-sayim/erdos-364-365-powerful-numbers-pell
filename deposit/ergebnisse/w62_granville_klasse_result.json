@@ -1,0 +1,106 @@
+{
+ "skript": "w62_granville_klasse_und_powerful_phi_2026-09-20.py",
+ "granville": {
+  "quelle": "arXiv:1212.6306, Thm 3 + Kor 3",
+  "klasse_original": "2|rs, 4\u2224rs",
+  "klasse_unsere_schreibweise": "x \u2261 2 (mod 4)",
+  "ausnahmen_thm3": [
+   1,
+   2,
+   3,
+   6
+  ],
+  "eigenbeispiel": {
+   "r": 2,
+   "s": 1,
+   "x3_mal_x6": 441,
+   "wurzel": 21
+  }
+ },
+ "klassengrenze": {
+  "wert_schranke": 100000000000000,
+  "grade": [
+   4,
+   5,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "quadrate_innerhalb": 0,
+  "quadrate_ausserhalb": 1,
+  "kleinstes_ausserhalb": {
+   "x": 3,
+   "d": 5,
+   "wert": 121
+  },
+  "test": "Quadrat-Test als notwendige Folge, nicht die Aussage selbst"
+ },
+ "tafel": {
+  "wert_schranke": 1000000000000,
+  "grade": "3..12",
+  "x_reichweite": {
+   "3": 999999,
+   "4": 999999,
+   "5": 999,
+   "6": 1000000,
+   "7": 99,
+   "8": 999,
+   "9": 99,
+   "10": 1000,
+   "11": 15,
+   "12": 1000
+  },
+  "geprueft": 3004199,
+  "treffer": 6,
+  "betroffene_grade": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "eintraege": [
+   {
+    "d": 3,
+    "x": 18,
+    "wert": 343,
+    "faktorisierung": "7^3"
+   },
+   {
+    "d": 3,
+    "x": 88916,
+    "wert": 7906143973,
+    "faktorisierung": "7^2\u00b713^3\u00b7271^2"
+   },
+   {
+    "d": 4,
+    "x": 682,
+    "wert": 465125,
+    "faktorisierung": "5^3\u00b761^2"
+   },
+   {
+    "d": 5,
+    "x": 3,
+    "wert": 121,
+    "faktorisierung": "11^2"
+   },
+   {
+    "d": 6,
+    "x": 19,
+    "wert": 343,
+    "faktorisierung": "7^3"
+   },
+   {
+    "d": 6,
+    "x": 88917,
+    "wert": 7906143973,
+    "faktorisierung": "7^2\u00b713^3\u00b7271^2"
+   }
+  ]
+ },
+ "abgrenzung": "Tafel ueber ARGUMENTE; T12 ist eine Aussage ueber RAENGE.",
+ "laufzeit_s": 62.96429991722107,
+ "python": "3.12.10"
+}

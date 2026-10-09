@@ -1,0 +1,156 @@
+{
+ "skript": "w65_d6_klassenpaare_2026-09-20.py",
+ "N": 100000000000000,
+ "n_powerful": 21663503,
+ "n_klassen": 28224,
+ "n_paare": 21663502,
+ "n_klassenpaare": 205851,
+ "gleiche_klasse": {
+  "beobachtet": 2779291,
+  "anteil": 0.1282937080071357,
+  "null": {
+   "100": {
+    "mittel": 5326028.0,
+    "sd": 947.476648788771,
+    "faktor": 0.5218318416651208
+   },
+   "1000": {
+    "mittel": 5439442.333333333,
+    "sd": 1872.63513086061,
+    "faktor": 0.5109514596686291
+   },
+   "10000": {
+    "mittel": 5452353.333333333,
+    "sd": 1698.2904148976797,
+    "faktor": 0.509741542795588
+   }
+  },
+  "faktor_spanne": 0.012090298869532723
+ },
+ "ueberrepraesentiert": [
+  {
+   "b": 7,
+   "d": 129,
+   "beob": 447,
+   "erw": 171
+  },
+  {
+   "b": 1,
+   "d": 1002,
+   "beob": 220,
+   "erw": 137
+  },
+  {
+   "b": 1,
+   "d": 965,
+   "beob": 217,
+   "erw": 139
+  },
+  {
+   "b": 122,
+   "d": 7,
+   "beob": 292,
+   "erw": 188
+  },
+  {
+   "b": 869,
+   "d": 1,
+   "beob": 251,
+   "erw": 166
+  },
+  {
+   "b": 806,
+   "d": 1,
+   "beob": 279,
+   "erw": 188
+  },
+  {
+   "b": 1,
+   "d": 789,
+   "beob": 287,
+   "erw": 194
+  },
+  {
+   "b": 731,
+   "d": 1,
+   "beob": 312,
+   "erw": 211
+  }
+ ],
+ "unterrepraesentiert": [
+  {
+   "b": 86,
+   "d": 5,
+   "beob": 204,
+   "erw": 538
+  },
+  {
+   "b": 402,
+   "d": 2,
+   "beob": 87,
+   "erw": 211
+  },
+  {
+   "b": 3,
+   "d": 181,
+   "beob": 154,
+   "erw": 363
+  },
+  {
+   "b": 14,
+   "d": 61,
+   "beob": 106,
+   "erw": 208
+  },
+  {
+   "b": 26,
+   "d": 30,
+   "beob": 134,
+   "erw": 250
+  },
+  {
+   "b": 31,
+   "d": 22,
+   "beob": 136,
+   "erw": 253
+  },
+  {
+   "b": 38,
+   "d": 22,
+   "beob": 118,
+   "erw": 217
+  },
+  {
+   "b": 110,
+   "d": 7,
+   "beob": 134,
+   "erw": 226
+  }
+ ],
+ "leere_zellen": {
+  "anzahl": 168631,
+  "mit_erwartung_ab_20": 73,
+  "groesste_erwartung": 574238
+ },
+ "primitivitaet": {
+  "stichprobe": 401176,
+  "schritt": 54,
+  "primitiv": 191328,
+  "anteil_primitiv": 0.47691786148722753,
+  "haeufigste_gcd": [
+   4,
+   9,
+   8,
+   16,
+   25,
+   36,
+   27,
+   32
+  ]
+ },
+ "nullmodell": "Klassenmarken innerhalb von Fenstern permutiert; erhaelt lokale Klassenzusammensetzung",
+ "nullmodell_grenze": "zerstoert auch den Mindestabstand innerhalb einer Klasse => Diagonale nicht beurteilbar",
+ "was_offen": "Exit-Test (occ(g) bedingt auf Klassenpaar gegen 0,545) ist Schritt 2",
+ "laufzeit_s": 10.102256059646606,
+ "python": "3.12.10"
+}

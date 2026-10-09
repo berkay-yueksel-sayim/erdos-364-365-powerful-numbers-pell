@@ -1,0 +1,2803 @@
+{
+ "skript": "w30_vollfaktorisierung_phi_d_2026-09-12.py",
+ "SCHWELLE": 55,
+ "NKERNE": 25,
+ "TLIMIT": 60.0,
+ "kerne": [
+  7,
+  15,
+  23,
+  87,
+  39,
+  319,
+  47,
+  209991,
+  1903,
+  31,
+  55,
+  407,
+  79,
+  95,
+  159,
+  143,
+  183,
+  71,
+  119,
+  703,
+  4099215,
+  111,
+  255,
+  295,
+  327
+ ],
+ "teil_A": {
+  "m": 319,
+  "d": 5,
+  "T_d": "5719632734066677605580897309458268900",
+  "stellen": 37,
+  "faktoren": {
+   "2": 2,
+   "5": 2,
+   "103": 1,
+   "6263": 1,
+   "20161": 2,
+   "1375502561": 1,
+   "158585313121": 1
+  },
+  "phi_faktoren": {
+   "20161": 2,
+   "1375502561": 1,
+   "158585313121": 1
+  },
+  "powerful": false,
+  "zeugen": [
+   1375502561,
+   158585313121
+  ]
+ },
+ "teil_B": {
+  "n_kandidaten": 163,
+  "n_bewiesen": 158,
+  "n_powerful": 0,
+  "n_offen": 5,
+  "raenge": [
+   {
+    "m": 7,
+    "d": 5,
+    "stellen": 6,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "179": 1,
+     "359": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     179,
+     359
+    ]
+   },
+   {
+    "m": 7,
+    "d": 7,
+    "stellen": 9,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "29": 1,
+     "197": 1,
+     "2857": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     29,
+     197,
+     2857
+    ]
+   },
+   {
+    "m": 7,
+    "d": 9,
+    "stellen": 11,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "37": 1,
+     "107": 1,
+     "4139": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     37,
+     107,
+     4139
+    ]
+   },
+   {
+    "m": 7,
+    "d": 11,
+    "stellen": 13,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "43": 1,
+     "33749": 1,
+     "725603": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     43,
+     33749,
+     725603
+    ]
+   },
+   {
+    "m": 7,
+    "d": 13,
+    "stellen": 16,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "53": 1,
+     "3067": 1,
+     "7541": 1,
+     "218191": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     53,
+     3067,
+     7541,
+     218191
+    ]
+   },
+   {
+    "m": 7,
+    "d": 15,
+    "stellen": 18,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "44641": 1,
+     "93601": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     44641,
+     93601
+    ]
+   },
+   {
+    "m": 7,
+    "d": 17,
+    "stellen": 21,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "67": 1,
+     "137": 1,
+     "953": 1,
+     "92003": 1,
+     "21439721": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     67,
+     137,
+     953,
+     92003,
+     21439721
+    ]
+   },
+   {
+    "m": 7,
+    "d": 19,
+    "stellen": 23,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "151": 1,
+     "620020769": 1,
+     "46811568059": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     151,
+     620020769,
+     46811568059
+    ]
+   },
+   {
+    "m": 7,
+    "d": 21,
+    "stellen": 25,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "4789": 1,
+     "4957": 1,
+     "11355457": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     4789,
+     4957,
+     11355457
+    ]
+   },
+   {
+    "m": 7,
+    "d": 23,
+    "stellen": 28,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "1442009": 1,
+     "8245409": 1,
+     "23779907973361": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1442009,
+     8245409,
+     23779907973361
+    ]
+   },
+   {
+    "m": 7,
+    "d": 25,
+    "stellen": 30,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "701": 1,
+     "191801": 1,
+     "5503999": 1,
+     "1510158799": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     701,
+     191801,
+     5503999,
+     1510158799
+    ]
+   },
+   {
+    "m": 7,
+    "d": 27,
+    "stellen": 33,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "109": 1,
+     "431": 1,
+     "2591": 1,
+     "59399": 1,
+     "608544791": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     109,
+     431,
+     2591,
+     59399,
+     608544791
+    ]
+   },
+   {
+    "m": 7,
+    "d": 29,
+    "stellen": 35,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "233": 1,
+     "413137603440703": 1,
+     "48130530800841899": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     233,
+     413137603440703,
+     48130530800841899
+    ]
+   },
+   {
+    "m": 7,
+    "d": 31,
+    "stellen": 37,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "1117": 1,
+     "137393": 1,
+     "5583024545009": 1,
+     "1373444030998069": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1117,
+     137393,
+     5583024545009,
+     1373444030998069
+    ]
+   },
+   {
+    "m": 7,
+    "d": 33,
+    "stellen": 40,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "3697": 1,
+     "37662899": 1,
+     "732521593057": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     3697,
+     37662899,
+     732521593057
+    ]
+   },
+   {
+    "m": 7,
+    "d": 35,
+    "stellen": 42,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "281": 1,
+     "102481": 1,
+     "1853911921": 1,
+     "1355787224681": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     281,
+     102481,
+     1853911921,
+     1355787224681
+    ]
+   },
+   {
+    "m": 7,
+    "d": 37,
+    "stellen": 45,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "149": 1,
+     "3847": 1,
+     "34630373": 1,
+     "179327728485019": 1,
+     "5417091437657281": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     149,
+     3847,
+     34630373,
+     179327728485019,
+     5417091437657281
+    ]
+   },
+   {
+    "m": 7,
+    "d": 39,
+    "stellen": 47,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "2339": 1,
+     "16069": 1,
+     "257399": 1,
+     "309037": 1,
+     "24209949037": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     2339,
+     16069,
+     257399,
+     309037,
+     24209949037
+    ]
+   },
+   {
+    "m": 7,
+    "d": 41,
+    "stellen": 49,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "163": 1,
+     "664693": 1,
+     "6596573": 1,
+     "359742810737": 1,
+     "4838536276827572258419": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     163,
+     664693,
+     6596573,
+     359742810737,
+     4838536276827572258419
+    ]
+   },
+   {
+    "m": 7,
+    "d": 43,
+    "stellen": 52,
+    "vollstaendig": false
+   },
+   {
+    "m": 7,
+    "d": 45,
+    "stellen": 54,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "6301": 1,
+     "43571991061": 1,
+     "262607399857441": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     6301,
+     43571991061,
+     262607399857441
+    ]
+   },
+   {
+    "m": 15,
+    "d": 5,
+    "stellen": 5,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "19": 1,
+     "199": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     19,
+     199
+    ]
+   },
+   {
+    "m": 15,
+    "d": 7,
+    "stellen": 6,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "234361": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     234361
+    ]
+   },
+   {
+    "m": 15,
+    "d": 9,
+    "stellen": 8,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "238141": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     238141
+    ]
+   },
+   {
+    "m": 15,
+    "d": 11,
+    "stellen": 10,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "439": 1,
+     "2051059": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     439,
+     2051059
+    ]
+   },
+   {
+    "m": 15,
+    "d": 13,
+    "stellen": 12,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "4159": 1,
+     "13419379": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     4159,
+     13419379
+    ]
+   },
+   {
+    "m": 15,
+    "d": 15,
+    "stellen": 14,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "1381": 1,
+     "10861": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1381,
+     10861
+    ]
+   },
+   {
+    "m": 15,
+    "d": 17,
+    "stellen": 15,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "409": 1,
+     "524270428729": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     409,
+     524270428729
+    ]
+   },
+   {
+    "m": 15,
+    "d": 19,
+    "stellen": 17,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "595081": 1,
+     "22334758021": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     595081,
+     22334758021
+    ]
+   },
+   {
+    "m": 15,
+    "d": 21,
+    "stellen": 19,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "75181": 1,
+     "766501": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     75181,
+     766501
+    ]
+   },
+   {
+    "m": 15,
+    "d": 23,
+    "stellen": 21,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "51063980650397625961": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     51063980650397625961
+    ]
+   },
+   {
+    "m": 15,
+    "d": 25,
+    "stellen": 23,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "601": 1,
+     "1550299": 1,
+     "898455799": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     601,
+     1550299,
+     898455799
+    ]
+   },
+   {
+    "m": 15,
+    "d": 27,
+    "stellen": 24,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "109": 1,
+     "541": 1,
+     "229025704069": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     109,
+     541,
+     229025704069
+    ]
+   },
+   {
+    "m": 15,
+    "d": 29,
+    "stellen": 26,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "12160478479832564836254301": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     12160478479832564836254301
+    ]
+   },
+   {
+    "m": 15,
+    "d": 31,
+    "stellen": 28,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "41392441": 1,
+     "361500301": 1,
+     "50373210061": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     41392441,
+     361500301,
+     50373210061
+    ]
+   },
+   {
+    "m": 15,
+    "d": 33,
+    "stellen": 30,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "4359961": 1,
+     "195098028841": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     4359961,
+     195098028841
+    ]
+   },
+   {
+    "m": 15,
+    "d": 35,
+    "stellen": 32,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "139": 1,
+     "421": 1,
+     "2521": 1,
+     "5881": 1,
+     "21559": 1,
+     "174721": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     139,
+     421,
+     2521,
+     5881,
+     21559,
+     174721
+    ]
+   },
+   {
+    "m": 15,
+    "d": 37,
+    "stellen": 33,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "229228022728681": 1,
+     "783064647183585181": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     229228022728681,
+     783064647183585181
+    ]
+   },
+   {
+    "m": 15,
+    "d": 39,
+    "stellen": 35,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "1249": 1,
+     "396709": 1,
+     "6595660993741": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1249,
+     396709,
+     6595660993741
+    ]
+   },
+   {
+    "m": 15,
+    "d": 41,
+    "stellen": 37,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "78721": 1,
+     "6316123681429": 1,
+     "1387015865352305989": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     78721,
+     6316123681429,
+     1387015865352305989
+    ]
+   },
+   {
+    "m": 15,
+    "d": 43,
+    "stellen": 39,
+    "vollstaendig": false
+   },
+   {
+    "m": 15,
+    "d": 45,
+    "stellen": 41,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "181": 2,
+     "1997101": 1,
+     "49157369101": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1997101,
+     49157369101
+    ]
+   },
+   {
+    "m": 15,
+    "d": 47,
+    "stellen": 42,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "751": 1,
+     "137239": 1,
+     "3286429": 1,
+     "6943591": 1,
+     "69828511709187231691": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     751,
+     137239,
+     3286429,
+     6943591,
+     69828511709187231691
+    ]
+   },
+   {
+    "m": 15,
+    "d": 49,
+    "stellen": 44,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "9308041": 1,
+     "4666525990426643722207098841201": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     9308041,
+     4666525990426643722207098841201
+    ]
+   },
+   {
+    "m": 15,
+    "d": 51,
+    "stellen": 46,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "48240020020452400251197614081": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     48240020020452400251197614081
+    ]
+   },
+   {
+    "m": 15,
+    "d": 53,
+    "stellen": 48,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "211": 1,
+     "3391": 1,
+     "141829": 1,
+     "3472771": 1,
+     "241732999": 1,
+     "459099984406441993921": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     211,
+     3391,
+     141829,
+     3472771,
+     241732999,
+     459099984406441993921
+    ]
+   },
+   {
+    "m": 15,
+    "d": 55,
+    "stellen": 49,
+    "vollstaendig": false
+   },
+   {
+    "m": 15,
+    "d": 57,
+    "stellen": 51,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "229": 1,
+     "445140361": 1,
+     "1818161069752788117829": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     229,
+     445140361,
+     1818161069752788117829
+    ]
+   },
+   {
+    "m": 15,
+    "d": 59,
+    "stellen": 53,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "9313880184559289624540070947742491086227180976532101": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     9313880184559289624540070947742491086227180976532101
+    ]
+   },
+   {
+    "m": 15,
+    "d": 61,
+    "stellen": 55,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "7574491": 1,
+     "3053749549": 1,
+     "24958727682225935618680212197631559939": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     7574491,
+     3053749549,
+     24958727682225935618680212197631559939
+    ]
+   },
+   {
+    "m": 23,
+    "d": 5,
+    "stellen": 9,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "1879": 1,
+     "2819": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1879,
+     2819
+    ]
+   },
+   {
+    "m": 23,
+    "d": 7,
+    "stellen": 12,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "29": 1,
+     "3109": 1,
+     "135241": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     29,
+     3109,
+     135241
+    ]
+   },
+   {
+    "m": 23,
+    "d": 9,
+    "stellen": 15,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "71": 1,
+     "1549": 1,
+     "36973": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     71,
+     1549,
+     36973
+    ]
+   },
+   {
+    "m": 23,
+    "d": 11,
+    "stellen": 19,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "131": 1,
+     "2376529": 1,
+     "207550199": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     131,
+     2376529,
+     207550199
+    ]
+   },
+   {
+    "m": 23,
+    "d": 13,
+    "stellen": 22,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "6709": 1,
+     "2226431": 1,
+     "9958083719": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     6709,
+     2226431,
+     9958083719
+    ]
+   },
+   {
+    "m": 23,
+    "d": 15,
+    "stellen": 25,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "4308961": 1,
+     "6519841": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     4308961,
+     6519841
+    ]
+   },
+   {
+    "m": 23,
+    "d": 17,
+    "stellen": 29,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "409": 1,
+     "49367": 1,
+     "189653": 1,
+     "1135327": 1,
+     "181306157": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     409,
+     49367,
+     189653,
+     1135327,
+     181306157
+    ]
+   },
+   {
+    "m": 23,
+    "d": 19,
+    "stellen": 32,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "683": 1,
+     "32603": 1,
+     "33734638853": 1,
+     "2415484108033": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     683,
+     32603,
+     33734638853,
+     2415484108033
+    ]
+   },
+   {
+    "m": 23,
+    "d": 21,
+    "stellen": 36,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "167": 1,
+     "1511": 1,
+     "4871": 1,
+     "39313": 1,
+     "3080951": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     167,
+     1511,
+     4871,
+     39313,
+     3080951
+    ]
+   },
+   {
+    "m": 23,
+    "d": 23,
+    "stellen": 39,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "461": 1,
+     "20149": 1,
+     "212691673": 1,
+     "17855813377": 1,
+     "272574010529": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     461,
+     20149,
+     212691673,
+     17855813377,
+     272574010529
+    ]
+   },
+   {
+    "m": 23,
+    "d": 25,
+    "stellen": 42,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "101": 1,
+     "2099": 1,
+     "44201": 1,
+     "6899201": 1,
+     "37564201": 1,
+     "1720733099": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     101,
+     2099,
+     44201,
+     6899201,
+     37564201,
+     1720733099
+    ]
+   },
+   {
+    "m": 23,
+    "d": 27,
+    "stellen": 46,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "541": 1,
+     "24083": 1,
+     "34470251": 1,
+     "1347328773814139": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     541,
+     24083,
+     34470251,
+     1347328773814139
+    ]
+   },
+   {
+    "m": 23,
+    "d": 29,
+    "stellen": 49,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "233": 1,
+     "349": 1,
+     "463": 1,
+     "1272983": 1,
+     "8751913943": 1,
+     "279638344574155608199399": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     233,
+     349,
+     463,
+     1272983,
+     8751913943,
+     279638344574155608199399
+    ]
+   },
+   {
+    "m": 23,
+    "d": 31,
+    "stellen": 52,
+    "vollstaendig": false
+   },
+   {
+    "m": 87,
+    "d": 5,
+    "stellen": 9,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "139": 1,
+     "70639": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     139,
+     70639
+    ]
+   },
+   {
+    "m": 87,
+    "d": 7,
+    "stellen": 12,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "223": 1,
+     "19713121": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     223,
+     19713121
+    ]
+   },
+   {
+    "m": 87,
+    "d": 9,
+    "stellen": 16,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "3313": 1,
+     "9291277": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     3313,
+     9291277
+    ]
+   },
+   {
+    "m": 87,
+    "d": 11,
+    "stellen": 19,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "2394481": 1,
+     "126224829061": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     2394481,
+     126224829061
+    ]
+   },
+   {
+    "m": 87,
+    "d": 13,
+    "stellen": 23,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "48289123": 1,
+     "19615790584207": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     48289123,
+     19615790584207
+    ]
+   },
+   {
+    "m": 87,
+    "d": 15,
+    "stellen": 26,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "96501562375681": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     96501562375681
+    ]
+   },
+   {
+    "m": 87,
+    "d": 17,
+    "stellen": 30,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "67": 1,
+     "5060010763729": 1,
+     "27442696771627": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     67,
+     5060010763729,
+     27442696771627
+    ]
+   },
+   {
+    "m": 87,
+    "d": 19,
+    "stellen": 33,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "151": 1,
+     "1747": 1,
+     "110530497785869713243726553": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     151,
+     1747,
+     110530497785869713243726553
+    ]
+   },
+   {
+    "m": 87,
+    "d": 21,
+    "stellen": 37,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "37549": 1,
+     "25242587194920229": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     37549,
+     25242587194920229
+    ]
+   },
+   {
+    "m": 87,
+    "d": 23,
+    "stellen": 40,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "277": 1,
+     "163120231": 1,
+     "5713465789": 1,
+     "1109334822538257967": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     277,
+     163120231,
+     5713465789,
+     1109334822538257967
+    ]
+   },
+   {
+    "m": 87,
+    "d": 25,
+    "stellen": 44,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "1029500299": 1,
+     "88789784530612304746434799": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1029500299,
+     88789784530612304746434799
+    ]
+   },
+   {
+    "m": 87,
+    "d": 27,
+    "stellen": 47,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "109": 1,
+     "889489": 1,
+     "8337063781": 1,
+     "36083638864621": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     109,
+     889489,
+     8337063781,
+     36083638864621
+    ]
+   },
+   {
+    "m": 87,
+    "d": 29,
+    "stellen": 51,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "463": 1,
+     "811": 1,
+     "4177": 1,
+     "985706475109": 1,
+     "1081980108679": 1,
+     "5270035141100131": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     463,
+     811,
+     4177,
+     985706475109,
+     1081980108679,
+     5270035141100131
+    ]
+   },
+   {
+    "m": 87,
+    "d": 31,
+    "stellen": 54,
+    "vollstaendig": false
+   },
+   {
+    "m": 39,
+    "d": 5,
+    "stellen": 9,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "1247501": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1247501
+    ]
+   },
+   {
+    "m": 39,
+    "d": 7,
+    "stellen": 12,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "15581284993": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     15581284993
+    ]
+   },
+   {
+    "m": 39,
+    "d": 9,
+    "stellen": 15,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "15587522497": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     15587522497
+    ]
+   },
+   {
+    "m": 39,
+    "d": 11,
+    "stellen": 19,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "97227249518887489": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     97227249518887489
+    ]
+   },
+   {
+    "m": 39,
+    "d": 13,
+    "stellen": 22,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "103": 1,
+     "8737": 1,
+     "269886278060983": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     103,
+     8737,
+     269886278060983
+    ]
+   },
+   {
+    "m": 39,
+    "d": 15,
+    "stellen": 26,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "59": 1,
+     "660223940339": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     59,
+     660223940339
+    ]
+   },
+   {
+    "m": 39,
+    "d": 17,
+    "stellen": 29,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "1019": 1,
+     "2381": 1,
+     "624642477222696696703": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1019,
+     2381,
+     624642477222696696703
+    ]
+   },
+   {
+    "m": 39,
+    "d": 19,
+    "stellen": 32,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "2278564283": 1,
+     "1661484034444059587507": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     2278564283,
+     1661484034444059587507
+    ]
+   },
+   {
+    "m": 39,
+    "d": 21,
+    "stellen": 36,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "83": 1,
+     "2928531611826806747": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     83,
+     2928531611826806747
+    ]
+   },
+   {
+    "m": 39,
+    "d": 23,
+    "stellen": 39,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "827": 1,
+     "1931": 1,
+     "4139": 1,
+     "184829": 1,
+     "696533": 1,
+     "27761770912317227": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     827,
+     1931,
+     4139,
+     184829,
+     696533,
+     27761770912317227
+    ]
+   },
+   {
+    "m": 39,
+    "d": 25,
+    "stellen": 43,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "15299": 1,
+     "13769599": 1,
+     "8981922481606744352401": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     15299,
+     13769599,
+     8981922481606744352401
+    ]
+   },
+   {
+    "m": 39,
+    "d": 27,
+    "stellen": 46,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "2267": 1,
+     "2689413841619": 1,
+     "621186664903489": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     2267,
+     2689413841619,
+     621186664903489
+    ]
+   },
+   {
+    "m": 39,
+    "d": 29,
+    "stellen": 49,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "4177": 1,
+     "10903": 1,
+     "10219262789": 1,
+     "791205368683801616978900377931": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     4177,
+     10903,
+     10219262789,
+     791205368683801616978900377931
+    ]
+   },
+   {
+    "m": 319,
+    "d": 5,
+    "stellen": 37,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "20161": 2,
+     "1375502561": 1,
+     "158585313121": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1375502561,
+     158585313121
+    ]
+   },
+   {
+    "m": 319,
+    "d": 7,
+    "stellen": 52,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "3331": 1,
+     "10949": 1,
+     "15511": 1,
+     "521781744101741380292890726602977": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     3331,
+     10949,
+     15511,
+     521781744101741380292890726602977
+    ]
+   },
+   {
+    "m": 47,
+    "d": 5,
+    "stellen": 10,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "79": 1,
+     "101": 1,
+     "10639": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     79,
+     101,
+     10639
+    ]
+   },
+   {
+    "m": 47,
+    "d": 7,
+    "stellen": 14,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "765913": 1,
+     "1021217": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     765913,
+     1021217
+    ]
+   },
+   {
+    "m": 47,
+    "d": 9,
+    "stellen": 18,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "251": 1,
+     "431": 1,
+     "683": 1,
+     "3529": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     251,
+     431,
+     683,
+     3529
+    ]
+   },
+   {
+    "m": 47,
+    "d": 11,
+    "stellen": 22,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "4751": 1,
+     "1485397": 1,
+     "9409494863": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     4751,
+     1485397,
+     9409494863
+    ]
+   },
+   {
+    "m": 47,
+    "d": 13,
+    "stellen": 26,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "53": 1,
+     "103": 1,
+     "3433": 1,
+     "124090513": 1,
+     "263097431": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     53,
+     103,
+     3433,
+     124090513,
+     263097431
+    ]
+   },
+   {
+    "m": 47,
+    "d": 15,
+    "stellen": 30,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "59": 1,
+     "61": 1,
+     "719": 1,
+     "20399": 1,
+     "136559": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     59,
+     61,
+     719,
+     20399,
+     136559
+    ]
+   },
+   {
+    "m": 47,
+    "d": 17,
+    "stellen": 34,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "1427": 1,
+     "1699": 1,
+     "15805987": 1,
+     "526522571": 1,
+     "2574438521": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1427,
+     1699,
+     15805987,
+     526522571,
+     2574438521
+    ]
+   },
+   {
+    "m": 47,
+    "d": 19,
+    "stellen": 38,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "379": 1,
+     "45357713": 1,
+     "17612117183": 1,
+     "1580828541904121": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     379,
+     45357713,
+     17612117183,
+     1580828541904121
+    ]
+   },
+   {
+    "m": 47,
+    "d": 21,
+    "stellen": 42,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "590099": 1,
+     "1533083": 1,
+     "676465732993": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     590099,
+     1533083,
+     676465732993
+    ]
+   },
+   {
+    "m": 1903,
+    "d": 5,
+    "stellen": 46,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "641": 1,
+     "102881": 1,
+     "9363749554501": 1,
+     "15190673900724001": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     641,
+     102881,
+     9363749554501,
+     15190673900724001
+    ]
+   },
+   {
+    "m": 31,
+    "d": 5,
+    "stellen": 18,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "479": 1,
+     "521": 1,
+     "3761": 1,
+     "18199": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     479,
+     521,
+     3761,
+     18199
+    ]
+   },
+   {
+    "m": 31,
+    "d": 7,
+    "stellen": 25,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "419": 1,
+     "1373": 1,
+     "47599": 1,
+     "28824300961": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     419,
+     1373,
+     47599,
+     28824300961
+    ]
+   },
+   {
+    "m": 31,
+    "d": 9,
+    "stellen": 32,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "71": 1,
+     "115309": 1,
+     "243647": 1,
+     "395693209": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     71,
+     115309,
+     243647,
+     395693209
+    ]
+   },
+   {
+    "m": 31,
+    "d": 11,
+    "stellen": 39,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "76603": 1,
+     "134947": 1,
+     "1759867": 1,
+     "1877171": 1,
+     "1973979429797": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     76603,
+     134947,
+     1759867,
+     1877171,
+     1973979429797
+    ]
+   },
+   {
+    "m": 31,
+    "d": 13,
+    "stellen": 45,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "103": 1,
+     "937": 1,
+     "2081": 1,
+     "18461": 1,
+     "207490817": 1,
+     "809803022797094467439": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     103,
+     937,
+     2081,
+     18461,
+     207490817,
+     809803022797094467439
+    ]
+   },
+   {
+    "m": 31,
+    "d": 15,
+    "stellen": 52,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "59": 1,
+     "67559": 1,
+     "134339": 1,
+     "21983701": 1,
+     "619655339": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     59,
+     67559,
+     134339,
+     21983701,
+     619655339
+    ]
+   },
+   {
+    "m": 55,
+    "d": 5,
+    "stellen": 11,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "521": 1,
+     "1926521": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     521,
+     1926521
+    ]
+   },
+   {
+    "m": 55,
+    "d": 7,
+    "stellen": 16,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "31799775934081": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     31799775934081
+    ]
+   },
+   {
+    "m": 55,
+    "d": 9,
+    "stellen": 20,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "71": 1,
+     "25163": 1,
+     "17799877": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     71,
+     25163,
+     17799877
+    ]
+   },
+   {
+    "m": 55,
+    "d": 11,
+    "stellen": 25,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "43": 1,
+     "1409": 1,
+     "204601": 1,
+     "2574909903323": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     43,
+     1409,
+     204601,
+     2574909903323
+    ]
+   },
+   {
+    "m": 55,
+    "d": 13,
+    "stellen": 29,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "311": 1,
+     "200929": 1,
+     "16182991858884325799": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     311,
+     200929,
+     16182991858884325799
+    ]
+   },
+   {
+    "m": 55,
+    "d": 15,
+    "stellen": 34,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "229735559": 1,
+     "4385668919": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     229735559,
+     4385668919
+    ]
+   },
+   {
+    "m": 407,
+    "d": 5,
+    "stellen": 19,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "19": 1,
+     "461": 1,
+     "5839": 1,
+     "15733001": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     19,
+     461,
+     5839,
+     15733001
+    ]
+   },
+   {
+    "m": 407,
+    "d": 7,
+    "stellen": 26,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "29": 1,
+     "101359": 1,
+     "7765091012948891": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     29,
+     101359,
+     7765091012948891
+    ]
+   },
+   {
+    "m": 407,
+    "d": 9,
+    "stellen": 34,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "109": 1,
+     "541": 1,
+     "305999": 1,
+     "523007": 1,
+     "2418553": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     109,
+     541,
+     305999,
+     523007,
+     2418553
+    ]
+   },
+   {
+    "m": 407,
+    "d": 11,
+    "stellen": 41,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "43": 1,
+     "617": 1,
+     "2243": 1,
+     "308623192490697967519840087897": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     43,
+     617,
+     2243,
+     308623192490697967519840087897
+    ]
+   },
+   {
+    "m": 407,
+    "d": 13,
+    "stellen": 49,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "332489": 1,
+     "145238029": 1,
+     "10788377084908312260997073990621": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     332489,
+     145238029,
+     10788377084908312260997073990621
+    ]
+   },
+   {
+    "m": 79,
+    "d": 5,
+    "stellen": 11,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "19": 1,
+     "241": 1,
+     "28619": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     19,
+     241,
+     28619
+    ]
+   },
+   {
+    "m": 79,
+    "d": 7,
+    "stellen": 16,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "3663073": 1,
+     "4578841": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     3663073,
+     4578841
+    ]
+   },
+   {
+    "m": 79,
+    "d": 9,
+    "stellen": 20,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "181": 1,
+     "22643": 1,
+     "4092659": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     181,
+     22643,
+     4092659
+    ]
+   },
+   {
+    "m": 79,
+    "d": 11,
+    "stellen": 24,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "131": 1,
+     "15091": 1,
+     "47431": 1,
+     "117209174939": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     131,
+     15091,
+     47431,
+     117209174939
+    ]
+   },
+   {
+    "m": 95,
+    "d": 5,
+    "stellen": 10,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "719": 1,
+     "51439": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     719,
+     51439
+    ]
+   },
+   {
+    "m": 95,
+    "d": 7,
+    "stellen": 13,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "224940580481": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     224940580481
+    ]
+   },
+   {
+    "m": 95,
+    "d": 9,
+    "stellen": 17,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "37": 1,
+     "2026824911": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     37,
+     2026824911
+    ]
+   },
+   {
+    "m": 95,
+    "d": 11,
+    "stellen": 21,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "307": 1,
+     "27103304492154043": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     307,
+     27103304492154043
+    ]
+   },
+   {
+    "m": 95,
+    "d": 15,
+    "stellen": 29,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "7321": 1,
+     "186933273001": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     7321,
+     186933273001
+    ]
+   },
+   {
+    "m": 95,
+    "d": 19,
+    "stellen": 36,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "11385346068552408504327088645393601": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     11385346068552408504327088645393601
+    ]
+   },
+   {
+    "m": 95,
+    "d": 25,
+    "stellen": 47,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "199": 1,
+     "133999": 1,
+     "16731262799": 1,
+     "155231797411183786999": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     199,
+     133999,
+     16731262799,
+     155231797411183786999
+    ]
+   },
+   {
+    "m": 159,
+    "d": 5,
+    "stellen": 17,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "1451521": 1,
+     "33872581": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1451521,
+     33872581
+    ]
+   },
+   {
+    "m": 159,
+    "d": 7,
+    "stellen": 24,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "673": 1,
+     "780583": 1,
+     "656256016639": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     673,
+     780583,
+     656256016639
+    ]
+   },
+   {
+    "m": 159,
+    "d": 9,
+    "stellen": 31,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "37": 1,
+     "248041": 1,
+     "5456449": 1,
+     "6884497": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     37,
+     248041,
+     5456449,
+     6884497
+    ]
+   },
+   {
+    "m": 159,
+    "d": 11,
+    "stellen": 38,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "43": 1,
+     "23761": 1,
+     "151537": 1,
+     "1155703": 1,
+     "94728580752278617": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     43,
+     23761,
+     151537,
+     1155703,
+     94728580752278617
+    ]
+   },
+   {
+    "m": 143,
+    "d": 5,
+    "stellen": 7,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "328901": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     328901
+    ]
+   },
+   {
+    "m": 143,
+    "d": 7,
+    "stellen": 10,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "188788601": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     188788601
+    ]
+   },
+   {
+    "m": 143,
+    "d": 9,
+    "stellen": 13,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "63039167": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     63039167
+    ]
+   },
+   {
+    "m": 143,
+    "d": 11,
+    "stellen": 15,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "2257597": 1,
+     "27551833": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     2257597,
+     27551833
+    ]
+   },
+   {
+    "m": 143,
+    "d": 13,
+    "stellen": 18,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "53": 1,
+     "103": 1,
+     "311": 2,
+     "4889": 1,
+     "13831": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     53,
+     103,
+     4889,
+     13831
+    ]
+   },
+   {
+    "m": 143,
+    "d": 33,
+    "stellen": 46,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "21649": 1,
+     "204457969": 1,
+     "878657887662721": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     21649,
+     204457969,
+     878657887662721
+    ]
+   },
+   {
+    "m": 143,
+    "d": 39,
+    "stellen": 54,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "157": 1,
+     "467": 1,
+     "86111": 1,
+     "142435871759": 1,
+     "1424912839271": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     157,
+     467,
+     86111,
+     142435871759,
+     1424912839271
+    ]
+   },
+   {
+    "m": 183,
+    "d": 5,
+    "stellen": 15,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "94421": 1,
+     "9531581": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     94421,
+     9531581
+    ]
+   },
+   {
+    "m": 183,
+    "d": 7,
+    "stellen": 21,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "29": 1,
+     "251": 1,
+     "664133": 1,
+     "176613443": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     29,
+     251,
+     664133,
+     176613443
+    ]
+   },
+   {
+    "m": 183,
+    "d": 9,
+    "stellen": 27,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "91513": 1,
+     "9329711229577": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     91513,
+     9329711229577
+    ]
+   },
+   {
+    "m": 71,
+    "d": 5,
+    "stellen": 19,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "19": 1,
+     "101": 1,
+     "487819": 1,
+     "501341": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     19,
+     101,
+     487819,
+     501341
+    ]
+   },
+   {
+    "m": 71,
+    "d": 7,
+    "stellen": 27,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "331486662473": 1,
+     "342917237041": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     331486662473,
+     342917237041
+    ]
+   },
+   {
+    "m": 119,
+    "d": 5,
+    "stellen": 12,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "12619": 1,
+     "52579": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     12619,
+     52579
+    ]
+   },
+   {
+    "m": 119,
+    "d": 7,
+    "stellen": 17,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "503": 1,
+     "25087": 1,
+     "15142513": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     503,
+     25087,
+     15142513
+    ]
+   },
+   {
+    "m": 119,
+    "d": 17,
+    "stellen": 41,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "67": 1,
+     "3469": 1,
+     "5167": 1,
+     "2718097": 1,
+     "12812629": 1,
+     "2896215814044149": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     67,
+     3469,
+     5167,
+     2718097,
+     12812629,
+     2896215814044149
+    ]
+   },
+   {
+    "m": 119,
+    "d": 21,
+    "stellen": 50,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "167": 1,
+     "6026327": 1,
+     "34747943": 1,
+     "1044127886423": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     167,
+     6026327,
+     34747943,
+     1044127886423
+    ]
+   },
+   {
+    "m": 703,
+    "d": 5,
+    "stellen": 32,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "761": 1,
+     "32356121761": 1,
+     "1173195513101": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     761,
+     32356121761,
+     1173195513101
+    ]
+   },
+   {
+    "m": 703,
+    "d": 7,
+    "stellen": 45,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "139": 1,
+     "2285130961": 1,
+     "53733167573": 1,
+     "1299573625690649": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     139,
+     2285130961,
+     53733167573,
+     1299573625690649
+    ]
+   },
+   {
+    "m": 111,
+    "d": 5,
+    "stellen": 14,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "24234373901": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     24234373901
+    ]
+   },
+   {
+    "m": 111,
+    "d": 9,
+    "stellen": 25,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "73": 1,
+     "2550563": 1,
+     "226540403": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     73,
+     2550563,
+     226540403
+    ]
+   },
+   {
+    "m": 111,
+    "d": 15,
+    "stellen": 42,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "1979": 1,
+     "114292019": 1,
+     "64915089601": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     1979,
+     114292019,
+     64915089601
+    ]
+   },
+   {
+    "m": 255,
+    "d": 5,
+    "stellen": 8,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "19": 1,
+     "54919": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     19,
+     54919
+    ]
+   },
+   {
+    "m": 255,
+    "d": 9,
+    "stellen": 14,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "5867": 1,
+     "181943": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     5867,
+     181943
+    ]
+   },
+   {
+    "m": 255,
+    "d": 15,
+    "stellen": 23,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "4441": 1,
+     "245892841": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     4441,
+     245892841
+    ]
+   },
+   {
+    "m": 255,
+    "d": 17,
+    "stellen": 26,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "137": 1,
+     "409": 1,
+     "55179893": 1,
+     "384551378509": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     137,
+     409,
+     55179893,
+     384551378509
+    ]
+   },
+   {
+    "m": 255,
+    "d": 25,
+    "stellen": 38,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "12799": 1,
+     "61099": 1,
+     "12190767499": 1,
+     "130395802099": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     12799,
+     61099,
+     12190767499,
+     130395802099
+    ]
+   },
+   {
+    "m": 295,
+    "d": 5,
+    "stellen": 33,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "41": 1,
+     "1319": 1,
+     "1361": 1,
+     "3655379378913520079": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     41,
+     1319,
+     1361,
+     3655379378913520079
+    ]
+   },
+   {
+    "m": 327,
+    "d": 5,
+    "stellen": 13,
+    "vollstaendig": true,
+    "phi_faktoren": {
+     "59": 1,
+     "601305779": 1
+    },
+    "powerful": false,
+    "zeugen": [
+     59,
+     601305779
+    ]
+   }
+  ]
+ },
+ "laufzeit_s": 365.1557846069336,
+ "python": "3.12.10"
+}

@@ -1,0 +1,63 @@
+====================================================================================================
+W64 — D2b SCHRITT 2: WOVON HAENGT v(kc) AB?
+
+   Zulaessig nur wegen W63: v ist eine bestimmte Groesse (r = 0,761; PK- -0,015).
+   Decke und Regression werden auf DERSELBEN Stufenmenge gerechnet, ungewichtet.
+
+   62,118 Lueckenwerte  ·  2,986 Kerne  ·  9,752 quadratfreie Kofaktoren
+   ANALYSE-MENGE: Kofaktoren mit mindestens 4 Werten  =>  3,061 von 9,752 Stufen (31 %); sie decken 51,658 der 62,118 Lueckenwerte ab.
+
+1. DIE DECKE, auf der Analyse-Menge NEU bestimmt (nicht aus W63 uebernommen)
+      Split-Half auf der Analyse-Menge: r = 0.814 +- 0.005   (2,936 Stufen)
+      => DECKE (Spearman-Brown) = 0.898
+      Zum Vergleich W63 ueber ALLE Stufen: 0,864. Hoeher, weil Stufen mit wenigen Werten wegfallen —
+      genau deshalb wird sie hier neu gerechnet statt uebernommen.
+
+2. DIE REGRESSION
+      kc = 1 ausgeschlossen (1 Stufe, struktureller Sonderfall). v(1) = +1.795
+      — das ist der Abstand, um den powerful Lueckenwerte ueber dem Rest liegen; vgl. D19.
+      3,060 Stufen, 5 Merkmale.   R² (in-sample) = 0.444
+         1            +0.6474
+         log kc       -0.0608
+         omega(kc)    +0.0899
+         log P+(kc)   -0.0248
+         log P-(kc)   +0.0156
+
+3. AUSSERHALB DER ANPASSUNG und PK-
+      ausserhalb (20 % der Stufen zurueckgehalten, 616): R² = 0.425
+      PK-, v ueber die Stufen permutiert:                       R² = 0.001
+
+4. ABLATION
+      einzeln:
+         nur log kc       R² = 0.294
+         nur log P+(kc)   R² = 0.244
+         nur log P-(kc)   R² = 0.079
+         nur omega(kc)    R² = 0.010
+      Verlust beim Weglassen:
+         ohne log kc       -0.071
+         ohne log P-(kc)   -0.012
+         ohne log P+(kc)   -0.012
+         ohne omega(kc)    -0.010
+
+4b. SIND DIE KOEFFIZIENTEN STABIL?  (Kollinearitaets-Probe)
+      Korrelation der Merkmale untereinander:
+         omega(kc)    vs log P+(kc)   r = -0.714
+         omega(kc)    vs log P-(kc)   r = -0.853
+         log P+(kc)   vs log P-(kc)   r = +0.839
+      Koeffizienten auf je zwei disjunkten Haelften, 7 Aufteilungen:
+         log kc       -0.0608 +- 0.0038   Vorzeichen STABIL
+         omega(kc)    +0.0897 +- 0.0124   Vorzeichen STABIL
+         log P+(kc)   -0.0249 +- 0.0019   Vorzeichen STABIL
+         log P-(kc)   +0.0156 +- 0.0019   Vorzeichen STABIL
+      => Alle Vorzeichen halten ueber alle 14 Haelften.
+      ⇒ Die RICHTUNGSAUSSAGEN sind lesbar. Die BETRAEGE nicht — dafuer ist die Kollinearitaet zu stark
+        (omega gegen log P-: r = -0,85; log P+ gegen log P-: r = +0,84).
+
+5. DAS ERGEBNIS, GEGEN SEINE EIGENE DECKE GELESEN
+      R² (ausserhalb) = 0.425
+      DECKE           = 0.898
+      => 47 % des ERKLAERBAREN, nicht 42 % des Ganzen.
+      => erklaerbarer, aber unerklaerter Rest: 0.473
+      Kein Satz, keine Kausalitaet, endlicher Bestand.
+
+Zeit 4s

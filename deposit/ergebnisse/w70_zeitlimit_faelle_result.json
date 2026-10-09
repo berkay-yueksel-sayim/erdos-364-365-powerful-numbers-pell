@@ -1,0 +1,90 @@
+{
+ "skript": "w70_zeitlimit_faelle_2026-09-21.py",
+ "datum": "2026-09-21",
+ "faelle": [
+  {
+   "m": 15,
+   "d": 43,
+   "stellen_Td": 39,
+   "route": "sympy (gesucht) + eigene Verifikation",
+   "phi": {
+    "21427567845878329": 1,
+    "1994933592775393410109": 1
+   },
+   "powerful": false,
+   "n_zeugen": 2,
+   "sek": 123.2
+  },
+  {
+   "m": 7,
+   "d": 43,
+   "stellen_Td": 52,
+   "route": "sympy (gesucht) + eigene Verifikation",
+   "phi": {
+    "12569415953329668840921539": 1,
+    "25138831906659337681843079": 1
+   },
+   "powerful": false,
+   "n_zeugen": 2,
+   "sek": 395.9
+  },
+  {
+   "m": 15,
+   "d": 55,
+   "stellen_Td": 49,
+   "route": "sympy (gesucht) + eigene Verifikation",
+   "phi": {
+    "661": 1,
+    "260733036932240401": 1,
+    "4131677756764141": 1
+   },
+   "powerful": false,
+   "n_zeugen": 3,
+   "sek": 121.0
+  },
+  {
+   "m": 23,
+   "d": 31,
+   "stellen_Td": 52,
+   "route": "sympy (gesucht) + eigene Verifikation",
+   "phi": {
+    "539897": 1,
+    "1296419": 1,
+    "10349132656925217739": 1,
+    "37276032863560087913": 1
+   },
+   "powerful": false,
+   "n_zeugen": 4,
+   "sek": 123.2
+  },
+  {
+   "m": 87,
+   "d": 31,
+   "stellen_Td": 54,
+   "route": "sympy (gesucht) + eigene Verifikation",
+   "phi": {
+    "21725047": 1,
+    "9311443204779808789": 1,
+    "136573972674894025418385547": 1
+   },
+   "powerful": false,
+   "n_zeugen": 3,
+   "sek": 141.2
+  }
+ ],
+ "neu_bewiesen": [
+  [
+   7,
+   43
+  ],
+  [
+   87,
+   31
+  ]
+ ],
+ "beweismenge_alt": 633,
+ "beweismenge_neu": 635,
+ "nenner": 811,
+ "offen": 176,
+ "laufzeit_s": 904.5
+}
