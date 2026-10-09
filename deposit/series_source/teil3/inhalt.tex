@@ -1,0 +1,403 @@
+%
+%
+%
+%
+
+\section*{Introduction}\addcontentsline{toc}{section}{Introduction}
+
+Parts~I and~II study triples and pairs of consecutive powerful numbers. Along the way we measured and proved a number of things that sit at
+the edge of these two questions and belong to neither. This part collects them. None of them is an attack on the questions of Erd\H{o}s,
+and several are consequences or tests of published results; where that is so, the source is named at the statement.
+
+\paragraph{What this part contains.} Section~\tref{sec:luecken} looks at the gaps between consecutive powerful numbers: the most frequent gap
+values up to $10^{14}$ are powerful, although almost no gap value is, and an elementary lemma gives a mechanism that favors powerful gaps (Proposition~\tref{prop:kopf},
+Remark~\tref{rem:decke}). Section~\tref{sec:zyklotomisch} treats powerful values of cyclotomic polynomials, which arise when a member of a
+triple is a proper power: two explicit infinite chains, each giving powerful values of both $\Kreis{3}$ and $\Kreis{6}$ (Proposition~\tref{prop:phidrei}), a table up to
+$\Z{zykschranke}$, and the case $x^4 + 1 = q^3 a^2$ (Proposition~\tref{prop:phiacht}). Section~\tref{sec:unabhaengig} tests the
+independence assumption of Part~I along the divisors of the index, and states what the test can and cannot see. Section~\tref{sec:linsen}
+measures the Wieferich fractions of Pell units, the quantity behind the rare events of Part~I, against the equidistribution that a
+conjecture of Katz predicts. Section~\tref{sec:fragen} states two questions.
+
+\paragraph{How to read this part.} Every statement is followed by a paragraph \emph{In words}. Every numbered statement carries a label that
+says whether it is proved, taken from the literature, computed, measured, a heuristic, or open (see the table at the end); in this part most
+statements are computations or measurements on a finite range, and they are stated as such. A statement that combines several kinds carries the label of the part that needs the most trust: a proof that uses our own computation is labeled computed, and a proof that uses a published result is labeled proved. Every number we computed is generated from the data files
+of the deposit.
+
+\begin{figure}[tp]
+\centering
+\includegraphics[width=\textwidth]{fig_luecken}
+\caption{\textbf{Up to $10^{14}$, the \Z{lsbis} most frequent gap values are all powerful, although only \Z{lsanteil}\,\% of all gap values are.}
+The sixty most frequent values of the gap between consecutive powerful numbers up to $10^{14}$, by their number of occurrences; values with
+the same number share their rank and are ordered by size. The first \Z{lsbis} values are all powerful; the first
+value that is not powerful, $\Z{lserster}$, shares its number of occurrences with powerful values (Proposition~\tref{prop:kopf}). Among all
+\Z{lswerte} gap values up to $10^{14}$, only \Z{lsanteil}\,\% are powerful. The all-powerful head is shorter at $10^{14}$ than at $10^{12}$
+(Table~\ref{tab:kopf}), so the picture says nothing about larger bounds (Question~\tref{q:luecken}).}\label{fig:luecken}
+\end{figure}
+
+\section{The gap spectrum of powerful numbers}\tlabel{sec:luecken}
+
+Write the powerful numbers in increasing order and call the difference $g$ of two consecutive members a \emph{gap}; the sequence of gaps is
+OEIS A076446 \cite{OEISA076446}. For an integer $g \ge 1$ let $\operatorname{sqfull}(g)$ be the product of the prime powers $p^{v_p(g)}$ with
+$v_p(g) \ge 2$. Then $\operatorname{sqfull}(g) = g$ holds exactly when $g$ is powerful. Up to $10^{14}$ there are \Z{lsnpw} powerful numbers
+and \Z{lswerte} distinct gap values, and only \Z{lsanteil}\,\% of these values are powerful; most of them are large and occur once. Among
+the \Z{lsbasiswerte} values that occur at least \Z{lsbasismind} times, \Z{lsbasisanteil}\,\% are powerful. This section shows that the most
+frequent gap values are nevertheless powerful, and gives a mechanism that favors them.
+
+\begin{lemma}[Bajpai, Bennett and Chan {\cite[proof of Theorem~1.1]{BajpaiBennettChan2024}}]\tlabel{lem:ggt}\belegart{literature}
+Let $n$ and $n + g$ be powerful. Then $\gcd(n, g)$ is powerful and divides $\operatorname{sqfull}(g)$. In particular $\gcd(n, g) = 1$ if $g$
+is squarefree, and $g \mid n$ is possible only if $g$ is powerful.
+\end{lemma}
+
+\begin{proof}
+If a prime $p$ divides $n$ and $g$, it divides $n + g$, so $p^2$ divides $n$ and $n + g$ and hence their difference $g$. So every prime of
+$\gcd(n, g)$ occurs in it at least twice, and with an exponent at most $v_p(g)$, where $v_p(g) \ge 2$. If $g \mid n$, then
+$\gcd(n, g) = g$ is powerful.
+\end{proof}
+
+That $\gcd(n, g)$ is powerful is used, for $k$-full numbers and without a separate proof, by Bajpai, Bennett and Chan immediately before
+their equation~(4.2); the consequence for $\operatorname{sqfull}(g)$ is immediate, and it is what we use.
+
+\inwords If two powerful numbers are a distance $g$ apart, every prime they share with $g$ appears in $g$ at least twice. So the part of
+$g$ that such a pair can share is its powerful part; for a gap without square factors there is nothing to share.
+
+\begin{proposition}[the head of the gap spectrum]\tlabel{prop:kopf}\belegart{computed}
+Up to $10^{14}$ the \Z{lsbis} most frequent gap values are all powerful; they are the values that occur more than \Z{lsocc} times. The first
+value that is not powerful is $\Z{lserster} = 2^2 \cdot 3^2 \cdot 5^2 \cdot 71$, with \Z{lsocc} occurrences, and it is the only one among
+the \Z{lsg100} values that occur at least as often as the hundredth most frequent. Among the \Z{lsg200} values that occur at least as often as
+the two hundredth, \Z{lsg200pw} are powerful. Table~\ref{tab:kopf} gives the same count at $10^{12}$ and $10^{13}$.
+\end{proposition}
+
+\begin{table}[ht]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{rrrrrrrr}
+\hline
+ & powerful & gap & \% of values & most & all powerful & first value & powerful near \\
+bound & numbers & values & powerful & frequent & to rank & not powerful & rank $200$ \\
+\hline
+\Z{lstab}
+\hline
+\end{tabular}
+\caption{The gap values between consecutive powerful numbers up to three bounds (Proposition~\tref{prop:kopf}). Values of equal frequency
+share a rank; the column ``all powerful to rank'' counts the values that occur more often than the first value that is not powerful,
+and the last column counts the powerful values among those that occur at least as often as the two hundredth most frequent.}
+\label{tab:kopf}
+\end{table}
+
+If the $50$ most frequent values were drawn at random from all gap values up to $10^{14}$, about \Z{lserwartet} of them would be powerful,
+and about \Z{lsbasiserw} if they were drawn from the values that occur at least \Z{lsbasismind} times.
+The most frequent value at $10^{13}$ and $10^{14}$ is $\Z{lstop1} = 2^2 \cdot 3^2 \cdot 5^2 \cdot 7^2$.
+
+\inwords Almost no gap value is powerful, but nearly all of the frequent ones are. From $10^{12}$ to $10^{14}$ the share of powerful values near
+the top rises, while the first exception moves up the list; the effect does not simply grow or fade with the bound.
+
+\begin{remark}[a ceiling for common divisors]\tlabel{rem:decke}\belegart{computed}
+By Lemma~\tref{lem:ggt}, a pair at gap $g$ shares at most $\operatorname{sqfull}(g)$ with $g$, and only a powerful $g$ can share all of
+itself. Table~\ref{tab:decke} lists the \Z{lsdeckeanz} values that are not powerful among the \Z{lsg200} values of
+Proposition~\tref{prop:kopf}. Each has a small powerful part that is itself a frequent gap value; values of equal frequency share a rank, so
+the rank is given as a range. The share of occurrences in which the pair shares the full ceiling is \Z{lsanteilpw}\,\% for the \Z{lsg20}
+values that occur at least as often as the twentieth most frequent, and \Z{lsanteilnpw}\,\% for these \Z{lsdeckeanz}. So both sides are
+consistent with one mechanism, a pair sharing the largest divisor that the lemma allows; only the size of that divisor differs.
+\end{remark}
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{rrrrr}
+\hline
+$g$ & $\operatorname{sqfull}(g)$ & rank of $\operatorname{sqfull}(g)$ & occurrences of $g$ & \% with $\gcd = \operatorname{sqfull}(g)$ \\
+\hline
+\Z{lsdecke}
+\hline
+\end{tabular}
+\caption{The frequent gap values up to $10^{14}$ that are not powerful (Remark~\tref{rem:decke}): all values that are not powerful and
+occur at least as often as the two hundredth most frequent.}\label{tab:decke}
+\end{table}
+
+\inwords About half of the pairs at gap $\Z{lserster}$ share the factor $900$ with the gap, and $\Z{lserster}$ occurs nearly as often as
+$900$ itself. A powerful gap can share all of itself with a pair; this is one reason why the head of the spectrum is powerful, not a proof
+that it must be.
+
+\begin{remark}[a counting model, measured]\tlabel{rem:zaehlmodell}\belegart{measured}
+Write $g = \operatorname{sqfull}(g) \cdot c$ with $c$ squarefree, and let $\operatorname{occ}(g)$ be the number of occurrences of $g$ up to
+$10^{14}$. Over the \Z{zmn} gap values with at least \Z{zmmin} occurrences, which have \Z{zmkerne} distinct parts $\operatorname{sqfull}(g)$
+and \Z{zmkof_n} distinct cofactors $c$, we fitted $\log \operatorname{occ}(g) = u(\operatorname{sqfull}(g)) + v(c)$ with one free value per
+part and per cofactor. Evaluated on the values held back from the fit, in five random splits of about four fifths to one fifth over the gap
+values, with the mean effect used for a part or cofactor that the fit has not seen and an affine recalibration fitted on the training part,
+the model accounts for $\Z{zmr2} \pm \Z{zmr2sd}$ of the variance of $\operatorname{occ}(g)$ and $\Z{zmr2log} \pm \Z{zmr2logsd}$ of the
+variance of $\log \operatorname{occ}(g)$, against $\Z{zmroh} \pm \Z{zmrohsd}$ for a regression of $\operatorname{occ}(g)$ on plain arithmetic
+features of $g$ on the same values; the margin is positive in each split. The part alone accounts for \Z{zmkern}, the cofactor alone for
+\Z{zmkof}, and on the fitted values the product $u \cdot v$ is uncorrelated with the residuals ($r = \Z{zmww}$). The values of $v$ are
+reproducible up to a reliability of \Z{zmdecke}, which bounds what any explanation of $v$ can reach; on the \Z{zmdeutstufen} cofactors with
+at least \Z{zmdeutkmin} gap values, the size and the prime factors of $c$ account for \Z{zmdeutung} of $v$ on held-back cofactors in one
+split, against a ceiling of \Z{zmdeutdecke} measured on the same cofactors.
+\end{remark}
+
+The lemma therefore explains why the most frequent values can be powerful, not how often a value occurs: in this model the powerful part
+alone accounts for \Z{zmkern} of the variance and the squarefree rest for \Z{zmkof}. This is a measurement on a finite range and not a
+statement about all gaps. A version that splits $g$ over all its powerful divisors
+instead of the canonical one fits the counts of the observed pairs $(g, \gcd)$ closely, but does not predict new gap values significantly better than the plain
+arithmetic features ($\Z{zmallesep} \pm \Z{zmallesepsd}$ against $\Z{zmalleroh} \pm \Z{zmallerohsd}$), because about half of its cofactors
+occur at a single gap; the record of this negative result is part of the deposit.
+
+\inwords For the gap values that occur at least \Z{zmmin} times, knowing the powerful part and the squarefree rest of a gap predicts about half
+of the variation in how often it occurs, and the rest matters more than the powerful part. The prediction was tested on gaps that the fit
+had not seen. It describes the data up to $10^{14}$; it is not a law.
+
+\begin{remark}[common factors of pairs]\tlabel{rem:primitiv}\belegart{measured}
+In a sample of every \Z{pmschritt}th consecutive pair up to $10^{14}$, \Z{pmstich} pairs in total, the two members are coprime in
+\Z{pmanteil}\,\% of the cases. The most frequent common divisors are \Z{pmgcd}, all powerful, as Lemma~\tref{lem:ggt} requires.
+\end{remark}
+
+\inwords About half of the neighboring pairs of powerful numbers share a factor, and the shared factor is always powerful.
+
+We also computed the number variance of the powerful numbers in windows of up to \Z{nvlmax} mean spacings. It lies within about
+\Z{nvrel}\,\% of a sum of independent lattice variances, and the large-window form of that sum grows like $L^{2/3}$ with the constant of
+Chan's theorem \cite[Theorem~2]{Chan2026Variance}; in our windows the measured growth, a slope of \Z{nvsteig} on a logarithmic scale, has not
+yet reached the exponent $2/3$. This is a check of Chan's theorem and not a new result.
+
+\emph{Prior art and its reach.} Apart from the lemma, we found no work on the distribution of the gap values between powerful numbers.
+We checked the work of Bajpai, Bennett and Chan in full, the OEIS entries A076446 and A001694, and records on Zenodo; the citing works of
+Bajpai, Bennett and Chan were queried in two databases, which returned three and none. The reach of this search is set by these databases.
+
+\section{Powerful values of cyclotomic polynomials}\tlabel{sec:zyklotomisch}
+
+Remark~\partref{I}{rem:zyklotomisch} explains where these values come from. If a member of a triple is a proper power $x^r$ with $r \ge 2$,
+its neighbors $x^r - 1$ and $x^r + 1$ are products of values $\Kreis{e}(x)$ and $\Kreis{e}(-x)$ of cyclotomic polynomials. Two such values
+share only primes that divide $2r$, so a value that is coprime to the others must itself be powerful. This section records what we know
+about powerful values $\Kreis{d}(x)$ at integers $x \ge 2$. For $d = 3$, $4$ and $6$ the polynomial is quadratic, and the question belongs to
+the study of powerful values of quadratic polynomials by De Koninck, Doyon and Luca \cite{DeKoninckDoyonLuca2011}.
+
+\begin{remark}[the values $x^2 + 1$]\tlabel{rem:xquadrat}\belegart{computed}
+A powerful number that is not a square can be written as $a^2 b^3$ with $b > 1$ squarefree, so $x^2 + 1 = \Kreis{4}(x)$ is powerful exactly
+when $x^2 - b^3 y^2 = -1$ has a solution for some squarefree $b > 1$; this is the form (1)--(2) of De Koninck, Doyon and Luca
+\cite[p.~2]{DeKoninckDoyonLuca2011}, and their Table~1 gives the smallest case, $682^2 + 1 = 5^3 \cdot 61^2$ \cite[p.~8]{DeKoninckDoyonLuca2011}.
+For each such $b$ the solutions form an infinite family, the odd powers of the smallest one. We solved the equation for all \Z{znaqg}
+squarefree $b$ with $1 < b \le \Z{znab}$: it has a solution for \Z{znamit} of them. The list of OEIS A175155 \cite{OEISA175155} of the values
+$x$ with $x^2 + 1 = a^2 b^3$ begins $682$, $1\,268\,860\,318$, $1\,459\,639\,851\,109\,444$.
+\end{remark}
+
+\inwords The number $x^2 + 1$ is powerful for infinitely many $x$, but such $x$ are very sparse: after $682$ the next value in the
+list of OEIS A175155 is above a billion. Each of them comes from a Pell-type equation, and only some of these equations have solutions.
+
+\begin{proposition}[two explicit chains of powerful values of $\Kreis{3}$ and $\Kreis{6}$]\tlabel{prop:phidrei}\belegart{proved}
+Let the map $(y, m) \mapsto (127 y + 672 m,\ 24 y + 127 m)$ act on the starting points $(37, 7)$ (the first chain) and $(5, 1)$ (the
+second chain), and let $(y_j, m_j)$ be the point after $j$ steps. In both chains $y_j^2 - 28 m_j^2 = -3$ and $y_j$ is odd for every $j$; $7 \mid m_j$ exactly when
+$j \equiv 0 \pmod 7$ in the first chain and exactly when $j \equiv 6 \pmod 7$ in the second; and the two chains contain every solution of
+$y^2 - 28 m^2 = -3$ with $y, m > 0$. For every $j$ with $7 \mid m_j$ the number $x = (y_j - 1)/2$ satisfies
+$\Kreis{3}(x) = 343\,(m_j/7)^2$, which is powerful, and $\Kreis{6}(x + 1) = \Kreis{3}(x)$. In particular $\Kreis{3}(x)$ and $\Kreis{6}(x)$ are
+powerful for infinitely many $x$.
+\end{proposition}
+
+\begin{proof}
+Since $127^2 - 28 \cdot 24^2 = 1$, the map preserves $y^2 - 28m^2$, and $37^2 - 28 \cdot 7^2 = 5^2 - 28 \cdot 1^2 = -3$. It preserves the parity
+of $y$, because $672$ is even and $127$ is odd. Modulo $7$ it fixes $y$, because $672 \equiv 0$ and $127 \equiv 1$, and it adds $24 y \equiv 3y$ to
+$m$. In the first chain $y_0 \equiv 2$ and $m_0 \equiv 0 \pmod 7$, so $m_j \equiv 6j \pmod 7$, which vanishes exactly when $j \equiv 0 \pmod 7$; in
+the second $y_0 \equiv 5$ and $m_0 = 1$, so $m_j \equiv 1 + 15j \equiv 1 + j \pmod 7$, which vanishes exactly when $j \equiv 6 \pmod 7$.
+For the completeness, let $\alpha = y + z\sqrt 7$ with $y, z > 0$ and $y^2 - 7z^2 = -3$. Its conjugate is $-3/\alpha$, so $2y = \alpha - 3/\alpha > 0$
+gives $\alpha > \sqrt 3$. Dividing by $\varepsilon = 8 + 3\sqrt 7$ keeps the norm, and keeps the quotient above $\sqrt 3$ as long as $\alpha > \sqrt 3\,\varepsilon$;
+so $\alpha = \beta \varepsilon^n$ with $n \ge 0$ and $\sqrt 3 < \beta \le \sqrt 3\,\varepsilon$. For $\beta = y' + z'\sqrt 7$ this gives
+$z' = (\beta + 3/\beta)/(2\sqrt 7) < \sqrt 3\,(\varepsilon + 1)/(2\sqrt 7) < 6$, and among $1 \le z' \le 5$ only $z' = 1$ and $z' = 2$ make $7z'^2 - 3$ a
+square, so $\beta = 2 + \sqrt 7$ or $\beta = 5 + 2\sqrt 7$. Multiplying by $\varepsilon$ replaces $(y, z)$ by $(8y + 21z, 3y + 8z)$, which swaps the
+parities of $y$ and $z$; so $z = 2m$ is even exactly for $(2 + \sqrt 7)\varepsilon^n$ with $n$ odd and for $(5 + 2\sqrt 7)\varepsilon^n$ with $n$ even. Since
+$(2 + \sqrt 7)\varepsilon = 37 + 14\sqrt 7$ and $\varepsilon^2 = 127 + 48\sqrt 7$, these are the two chains, and multiplying by $\varepsilon^2$ is the map. Finally
+$4\Kreis{3}(x) = (2x + 1)^2 + 3 = y_j^2 + 3 = 28 m_j^2$, so $\Kreis{3}(x) = 7 m_j^2$, and $\Kreis{6}(x + 1) = (x + 1)^2 - (x + 1) + 1 =
+\Kreis{3}(x)$.
+\end{proof}
+
+In the first chain the first member is $x = 18$ with $\Kreis{3}(18) = 7^3$; the next three have \Z{phidreistellen} digits. The value $x = 18$ is the entry
+$k = 3$, $n = 37$ of Table~1 of De Koninck, Doyon and Luca, since $37^2 + 3 = 4\,\Kreis{3}(18)$ \cite[p.~8]{DeKoninckDoyonLuca2011}, and
+they observe that for a quadratic polynomial one powerful value of this kind gives infinitely many \cite[p.~7]{DeKoninckDoyonLuca2011}.
+Their reduction on that page, applied to $\Kreis{3}$ with squarefree part $7$, leads in our normalization to the equation
+$y^2 - 28m^2 = -3$ with $7 \mid m$. We did not find there the explicit recurrence, the two chains and their completeness, the parity of
+$y_j$, the period $7$, or the transfer to $\Kreis{6}$. A direct search over all $m \le \Z{phidreibrute}$ finds no solution outside the two
+chains, as the proposition says. The two chains are
+disjoint: going forward from $(5, 1)$ the values of $y$ are $5, 1307, \dots$, going backward they are negative from $(-37, 7)$ on, so $(37, 7)$
+is not on the second chain. The prime $x$ with $\Kreis{3}(x) = 7^3 a^2$ reported by Lavi \cite{Lavi2026}, which we know from the description of his record, is the
+member $j = \Z{phidreilavij}$ of the second chain. Other squarefree parts give other powerful values: the second value for $d = 3$ in
+Table~\ref{tab:zyk} comes from the equation $y^2 - 52 m^2 = -3$ with $13 \mid m$, that is, with $13$ in place of $7$.
+
+\inwords The polynomials $x^2 + x + 1$ and $x^2 - x + 1$ take powerful values infinitely often. A Pell equation produces them one after
+another, in two chains, and every seventh step of each chain gives one. The idea that one solution gives infinitely many is in the
+literature; we did not find the explicit chains there.
+
+\begin{proposition}[powerful values up to a bound]\tlabel{prop:zyktafel}\belegart{computed}
+Among the \Z{zykn} pairs $(d, x)$ with $3 \le d \le 12$, $x \ge 2$ and $\Kreis{d}(x) \le \Z{zykschranke}$, exactly \Z{zyktreffer} give a
+powerful value $\Kreis{d}(x)$. They are listed in Table~\ref{tab:zyk}.
+\end{proposition}
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{rrrl}
+\hline
+$d$ & $x$ & $\Kreis{d}(x)$ & factorization \\
+\hline
+\Z{zyktab}
+\hline
+\end{tabular}
+\caption{The powerful values $\Kreis{d}(x)$ with $3 \le d \le 12$ and $\Kreis{d}(x) \le \Z{zykschranke}$ (Proposition~\tref{prop:zyktafel}).
+The pairs for $d = 3$ and $d = 6$ are related by $\Kreis{6}(x + 1) = \Kreis{3}(x)$.}\label{tab:zyk}
+\end{table}
+
+\inwords Up to the bound, powerful cyclotomic values occur only for $d = 3, 4, 5$ and $6$, and only \Z{zyktreffer} times. The case $d = 5$ is
+$3^4 + 3^3 + 3^2 + 3 + 1 = 121 = 11^2$, a square.
+
+\begin{remark}[a class without squares]\tlabel{rem:granvilleklasse}\belegart{computed}
+The numbers $x_n = (x^n - 1)/(x - 1)$ satisfy $x_{n+2} = (x + 1)\,x_{n+1} - x\,x_n$, a recurrence with $b = x + 1$ and $c = -x$ coprime and
+$b^2 + 4c = (x - 1)^2 > 0$. If $x \equiv 2 \pmod 4$, then $c \equiv 2 \pmod 4$, and Granville's theorem \cite[Theorem~3]{Granville2012} gives, for every
+$d \notin \{1, 2, 3, 6\}$, a primitive prime factor of $x_d$ that divides it to an odd power. Such a prime divides $\Kreis{d}(x)$ and no
+$\Kreis{e}(x)$ with $e \mid d$, $e < d$, so $\Kreis{d}(x)$ is not a square. It can still be powerful, since an odd exponent can be $3$. We
+checked the consequence: for $x \equiv 2 \pmod 4$, $d \in \{4, 5, 7, \dots, 12\}$ and $\Kreis{d}(x) \le \Z{zykklasse}$ no value is a
+square, while outside the class the square $\Kreis{5}(3) = 11^2$ appears at once, and for these degrees it is the only square outside the
+class up to $\Z{zykklasse}$. Inside the class, $\Kreis{4}(682) = 5^3 \cdot 61^2$ is powerful without being a square.
+\end{remark}
+
+\inwords For arguments of the form $4j + 2$, a theorem of Granville shows that the cyclotomic values are never squares, apart from four
+small degrees. Our check up to $\Z{zykklasse}$ agrees with it, and the example $\Kreis{5}(3) = 121$ shows that the condition on the argument cannot simply be
+dropped. The theorem says nothing about cubes, so it does not decide whether such a value can be powerful.
+
+\begin{proposition}[the simplest case of $\Kreis{8}$]\tlabel{prop:phiacht}\belegart{proved}
+There are no positive integers $x$ and $a$ and no prime $q < 2 \cdot 10^{11}$ with $x^4 + 1 = q^3 a^2$.
+\end{proposition}
+
+\begin{proof}
+For $q = 2$ there is nothing to prove, since $x^4 + 1 \equiv 1$ or $2 \pmod{16}$ while $8a^2 \equiv 0$ or $8 \pmod{16}$. Let $q$ be odd and
+write $x^4 + 1 = q\,y^2$ with $y = qa$. By Cohn \cite[p.~1347 and Theorem~1]{Cohn1997b}, a solution requires $q \equiv 1 \pmod 8$ and a
+solution of $v^2 - q u^2 = -1$; if $\alpha = c + b\sqrt{q}$ is the smallest one, $u_n = (\alpha^n - \bar\alpha^n)/(2\sqrt q)$ and
+$v_n = (\alpha^n + \bar\alpha^n)/2$, then $x^2 = v_A$ and $y = u_A$, where $A$ is the squarefree part of $c$. Expanding $\alpha^n$ gives $u_n \equiv n\,c^{n-1} b \pmod q$. Since
+$c^2 \equiv -1 \pmod q$, the prime $q$ divides neither $c$ nor $A$, so $q \mid y = u_A$ forces $q \mid b$. For $q \equiv 1 \pmod 8$ the
+fundamental unit $(t + w\sqrt q)/2$ of $\mathbb{Q}(\sqrt q)$ has $t$ and $w$ even, because $t^2 - q w^2 = \pm 4$ is impossible with $t$
+and $w$ odd; so it lies in $\mathbb{Z}[\sqrt q]$, equals $\alpha$, and $b = w/2$. Hence a solution requires $q \mid w$. The conjecture of
+Ankeny, Artin and Chowla says that this never happens, and it has been verified for all primes $q \equiv 1 \pmod 4$ below $10^{11}$
+\cite{vanderPoortenteRieleWilliams2001} and between $10^{11}$ and $2 \cdot 10^{11}$ \cite{vanderPoortenteRieleWilliams2003}.
+\end{proof}
+
+We checked the last step independently for the \Z{achtq} primes $q \equiv 1 \pmod 8$ below $\Z{achtgrenze}$: in none of them does $q$
+divide $b$. The proposition covers only the case in which the squarefree part of $x^4 + 1$ is a single prime. For small squarefree parts
+the literature settles the question completely: Cohn solved $x^4 + 1 = D y^2$ for all squarefree $D < 10^5$, and apart from $D = x^4 + 1$
+with $y = 1$ the only solution is $261^4 + 1 = 70\,258 \cdot 257^2$ \cite[abstract]{Cohn1997b}. If $x^4 + 1$ is powerful and $D$ is its
+squarefree part, then $D \mid y$; neither case allows this, so the squarefree part of a powerful $x^4 + 1$ is at least $10^5$.
+
+\inwords The number $x^4 + 1$ is the eighth cyclotomic value. If it were a cube of a prime times a square, a theorem of Cohn would force a
+very special divisibility in the smallest solution of a Pell equation, and that divisibility is exactly what a well-tested conjecture
+forbids; computer searches by others confirm it far enough to exclude all primes below $2 \cdot 10^{11}$.
+
+\section{An independence test along the divisors of the index}\tlabel{sec:unabhaengig}
+
+The heuristic of Part~I treats the event that a prime of rank $d$ divides $T_d(m)$ at least twice as a rare event of probability about
+$1/p$, independent of other such events (Proposition~\partref{I}{prop:exponenten}). Part~I tests independence across the primes of one
+kernel. A lattice point $(m, k)$ with many divisors carries one such event for each divisor $d$ of $k$, and the divisors are linked: $q d$ is
+a multiple of $d$. This section tests whether the events at $d$ and at $q d$ are coupled.
+
+\begin{remark}[no joint event along the divisors, and the power of the test]\tlabel{rem:unabhaengig}\belegart{measured}
+For the \Z{ukerne} kernels with the most lattice points in the box of Theorem~\partref{I}{thm:reduktion}, we took each rank $d$ and its smallest prime $p$ of rank $d$ below $\Z{up}$, and set
+the status of $d$ to $1$ if $p^2 \mid T_d(m)$ and to $0$ otherwise. We then formed all pairs $(d, qd)$ with $q \in \{3, 5, 7, 11, 13\}$ for
+which both ranks have such a prime: \Z{upaare} pairs. The status is $1$ at $d$ alone in \Z{u10} pairs, at $qd$ alone in \Z{u01}, and at both
+in \Z{u11}; independence predicts \Z{uerw} pairs with both. To see what this test could detect, we simulated a coupling in which the status
+at $qd$ copies the status at $d$ with probability $\rho$, independently for each pair: for $\rho = 0.1$ one expects about \Z{ukopie} copied
+pairs, and in at least \Z{utrenn}\,\% of \Z{usim} simulations at least one joint event appeared, against less than \Z{utrennnull}\,\% for
+$\rho = 0$.
+\end{remark}
+
+\inwords If the rare event at one rank made the same event at a multiple rank more likely, pairs with the event at both ranks would appear.
+There are none. The test is not blind: a coupling in which one time in ten the second event copies the first would almost always have shown
+up, and one of half that strength would still have shown up in most runs. A much weaker coupling, or one that makes the second event less
+likely, could not be seen with so few events, and the test uses only the smallest prime of each rank.
+
+The test is formally a $\chi^2$ test on the table, but with fewer than one expected joint event the statistic only records whether a joint
+event occurs; the simulation measures exactly that. One event at a rank $d$ enters a pair for each $q$ with $qd$ occupied, so the \Z{u10}
+pairs come from fewer distinct events; the simulation copies pair by pair and therefore overstates the power against a coupling that acts
+once per event. In the prior-art search for this part (arXiv, Zenodo, Google Scholar and OEIS, at the level of titles and abstracts) we found
+no earlier test of independence along the divisors of the index.
+
+\section{Wieferich fractions of Pell units}\tlabel{sec:linsen}
+
+For a squarefree $m$ and a prime $p \nmid 2m$ let $e = \left(\frac{m}{p}\right)$ and write $\varepsilon_m^{\,p - e} = A + B\sqrt m$ modulo $p^2$.
+Then $A \equiv 1$ and $B \equiv 0 \pmod p$, and we call $y_p = \bigl((B/p) \bmod p\bigr)/p \in [0, 1)$ the \emph{Wieferich fraction} of
+$\varepsilon_m$ at $p$. It vanishes exactly when the order of $\varepsilon_m$ modulo $p^2$ equals its order modulo $p$; for a prime with a
+rank this is the condition $p^2 \mid T_{\alpha_m(p)}(m)$ of Part~I. In Katz's language \cite{Katz2015}, $\varepsilon_m$ is a point on the torus
+$x^2 - m y^2 = 1$, and $y_p$ is its Wieferich fraction for the framing whose Lie lattice is $\mathbb{Z}\sqrt m$, which Katz describes
+\cite[Section~6]{Katz2015}. His Framed Wieferich Conjecture \cite[Conjecture~6.1]{Katz2015} predicts that such fractions are equidistributed.
+
+\begin{remark}[no deviation from equidistribution, memory or coupling]\tlabel{rem:wieferichbrueche}\belegart{measured}
+For the \Z{wf3kerne} kernels of Section~\tref{sec:unabhaengig} and all primes $p < \Z{wf3p}$ with $p \nmid 2mU_1$, that is, for \Z{wfn} pairs
+$(m, p)$, we computed $y_p$.
+\begin{enumerate}
+\item[(a)] \emph{Near zero.} For six thresholds $t$ from $10^{-2}$ to $10^{-7}$ the number of $y_p < t$ agrees with the exact expectation for
+  uniform $y_p$; the largest deviation is $\Z{wfzmax}$ standard deviations. For example, $y_p < 10^{-4}$ holds \Z{wft4b} times against
+  \Z{wft4e} expected, and $y_p = 0$ holds \Z{wftreffer} times against $\sum 1/p = \Z{wferw}$. Only \Z{wfnullrang} of these zeros lie at primes that divide
+  some $T_k(m)$, which happens exactly when the order of $\varepsilon_m$ modulo $p$ is divisible by $4$; they are the Wieferich events of
+  Part~I on these kernels (Remark~\partref{I}{rem:wfdaten}), and the other zeros do not appear there. Split by the $2$-adic valuation of the order of
+  $\varepsilon_m$ modulo $p$ (odd, $2 \bmod 4$, $0 \bmod 4$) and by $e$ into \Z{wfklanz} classes, the smallest $p$-value of a $\chi^2$ test
+  of uniformity is \Z{wfklpmin}, or \Z{wfklbon} after the Bonferroni correction.
+\item[(b)] \emph{Along the primes.} For each kernel, the correlation of $y_p$ with the fraction $j$ primes later, for $j = 1, \dots,
+  \Z{wglags}$, gives \Z{wgtests} tests; \Z{wgueber} exceed $|z| = 2.576$ against about \Z{wgerw} expected, the largest is $\Z{wgzmax}$, with
+  Bonferroni $p = \Z{wgpbon}$. A memory planted in test data, with $5$ percent of the values replaced by their predecessor, is found with
+  $z = \Z{wgpk}$.
+\item[(c)] \emph{Between kernels.} For the \Z{wkpaare} pairs of kernels, the correlation of their fractions at common primes has largest
+  $|z| = \Z{wkzmax}$, with Bonferroni $p = \Z{wkpbon}$; a planted correlation of strength $0.02$ is found with $z = \Z{wkpk}$.
+\end{enumerate}
+\end{remark}
+
+\inwords For every unit and every prime there is a number between $0$ and $1$ that measures how close the prime comes to being a
+Wieferich prime for that unit. Over more than five million such numbers, on \Z{wf3kerne} units and the primes below $\Z{wf3p}$, our tests find no deviation from independent uniform random numbers: near zero,
+from one prime to the next, and from one unit to another. Katz's conjecture predicts (a); applied to the product of two such tori it also
+predicts (c); (b) goes beyond it. The only computation of Wieferich fractions that his paper mentions is one for elliptic curves, by
+Bombieri, reported as compatible with the conjecture. Censuses of the zeros $y_p = 0$ exist for single units, for example Ryan's for
+$1 + \sqrt 2$ up to $10^9$ \cite[Sections~2.1 and~5.1]{Ryan2026}; we did not find a test of the distribution of the fractions themselves,
+near zero, along the primes or between units. A finite test cannot prove equidistribution; it shows no deviation at the sizes the controls
+can detect.
+
+\section{Questions}\tlabel{sec:fragen}
+
+\begin{question}[the most frequent gap]\tlabel{q:luecken}\belegart{open}
+Let $g(x)$ be the most frequent gap between consecutive powerful numbers up to $x$. Is $g(x)$ powerful for all large $x$, and does the share
+of powerful values among the $N$ most frequent gaps up to $x$ tend to $1$ when $N$ is fixed and $x \to \infty$?
+\end{question}
+
+Proposition~\tref{prop:kopf} and Table~\ref{tab:kopf} are consistent with the first part at three bounds up to $10^{14}$. For the second
+part they point both ways: the share of powerful values among the two hundred most frequent rises, while the leading block in which all
+values are powerful shrinks. Lemma~\tref{lem:ggt} gives powerful gaps an advantage; it does not show that the advantage wins in the limit.
+
+\inwords Is the most common distance between neighboring powerful numbers always itself powerful, however far one looks? Up to $10^{14}$ it
+is, but the data do not show a clear trend for the values just below the top.
+
+\begin{question}[powerful values of $x^4 + 1$]\tlabel{q:phiacht}\belegart{open}
+Is $x^4 + 1$ powerful for some integer $x \ge 1$?
+\end{question}
+
+By Proposition~\tref{prop:phiacht} and the paragraph after it, the squarefree part of such a value is at least $10^5$, and it is not a prime
+below $2 \cdot 10^{11}$. For $x^2 + 1$ the answer is yes (Remark~\tref{rem:xquadrat}).
+
+\inwords Can the eighth cyclotomic value $x^4 + 1$ ever be powerful? The fourth one, $x^2 + 1$, can. For $x^4 + 1$ only special shapes are
+excluded so far.
+
+\begin{remark}[a conjecture on the most frequent gap]\tlabel{rem:champion}\belegart{heuristic}
+We state a weak and a strong form for the most frequent gap $g(x)$ of Question~\tref{q:luecken}. \emph{Weak form:} $g(x)$ tends to infinity with $x$,
+and $g(x)$ is powerful for all large $x$. \emph{Strong form:} for all large $x$, $g(x)$ is the square of a product of the first primes,
+$(2 \cdot 3 \cdots p_r)^2$, with $r$ growing with $x$. The strong form implies the weak one; the weak one claims only what the data and
+Lemma~\tref{lem:ggt} support directly, and the strong one also names the shape. Up to $10^{12}$ the most frequent value
+is $900 = (2 \cdot 3 \cdot 5)^2$, and up to $10^{13}$ and $10^{14}$ it is $\Z{lstop1} = (2 \cdot 3 \cdot 5 \cdot 7)^2$ (Table~\ref{tab:kopf}).
+The reason we expect it is Lemma~\tref{lem:ggt}: if $g = P^2$ with $P$ squarefree and $P^2 \mid n$, then $n = P^2 m$ and
+$n + g = P^2 (m + 1)$, so the primes of $P$ already occur at least twice in both numbers, and only the other primes of $m$ and $m + 1$
+must occur squared. A larger $P$ frees more primes but leaves fewer $m \le x/P^2$; the smallest primes free the most for the smallest
+cost, and as $x$ grows the balance moves to a larger $P$. A balance of this kind is behind the conjecture of Odlyzko, Rubinstein and Wolf
+that the most frequent gap between consecutive primes eventually runs through the products of the first primes, $30$, $210$, $2310$
+\cite{OdlyzkoRubinsteinWolf1999}; we found no such statement for powerful numbers. Two values do not make a trend. The weak form fails if
+$g(x)$ stays bounded, or if a value that is not powerful is the most frequent gap for arbitrarily large $x$. The strong form fails in
+addition if a powerful value of another shape, such as $3600$ or $3528$, which follow $900$ and $44\,100$ closely in the counts, is the most
+frequent gap for arbitrarily large $x$. Which of the two forms is right is open.
+\end{remark}
+
+\inwords We expect the most common distance between neighboring powerful numbers to keep growing and to stay powerful (weak form), and
+we suspect that it is always the square of $2 \cdot 3 \cdot 5 \cdots$, as $900$ and $44\,100$ are (strong form). For the primes a similar pattern is conjectured, with $30$, $210$, $2310$. This
+is an expectation supported by two values and a mechanism, not a result.
+
+\section*{The type of every statement}
+
+Every statement of this part carries one of six labels, printed after its number. The table lists them; it is generated from the
+text by the build and checked against a second, independent reading of the source.
+
+\input{../gemeinsam/belegtab_\teilnr}

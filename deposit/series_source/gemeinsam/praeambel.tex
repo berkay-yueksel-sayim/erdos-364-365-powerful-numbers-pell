@@ -1,0 +1,78 @@
+%
+%
+\usepackage[margin=1.2in]{geometry}
+\usepackage{graphicx}
+%
+\makeatletter\newcommand*{\captionfigur}{\def\@captype{figure}\caption}\makeatother
+\usepackage{tikz}\usetikzlibrary{fit,calc,arrows.meta,backgrounds}   %
+%
+\renewcommand{\topfraction}{0.85}\renewcommand{\textfraction}{0.1}\renewcommand{\floatpagefraction}{0.75}
+\graphicspath{{../abbildungen/}}   %
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{etoolbox}
+\usepackage{refcount}
+\usepackage{array}       %
+\usepackage{longtable}   %
+\usepackage[hidelinks]{hyperref}
+
+\providecommand{\teilnr}{?}
+\newif\ifimband
+
+%
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{question}[theorem]{Question}
+\renewcommand{\thetheorem}{\teilnr.\arabic{section}.\arabic{theorem}}
+\numberwithin{equation}{section}
+%
+%
+\def\theHtheorem{\teilnr.\arabic{section}.\arabic{theorem}}
+\def\theHsection{\teilnr.\arabic{section}}
+\def\theHequation{\teilnr.\arabic{section}.\arabic{equation}}
+
+%
+%
+%
+%
+\newcommand{\tlabel}[1]{\label{\teilnr:#1}}
+%
+%
+%
+\newwrite\belegaus
+\immediate\openout\belegaus=\jobname.bel
+\newcommand{\belegart}[1]{\immediate\write\belegaus{\thetheorem|#1|\thesection}{\normalfont\small[#1]}\ }
+\newcommand{\tref}[1]{\ref{\teilnr:#1}}
+\makeatletter
+\newcommand{\partref}[2]{%
+  \edef\serie@teil{\teilnr}\def\serie@ziel{#1}%
+  \ifx\serie@teil\serie@ziel\ref{#1:#2}%
+  \else\ifimband\ref{#1:#2}%
+  \else\getrefnumber{#1:#2}~in~[Part~#1]\fi\fi}
+\makeatother
+
+%
+%
+\input{../gemeinsam/zahlen}
+\newcommand{\Z}[1]{%
+  \ifcsname Z@#1\endcsname\csname Z@#1\endcsname
+  \else\PackageError{serie}{Zahl '#1' ist nicht in zahlen.tex definiert}{werkzeug/zahlen_bauen.py laufen lassen oder den Schluessel pruefen}\fi}
+
+%
+%
+%
+%
+%
+\newcommand{\inwords}{\par\medskip\noindent\textit{In words.}\ }
+%
+\newcommand{\spaeter}[1]{\par\noindent\textit{[#1]}\par}
+\newcommand{\PrimSymbol}{M}
+\newcommand{\Prim}[1]{\PrimSymbol_{#1}}
+\newcommand{\Kreis}[1]{\Phi_{#1}}

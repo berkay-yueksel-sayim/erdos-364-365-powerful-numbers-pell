@@ -1,0 +1,19 @@
+%
+\paragraph{Notation used in the problems.}
+\begin{itemize}
+\item A positive integer is \emph{powerful} if every prime that divides it divides it at least twice.
+\item For a squarefree $m \ge 2$, $\varepsilon_m = T_1 + U_1 \sqrt{m}$ is the fundamental solution of $x^2 - m y^2 = 1$, and $\varepsilon_m^k = T_k + U_k \sqrt{m}$; $T_k(m)$, $U_k(m)$ name the kernel $m$. $m'$ is the product of the primes of $m$ that do not divide $U_1$.
+\item The \emph{rank} $\alpha_m(p)$ of a prime $p \nmid m$ is the smallest $k$ with $p \mid T_k(m)$; $M_d$ is the part of $T_d(m)$ supported on the primes of rank exactly $d$ (the \emph{primitive part}).
+\item \emph{Wing (ii)} of Part I: the kernels $m \equiv 7 \pmod 8$ with $m \mid U_1(m)$; they are the weak point of the lower bound for a triple.
+\item In Part II, the \emph{families} are Walker's Pell families of pairs $n, n + 1$, $F_f$ is the growth factor from one pair of the family $f$ to the next, $w(m) = 1/(2m' \log_{10} \varepsilon_m)$ is the rate of the tower of the kernel $m$, $P_2(N)$ counts the pairs $n - 1, n + 1$ of powerful numbers with $n \le N$, and $E_3(N)$ counts the odd squarefree $m$ with $m \mid U_1(m)$, $T_1(m)$ even and $T_1(m) \le N$.
+\item Reinhart's condition (C) is Definition 1.4 of \cite{Reinhart2024}.
+\end{itemize}
+\par\medskip\noindent\textbf{Problem A} (finiteness of the kernels of wing (ii); Question~\ref{I:q:walsh} in Part~I).\enspace Are there only finitely many squarefree $m \equiv 7 \pmod 8$ with $m \mid U_1(m)$ and $T_1(m)$ even?
+\par\medskip\noindent\textbf{Problem B} (the primitive part of $T_d(m)$; Question~\ref{I:q:primindex} in Part~I).\enspace Let $m \equiv 7 \pmod 8$ be squarefree with $T_1(m)$ even, let $d \ge 5$ be odd, and let $\Prim{d}$ be the part of $T_d(m)$ supported on the primes of rank exactly $d$. Can $\Prim{d}$ be powerful?
+\par\medskip\noindent\textbf{Problem C} (a middle that is a power of $2$; Question~\ref{I:q:zweierpotenz} in Part~I).\enspace Can $2^a - 1$ and $2^a + 1$ both be powerful for some $a \ge 2$?
+\par\medskip\noindent\textbf{Problem D} (Reinhart's condition (C); Question~\ref{I:q:reinhart} in Part~I).\enspace Does Reinhart's condition~(C) \cite[Definition~1.4]{Reinhart2024} hold for some squarefree $d$, that is, is there an index $k$ with $T_k(d)$ powerful and $d \mid U_k(d)$? For $d \mid U_1(d)$ the second condition holds for every $k$.
+\par\medskip\noindent\textbf{Problem E} (convergence of the rates; Question~\ref{II:q:konvergenz} in Part~II).\enspace Does $\sum_f 1/\log F_f$, taken over all families, converge?
+\par\medskip\noindent\textbf{Problem F} (growth of the tower rate; Question~\ref{II:q:wachstum} in Part~II).\enspace Does $c_M = \sum_{m \le M} w(m)$, the sum over odd squarefree $m$ with $T_1(m)$ even of $w(m) = 1/(2m' \log_{10} \varepsilon_m)$, stay bounded as $M \to \infty$?
+\par\medskip\noindent\textbf{Problem G} (the kernels that divide $U_1$; Question~\ref{II:q:ezwei} in Part~II).\enspace Is there a $\theta < 61/180$ with $E_3(N) \ll N^{\theta}$? Since $E_3(N) \le P_2(N)$, Blomer and Sch{\"o}bel give $E_3(N) \ll N^{\gamma}$ for every $\gamma > 61/180$ \cite[Theorem~3]{BlomerSchoebel2013}; the question is whether the squarefree odd $m$ with $m \mid U_1(m)$, $T_1(m)$ even and $T_1(m) \le N$ are rarer than that.
+\par\medskip\noindent\textbf{Problem H} (the most frequent gap; Question~\ref{III:q:luecken} in Part~III).\enspace Let $g(x)$ be the most frequent gap between consecutive powerful numbers up to $x$. Is $g(x)$ powerful for all large $x$, and does the share of powerful values among the $N$ most frequent gaps up to $x$ tend to $1$ when $N$ is fixed and $x \to \infty$?
+\par\medskip\noindent\textbf{Problem I} (powerful values of $x^4 + 1$; Question~\ref{III:q:phiacht} in Part~III).\enspace Is $x^4 + 1$ powerful for some integer $x \ge 1$?

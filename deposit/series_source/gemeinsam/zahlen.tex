@@ -1,0 +1,996 @@
+%
+%
+\makeatletter
+%
+\@namedef{Z@nenner}{811}
+%
+\@namedef{Z@offen}{6}
+%
+\@namedef{Z@erledigt}{805}
+%
+\@namedef{Z@zertifiziert}{767}
+%
+\@namedef{Z@vollzerlegt}{38}
+%
+\@namedef{Z@csechsquadrat}{1.3685}
+%
+\@namedef{Z@csechswalker}{0.3137}
+%
+\@namedef{Z@csechs}{1.6822}
+%
+\@namedef{Z@streifenfam}{206}
+%
+\@namedef{Z@streifentot}{52}
+%
+\@namedef{Z@streifentuerme}{154}
+%
+\@namedef{Z@streifenstellen}{8.4\cdot 10^{7}}
+%
+\@namedef{Z@streifenminm}{223}
+%
+\@namedef{Z@streifensieben}{17.5}
+%
+\@namedef{Z@streifeneins}{2}
+%
+\@namedef{Z@margestich}{530}
+%
+\@namedef{Z@margemax}{10^{8}}
+%
+\@namedef{Z@margerand}{2\cdot 10^{5}}
+%
+\@namedef{Z@margemin}{21.5}
+%
+\@namedef{Z@streifenschranke}{2000}
+%
+\@namedef{Z@streifensteckt}{14}
+%
+\@namedef{Z@glattkerne}{889\,437}
+%
+\@namedef{Z@glattkand}{0}
+%
+\@namedef{Z@glattunten}{10^{8}}
+%
+\@namedef{Z@glattoben}{10^{15}}
+%
+\@namedef{Z@glatthoehe}{2000}
+%
+\@namedef{Z@glattprim}{100}
+%
+\@namedef{Z@glattmin}{4}
+%
+\@namedef{Z@glattperiode}{9573}
+%
+\@namedef{Z@glattgross}{356\,888}
+%
+\@namedef{Z@glattrest}{532\,549}
+%
+\@namedef{Z@bboxkern}{10^{6}}
+%
+\@namedef{Z@bboxb}{10^{4}}
+%
+\@namedef{Z@bboxfam}{101\,329}
+%
+\@namedef{Z@bboxparitaet}{32\,118}
+%
+\@namedef{Z@bboxpaare}{421\,010\,513}
+%
+\@namedef{Z@bboxohnealpha}{343\,504\,538}
+%
+\@namedef{Z@bboxzweiadisch}{16\,603\,302}
+%
+\@namedef{Z@bboxkgerade}{11\,242\,224}
+%
+\@namedef{Z@bboxlemmal}{49\,659\,524}
+%
+\@namedef{Z@bboxrest}{925}
+%
+\@namedef{Z@ballotfaelle}{56}
+%
+\@namedef{Z@ballotgedruckt}{0}
+%
+\@namedef{Z@ballotfib}{50}
+%
+\@namedef{Z@turmk1}{1.1\cdot 10^{13}}
+%
+\@namedef{Z@turmk2}{5.5\cdot 10^{13}}
+%
+\@namedef{Z@turmk3}{4.5\cdot 10^{30}}
+%
+\@namedef{Z@turmstellen}{2.5\cdot 10^{15}}
+%
+\@namedef{Z@kongruenzbis}{10^{5}}
+%
+\@namedef{Z@kongruenzdichte}{2.67\cdot 10^{-4}}
+%
+\@namedef{Z@yokoimax}{20000}
+%
+\@namedef{Z@yokoipaare}{123}
+%
+\@namedef{Z@designkerne}{251}
+%
+\@namedef{Z@designtmax}{399}
+%
+\@namedef{Z@designfenster}{17}
+%
+\@namedef{Z@designmaxm}{1023}
+%
+\@namedef{Z@designstellen}{2000}
+%
+\@namedef{Z@quadratzeuge1}{701}
+%
+\@namedef{Z@quadratzeuge2}{3}
+%
+\@namedef{Z@quadratzeuge3}{5}
+%
+\@namedef{Z@mittenquadrat}{0.3648}
+%
+\@namedef{Z@mittendoppel}{0.2580}
+%
+\@namedef{Z@mittensatza}{0.6228}
+%
+\@namedef{Z@mittenN}{10^{14}}
+%
+\@namedef{Z@mittengemessen}{0.6252}
+%
+\@namedef{Z@kerne}{10\,132\,126}
+%
+\@namedef{Z@kernschranke}{10^{8}}
+%
+\@namedef{Z@hoehe}{2000}
+%
+\@namedef{Z@zeugenschranke}{2\cdot 10^{5}}
+%
+\@namedef{Z@filterfamilien}{83}
+%
+\@namedef{Z@punktfamilien}{79}
+%
+\@namedef{Z@punkte}{445}
+%
+\@namedef{Z@paritaetspunkte}{74}
+%
+\@namedef{Z@zeugenpunkte}{371}
+%
+\@namedef{Z@restpunkte}{0}
+%
+\@namedef{Z@beispielm}{7}
+%
+\@namedef{Z@beispielk}{7}
+%
+\@namedef{Z@beispielzeuge}{29}
+%
+\@namedef{Z@beispielwert}{130\,576\,328}
+%
+\@namedef{Z@beispielfaktoren}{2^{3}\cdot 29\cdot 197\cdot 2857}
+%
+\@namedef{Z@ohnetripel}{3.88\cdot 10^{20}}
+%
+\@namedef{Z@ohnetripelsicher}{1.83\cdot 10^{18}}
+%
+\@namedef{Z@famtab}{(2, 1) & 1 & 0.90 & 1.53 & 14 \\
+(3, 1) & 3 & 2.83 & 3.43 & 6 \\
+(23, 2) & 1 & 4.09 & 9.37 & 2 \\
+(6, 1) & 3 & 5.37 & 5.97 & 3 \\
+(1, 5) & 5 & 5.67 & 12.54 & 2 \\
+(46, 1) & 1 & 8.77 & 9.37 & 2 \\
+(7, 2) & 7 & 9.73 & 20.67 & 1 \\
+(5, 1) & 5 & 11.94 & 12.54 & 1 \\
+(430, 1) & 1 & 12.91 & 13.52 & 1 \\
+(79, 23) & 1 & 13.08 & 27.36 & 1 \\
+(3, 7) & 7 & 13.69 & 28.58 & 1 \\
+(10, 1) & 5 & 15.19 & 15.79 & 1 \\
+(7, 1) & 7 & 16.23 & 16.83 & 1 \\
+(14, 1) & 7 & 20.07 & 20.67 & 1 \\
+(1022, 57) & 1 & 20.21 & 41.62 & 1 \\
+(19, 35) & 5 & 21.59 & 44.38 & 1 \\}
+%
+\@namedef{Z@famzahl}{16}
+%
+\@namedef{Z@famtabzwei}{14}
+%
+\@namedef{Z@fampaare}{39}
+%
+\@namedef{Z@famquadrat}{32}
+%
+\@namedef{Z@famohne}{7}
+%
+\@namedef{Z@paargrenze}{3.89\cdot 10^{21}}
+%
+\@namedef{Z@paarletzt}{3\,887\,785\,221\,910\,670\,811\,499}
+%
+\@namedef{Z@periodepk}{6082}
+%
+\@namedef{Z@periodepkmax}{10\,000}
+%
+\@namedef{Z@walkerpk}{955}
+%
+\@namedef{Z@walkerpkmax}{3000}
+%
+\@namedef{Z@paare52}{26}
+%
+\@namedef{Z@paare52exp}{52}
+%
+\@namedef{Z@mersennemax}{63}
+%
+\@namedef{Z@famquadratfam}{10}
+%
+\@namedef{Z@quadratbmax}{10^{4}}
+%
+\@namedef{Z@walkerdmax}{10^{6}}
+%
+\@namedef{Z@expfam}{750}
+%
+\@namedef{Z@expmmax}{10^{4}}
+%
+\@namedef{Z@exppmax}{3000}
+%
+\@namedef{Z@exppaare}{120\,373}
+%
+\@namedef{Z@expwzwei}{470}
+%
+\@namedef{Z@expwdrei}{52}
+%
+\@namedef{Z@exphzwei}{486}
+%
+\@namedef{Z@exphdrei}{49.1}
+%
+\@namedef{Z@korrs}{411.7}
+%
+\@namedef{Z@korrmu}{436.2}
+%
+\@namedef{Z@korrsd}{28.2}
+%
+\@namedef{Z@korrreps}{4000}
+%
+\@namedef{Z@korrz}{-0.87}
+%
+\@namedef{Z@korrp}{0.80}
+%
+\@namedef{Z@korrvert}{396, 255, 83, 15, 1}
+%
+\@namedef{Z@korrmaxp}{181}
+%
+\@namedef{Z@korrmaxz}{2.4}
+%
+\@namedef{Z@trennvoll}{652}
+%
+\@namedef{Z@trennzwei}{90}
+%
+\@namedef{Z@trennfuenf}{48}
+%
+\@namedef{Z@trennlaeufe}{40}
+%
+\@namedef{Z@alekterme}{33}
+%
+\@namedef{Z@alekstellen}{67}
+%
+\@namedef{Z@klassedreimax}{10^{8}}
+%
+\@namedef{Z@alekneun}{9}
+%
+\@namedef{Z@vollexpo}{36}
+%
+\@namedef{Z@vollmexpo}{24}
+%
+\@namedef{Z@reinhartt1}{94}
+%
+\@namedef{Z@reinharttab}{4\,099\,215 & 228 & $2\cdot 10^{5}$ & 701, 100469, 157049 & $1.1\cdot 10^{13}$ & $2.5\cdot 10^{15}$ \\
+39\,028\,039\,587\,479 & 1\,880\,030 & $3\cdot 10^{3}$ & 5, 7, 71, 1657; 19, 29, 421, 569, 1987; 379, 2089, 2203, 2437 & $4.5\cdot 10^{30}$ & $8.6\cdot 10^{36}$ \\}
+%
+\@namedef{Z@reinhartungerade}{209\,991}
+%
+\@namedef{Z@reinhartungerade2}{117\,477\,414\,815}
+%
+\@namedef{Z@reinhartboxk}{1, 3, 5, 7}
+%
+\@namedef{Z@reinhartboxz}{701, 11, 19, 29}
+%
+\@namedef{Z@reinhartungeradest}{95}
+%
+\@namedef{Z@reinhartungeradest2}{11\,621}
+%
+\@namedef{Z@zeugenalle}{371}
+%
+\@namedef{Z@zeugenprim}{8}
+%
+\@namedef{Z@zeugenmedian}{19}
+%
+\@namedef{Z@zeugenmax}{114\,997}
+%
+\@namedef{Z@zeugen29}{79}
+%
+\@namedef{Z@zeugen19}{78}
+%
+\@namedef{Z@zeugen11}{45}
+%
+\@namedef{Z@zeugen3}{43}
+%
+\@namedef{Z@zeugen5}{33}
+%
+\@namedef{Z@zeugen7}{25}
+%
+\@namedef{Z@zeugennkp}{197}
+%
+\@namedef{Z@zeugennkk}{1379}
+%
+\@namedef{Z@zeugennkv}{2}
+%
+\@namedef{Z@rizzierfuellt}{328}
+%
+\@namedef{Z@rizzinicht}{43}
+%
+\@namedef{Z@kongrp}{10^{6}}
+%
+\@namedef{Z@kongrkerne}{15}
+%
+\@namedef{Z@kongrpaare}{425\,362}
+%
+\@namedef{Z@bedpunkte}{445}
+%
+\@namedef{Z@bedteiler}{2149}
+%
+\@namedef{Z@bedausweg}{1682}
+%
+\@namedef{Z@bedanteil}{78.3}
+%
+\@namedef{Z@bedmedian}{3}
+%
+\@namedef{Z@bedmittel}{3.8}
+%
+\@namedef{Z@bedmax}{12}
+%
+\@namedef{Z@bedallemedian}{4}
+%
+\@namedef{Z@bedallemax}{16}
+%
+\@namedef{Z@besp}{3\cdot 10^{6}}
+%
+\@namedef{Z@beskerne}{25}
+%
+\@namedef{Z@besnp}{5}
+%
+\@namedef{Z@bespunkte}{378}
+%
+\@namedef{Z@besraenge}{2536}
+%
+\@namedef{Z@besbesetzt}{2025}
+%
+\@namedef{Z@beszeuge}{1988}
+%
+\@namedef{Z@beszeugeant}{98.17}
+%
+\@namedef{Z@beswief}{37}
+%
+\@namedef{Z@besleer}{511}
+%
+\@namedef{Z@beseinsnp}{1}
+%
+\@namedef{Z@beseinszeuge}{1936}
+%
+\@namedef{Z@beseinsant}{95.60}
+%
+\@namedef{Z@beseinswief}{89}
+%
+\@namedef{Z@rgpaare}{961}
+%
+\@namedef{Z@rgkerne}{79}
+%
+\@namedef{Z@rgerledigt}{954}
+%
+\@namedef{Z@rgzert}{954}
+%
+\@namedef{Z@rgvoll}{0}
+%
+\@namedef{Z@pbbausteine}{41}
+%
+\@namedef{Z@pbzahlen}{24}
+%
+\@namedef{Z@pbpock}{18}
+%
+\@namedef{Z@pbecpp}{6}
+%
+\@namedef{Z@pbpockmax}{75}
+%
+\@namedef{Z@pbecppmax}{477}
+%
+\@namedef{Z@rgoffen}{7}
+%
+\@namedef{Z@rgprpzeuge}{0}
+%
+\@namedef{Z@rgbedingt}{0}
+%
+\@namedef{Z@teilevollm}{23}
+%
+\@namedef{Z@teilevolld}{161}
+%
+\@namedef{Z@teilevolla}{111}
+%
+\@namedef{Z@teilevollb}{112}
+%
+\@namedef{Z@teilezeugem}{7}
+%
+\@namedef{Z@teilezeuged}{1449}
+%
+\@namedef{Z@teilezeugest}{477}
+%
+\@namedef{Z@rgaltkerne}{25}
+%
+\@namedef{Z@rgneukerne}{54}
+%
+\@namedef{Z@rgungerade}{21}
+%
+\@namedef{Z@wegetab}{certified witness: search by position, small primes & 605 & 103 & 708 \\
+certified witness: search by position, congruence filter & 64 & 16 & 80 \\
+certified witness: elliptic curves and $p - 1$ (SymPy) & 70 & 0 & 70 \\
+certified witness: elliptic curves (GMP-ECM) & 27 & 20 & 47 \\
+certified witness: $M_d$ itself prime, with a certificate & 8 & 8 & 16 \\
+certified witness: complete factorization, factors proved prime & 32 & 0 & 32 \\
+certified witness: a factor of the algebraic split, proved prime & 1 & 0 & 1 \\
+open & 4 & 3 & 7 \\}
+%
+\@namedef{Z@bouchardn}{9800}
+%
+\@namedef{Z@bouchardp}{13}
+%
+\@namedef{Z@bouchardfakt}{2\cdot 13^{2}\cdot 29}
+%
+\@namedef{Z@pellwief}{13,\ 31,\ 1546463}
+%
+\@namedef{Z@reinhartza}{701}
+%
+\@namedef{Z@reinhartzc}{5}
+%
+\@namedef{Z@offentab}{399 & 171 & 173 & 300 & 1071 & 2753 & 8.36 & 1.10 \\
+407 & 111 & 269 & 300 & 1071 & 2753 & 8.36 & 1.10 \\
+39 & 247 & 367 & 300 & 1071 & 2753 & 8.36 & 1.10 \\
+111 & 185 & 400 & 300 & 1071 & 2753 & 8.36 & 1.10 \\
+407 & 259 & 805 & 300 & 1071 & 2753 & 8.05 & 1.05 \\
+663 & 663 & 889 & 300 & 1071 & 38 & 1.05 & 0.11 \\
+20\,303 & 257 & 1893 & 300 & 209 & -- & 0.22 & 0.02 \\}
+%
+\@namedef{Z@wfinpop}{3}
+%
+\@namedef{Z@offenmin}{173}
+%
+\@namedef{Z@erstesucheP}{3\cdot 10^{6}}
+%
+\@namedef{Z@siebober}{10^{9}}
+%
+\@namedef{Z@prtripel}{1341}
+%
+\@namedef{Z@prvauf1}{1338}
+%
+\@namedef{Z@prvauf2}{3}
+%
+\@namedef{Z@prerwartet}{2.38}
+%
+\@namedef{Z@zweip}{10^{6}}
+%
+\@namedef{Z@zweiamax}{100\,000}
+%
+\@namedef{Z@zweiexp}{99\,999}
+%
+\@namedef{Z@zweiminus}{8957}
+%
+\@namedef{Z@zweiminusant}{8.96}
+%
+\@namedef{Z@zweiplus}{2511}
+%
+\@namedef{Z@zweiplusant}{2.51}
+%
+\@namedef{Z@zweiminusok}{91\,042}
+%
+\@namedef{Z@zweiplusok}{97\,488}
+%
+\@namedef{Z@zweistellen}{30\,103}
+%
+\@namedef{Z@wfereignisse}{54}
+%
+\@namedef{Z@wfprimzahlen}{40}
+%
+\@namedef{Z@wfkerne}{79}
+%
+\@namedef{Z@wfp}{3\cdot 10^{6}}
+%
+\@namedef{Z@wfungerade}{18}
+%
+\@namedef{Z@wfgerade}{15}
+%
+\@namedef{Z@wfzeuge}{11}
+%
+\@namedef{Z@wfoffen}{3}
+%
+\@namedef{Z@wfentschieden}{12}
+%
+\@namedef{Z@wfmgross}{1\,375\,502\,561}
+%
+\@namedef{Z@wfmgroesser}{158\,585\,313\,121}
+%
+\@namedef{Z@wfmquadrat}{20161}
+%
+\@namedef{Z@erstesuchekerne}{25}
+%
+\@namedef{Z@lucasgleich}{16}
+%
+\@namedef{Z@lucaspk}{3}
+%
+\@namedef{Z@lucasnk}{25}
+%
+\@namedef{Z@wftab}{15 & 45 & 181 & witness & yes \\
+31 & 39 & 157 & witness & no \\
+79 & 253 & 4049 & witness & no \\
+143 & 13 & 311 & witness & yes \\
+223 & 45 & 179 & witness & no \\
+319 & 5 & 20\,161 & complete factorization & yes \\
+383 & 21545 & 258\,539 & witness & no \\
+447 & 413 & 24\,781 & witness & no \\
+455 & 9 & 37 & witness & no \\
+615 & 807 & 3229 & not settled & no \\
+1343 & 5 & 19 & witness & no \\
+1535 & 63 & 251 & witness & no \\
+2135 & 13 & 53 & witness & no \\
+2135 & 37 & 149 & not settled & no \\
+123\,879 & 9 & 37 & not settled & no \\}
+%
+\@namedef{Z@wfinpopzu}{3}
+%
+\@namedef{Z@wfnullrang}{16}
+%
+\@namedef{Z@csechsbmax}{10^{6}}
+%
+\@namedef{Z@csechsfamq}{676\,094}
+%
+\@namedef{Z@csechsfamw}{275\,371}
+%
+\@namedef{Z@kdkerne}{10\,132\,121}
+%
+\@namedef{Z@kdschranke}{10^{8}}
+%
+\@namedef{Z@kdkandidaten}{86}
+%
+\@namedef{Z@kdpunkte}{883}
+%
+\@namedef{Z@kdungerade}{51}
+%
+\@namedef{Z@kdpaare}{832}
+%
+\@namedef{Z@kdkernmax}{3\,926\,299}
+%
+\@namedef{Z@kdpaarkerne}{57}
+%
+\@namedef{Z@kddrei}{583}
+%
+\@namedef{Z@kdreinhartst}{99\,134}
+%
+\@namedef{Z@kdreinhartungst}{117}
+%
+\@namedef{Z@turmtab}{100 & 14 & 37 & 21 & 67 \\
+250 & 39 & 97 & 53 & 168 \\
+500 & 83 & 199 & 111 & 344 \\
+1000 & 176 & 410 & 224 & 695 \\
+1500 & 270 & 616 & 345 & 1049 \\
+2000 & 371 & 832 & 467 & 1404 \\}
+%
+\@namedef{Z@turmc7}{0.1817}
+%
+\@namedef{Z@turmc3}{0.4134}
+%
+\@namedef{Z@turmc}{0.595}
+%
+\@namedef{Z@turmtuerme}{122}
+%
+\@namedef{Z@turmtuerme7}{60}
+%
+\@namedef{Z@turmtuerme3}{62}
+%
+\@namedef{Z@turmueber}{111.8}
+%
+\@namedef{Z@wtab}{1 & 0.0594 & 0.2914 \\
+2 & 0.1341 & 0.3666 \\
+3 & 0.1711 & 0.4027 \\
+4 & 0.1936 & 0.4212 \\
+5 & 0.2047 & 0.4366 \\
+6 & 0.2151 & 0.4513 \\
+7 & 0.2217 & 0.4566 \\}
+%
+\@namedef{Z@modellp}{31}
+%
+\@namedef{Z@modell7min}{0.94}
+%
+\@namedef{Z@modell7max}{1.01}
+%
+\@namedef{Z@modell3min}{0.91}
+%
+\@namedef{Z@modell3max}{1.04}
+%
+\@namedef{Z@beins7}{87.1}
+%
+\@namedef{Z@beins3}{86.3}
+%
+\@namedef{Z@einkernm}{525\,003}
+%
+\@namedef{Z@einkernanteil}{45}
+%
+\@namedef{Z@modellc}{0.7482}
+%
+\@namedef{Z@modellrate}{0.8835}
+%
+\@namedef{Z@naivrate}{1.1808}
+%
+\@namedef{Z@modelltab}{8 & 10 & 11.5 & 15.4 \\
+10 & 14 & 15.5 & 20.7 \\
+12 & 18 & 19.5 & 26.0 \\
+14 & 24 & 23.5 & 31.4 \\
+16 & 26 & 27.6 & 36.9 \\
+18 & 31 & 31.6 & 42.3 \\
+20 & 35 & 35.7 & 47.7 \\}
+%
+\@namedef{Z@modellnull}{39}
+%
+\@namedef{Z@modellnullkorr}{38.94}
+%
+\@namedef{Z@modellnullnaiv}{52.04}
+%
+\@namedef{Z@modellneu}{13}
+%
+\@namedef{Z@modellneukorr}{12.06}
+%
+\@namedef{Z@modellneunaiv}{16.12}
+%
+\@namedef{Z@quadbmax}{10^{4}}
+%
+\@namedef{Z@quadtab}{49.7 & 32 & 38.9 & 52.0 & 0.7049 \\
+75.0 & 54 & 61.3 & 81.9 & 0.7744 \\
+100.0 & 76 & 83.4 & 111.4 & 0.8136 \\
+150.0 & 124 & 127.5 & 170.4 & 0.8755 \\
+200.0 & 171 & 171.7 & 229.5 & 0.9011 \\
+300.0 & 265 & 260.1 & 347.6 & 0.9300 \\
+500.0 & 468 & 436.8 & 583.7 & 0.9765 \\
+1000.0 & 997 & 878.5 & 1174.1 & 1.0345 \\}
+%
+\@namedef{Z@quadkreuz}{192.9}
+%
+\@namedef{Z@quadkreuzlog}{83.8}
+%
+\@namedef{Z@quadgeboren}{103}
+%
+\@namedef{Z@quadrate1000}{1.0345}
+%
+\@namedef{Z@quadnq1000}{997}
+%
+\@namedef{Z@quadv1000}{878.5}
+%
+\@namedef{Z@quadrest1000}{894}
+%
+\@namedef{Z@teilsumq1}{0.6055}
+%
+\@namedef{Z@teilsumq2}{0.8949}
+%
+\@namedef{Z@teilsumtab}{3 & 1.1044 & 0.1783 & 1.2827 \\
+4 & 1.2235 & 0.2385 & 1.4619 \\
+5 & 1.3110 & 0.2831 & 1.5941 \\
+6 & 1.3685 & 0.3137 & 1.6822 \\}
+%
+\@namedef{Z@zuwq}{79}
+%
+\@namedef{Z@zuww}{77}
+%
+\@namedef{Z@zuwtopq}{71}
+%
+\@namedef{Z@zuwtopw}{72}
+%
+\@namedef{Z@a1nmax}{10^{12}}
+%
+\@namedef{Z@a1dmax25}{10^{5}}
+%
+\@namedef{Z@a1paare25}{18}
+%
+\@namedef{Z@a1dmax}{20\,000}
+%
+\@namedef{Z@a1kerne}{12\,159}
+%
+\@namedef{Z@a1paare}{6063}
+%
+\@namedef{Z@a1hoehe}{2000}
+%
+\@namedef{Z@a1ueber}{7}
+%
+\@namedef{Z@a1paareh}{6056}
+%
+\@namedef{Z@a1p1}{5\cdot 10^{5}}
+%
+\@namedef{Z@a1zeuge1}{4991}
+%
+\@namedef{Z@a1p2}{5\cdot 10^{6}}
+%
+\@namedef{Z@a1zeuge2}{154}
+%
+\@namedef{Z@a1rest2}{918}
+%
+\@namedef{Z@a1s2prim}{24}
+%
+\@namedef{Z@a1s2primzert}{5}
+%
+\@namedef{Z@a1s2ecm}{15}
+%
+\@namedef{Z@a1s2offen}{879}
+%
+\@namedef{Z@a1s2kleinst}{81}
+%
+\@namedef{Z@a1s2probable}{19}
+%
+\@namedef{Z@a1s2ecpp}{19}
+%
+\@namedef{Z@a1s2ecppmax}{1687}
+%
+\@namedef{Z@a1s2nk}{5}
+%
+\@namedef{Z@quadzeilen}{8}
+%
+\@namedef{Z@quadab}{300}
+%
+\@namedef{Z@quadablog}{130}
+%
+\@namedef{Z@quadslack}{6}
+%
+\@namedef{Z@wtabmax}{10^{7}}
+%
+\@namedef{Z@reinhartgerade}{3}
+%
+\@namedef{Z@reinhartgeradesicher}{1}
+%
+\@namedef{Z@reinhartsieben}{4}
+%
+\@namedef{Z@znab}{300}
+%
+\@namedef{Z@znaq}{183}
+%
+\@namedef{Z@znaqg}{182}
+%
+\@namedef{Z@znamit}{34}
+%
+\@namedef{Z@phidreilavij}{13}
+%
+\@namedef{Z@phidreibrute}{10^{6}}
+%
+\@namedef{Z@phidreistellen}{19, 35 and 52}
+%
+\@namedef{Z@phidreiperiode}{7}
+%
+\@namedef{Z@zyktab}{3 & 18 & 343 & $7^{3}$ \\
+3 & 88\,916 & 7\,906\,143\,973 & $7^{2}\cdot 13^{3}\cdot 271^{2}$ \\
+4 & 682 & 465\,125 & $5^{3}\cdot 61^{2}$ \\
+5 & 3 & 121 & $11^{2}$ \\
+6 & 19 & 343 & $7^{3}$ \\
+6 & 88\,917 & 7\,906\,143\,973 & $7^{2}\cdot 13^{3}\cdot 271^{2}$ \\}
+%
+\@namedef{Z@zykn}{3\,004\,199}
+%
+\@namedef{Z@zyktreffer}{6}
+%
+\@namedef{Z@zykschranke}{10^{12}}
+%
+\@namedef{Z@zykklasse}{10^{14}}
+%
+\@namedef{Z@lstab}{$10^{12}$ & 2\,158\,391 & 832\,161 & 0.31 & 900 & 69 & 1656 & 183 of 215 \\
+$10^{13}$ & 6\,840\,384 & 2\,593\,517 & 0.18 & 44\,100 & 57 & 63\,900 & 189 of 211 \\
+$10^{14}$ & 21\,663\,503 & 8\,235\,300 & 0.10 & 44\,100 & 48 & 63\,900 & 191 of 201 \\}
+%
+\@namedef{Z@lsnpw}{21\,663\,503}
+%
+\@namedef{Z@lswerte}{8\,235\,300}
+%
+\@namedef{Z@lsanteil}{0.10}
+%
+\@namedef{Z@lsbis}{48}
+%
+\@namedef{Z@lsocc}{112}
+%
+\@namedef{Z@lserster}{63\,900}
+%
+\@namedef{Z@lsg100}{103}
+%
+\@namedef{Z@lsg100pw}{102}
+%
+\@namedef{Z@lsg200}{201}
+%
+\@namedef{Z@lsg200pw}{191}
+%
+\@namedef{Z@lserwartet}{0.05}
+%
+\@namedef{Z@lsdecke}{63\,900 & 900 & 9 & 112 & 50.9 \\
+82\,908 & 1764 & 36--41 & 98 & 49.0 \\
+17\,100 & 900 & 9 & 97 & 43.3 \\
+23\,324 & 1372 & 170--175 & 96 & 20.8 \\
+151\,900 & 4900 & 10--11 & 90 & 45.6 \\
+171\,900 & 900 & 9 & 90 & 52.2 \\
+7100 & 100 & 357--381 & 89 & 61.8 \\
+26\,100 & 900 & 9 & 89 & 37.1 \\
+127\,800 & 1800 & 29--31 & 89 & 53.9 \\
+215\,100 & 900 & 9 & 89 & 51.7 \\}
+%
+\@namedef{Z@lsdeckeanz}{10}
+%
+\@namedef{Z@lsg20}{21}
+%
+\@namedef{Z@lsanteilpw}{24.2--44.9}
+%
+\@namedef{Z@lsanteilnpw}{20.8--61.8}
+%
+\@namedef{Z@nvlmax}{50}
+%
+\@namedef{Z@nvrel}{1.2}
+%
+\@namedef{Z@nvsteig}{0.63}
+%
+\@namedef{Z@lstop1}{44\,100}
+%
+\@namedef{Z@zmn}{62\,118}
+%
+\@namedef{Z@zmmin}{20}
+%
+\@namedef{Z@lsbasiswerte}{62\,118}
+%
+\@namedef{Z@lsbasismind}{20}
+%
+\@namedef{Z@lsbasisanteil}{4.81}
+%
+\@namedef{Z@lsbasiserw}{2.4}
+%
+\@namedef{Z@fpn}{3531}
+%
+\@namedef{Z@fpmax}{3\cdot 10^{-16}}
+%
+\@namedef{Z@zmr2}{0.545}
+%
+\@namedef{Z@zmr2sd}{0.025}
+%
+\@namedef{Z@zmroh}{0.306}
+%
+\@namedef{Z@zmrohsd}{0.005}
+%
+\@namedef{Z@zmr2log}{0.514}
+%
+\@namedef{Z@zmr2logsd}{0.016}
+%
+\@namedef{Z@zmallesep}{0.319}
+%
+\@namedef{Z@zmallesepsd}{0.012}
+%
+\@namedef{Z@zmalleroh}{0.307}
+%
+\@namedef{Z@zmallerohsd}{0.004}
+%
+\@namedef{Z@zmdeutstufen}{3061}
+%
+\@namedef{Z@zmdeutkmin}{4}
+%
+\@namedef{Z@zmkern}{0.012}
+%
+\@namedef{Z@zmkof}{0.272}
+%
+\@namedef{Z@zmww}{0.001}
+%
+\@namedef{Z@zmkerne}{2986}
+%
+\@namedef{Z@zmkof_n}{9752}
+%
+\@namedef{Z@zmdecke}{0.864}
+%
+\@namedef{Z@zmdeutung}{0.425}
+%
+\@namedef{Z@zmdeutdecke}{0.898}
+%
+\@namedef{Z@pmstich}{401\,176}
+%
+\@namedef{Z@pmschritt}{54}
+%
+\@namedef{Z@pmanteil}{47.69}
+%
+\@namedef{Z@pmgcd}{4,\ 9,\ 8,\ 16,\ 25,\ 36,\ 27,\ 32}
+%
+\@namedef{Z@ukerne}{25}
+%
+\@namedef{Z@up}{2\cdot 10^{6}}
+%
+\@namedef{Z@upaare}{294\,920}
+%
+\@namedef{Z@u11}{0}
+%
+\@namedef{Z@u10}{38}
+%
+\@namedef{Z@u01}{8}
+%
+\@namedef{Z@uerw}{0.001}
+%
+\@namedef{Z@usim}{400}
+%
+\@namedef{Z@utrenn}{98}
+%
+\@namedef{Z@utrennnull}{1}
+%
+\@namedef{Z@ukopie}{3.8}
+%
+\@namedef{Z@wf3kerne}{25}
+%
+\@namedef{Z@wf3p}{3\cdot 10^{6}}
+%
+\@namedef{Z@wfn}{5\,420\,294}
+%
+\@namedef{Z@wftreffer}{56}
+%
+\@namedef{Z@wferw}{50.71}
+%
+\@namedef{Z@wft4b}{593}
+%
+\@namedef{Z@wft4e}{583.9}
+%
+\@namedef{Z@wfzmax}{1.37}
+%
+\@namedef{Z@wfklpmin}{0.014}
+%
+\@namedef{Z@wfklbon}{0.08}
+%
+\@namedef{Z@wfklanz}{6}
+%
+\@namedef{Z@wglags}{20}
+%
+\@namedef{Z@wgtests}{500}
+%
+\@namedef{Z@wgueber}{7}
+%
+\@namedef{Z@wgerw}{5}
+%
+\@namedef{Z@wgzmax}{3.30}
+%
+\@namedef{Z@wgpbon}{0.48}
+%
+\@namedef{Z@wgpk}{21.4}
+%
+\@namedef{Z@wkpaare}{300}
+%
+\@namedef{Z@wkzmax}{3.61}
+%
+\@namedef{Z@wkpbon}{0.09}
+%
+\@namedef{Z@wkpk}{10.0}
+%
+\@namedef{Z@achtq}{2384}
+%
+\@namedef{Z@achtgrenze}{10^{5}}
+%
+\@namedef{Z@zpn}{163}
+%
+\@namedef{Z@zpprim}{18}
+%
+\@namedef{Z@zpdmax}{59}
+%
+\@namedef{Z@zpab16}{5}
+%
+\@namedef{Z@offenschwach}{0}
+%
+\@namedef{Z@offenneum}{399, 663 and 20\,303}
+%
+\@namedef{Z@zquadkerne}{26}
+%
+\@namedef{Z@zquadbl}{361}
+%
+\@namedef{Z@zquadprim}{171}
+%
+\@namedef{Z@zquadgrenze}{5000}
+%
+\@namedef{Z@reinhartsiebensicher}{3}
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+\makeatother

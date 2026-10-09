@@ -1,0 +1,145 @@
+%
+%
+\section*{Framework introduction}\addcontentsline{toc}{section}{Framework introduction}
+
+A positive integer is \emph{powerful} if every prime that divides it divides it at least twice. Two consecutive integers can both be
+powerful, as $8, 9$ shows, and there are infinitely many such pairs. No three consecutive powerful numbers are known. We expect that there
+are none; the introduction of Part~I gives the reasons, and none of them is a proof. This volume collects three parts on these two
+situations.
+
+\emph{Part~I} concerns triples $n - 1, n, n + 1$. It translates the middle $n$ into an address $(m, k)$ on a Pell equation, bounds $n$ from
+below in terms of the kernel $m$, and profiles a counterexample: where it would have to live, and which kernels are the weak point of the
+bound. \emph{Part~II} concerns pairs $n, n + 1$. It enumerates the pairs by families, gives an explicit lower bound for their count, compares
+the count with a heuristic yardstick, and localizes the count of pairs at distance two in the kernels that Part~I singles out, together
+with their counterparts of the other residue class.
+\emph{Part~III} collects further observations: the gaps between consecutive powerful numbers, powerful values of cyclotomic polynomials,
+and two tests of the independence assumptions behind the heuristic of Part~I, each with the power of the test.
+
+\emph{How to read the volume.} The parts follow one arc. Part~I states the question and its address system, shows what can be excluded
+and why the rest depends on witnesses, and names the step at which the methods stop; a certified witness is found for \Z{rgzert} of the
+\Z{rgpaare} building blocks of its finite record. Part~II turns the two halves of a triple into pairs and asks how many there are: towers,
+families, an explicit lower bound, and why local models mislead. Part~III collects what we saw around the problem: the gap spectrum,
+cyclotomic values, measured independence, and negative results with their reach. The open problems at the end of this introduction are
+what remains.
+
+The parts share one source and one numbering: a statement numbered I.4.5 carries that number here and in Part~I. Every numbered
+statement carries a label that says what kind of evidence stands behind it (proved, literature, computed, measured, heuristic, open); the
+table at the end of each part lists them. A statement that combines several kinds carries the label of the part that needs the most trust: a proof that uses our own computation is labeled computed, and a proof that uses a published result is labeled proved. Every number that we computed is generated from the deposited data files or from a cited
+constant; the build refuses a
+number that has no source.
+
+The author is an independent researcher who likes numbers and science, not a number theorist or mathematician by training. The series
+therefore keeps every claim as narrow as its proof or computation allows and says plainly where, to our knowledge, a question remains
+open. It grew out of about two months of research. Specialists are welcome to extend, correct, or cite this work; the author intends it to
+help this field progress and hopes that a number theorist will take the next steps.
+The question whether three consecutive powerful numbers exist can be settled in only two ways: a triple is found, or a general statement is found that holds at all of the infinitely many addresses at once. Such a statement would have to agree with all results in this field, the formulas and laws of this volume and of the literature, and those still to be found. It need not be a single law: it could also be one exclusion that covers all addresses, or many exclusions that together cover them, in the way that the exclusions for cube middles \cite{Chan2025,She2025,Sayim2026EMW} each cover a part. We do not know yet whether such a statement exists.
+
+\section*{Results at a glance}\addcontentsline{toc}{section}{Results at a glance}
+
+The table lists every statement of our own in each part, grouped by the type of evidence behind it, with the main statements in bold.
+Statements taken from the literature are not listed here; the complete list of the statements of a part, with the type of each, stands at the
+end of that part. The open questions are listed completely in the section on the open problems below.
+
+\input{../gemeinsam/blick}
+
+\inwords A proved statement stands on a proof in the text, which may use cited results. A computed statement stands on a computation whose data are in the deposit; where it depends on a published search, the statement says so.
+A measured statement describes a finite range and claims nothing beyond it, and a heuristic is a yardstick, not a claim.
+
+\section*{Where this work meets known open problems}\addcontentsline{toc}{section}{Where this work meets known open problems}
+
+The questions of this volume touch several known open problems. The table names each one, says what this volume reaches toward it,
+and says what stays open. None of these problems is solved here.
+
+\begingroup\small\renewcommand{\arraystretch}{1.25}
+\begin{longtable}{>{\raggedright\arraybackslash}p{3.4cm} >{\raggedright\arraybackslash}p{6.9cm} >{\raggedright\arraybackslash}p{3.0cm}}
+\hline
+problem & what this volume reaches & what stays open \\
+\hline
+\endhead
+Three consecutive powerful numbers (Erd\H{o}s; in a form about Pell numbers, Mollin and Walsh \cite[p.~111]{MollinWalsh1986a}) &
+no triple has a middle below $\Z{ohnetripelsicher}$ (Proposition~\ref{I:prop:paarliste}(d); Table~\ref{tab:schranken} compares it with the
+bounds in the literature, among them a machine-checked proof below $10^{14}$ \cite{MianSiddique2026}); every lattice point with kernel up to
+$\Z{kernschranke}$ and middle below $10^{\Z{hoehe}}$ is excluded (Theorem~\ref{I:thm:reduktion}); the profile of a counterexample
+(Theorem~\ref{I:thm:profil}) &
+the question itself; Problems~\problemvon{I:q:walsh} to~\problemvon{I:q:reinhart} \\
+Wieferich primes of Pell units (for primes that have a rank, the Lucas--Wieferich primes of McIntosh and Roettger \cite{McIntoshRoettger2007}) &
+if the unit of a kernel has only finitely many Wieferich primes of odd rank, then all but finitely many of its building blocks are not
+powerful (Proposition~\ref{I:prop:lucaswieferich}); below $\Z{wfp}$ the \Z{wfkerne} units of Proposition~\ref{I:prop:raenge} carry
+\Z{wfereignisse} Wieferich events, \Z{wfungerade} of them of odd rank $d \ge 5$ (Remark~\ref{I:rem:wfdaten}) &
+whether there are only finitely many; Problem~\problemvon{I:q:primindex} \\
+Kernels $m$ with $m \mid U_1(m)$ (Walsh's question \cite[p.~97]{Walsh1988}) &
+they are the weak point of the height bound (Corollary~\ref{I:cor:fluegel}); Reinhart's list of them is complete up to $1.5 \cdot 10^{12}$
+\cite[Remark~5.5]{Reinhart2023}, and for the two known kernels $m \equiv 7 \pmod 8$ with $T_1$ even a ladder shows how large a middle would have to be
+(Proposition~\ref{I:prop:reinhart}); the count of pairs at distance two is localized in them (Proposition~\ref{II:prop:lokalisierung}) &
+finiteness, Problem~\problemvon{I:q:walsh}; a bound for $E_3$, Problem~\problemvon{II:q:ezwei} \\
+The $abc$ conjecture &
+an $abc$ inequality with exponent below $4/3$ would exclude all large triples; the exponents derived from the explicit form of the
+conjecture are larger, and that form gives only a conditional bound on the middle (Remark~\ref{I:rem:abc}) &
+an unconditional route \\
+Primitive parts of Lucas sequences (after the primitive divisor theorems of Carmichael \cite{Carmichael1913} and of Bilu, Hanrot and Voutier \cite{BiluHanrotVoutier2001}) &
+every divisor $d \ge 5$ of an odd index gives a prime of rank $d$, and every such prime satisfies $p \equiv \pm 1 \pmod{4d}$
+(Corollary~\ref{I:cor:teiler}); on \Z{zquadkerne} of the \Z{rgkerne} kernels every building block has at least two distinct prime factors
+(Remark~\ref{I:rem:zweiprimitive}) &
+whether a building block can be powerful; Problem~\problemvon{I:q:primindex} \\
+How many pairs there are (upper bounds at distance two by Chan \cite{Chan2012}, Blomer and Sch{\"o}bel \cite{BlomerSchoebel2013}, and
+Tao \cite{Tao2026}) &
+an explicit lower bound $\liminf N_1(x)/\log x \ge \Z{csechs}$ at distance one (Proposition~\ref{II:prop:csechs}); at distance two
+a bound $N^{\theta}$ for the number of kernels with $m \mid U_1(m)$ and $T_1(m)$ even gives the bound $N^{\max(2/9, \theta)}$ for all
+pairs, since the two counts differ by $O(N^{2/9})$ (Proposition~\ref{II:prop:lokalisierung}), and under a squarefreeness assumption the case in which Tao's argument is weakest lies
+among those kernels (Remark~\ref{II:rem:tao}) &
+the true growth; Problems~\problemvon{II:q:konvergenz}, \problemvon{II:q:wachstum} and~\problemvon{II:q:ezwei} \\
+Powerful values of polynomials (De Koninck, Doyon and Luca \cite{DeKoninckDoyonLuca2011}) &
+two explicit infinite chains, each giving powerful values of both $x^2 + x + 1$ and $x^2 - x + 1$ (Proposition~\ref{III:prop:phidrei});
+one of them contains the prime $x$ reported by Lavi \cite{Lavi2026}; $x^4 + 1 = q^3 a^2$ has no solution for primes $q < 2 \cdot 10^{11}$
+(Proposition~\ref{III:prop:phiacht}, by a theorem of Cohn \cite{Cohn1997b} and the published verification of the Ankeny--Artin--Chowla
+conjecture \cite{vanderPoortenteRieleWilliams2001,vanderPoortenteRieleWilliams2003}) &
+whether $x^4 + 1$ is ever powerful; Problem~\problemvon{III:q:phiacht} \\
+Katz's conjecture on Wieferich fractions \cite{Katz2015} &
+on \Z{wf3kerne} units and the primes below $\Z{wf3p}$ the Wieferich fractions show no deviation from equidistribution in our measurement, which states its power
+(Remark~\ref{III:rem:wieferichbrueche}) &
+the conjecture itself \\
+\hline
+\end{longtable}
+\endgroup
+
+\section*{The open problems}\addcontentsline{toc}{section}{The open problems}
+
+The parts end with questions. We collect them here with letters, in the order of the parts, in the wording of the parts. The discussion of
+each question, that is, what is known and what an answer would give, stands behind the question in its part. The same list, generated from
+the same source, is the file \texttt{OPEN\_PROBLEMS.md} of the data deposit. Erd\H{o}s's own questions, whether a triple exists and whether
+$N_1(x)$ is bounded by a power of $\log x$, are not repeated; they are the questions the parts start from.
+
+\input{../gemeinsam/probleme}
+
+\medskip
+\noindent\textbf{One gap, seen from two sides.} Problems~\problemvon{I:q:walsh} and~\problemvon{II:q:ezwei} concern two nested sets of kernels. Part~I bounds the middle of a
+triple from below in two wings (Corollary~\ref{I:cor:fluegel}); wing~(ii) consists of the kernels $m$ with $m \mid U_1(m)$, and it is the
+weaker wing. Part~II localizes the count $P_2(N)$ of pairs at distance two in the kernels with $m \mid U_1(m)$ and $T_1(m)$ even, of both
+residue classes, of which those with $m \equiv 7 \pmod 8$ form wing~(ii): Proposition~\ref{II:prop:lokalisierung}
+says that the count differs from $E_3(N)$ by at most $51 N^{2/9}$, where $E_3(N)$ counts the odd squarefree $m$ with $m \mid U_1(m)$ and $T_1(m)$ even whose first middle is at most $N$. Problem~\problemvon{I:q:walsh} asks whether these
+kernels, restricted to $m \equiv 7 \pmod 8$, are finite in number; Problem~\problemvon{II:q:ezwei} asks how fast $E_3(N)$ grows. What is known
+is small: Reinhart's list of these kernels is complete up to $1.5 \cdot 10^{12}$ \cite[Remark~5.5]{Reinhart2023} and, if his extended
+search missed nothing, up to $5.325 \cdot 10^{13}$ \cite{Reinhart2024} (Remark~\ref{I:rem:reinhartliste}); the number of its odd
+kernels with $T_1(m)$ even is \Z{reinhartgeradesicher} below the first bound and \Z{reinhartgerade} below the second (Section~\ref{II:sec:fragen} of Part~II). A bound $E_3(N) \ll N^\theta$ with $\theta < 61/180$ would improve the best exponent
+we know for pairs at distance two; a proof that the kernels of wing~(ii) are finite in number would confine that wing to finitely many
+kernels, each of which still carries infinitely many admissible indices $k$, and for the known ones Problem~\problemvon{I:q:reinhart} is open.
+
+\medskip
+\noindent\textbf{One step behind several problems.} Problems~\problemvon{I:q:primindex} and~\problemvon{I:q:zweierpotenz}, and the witness
+statement of Part~I (Theorem~\ref{I:thm:zeugen}), stop at the same step, and so does every route we tried. Whether a prime divides a term
+$T_k(m)$ is decided modulo $p$ by the rank of the prime, and this controls all indices at once (Lemma~\ref{I:lem:rang},
+Corollary~\ref{I:cor:teiler}). Whether a prime of rank $d$ divides $T_d(m)$ twice is a condition modulo $p^2$ of Wieferich type, and the
+structure modulo $p$ does not decide it. Corollary~\ref{I:cor:teiler} turns a counterexample into one such condition at every divisor
+$d \ge 5$ of the index, and Remark~\ref{I:rem:aussen} shows that in the outer numbers of a triple no prime can carry exponent one at all.
+This describes the reach of the methods used here and of the tools we know; it says nothing about whether a triple exists. As a
+reference point from outside our methods, Granville \cite{Granville1986} showed that if there are no three consecutive powerful numbers,
+then infinitely many primes $p$ satisfy $p^2 \nmid 2^p - 2$ (Theorem~\ref{I:cor:wieferich}). To our knowledge this last statement is
+known only under further assumptions such as the $abc$ conjecture, so a proof of nonexistence would have to include it. We take this as
+a sign that the step is hard, not as evidence for either answer.
+Problems~\problemvon{I:q:walsh} and~\problemvon{II:q:ezwei} concern the different gap described in the preceding paragraph.
+
+\inwords The questions are printed in one place so that a reader can see them together and check them off. Two of them, Problems~\problemvon{I:q:walsh}
+and~\problemvon{II:q:ezwei}, are two questions about nested sets of kernels: how many kernels $m$ divide their own $U_1(m)$ and have an even first term.
+Part~I needs to know them, so that its lower bound for a triple has no weak wing; Part~II needs them to be few, so that its count of pairs at
+distance two is small. Below $1.5 \cdot 10^{12}$ the number of such kernels is exactly \Z{reinhartgeradesicher}, and whether there are finitely
+many is open; Walsh asked it for all kernels dividing $U_1$.

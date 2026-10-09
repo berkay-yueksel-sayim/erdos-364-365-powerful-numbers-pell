@@ -1,0 +1,39 @@
+%
+\documentclass[11pt]{article}
+\newcommand{\teilnr}{I}
+\usepackage{xr}
+\externaldocument{../teil2/main_teil2}
+\externaldocument{../teil3/main_teil3}
+\input{../gemeinsam/praeambel}
+\input{../gemeinsam/probleme_def}
+\title{Triples of Consecutive Powerful Numbers: Pell Addresses, a Height Inequality, and Witnesses}
+\author{Berkay Y\"uksel Sayim\\
+Independent Researcher, Germany\\
+\texttt{berksa@tutamail.com} $\cdot$ ORCID 0009-0004-4993-7352}
+\date{October 4, 2026}
+\hypersetup{pdfauthor={Berkay Y\"uksel Sayim}, pdftitle={Triples of Consecutive Powerful Numbers: Pell Addresses, a Height Inequality, and Witnesses}}
+\begin{document}
+\maketitle
+\begin{abstract}
+We study the question of Erd\H{o}s whether three consecutive integers can all be powerful. The middle $n$ of such a triple is a Pell
+number $T_k(m)$ at a lattice point $(m, k)$ with a squarefree kernel $m \equiv 7 \pmod 8$. We prove a height inequality,
+$\log_{10} T_k(m) \ge m'(1.5 \log_{10} m - \log_{10} m') - \log_{10} 2$, which splits the kernels into two wings by whether $m$ divides
+$U_1(m)$, and we recast the reduction of Mollin and Walsh as a statement about witnesses, primes that divide a Pell number exactly once,
+organized by rank. We compute: all \Z{punkte} lattice points with kernel up to $\Z{kernschranke}$ and $T_k < 10^{\Z{hoehe}}$ are excluded by
+parity or by a certified witness, and with the height inequality and Reinhart's list of the kernels dividing $U_1$ up to $1.5 \cdot 10^{12}$
+this shows that no triple has a middle below $\Z{ohnetripelsicher}$; further regions are excluded whatever the size of the middle; and of
+the \Z{rgpaare} building blocks $\Prim{d}$ of these lattice points, \Z{rgzert} are shown not to be powerful by a certified witness, a prime proved prime that divides the block exactly once, and \Z{rgoffen}
+remain open. A profile theorem collects the conditions on a
+counterexample that we prove or compute, and the weak point of the bound, the kernels dividing $U_1$, is stated as an open problem. Every computed
+number is generated from the deposited data or from a cited constant, and every numbered statement is labeled as proved, taken from the
+literature, computed, measured, heuristic, or open.
+\end{abstract}
+\input{../gemeinsam/serie}
+\tableofcontents
+\clearpage
+\input{inhalt}
+\input{../gemeinsam/verfuegbarkeit}
+\input{../gemeinsam/ki_hinweis}
+\bibliographystyle{amsplain}
+\bibliography{../gemeinsam/literatur}
+\end{document}

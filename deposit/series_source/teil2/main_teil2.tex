@@ -1,0 +1,37 @@
+%
+\documentclass[11pt]{article}
+\newcommand{\teilnr}{II}
+\usepackage{xr}
+\externaldocument{../teil1/main_teil1}
+\externaldocument{../teil3/main_teil3}
+\input{../gemeinsam/praeambel}
+\input{../gemeinsam/probleme_def}
+\title{Pairs of Consecutive and Near-Consecutive Powerful Numbers: Pell Families, Towers, and Localization}
+\author{Berkay Y\"uksel Sayim\\
+Independent Researcher, Germany\\
+\texttt{berksa@tutamail.com} $\cdot$ ORCID 0009-0004-4993-7352}
+\date{October 4, 2026}
+\hypersetup{pdfauthor={Berkay Y\"uksel Sayim}, pdftitle={Pairs of Consecutive and Near-Consecutive Powerful Numbers: Pell Families, Towers, and Localization}}
+\begin{document}
+\maketitle
+\begin{abstract}
+We study the pairs $n, n + 1$ of powerful numbers, the pairs $n - 1, n + 1$ at distance two, and how their numbers grow. For distance one we
+establish $\liminf N_1(x)/\log x \ge \Z{csechs}$, with a constant computed from Walker's families, list all pairs up to $2^{\Z{paare52exp}}$ from our
+own enumeration, and show that the families containing a square alone outgrow a local probabilistic model, which nevertheless matches the
+counts in the computed range. For distance two we count the pairs in a box of kernels and heights as a sum over towers, derive an explicit lower
+bound at every height, and prove that the number of pairs at distance two up to $x$ differs by $O(x^{2/9})$ from the number of kernels $m$
+with $m \mid U_1(m)$, $T_1(m)$ even and $T_1(m) \le x$, so that a bound $x^{\theta}$ for these kernels gives the bound $x^{\max(2/9, \theta)}$ for
+the pairs; under a squarefreeness assumption, the case in which Tao's
+argument for the bound $x^{2/5+o(1)}$ is weakest lies among these kernels. Every computed number is generated from the deposited data or
+from a cited constant, and every numbered statement is labeled as
+proved, taken from the literature, computed, measured, heuristic, or open.
+\end{abstract}
+\input{../gemeinsam/serie}
+\tableofcontents
+\clearpage
+\input{inhalt}
+\input{../gemeinsam/verfuegbarkeit}
+\input{../gemeinsam/ki_hinweis}
+\bibliographystyle{amsplain}
+\bibliography{../gemeinsam/literatur}
+\end{document}

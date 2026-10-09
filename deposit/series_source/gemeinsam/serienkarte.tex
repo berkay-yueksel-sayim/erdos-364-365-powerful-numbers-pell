@@ -1,0 +1,67 @@
+%
+%
+%
+%
+%
+\definecolor{skI}{HTML}{0072B2}\definecolor{skII}{HTML}{D55E00}\definecolor{skIII}{HTML}{009E73}\definecolor{skgrau}{HTML}{5F6368}
+\tikzset{sk/duenn/.style={line width=0.5pt}, sk/dick/.style={line width=1.8pt}}
+\ifnum\pdfstrcmp{\teilnr}{I}=0 \tikzset{sk/I/.style={sk/dick}}\else\tikzset{sk/I/.style={sk/duenn}}\fi
+\ifnum\pdfstrcmp{\teilnr}{II}=0 \tikzset{sk/II/.style={sk/dick}}\else\tikzset{sk/II/.style={sk/duenn}}\fi
+\ifnum\pdfstrcmp{\teilnr}{III}=0 \tikzset{sk/III/.style={sk/dick}}\else\tikzset{sk/III/.style={sk/duenn}}\fi
+\ifnum\pdfstrcmp{\teilnr}{0}=0 \tikzset{sk/band/.style={sk/dick}}\else\tikzset{sk/band/.style={sk/duenn}}\fi
+\providecommand{\skp}[1]{\par\hangindent=0.75em\hangafter=1\noindent\makebox[0.75em][l]{\textbullet}#1}
+%
+\providecommand{\skspalte}[1]{\parbox[t][4.8cm][t]{4.5cm}{\raggedright\hyphenpenalty=10000\exhyphenpenalty=10000 #1}}
+\providecommand{\skdies}[1]{\ifnum\pdfstrcmp{\teilnr}{#1}=0 \\[1pt]\textbf{this document}\fi}
+%
+%
+\par\medskip\noindent\begin{minipage}{\textwidth}
+\centering
+\begin{tikzpicture}[font=\footnotesize,
+  spalte/.style={rectangle, rounded corners=2pt, inner sep=5pt, anchor=north west},
+  einzel/.style={rectangle, rounded corners=2pt, align=center, text width=4.0cm, inner sep=4pt, minimum height=0.95cm, anchor=north,
+    execute at begin node={\hyphenpenalty=10000\exhyphenpenalty=10000}},
+  pfeil/.style={-{Stealth[length=2mm]}, draw=skgrau, line width=0.5pt},
+  quer/.style={{Stealth[length=1.6mm]}-{Stealth[length=1.6mm]}, draw=skgrau, line width=0.5pt, dashed}]
+\node[spalte, draw=skI, fill=skI!5] (sI) at (0, 0) {\skspalte{\textbf{\color{skI}Part I: triples}\par\smallskip
+  {\color{skgrau}Can $n - 1$, $n$, $n + 1$ all be powerful? (Erd\H{o}s)}\par\smallskip
+  \skp{the middle is a Pell number $T_k(m)$ at a point $(m, k)$}
+  \skp{a height inequality, two wings of kernels}
+  \skp{witnesses: primes dividing $T_k$ exactly once}
+  \skp{no triple with a middle below $\Z{ohnetripelsicher}$}
+  \skp{\Z{rgpaare} building blocks, \Z{rgoffen} open}\par}};
+\node[spalte, draw=skII, fill=skII!5] (sII) at (5.05, 0) {\skspalte{\textbf{\color{skII}Part II: pairs}\par\smallskip
+  {\color{skgrau}How often are $n$ and $n + 1$ both powerful? (Erd\H{o}s)}\par\smallskip
+  \skp{Walker's families; all pairs up to $2^{\Z{paare52exp}}$}
+  \skp{$\liminf N_1(x)/\log x \ge \Z{csechs}$}
+  \skp{distance two: a sum over towers, a lower bound at every height}
+  \skp{upper bounds reduce to the kernels with $m \mid U_1(m)$}\par}};
+\node[spalte, draw=skIII, fill=skIII!5] (sIII) at (10.1, 0) {\skspalte{\textbf{\color{skIII}Part III: observations}\par\smallskip
+  {\color{skgrau}What else did the study of triples and pairs show?}\par\smallskip
+  \skp{the gaps between consecutive powerful numbers}
+  \skp{powerful values of cyclotomic polynomials}
+  \skp{tests of the independence assumptions, with their power}\par}};
+\path let \p1 = (sI.south), \p2 = (sII.south), \p3 = (sIII.south) in
+  node[rectangle, rounded corners=2pt, draw=skgrau, fill=skgrau!6, align=center, text width=14.67cm, inner sep=4pt, anchor=north west]
+  (rahmen) at (0pt, {min(\y1, \y2, \y3) - 6pt}) {\mbox{framework introduction} \enspace$\cdot$\enspace \mbox{results at a glance} \enspace$\cdot$\enspace
+  \mbox{known open problems} \enspace$\cdot$\enspace \mbox{Problems A to \problemeletzter} \enspace$\cdot$\enspace \mbox{data and code availability}};
+\node[anchor=south west, font=\footnotesize\bfseries, inner sep=1pt] (bandkopf) at (0, 0.12) {The collected volume};
+\begin{scope}[on background layer]
+\node[rectangle, rounded corners=4pt, draw=black, sk/band, fit=(sI)(sII)(sIII)(rahmen)(bandkopf), inner sep=6pt] (band) {};
+\end{scope}
+\node[einzel, draw=skI, fill=skI!5, sk/I] (eI) at ($(sI.north |- band.south) + (0, -0.75)$) {\textbf{\color{skI}Part I} as a paper of its own\skdies{I}};
+\node[einzel, draw=skII, fill=skII!5, sk/II] (eII) at ($(sII.north |- band.south) + (0, -0.75)$) {\textbf{\color{skII}Part II} as a paper of its own\skdies{II}};
+\node[einzel, draw=skIII, fill=skIII!5, sk/III] (eIII) at ($(sIII.north |- band.south) + (0, -0.75)$) {\textbf{\color{skIII}Part III} as a paper of its own\skdies{III}};
+\foreach \x in {I, II, III} \draw[pfeil] (s\x.south |- band.south) -- (e\x.north);
+\draw[quer] (eI.east) -- (eII.west);
+\draw[quer] (eII.east) -- (eIII.west);
+\path let \p1 = (eI.south), \p2 = (eII.south), \p3 = (eIII.south) in
+  node[font=\scriptsize, text=skgrau, anchor=north, text width=13.5cm, align=center] at ($(eII.south |- 0pt, {min(\y1, \y2, \y3)}) + (0, -0.08)$)
+  {each part also stands as a paper of its own, with the same text and numbering; dashed: the parts refer to each other};
+\ifnum\pdfstrcmp{\teilnr}{0}=0 \node[font=\scriptsize\bfseries, anchor=south east, inner sep=1pt] at (band.north east) {this document};\fi
+\end{tikzpicture}
+\captionfigur{\textbf{What this research did.} It followed two questions of Erd\H{o}s on consecutive powerful numbers, on triples and on pairs,
+through Pell equations, proved or computed what it could reach, and recorded the rest as observations and open problems. The collected volume
+contains the three parts and the framework that ties them together; each part also stands as a paper of its own, with the same text and numbering,
+and the parts refer to each other. The heavier frame marks the document in hand.}
+\end{minipage}\par\medskip

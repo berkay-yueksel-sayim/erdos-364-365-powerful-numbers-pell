@@ -1,0 +1,58 @@
+%
+%
+\documentclass[11pt]{article}
+\newcommand{\teilnr}{0}
+\input{../gemeinsam/praeambel}
+\imbandtrue
+\input{../gemeinsam/probleme_def}
+\title{Consecutive Powerful Numbers and Pell Equations: Triples, Pairs, and Further Observations}
+\author{Berkay Y\"uksel Sayim\\
+Independent Researcher, Germany\\
+\texttt{berksa@tutamail.com} $\cdot$ ORCID 0009-0004-4993-7352}
+\date{October 4, 2026}
+\hypersetup{pdfauthor={Berkay Y\"uksel Sayim}, pdftitle={Consecutive Powerful Numbers and Pell Equations: Triples, Pairs, and Further Observations}}
+\begin{document}
+\maketitle
+\begin{abstract}
+%
+A positive integer is \emph{powerful} if every prime that divides it divides it at least twice. Pairs of consecutive powerful numbers exist
+in abundance, but no three consecutive powerful numbers are known, and Erd\H{o}s asked whether they exist. This volume collects three parts.
+Part~I turns a hypothetical triple into an address on a Pell equation, proves a lower bound for its middle in terms of its kernel, and
+reduces the existence of a triple to primes that divide a Pell number exactly once. Using Reinhart's complete list of the kernels $m$ up to
+$1.5 \cdot 10^{12}$ that divide $U_1(m)$, where $T_1 + U_1\sqrt{m}$ is the smallest solution of $x^2 - m y^2 = 1$ with $y > 0$, it shows by
+computation that no triple has a middle below $\Z{ohnetripelsicher}$. Independently of this bound, it asks whether the \Z{rgpaare} building
+blocks attached to the lattice points it examines can be powerful: \Z{rgzert} are shown not to be, by witnesses proved prime,
+and \Z{rgoffen} remain open. Part~II establishes the
+explicit lower bound $\liminf N_1(x)/\log x \ge \Z{csechs}$ for the number $N_1(x)$ of pairs $n, n + 1$ with $n + 1 \le x$, a logarithmic
+lower bound at distance two, and shows that the number of pairs at distance two up to $x$ differs by $O(x^{2/9})$ from the number of
+kernels $m$ with $m \mid U_1(m)$, $T_1(m)$ even and $T_1(m) \le x$. Part~III collects
+the gap spectrum of powerful numbers, powerful values of cyclotomic polynomials, and tests of the independence assumptions behind the
+heuristic, each with the power of the test. Every computed number is generated from deposited data or from a cited constant, every numbered statement is labeled by
+the kind of evidence behind it, and the open questions are collected as Problems~A to~\problemeletzter.
+\end{abstract}
+\input{../gemeinsam/serie}
+\tableofcontents
+\clearpage
+\input{rahmen}
+
+\renewcommand{\teilnr}{I}\setcounter{section}{0}
+\clearpage
+\part*{Part I: triples}\addcontentsline{toc}{part}{Part I: triples}
+\input{../teil1/inhalt}
+
+\renewcommand{\teilnr}{II}\setcounter{section}{0}
+\clearpage
+\part*{Part II: pairs}\addcontentsline{toc}{part}{Part II: pairs}
+\input{../teil2/inhalt}
+
+\renewcommand{\teilnr}{III}\setcounter{section}{0}
+\clearpage
+\part*{Part III: further observations}\addcontentsline{toc}{part}{Part III: further observations}
+\input{../teil3/inhalt}
+
+\input{../gemeinsam/verfuegbarkeit}
+\input{../gemeinsam/ki_hinweis}
+
+\bibliographystyle{amsplain}
+\bibliography{../gemeinsam/literatur}
+\end{document}

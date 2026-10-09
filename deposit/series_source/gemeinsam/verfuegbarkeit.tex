@@ -1,0 +1,39 @@
+%
+%
+%
+%
+%
+\section*{Data and code availability}\addcontentsline{toc}{section}{Data and code availability}
+
+Every number of this \ifimband volume\else part\fi\ that we computed is generated from a result file of a data deposit or from a cited constant; no computed number is
+typed by hand. The data deposit is archived with the collected volume, DOI \href{https://doi.org/10.5281/zenodo.23127547}{10.5281/zenodo.23127547}.
+
+\paragraph{What the deposit contains.} The deposit has two parts. The core holds what the text cites: (i) the result files, in JSON and
+plain text, behind every computed number, together with the raw output of the scripts that wrote them; (ii) the scripts, written in Python,
+each stating before it runs what it expects to find and the positive and negative controls that it runs; (iii) a manifest with the SHA-256 hash
+and the size of every file, which the build checks before it reads a result file; (iv) the decimal expansions of the building blocks of
+Part~I that the searches left open (Proposition~\partref{I}{prop:raenge}), including those that the algebraic split of
+Remark~\partref{I}{rem:zweiprimitive} settles; (v) the certificates and the second routes for the computations that settle a building block; and
+(vi) the file \texttt{OPEN\_PROBLEMS.md}, which lists the open problems of the volume. The archive holds the remaining scripts and results of the
+investigation, including negative results that the text does not print.
+
+\paragraph{Where the files are.} The collected volume and its three parts are published as four linked records on Zenodo, and the same files
+are in one repository on GitHub. The record of the collected volume (DOI \href{https://doi.org/10.5281/zenodo.23127547}{10.5281/zenodo.23127547}) holds the volume and the whole deposit,
+the core and the archive described above. The record of each part holds that part and the result files that its text cites, and links to the
+record of the volume. The repository (\href{https://github.com/berkay-yueksel-sayim/erdos-364-365-powerful-numbers-pell}{github.com/berkay-yueksel-sayim/erdos-364-365-powerful-numbers-pell}) holds the four PDFs and the deposit, and its README lists the four records. The records of Parts~I, II and~III have the DOIs \href{https://doi.org/10.5281/zenodo.23127703}{10.5281/zenodo.23127703}, \href{https://doi.org/10.5281/zenodo.23127705}{10.5281/zenodo.23127705} and~\href{https://doi.org/10.5281/zenodo.23127707}{10.5281/zenodo.23127707}.
+
+\paragraph{How the numbers get into the text.} The source of the text refers to each computed number by a key. A build tool reads the result
+file named for the key, verifies it against the manifest, computes the number in its printed form, and writes it into the text; it stops if a key
+has no source or if a file differs from the manifest. The same tool generates the table of the types of the statements and the list of open
+problems from the source of the text, and it is part of the core.
+
+\paragraph{Software.} The scripts use Python~3.12 with gmpy2~2.3, SymPy~1.14 and NumPy~2.4. The elliptic curve method and its relatives are run
+with GMP-ECM~7.0.6 \cite{GMPECM706}, used as an installed program inside a container image built from the Debian package and not part of the
+deposit; the recipe of the image is in the core. The elliptic curve certificates for primality were produced in the same way with
+PARI/GP~2.17.2 \cite{PARI2172} and are part of the deposit; a separate program of ours checks each of them, so the result does not
+depend on that program. Further work is planned to support these certificates with a second prover written independently by us. The
+text is set with pdf\TeX.
+
+\paragraph{Licenses.} The text and the data are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0), and
+the code under the Apache License, Version 2.0. Programs of others that the scripts use as tools, such as GMP-ECM, are not part of the
+deposit and keep their own licenses.
