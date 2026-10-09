@@ -1,0 +1,294 @@
+{
+ "skript": "w148_decke_gleichstaende_2026-09-30.py",
+ "datum": "2026-09-30 15:24",
+ "N": 100000000000000,
+ "pk": {
+  "pk1": true,
+  "pk2": true,
+  "pk3": true
+ },
+ "g200": {
+  "schwelle": 89,
+  "groesse": 201,
+  "nicht_powerful": [
+   {
+    "g": 63900,
+    "sqfull": 900,
+    "occ": 112,
+    "gcd_max": 57,
+    "anteil": 50.9,
+    "rang_sqfull": [
+     9,
+     9
+    ],
+    "in_w49": true
+   },
+   {
+    "g": 82908,
+    "sqfull": 1764,
+    "occ": 98,
+    "gcd_max": 48,
+    "anteil": 49.0,
+    "rang_sqfull": [
+     36,
+     41
+    ],
+    "in_w49": true
+   },
+   {
+    "g": 17100,
+    "sqfull": 900,
+    "occ": 97,
+    "gcd_max": 42,
+    "anteil": 43.3,
+    "rang_sqfull": [
+     9,
+     9
+    ],
+    "in_w49": true
+   },
+   {
+    "g": 23324,
+    "sqfull": 1372,
+    "occ": 96,
+    "gcd_max": 20,
+    "anteil": 20.8,
+    "rang_sqfull": [
+     170,
+     175
+    ],
+    "in_w49": true
+   },
+   {
+    "g": 151900,
+    "sqfull": 4900,
+    "occ": 90,
+    "gcd_max": 41,
+    "anteil": 45.6,
+    "rang_sqfull": [
+     10,
+     11
+    ],
+    "in_w49": true
+   },
+   {
+    "g": 171900,
+    "sqfull": 900,
+    "occ": 90,
+    "gcd_max": 47,
+    "anteil": 52.2,
+    "rang_sqfull": [
+     9,
+     9
+    ],
+    "in_w49": true
+   },
+   {
+    "g": 7100,
+    "sqfull": 100,
+    "occ": 89,
+    "gcd_max": 55,
+    "anteil": 61.8,
+    "rang_sqfull": [
+     357,
+     381
+    ],
+    "in_w49": true
+   },
+   {
+    "g": 26100,
+    "sqfull": 900,
+    "occ": 89,
+    "gcd_max": 33,
+    "anteil": 37.1,
+    "rang_sqfull": [
+     9,
+     9
+    ],
+    "in_w49": true
+   },
+   {
+    "g": 127800,
+    "sqfull": 1800,
+    "occ": 89,
+    "gcd_max": 48,
+    "anteil": 53.9,
+    "rang_sqfull": [
+     29,
+     31
+    ],
+    "in_w49": false
+   },
+   {
+    "g": 215100,
+    "sqfull": 900,
+    "occ": 89,
+    "gcd_max": 46,
+    "anteil": 51.7,
+    "rang_sqfull": [
+     9,
+     9
+    ],
+    "in_w49": false
+   }
+  ]
+ },
+ "g20": {
+  "schwelle": 119,
+  "groesse": 21,
+  "werte": [
+   {
+    "g": 900,
+    "occ": 127,
+    "gcd_max": 57,
+    "anteil": 44.9,
+    "powerful": true
+   },
+   {
+    "g": 2700,
+    "occ": 121,
+    "gcd_max": 49,
+    "anteil": 40.5,
+    "powerful": true
+   },
+   {
+    "g": 3528,
+    "occ": 121,
+    "gcd_max": 51,
+    "anteil": 42.1,
+    "powerful": true
+   },
+   {
+    "g": 3600,
+    "occ": 128,
+    "gcd_max": 50,
+    "anteil": 39.1,
+    "powerful": true
+   },
+   {
+    "g": 4500,
+    "occ": 121,
+    "gcd_max": 45,
+    "anteil": 37.2,
+    "powerful": true
+   },
+   {
+    "g": 4900,
+    "occ": 123,
+    "gcd_max": 53,
+    "anteil": 43.1,
+    "powerful": true
+   },
+   {
+    "g": 5400,
+    "occ": 119,
+    "gcd_max": 43,
+    "anteil": 36.1,
+    "powerful": true
+   },
+   {
+    "g": 8100,
+    "occ": 123,
+    "gcd_max": 40,
+    "anteil": 32.5,
+    "powerful": true
+   },
+   {
+    "g": 11025,
+    "occ": 120,
+    "gcd_max": 48,
+    "anteil": 40.0,
+    "powerful": true
+   },
+   {
+    "g": 12100,
+    "occ": 119,
+    "gcd_max": 44,
+    "anteil": 37.0,
+    "powerful": true
+   },
+   {
+    "g": 13500,
+    "occ": 122,
+    "gcd_max": 38,
+    "anteil": 31.1,
+    "powerful": true
+   },
+   {
+    "g": 32400,
+    "occ": 119,
+    "gcd_max": 36,
+    "anteil": 30.3,
+    "powerful": true
+   },
+   {
+    "g": 44100,
+    "occ": 163,
+    "gcd_max": 53,
+    "anteil": 32.5,
+    "powerful": true
+   },
+   {
+    "g": 88200,
+    "occ": 133,
+    "gcd_max": 39,
+    "anteil": 29.3,
+    "powerful": true
+   },
+   {
+    "g": 108900,
+    "occ": 134,
+    "gcd_max": 39,
+    "anteil": 29.1,
+    "powerful": true
+   },
+   {
+    "g": 132300,
+    "occ": 134,
+    "gcd_max": 37,
+    "anteil": 27.6,
+    "powerful": true
+   },
+   {
+    "g": 152100,
+    "occ": 134,
+    "gcd_max": 41,
+    "anteil": 30.6,
+    "powerful": true
+   },
+   {
+    "g": 176400,
+    "occ": 142,
+    "gcd_max": 37,
+    "anteil": 26.1,
+    "powerful": true
+   },
+   {
+    "g": 220500,
+    "occ": 141,
+    "gcd_max": 36,
+    "anteil": 25.5,
+    "powerful": true
+   },
+   {
+    "g": 396900,
+    "occ": 121,
+    "gcd_max": 30,
+    "anteil": 24.8,
+    "powerful": true
+   },
+   {
+    "g": 441000,
+    "occ": 120,
+    "gcd_max": 29,
+    "anteil": 24.2,
+    "powerful": true
+   }
+  ],
+  "anteil_min": 24.2,
+  "anteil_max": 44.9
+ },
+ "anteil_npw_min": 20.8,
+ "anteil_npw_max": 61.8,
+ "laufzeit_s": 29.9
+}

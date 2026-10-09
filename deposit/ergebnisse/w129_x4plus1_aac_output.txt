@@ -1,0 +1,5 @@
+PK 1 (q < 2000, exakt: v₀² − q·u₀² = −1, Periode ungerade, u₀ mod q stimmt): ✅
+PK 2 (q = 41: (v₀, u₀) = (32, 5); Detektor meldet 5 | u₀: True): ✅
+Primzahlen q ≡ 1 (mod 8) bis 100,000: 2,384 · groesste Periodenlaenge 635 · gerade Periode (duerfte nicht vorkommen): 0
+q | u₀: 0 Treffer bis 100,000 · davon unter 40 000: 0 — Behauptung der Synthese (kein Treffer < 40 000): bestaetigt
+PK gesamt: GRUEN · Laufzeit 0 s

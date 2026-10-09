@@ -1,0 +1,72 @@
+{
+ "skript": "w143_nacht_ecm_drei_neue_2026-09-29.py",
+ "datum": "2026-10-03 21:03",
+ "ende_uhr": "00:00",
+ "parallel": 4,
+ "pk": true,
+ "stunden": 4.94,
+ "funde": 0,
+ "paare": [
+  {
+   "m": 399,
+   "d": 171,
+   "stellen": 173,
+   "kurven_w135": {
+    "50000": 300,
+    "1000000": 72
+   },
+   "kurven_w143": {
+    "1000000": 999,
+    "3000000": 2753
+   },
+   "spc": {
+    "1000000": 4.17,
+    "3000000": 11.04
+   },
+   "zeuge": null,
+   "faktoren": [],
+   "zusammengesetzt": [],
+   "wieferich": []
+  },
+  {
+   "m": 663,
+   "d": 663,
+   "stellen": 889,
+   "kurven_w135": {
+    "50000": 300,
+    "1000000": 72
+   },
+   "kurven_w143": {
+    "1000000": 999,
+    "3000000": 38
+   },
+   "spc": {
+    "1000000": 60.96,
+    "3000000": 168.19
+   },
+   "zeuge": null,
+   "faktoren": [],
+   "zusammengesetzt": [],
+   "wieferich": []
+  },
+  {
+   "m": 20303,
+   "d": 257,
+   "stellen": 1893,
+   "kurven_w135": {
+    "50000": 300,
+    "1000000": 72
+   },
+   "kurven_w143": {
+    "1000000": 137
+   },
+   "spc": {
+    "1000000": 195.79
+   },
+   "zeuge": null,
+   "faktoren": [],
+   "zusammengesetzt": [],
+   "wieferich": []
+  }
+ ]
+}

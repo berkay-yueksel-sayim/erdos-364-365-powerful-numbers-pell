@@ -1,0 +1,15 @@
+Paar a, a+2 aus A076445 -> Mitte n, Status n, kleine Primteiler von n^2-1 mit Exponent (Kern-Info)
+  n = 26 (2 Stellen): nicht powerful (Zeuge 2); ungerade Exponenten in n^2-1 (p<2e5): {3: 3}, Rest 1 Stellen
+  n = 70226 (5 Stellen): nicht powerful (Zeuge 2); ungerade Exponenten in n^2-1 (p<2e5): {3: 5}, Rest 1 Stellen
+  n = 130576328 (9 Stellen): nicht powerful (Zeuge 29); ungerade Exponenten in n^2-1 (p<2e5): {7: 3}, Rest 1 Stellen
+  n = 189750626 (9 Stellen): nicht powerful (Zeuge 2); ungerade Exponenten in n^2-1 (p<2e5): {3: 3}, Rest 1 Stellen
+  n = 512706121226 (12 Stellen): nicht powerful (Zeuge 2); ungerade Exponenten in n^2-1 (p<2e5): {3: 3}, Rest 1 Stellen
+  n = 13837575261124 (14 Stellen): nicht powerful (Zeuge 19); ungerade Exponenten in n^2-1 (p<2e5): {3: 5, 5: 3}, Rest 1 Stellen
+  n = 99612037019890 (14 Stellen): nicht powerful (Zeuge 2); ungerade Exponenten in n^2-1 (p<2e5): {11: 3}, Rest 24 Stellen
+  n = 1385331749802026 (16 Stellen): nicht powerful (Zeuge 2); ungerade Exponenten in n^2-1 (p<2e5): {3: 7}, Rest 1 Stellen
+  n = 3743165875258953026 (19 Stellen): nicht powerful (Zeuge 2); ungerade Exponenten in n^2-1 (p<2e5): {3: 3}, Rest 23 Stellen
+  n = 10114032809617941274226 (23 Stellen): nicht powerful (Zeuge 2); ungerade Exponenten in n^2-1 (p<2e5): {3: 3}, Rest 14 Stellen
+  n = 8905398244301708746029224 (25 Stellen): nicht powerful (Zeuge 11); ungerade Exponenten in n^2-1 (p<2e5): {7: 3}, Rest 26 Stellen
+  n = 27328112908421802064005626 (26 Stellen): nicht powerful (Zeuge 2); ungerade Exponenten in n^2-1 (p<2e5): {3: 5}, Rest 14 Stellen
+  n = 73840550964522899559001927226 (29 Stellen): nicht powerful (Zeuge 2); ungerade Exponenten in n^2-1 (p<2e5): {3: 3}, Rest 22 Stellen
+Unter 1e12: [25, 70225, 130576327, 189750625, 512706121225] -> 5 Paare, wie in der Signaturkarte (03.09.)

@@ -1,0 +1,13 @@
+====================================================================================================
+w157 — Prop. III.2.2: zweiter Zweig von y² − 28m² = −3 · JMAX = 200 · 2026-10-01 21:18
+====================================================================================================
+PK ✅ Familie III.2.2, j = 0: x = 18, Φ_3(18) = 343
+NK ✅ Startpunkt (5, 2) (y² − 28m² = −87): pruefe() meldet 30 Verletzungen
+Zweig (37, 7) = Prop. III.2.2: Verletzungen 0; Glieder mit 7 | m_j: 29 (j ≡ 0 mod 7)
+Zweig (5, 1):                 Verletzungen 0; Glieder mit 7 | m_j: 28 (j ≡ 6 mod 7); erstes: j = 6, x mit 15 Stellen
+Schnitt der beiden Zweige (y-Werte, j ≤ 200): 0
+Lavis x (32 Stellen): x² + x + 1 = 7³·a² ✅; im Zweig (5, 1) bei j = [13]; in der Familie III.2.2: nicht enthalten
+Wahrscheinlich prime x (BPSW, kein Beweis), j ≤ 200: Zweig (37, 7): [] · Zweig (5, 1): [13]
+Vollstaendigkeit (direkte Suche, alle m ≤ 1 000 000): 6 Loesungen, davon ausserhalb der zwei Zweige: 0 []
+
+GESAMT: Abweichungen 0

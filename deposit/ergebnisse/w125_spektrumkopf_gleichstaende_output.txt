@@ -1,0 +1,24 @@
+N = 10^12: 2,158,391 powerful · 832,161 Werte · PK ✅ · Top 1 = [900, 95] (eindeutig) · 2.2 s
+   Schwelle Rang  10: occ ≥   81 → Gruppe   10 Werte, davon powerful   10  (am Rand 1 gleich haeufige)
+   Schwelle Rang  20: occ ≥   74 → Gruppe   20 Werte, davon powerful   20  (am Rand 2 gleich haeufige)
+   Schwelle Rang  50: occ ≥   64 → Gruppe   53 Werte, davon powerful   53  (am Rand 4 gleich haeufige)
+   Schwelle Rang 100: occ ≥   57 → Gruppe  102 Werte, davon powerful   95  (am Rand 8 gleich haeufige)
+   Schwelle Rang 200: occ ≥   49 → Gruppe  215 Werte, davon powerful  183  (am Rand 17 gleich haeufige)
+   erster nicht-powerful Wert 1656 (occ 60): Rang je nach Ordnung 70–79; nicht-powerful in dieser Gruppe: [1656, 7100]
+   ⇒ TIE-FEST: die 69 haeufigsten Werte (alle mit occ > 60) sind ausnahmslos powerful.
+N = 10^13: 6,840,384 powerful · 2,593,517 Werte · PK ✅ · Top 1 = [44100, 126] (eindeutig) · 7.1 s
+   Schwelle Rang  10: occ ≥  100 → Gruppe   11 Werte, davon powerful   11  (am Rand 3 gleich haeufige)
+   Schwelle Rang  20: occ ≥   97 → Gruppe   21 Werte, davon powerful   21  (am Rand 2 gleich haeufige)
+   Schwelle Rang  50: occ ≥   88 → Gruppe   50 Werte, davon powerful   50  (am Rand 4 gleich haeufige)
+   Schwelle Rang 100: occ ≥   76 → Gruppe  109 Werte, davon powerful  105  (am Rand 10 gleich haeufige)
+   Schwelle Rang 200: occ ≥   66 → Gruppe  211 Werte, davon powerful  189  (am Rand 17 gleich haeufige)
+   erster nicht-powerful Wert 63900 (occ 83): Rang je nach Ordnung 58–61; nicht-powerful in dieser Gruppe: [63900]
+   ⇒ TIE-FEST: die 57 haeufigsten Werte (alle mit occ > 83) sind ausnahmslos powerful.
+N = 10^14: 21,663,503 powerful · 8,235,300 Werte · PK ✅ · Top 1 = [44100, 163] (eindeutig) · 28.3 s
+   Schwelle Rang  10: occ ≥  123 → Gruppe   11 Werte, davon powerful   11  (am Rand 2 gleich haeufige)
+   Schwelle Rang  20: occ ≥  119 → Gruppe   21 Werte, davon powerful   21  (am Rand 3 gleich haeufige)
+   Schwelle Rang  50: occ ≥  112 → Gruppe   53 Werte, davon powerful   52  (am Rand 5 gleich haeufige)
+   Schwelle Rang 100: occ ≥  101 → Gruppe  103 Werte, davon powerful  102  (am Rand 7 gleich haeufige)
+   Schwelle Rang 200: occ ≥   89 → Gruppe  201 Werte, davon powerful  191  (am Rand 12 gleich haeufige)
+   erster nicht-powerful Wert 63900 (occ 112): Rang je nach Ordnung 49–53; nicht-powerful in dieser Gruppe: [63900]
+   ⇒ TIE-FEST: die 48 haeufigsten Werte (alle mit occ > 112) sind ausnahmslos powerful.

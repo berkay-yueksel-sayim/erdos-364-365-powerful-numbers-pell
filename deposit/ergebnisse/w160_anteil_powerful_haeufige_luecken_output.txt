@@ -1,0 +1,11 @@
+w160 · 2026-10-02 13:49
+NK/PK E5 ✅  powerful-Test: 44100 ja, 63900 nein
+PK E1 ✅  21,663,503 powerful bis 10^14, 8,235,300 verschiedene Lueckenwerte (3 s)
+PK E6 ✅  Sieb gegen Einzeltest auf 3500 Werten (davon 500 powerful): 0 Abweichungen; groesster Wert 19,999,999
+PK E2 ✅  Anteil powerful unter allen Werten: 0.0995 % (gerundet 0.10 %), 8,191 Werte
+          mindestens   2 Vorkommen: 3,839,768 Werte, davon   7,373 powerful = 0.19 %
+          mindestens   5 Vorkommen: 1,116,512 Werte, davon   5,938 powerful = 0.53 %
+          mindestens  20 Vorkommen:    62,118 Werte, davon   2,985 powerful = 4.81 %
+          mindestens 100 Vorkommen:       109 Werte, davon     108 powerful = 99.08 %
+E3 ✅  Basis mit mindestens 20 Vorkommen: 62,118 Werte (w59: 62 118), Anteil powerful 4.81 %
+E4     Nullmodell: von 50 zufaellig aus dieser Basis gezogenen Werten waeren etwa 2.4 powerful (aus allen Werten: 0.05)

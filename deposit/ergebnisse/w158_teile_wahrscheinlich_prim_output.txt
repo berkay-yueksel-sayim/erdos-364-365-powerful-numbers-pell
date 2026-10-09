@@ -1,0 +1,20 @@
+====================================================================================================
+w158 — algebraische Teile der offenen Bloecke: wahrscheinlich prim? · 2026-10-01 21:03
+====================================================================================================
+PK ✅ Primtest: 2^127 − 1 prim, (2^127 − 1)(2^61 − 1) nicht (beide Routen)
+PK ✅ (7, 5): M = 64 261 = 179 · 359, Klasse „beide_prp" (179 und 359 durch Probedivision prim)
+NK ✅ m = 15: T_1 + 1 kein Quadrat, keine Zerlegung
+
+Offene Bloecke aus w147 (hinterlegt): 10
+  (399, 171) 173 St.: keine algebraische Zerlegung; M_d wahrsch. prim: (False, False) ⇒ offen
+  (23, 161) 222 St. = A (111 St., wahrsch. prim) · B (112 St., wahrsch. prim); Rang genau d: A True, B True; Exponent 1: True ⇒ beide_prp
+  (407, 111) 269 St.: keine algebraische Zerlegung; M_d wahrsch. prim: (False, False) ⇒ offen
+  (39, 247) 367 St.: keine algebraische Zerlegung; M_d wahrsch. prim: (False, False) ⇒ offen
+  (111, 185) 400 St.: keine algebraische Zerlegung; M_d wahrsch. prim: (False, False) ⇒ offen
+  (95, 475) 682 St.: keine algebraische Zerlegung; M_d wahrsch. prim: (False, False) ⇒ offen
+  (407, 259) 805 St.: keine algebraische Zerlegung; M_d wahrsch. prim: (False, False) ⇒ offen
+  (663, 663) 889 St.: keine algebraische Zerlegung; M_d wahrsch. prim: (False, False) ⇒ offen
+  (7, 1449) 953 St. = A (477 St., zusammengesetzt) · B (477 St., wahrsch. prim); Rang genau d: A True, B True; Exponent 1: True ⇒ zeuge_prp
+  (20303, 257) 1893 St.: keine algebraische Zerlegung; M_d wahrsch. prim: (False, False) ⇒ offen
+
+GESAMT ✅ 1 Block vollstaendig in wahrscheinliche Primzahlen zerlegt [(23, 161)], 1 Block mit wahrscheinlich primem Zeugen [(7, 1449)]; offen bleiben 8. Kein Primbeweis.

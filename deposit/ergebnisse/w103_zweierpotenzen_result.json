@@ -1,0 +1,2274 @@
+{
+ "skript": "w103_zweierpotenzen_2026-09-25.py",
+ "datum": "2026-09-25",
+ "A": {
+  "abstand": true,
+  "faktor": true,
+  "endziffer_zyklus": true,
+  "ipv4_255": true,
+  "u32_max": true,
+  "u64_max": "18446744073709551615"
+ },
+ "B": {
+  "letzte_1": 4,
+  "letzte_2": 20,
+  "letzte_3": 100,
+  "letzte_4": 500,
+  "mod_3": 2,
+  "mod_7": 3,
+  "mod_9": 6,
+  "mod_11": 10,
+  "mod_13": 12,
+  "mod_17": 8,
+  "quersumme_mod9": 6
+ },
+ "B_folgen": {
+  "mod_3": [
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2,
+   1,
+   2
+  ],
+  "mod_7": [
+   1,
+   2,
+   4,
+   1,
+   2,
+   4,
+   1,
+   2,
+   4,
+   1,
+   2,
+   4
+  ],
+  "mod_9": [
+   1,
+   2,
+   4,
+   8,
+   7,
+   5,
+   1,
+   2,
+   4,
+   8,
+   7,
+   5
+  ],
+  "mod_11": [
+   1,
+   2,
+   4,
+   8,
+   5,
+   10,
+   9,
+   7,
+   3,
+   6,
+   1,
+   2
+  ],
+  "quersumme": [
+   1,
+   2,
+   4,
+   8,
+   7,
+   5,
+   10,
+   11,
+   13,
+   8,
+   7,
+   14,
+   19,
+   20,
+   22,
+   26,
+   25,
+   14,
+   19,
+   29,
+   31,
+   26,
+   25,
+   41,
+   37,
+   29,
+   40,
+   35,
+   43,
+   41,
+   37,
+   47,
+   58,
+   62,
+   61,
+   59,
+   64,
+   56,
+   67,
+   71,
+   61,
+   50,
+   46,
+   56,
+   58,
+   62,
+   70,
+   68,
+   73,
+   65,
+   76,
+   80,
+   79,
+   77,
+   82,
+   92,
+   85,
+   80,
+   70,
+   77,
+   82,
+   74,
+   85,
+   89
+  ],
+  "letzte_2": [
+   4,
+   8,
+   16,
+   32,
+   64,
+   28,
+   56,
+   12,
+   24,
+   48,
+   96,
+   92,
+   84,
+   68,
+   36,
+   72,
+   44,
+   88,
+   76,
+   52,
+   4,
+   8
+  ]
+ },
+ "C": [
+  {
+   "d": 1,
+   "gemessen": 0.301,
+   "benford": 0.301
+  },
+  {
+   "d": 2,
+   "gemessen": 0.1761,
+   "benford": 0.1761
+  },
+  {
+   "d": 3,
+   "gemessen": 0.1249,
+   "benford": 0.1249
+  },
+  {
+   "d": 4,
+   "gemessen": 0.097,
+   "benford": 0.0969
+  },
+  {
+   "d": 5,
+   "gemessen": 0.0791,
+   "benford": 0.0792
+  },
+  {
+   "d": 6,
+   "gemessen": 0.067,
+   "benford": 0.0669
+  },
+  {
+   "d": 7,
+   "gemessen": 0.0579,
+   "benford": 0.058
+  },
+  {
+   "d": 8,
+   "gemessen": 0.0512,
+   "benford": 0.0512
+  },
+  {
+   "d": 9,
+   "gemessen": 0.0458,
+   "benford": 0.0458
+  }
+ ],
+ "D": [
+  {
+   "n": 1,
+   "minus": {
+    "wert": "1",
+    "prim": false,
+    "powerful": true,
+    "zerlegung": {},
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "3",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 2,
+   "minus": {
+    "wert": "3",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "5",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 3,
+   "minus": {
+    "wert": "7",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "7": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "9",
+    "prim": false,
+    "powerful": true,
+    "zerlegung": {
+     "3": 2
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 4,
+   "minus": {
+    "wert": "15",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "5": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "17",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "17": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 5,
+   "minus": {
+    "wert": "31",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "31": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "33",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "11": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 6,
+   "minus": {
+    "wert": "63",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "7": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "65",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1,
+     "13": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 7,
+   "minus": {
+    "wert": "127",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "127": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "129",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "43": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 8,
+   "minus": {
+    "wert": "255",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "5": 1,
+     "17": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "257",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "257": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 9,
+   "minus": {
+    "wert": "511",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "7": 1,
+     "73": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "513",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 3,
+     "19": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 3,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 10,
+   "minus": {
+    "wert": "1023",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "11": 1,
+     "31": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "1025",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 2,
+     "41": 1
+    },
+    "quadrate": [
+     {
+      "p": 5,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 11,
+   "minus": {
+    "wert": "2047",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "23": 1,
+     "89": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "2049",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "683": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 12,
+   "minus": {
+    "wert": "4095",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "5": 1,
+     "7": 1,
+     "13": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "4097",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "17": 1,
+     "241": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 13,
+   "minus": {
+    "wert": "8191",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "8191": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "8193",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "2731": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 14,
+   "minus": {
+    "wert": "16383",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "43": 1,
+     "127": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "16385",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1,
+     "29": 1,
+     "113": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 15,
+   "minus": {
+    "wert": "32767",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "7": 1,
+     "31": 1,
+     "151": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "32769",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "11": 1,
+     "331": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 16,
+   "minus": {
+    "wert": "65535",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "5": 1,
+     "17": 1,
+     "257": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "65537",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "65537": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 17,
+   "minus": {
+    "wert": "131071",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "131071": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "131073",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "43691": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 18,
+   "minus": {
+    "wert": "262143",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 3,
+     "7": 1,
+     "19": 1,
+     "73": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 3,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "262145",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1,
+     "13": 1,
+     "37": 1,
+     "109": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 19,
+   "minus": {
+    "wert": "524287",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "524287": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "524289",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "174763": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 20,
+   "minus": {
+    "wert": "1048575",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "5": 2,
+     "11": 1,
+     "31": 1,
+     "41": 1
+    },
+    "quadrate": [
+     {
+      "p": 5,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "1048577",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "17": 1,
+     "61681": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 21,
+   "minus": {
+    "wert": "2097151",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "7": 2,
+     "127": 1,
+     "337": 1
+    },
+    "quadrate": [
+     {
+      "p": 7,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "2097153",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "43": 1,
+     "5419": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 22,
+   "minus": {
+    "wert": "4194303",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "23": 1,
+     "89": 1,
+     "683": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "4194305",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1,
+     "397": 1,
+     "2113": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 23,
+   "minus": {
+    "wert": "8388607",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "47": 1,
+     "178481": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "8388609",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "2796203": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 24,
+   "minus": {
+    "wert": "16777215",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "5": 1,
+     "7": 1,
+     "13": 1,
+     "17": 1,
+     "241": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "16777217",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "97": 1,
+     "257": 1,
+     "673": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 25,
+   "minus": {
+    "wert": "33554431",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "31": 1,
+     "601": 1,
+     "1801": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "33554433",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "11": 1,
+     "251": 1,
+     "4051": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 26,
+   "minus": {
+    "wert": "67108863",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "2731": 1,
+     "8191": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "67108865",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1,
+     "53": 1,
+     "157": 1,
+     "1613": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 27,
+   "minus": {
+    "wert": "134217727",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "7": 1,
+     "73": 1,
+     "262657": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "134217729",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 4,
+     "19": 1,
+     "87211": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 4,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 28,
+   "minus": {
+    "wert": "268435455",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "5": 1,
+     "29": 1,
+     "43": 1,
+     "113": 1,
+     "127": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "268435457",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "17": 1,
+     "15790321": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 29,
+   "minus": {
+    "wert": "536870911",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "233": 1,
+     "1103": 1,
+     "2089": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "536870913",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "59": 1,
+     "3033169": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 30,
+   "minus": {
+    "wert": "1073741823",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "7": 1,
+     "11": 1,
+     "31": 1,
+     "151": 1,
+     "331": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "1073741825",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 2,
+     "13": 1,
+     "41": 1,
+     "61": 1,
+     "1321": 1
+    },
+    "quadrate": [
+     {
+      "p": 5,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 31,
+   "minus": {
+    "wert": "2147483647",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "2147483647": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "2147483649",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "715827883": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 32,
+   "minus": {
+    "wert": "4294967295",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "5": 1,
+     "17": 1,
+     "257": 1,
+     "65537": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "4294967297",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "641": 1,
+     "6700417": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 33,
+   "minus": {
+    "wert": "8589934591",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "7": 1,
+     "23": 1,
+     "89": 1,
+     "599479": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "8589934593",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "67": 1,
+     "683": 1,
+     "20857": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 34,
+   "minus": {
+    "wert": "17179869183",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "131071": 1,
+     "43691": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "17179869185",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1,
+     "137": 1,
+     "953": 1,
+     "26317": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 35,
+   "minus": {
+    "wert": "34359738367",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "31": 1,
+     "71": 1,
+     "127": 1,
+     "122921": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "34359738369",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "11": 1,
+     "43": 1,
+     "281": 1,
+     "86171": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 36,
+   "minus": {
+    "wert": "68719476735",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 3,
+     "5": 1,
+     "7": 1,
+     "13": 1,
+     "19": 1,
+     "37": 1,
+     "73": 1,
+     "109": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 3,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "68719476737",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "17": 1,
+     "241": 1,
+     "433": 1,
+     "38737": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 37,
+   "minus": {
+    "wert": "137438953471",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "223": 1,
+     "616318177": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "137438953473",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "1777": 1,
+     "25781083": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 38,
+   "minus": {
+    "wert": "274877906943",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "174763": 1,
+     "524287": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "274877906945",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1,
+     "229": 1,
+     "457": 1,
+     "525313": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 39,
+   "minus": {
+    "wert": "549755813887",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "7": 1,
+     "79": 1,
+     "8191": 1,
+     "121369": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "549755813889",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "2731": 1,
+     "22366891": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 40,
+   "minus": {
+    "wert": "1099511627775",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "5": 2,
+     "11": 1,
+     "17": 1,
+     "31": 1,
+     "41": 1,
+     "61681": 1
+    },
+    "quadrate": [
+     {
+      "p": 5,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "1099511627777",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "257": 1,
+     "4278255361": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 41,
+   "minus": {
+    "wert": "2199023255551",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "13367": 1,
+     "164511353": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "2199023255553",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "83": 1,
+     "8831418697": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 42,
+   "minus": {
+    "wert": "4398046511103",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "7": 2,
+     "43": 1,
+     "127": 1,
+     "337": 1,
+     "5419": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     },
+     {
+      "p": 7,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "4398046511105",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1,
+     "13": 1,
+     "29": 1,
+     "113": 1,
+     "1429": 1,
+     "14449": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 43,
+   "minus": {
+    "wert": "8796093022207",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "431": 1,
+     "9719": 1,
+     "2099863": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "8796093022209",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "2932031007403": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 44,
+   "minus": {
+    "wert": "17592186044415",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "5": 1,
+     "23": 1,
+     "89": 1,
+     "397": 1,
+     "683": 1,
+     "2113": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "17592186044417",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "17": 1,
+     "353": 1,
+     "2931542417": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 45,
+   "minus": {
+    "wert": "35184372088831",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "7": 1,
+     "31": 1,
+     "73": 1,
+     "151": 1,
+     "631": 1,
+     "23311": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "35184372088833",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 3,
+     "11": 1,
+     "19": 1,
+     "331": 1,
+     "18837001": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 3,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 46,
+   "minus": {
+    "wert": "70368744177663",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "47": 1,
+     "178481": 1,
+     "2796203": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "70368744177665",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1,
+     "277": 1,
+     "1013": 1,
+     "1657": 1,
+     "30269": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 47,
+   "minus": {
+    "wert": "140737488355327",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "2351": 1,
+     "4513": 1,
+     "13264529": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "140737488355329",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "283": 1,
+     "165768537521": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 48,
+   "minus": {
+    "wert": "281474976710655",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "5": 1,
+     "7": 1,
+     "13": 1,
+     "17": 1,
+     "97": 1,
+     "241": 1,
+     "257": 1,
+     "673": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "281474976710657",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "193": 1,
+     "65537": 1,
+     "22253377": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 49,
+   "minus": {
+    "wert": "562949953421311",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "127": 1,
+     "4432676798593": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "562949953421313",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "43": 1,
+     "4363953127297": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 50,
+   "minus": {
+    "wert": "1125899906842623",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "11": 1,
+     "31": 1,
+     "251": 1,
+     "601": 1,
+     "1801": 1,
+     "4051": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "1125899906842625",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 3,
+     "41": 1,
+     "101": 1,
+     "8101": 1,
+     "268501": 1
+    },
+    "quadrate": [
+     {
+      "p": 5,
+      "e": 3,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 51,
+   "minus": {
+    "wert": "2251799813685247",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "7": 1,
+     "103": 1,
+     "2143": 1,
+     "11119": 1,
+     "131071": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "2251799813685249",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "307": 1,
+     "2857": 1,
+     "6529": 1,
+     "43691": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 52,
+   "minus": {
+    "wert": "4503599627370495",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "5": 1,
+     "53": 1,
+     "157": 1,
+     "1613": 1,
+     "2731": 1,
+     "8191": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "4503599627370497",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "17": 1,
+     "858001": 1,
+     "308761441": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 53,
+   "minus": {
+    "wert": "9007199254740991",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "6361": 1,
+     "69431": 1,
+     "20394401": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "9007199254740993",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "107": 1,
+     "28059810762433": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 54,
+   "minus": {
+    "wert": "18014398509481983",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 4,
+     "7": 1,
+     "19": 1,
+     "73": 1,
+     "262657": 1,
+     "87211": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 4,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "18014398509481985",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1,
+     "13": 1,
+     "37": 1,
+     "109": 1,
+     "246241": 1,
+     "279073": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 55,
+   "minus": {
+    "wert": "36028797018963967",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "23": 1,
+     "31": 1,
+     "89": 1,
+     "881": 1,
+     "3191": 1,
+     "201961": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "36028797018963969",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "11": 2,
+     "683": 1,
+     "2971": 1,
+     "48912491": 1
+    },
+    "quadrate": [
+     {
+      "p": 11,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 56,
+   "minus": {
+    "wert": "72057594037927935",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "5": 1,
+     "17": 1,
+     "29": 1,
+     "43": 1,
+     "113": 1,
+     "127": 1,
+     "15790321": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "72057594037927937",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "257": 1,
+     "5153": 1,
+     "54410972897": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 57,
+   "minus": {
+    "wert": "144115188075855871",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "7": 1,
+     "32377": 1,
+     "524287": 1,
+     "1212847": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "144115188075855873",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "571": 1,
+     "174763": 1,
+     "160465489": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  },
+  {
+   "n": 58,
+   "minus": {
+    "wert": "288230376151711743",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "59": 1,
+     "233": 1,
+     "1103": 1,
+     "2089": 1,
+     "3033169": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "288230376151711745",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1,
+     "107367629": 1,
+     "536903681": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 59,
+   "minus": {
+    "wert": "576460752303423487",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "179951": 1,
+     "3203431780337": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "576460752303423489",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "2833": 1,
+     "37171": 1,
+     "1824726041": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 60,
+   "minus": {
+    "wert": "1152921504606846975",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 2,
+     "5": 2,
+     "7": 1,
+     "11": 1,
+     "13": 1,
+     "31": 1,
+     "41": 1,
+     "61": 1,
+     "151": 1,
+     "331": 1,
+     "1321": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     },
+     {
+      "p": 5,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "1152921504606846977",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "17": 1,
+     "241": 1,
+     "61681": 1,
+     "4562284561": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 61,
+   "minus": {
+    "wert": "2305843009213693951",
+    "prim": true,
+    "powerful": false,
+    "zerlegung": {
+     "2305843009213693951": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "2305843009213693953",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "768614336404564651": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 62,
+   "minus": {
+    "wert": "4611686018427387903",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 1,
+     "715827883": 1,
+     "2147483647": 1
+    },
+    "quadrate": []
+   },
+   "plus": {
+    "wert": "4611686018427387905",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "5": 1,
+     "5581": 1,
+     "49477": 1,
+     "8681": 1,
+     "384773": 1
+    },
+    "quadrate": []
+   }
+  },
+  {
+   "n": 63,
+   "minus": {
+    "wert": "9223372036854775807",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "7": 2,
+     "73": 1,
+     "127": 1,
+     "337": 1,
+     "92737": 1,
+     "649657": 1
+    },
+    "quadrate": [
+     {
+      "p": 7,
+      "e": 2,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   },
+   "plus": {
+    "wert": "9223372036854775809",
+    "prim": false,
+    "powerful": false,
+    "zerlegung": {
+     "3": 3,
+     "19": 1,
+     "43": 1,
+     "5419": 1,
+     "77158673929": 1
+    },
+    "quadrate": [
+     {
+      "p": 3,
+      "e": 3,
+      "typ": "LTE (p teilt n)"
+     }
+    ]
+   }
+  }
+ ],
+ "D_zusammen": {
+  "mersenne": [
+   2,
+   3,
+   5,
+   7,
+   13,
+   17,
+   19,
+   31,
+   61
+  ],
+  "fermat": [
+   1,
+   2,
+   4,
+   8,
+   16
+  ],
+  "powerful_nachbarn": [
+   [
+    3,
+    "plus"
+   ]
+  ],
+  "tripel": [],
+  "quadratfaktoren": 31
+ },
+ "E": [
+  {
+   "p": 1093,
+   "ordnung": 364,
+   "p_quadrat_teilt_2_hoch_ord_minus_1": true,
+   "v_p_in_Phi_ord_2": 2,
+   "stellen_Phi": 44
+  },
+  {
+   "p": 3511,
+   "ordnung": 1755,
+   "p_quadrat_teilt_2_hoch_ord_minus_1": true,
+   "v_p_in_Phi_ord_2": 2,
+   "stellen_Phi": 261
+  }
+ ],
+ "F": [
+  {
+   "n": "8",
+   "a1": 1,
+   "b1": 2,
+   "a2": 3,
+   "b2": 1,
+   "pell8": true
+  },
+  {
+   "n": "288",
+   "a1": 6,
+   "b1": 2,
+   "a2": 17,
+   "b2": 1,
+   "pell8": true
+  },
+  {
+   "n": "675",
+   "a1": 5,
+   "b1": 3,
+   "a2": 26,
+   "b2": 1,
+   "pell8": false
+  },
+  {
+   "n": "9800",
+   "a1": 35,
+   "b1": 2,
+   "a2": 99,
+   "b2": 1,
+   "pell8": true
+  },
+  {
+   "n": "12167",
+   "a1": 1,
+   "b1": 23,
+   "a2": 39,
+   "b2": 2,
+   "pell8": false
+  },
+  {
+   "n": "235224",
+   "a1": 33,
+   "b1": 6,
+   "a2": 485,
+   "b2": 1,
+   "pell8": false
+  },
+  {
+   "n": "332928",
+   "a1": 204,
+   "b1": 2,
+   "a2": 577,
+   "b2": 1,
+   "pell8": true
+  },
+  {
+   "n": "465124",
+   "a1": 682,
+   "b1": 1,
+   "a2": 61,
+   "b2": 5,
+   "pell8": false
+  },
+  {
+   "n": "1825200",
+   "a1": 260,
+   "b1": 3,
+   "a2": 1351,
+   "b2": 1,
+   "pell8": false
+  },
+  {
+   "n": "11309768",
+   "a1": 1189,
+   "b1": 2,
+   "a2": 3363,
+   "b2": 1,
+   "pell8": true
+  },
+  {
+   "n": "384199200",
+   "a1": 6930,
+   "b1": 2,
+   "a2": 19601,
+   "b2": 1,
+   "pell8": true
+  },
+  {
+   "n": "592192224",
+   "a1": 78,
+   "b1": 46,
+   "a2": 24335,
+   "b2": 1,
+   "pell8": false
+  },
+  {
+   "n": "4931691075",
+   "a1": 13515,
+   "b1": 3,
+   "a2": 70226,
+   "b2": 1,
+   "pell8": false
+  },
+  {
+   "n": "5425069447",
+   "a1": 3977,
+   "b1": 7,
+   "a2": 26041,
+   "b2": 2,
+   "pell8": false
+  },
+  {
+   "n": "13051463048",
+   "a1": 40391,
+   "b1": 2,
+   "a2": 114243,
+   "b2": 1,
+   "pell8": true
+  },
+  {
+   "n": "221322261600",
+   "a1": 32010,
+   "b1": 6,
+   "a2": 470449,
+   "b2": 1,
+   "pell8": false
+  },
+  {
+   "n": "443365544448",
+   "a1": 235416,
+   "b1": 2,
+   "a2": 665857,
+   "b2": 1,
+   "pell8": true
+  },
+  {
+   "n": "865363202000",
+   "a1": 83204,
+   "b1": 5,
+   "a2": 930249,
+   "b2": 1,
+   "pell8": false
+  },
+  {
+   "n": "8192480787000",
+   "a1": 321,
+   "b1": 430,
+   "a2": 2862251,
+   "b2": 1,
+   "pell8": false
+  },
+  {
+   "n": "11968683934831",
+   "a1": 4927,
+   "b1": 79,
+   "a2": 31364,
+   "b2": 23,
+   "pell8": false
+  },
+  {
+   "n": "13325427460800",
+   "a1": 702520,
+   "b1": 3,
+   "a2": 3650401,
+   "b2": 1,
+   "pell8": false
+  },
+  {
+   "n": "15061377048200",
+   "a1": 1372105,
+   "b1": 2,
+   "a2": 3880899,
+   "b2": 1,
+   "pell8": true
+  },
+  {
+   "n": "28821995554247",
+   "a1": 48671,
+   "b1": 23,
+   "a2": 1898091,
+   "b2": 2,
+   "pell8": false
+  },
+  {
+   "n": "48689748233307",
+   "a1": 1342879,
+   "b1": 3,
+   "a2": 376766,
+   "b2": 7,
+   "pell8": false
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+====================================================================================================
+w152 — Paritaet von T_1 fuer die Kerne der Reinhart-Liste (A135735), berechnet · 2026-09-30 18:47
+====================================================================================================
+Liste aus w16: Klasse 3 [1752299, 20256129307923] · Klasse 7 [209991, 4099215, 117477414815, 39028039587479]
+PK+ ✅ 380 Nichtquadrate 2 ≤ m < 400: T_1 mod 2^16 aus Route A = SymPy (davon 299 mit T_1 ungerade — die Kontrolle kann beide Faelle unterscheiden)
+NK ✅ m = 7: T_1 = 8
+  m = 209991 (Klasse 7): Periode 186, T_1 mod 16 = 7, T_1 UNGERADE, m | U_1: True; Route B: exakt, stimmt mit A, 95 Stellen  (0 s)
+  m = 1752299 (Klasse 3): Periode 236, T_1 mod 16 = 9, T_1 UNGERADE, m | U_1: True; Route B: exakt, stimmt mit A, 117 Stellen  (0 s)
+  m = 4099215 (Klasse 7): Periode 436, T_1 mod 16 = 4, T_1 GERADE, m | U_1: True; Route B: exakt, stimmt mit A, 228 Stellen  (0 s)
+  m = 117477414815 (Klasse 7): Periode 22346, T_1 mod 16 = 9, T_1 UNGERADE, m | U_1: True; Route B: exakt, stimmt mit A, 11621 Stellen  (0 s)
+  m = 20256129307923 (Klasse 3): Periode 192220, T_1 mod 16 = 10, T_1 GERADE, m | U_1: True; Route B: exakt, stimmt mit A  (7 s)
+  m = 39028039587479 (Klasse 7): Periode 3650856, T_1 mod 16 = 8, T_1 GERADE, m | U_1: True; Route B: nicht moeglich (Periode > 250000)  (4 s)
+NK ✅ 209 991 ungerade, 4 099 215 gerade (wie in w11/w16)
+Etiketten von w11: {4099215: 'gerade', 117477414815: 'gerade', 39028039587479: 'gerade', 209991: 'UNGERADE'}
+Abweichung zwischen w11-Etikett und Rechnung: [117477414815]
+PK ✅ der Vergleich meldet genau m = 117 477 414 815 (w11: „gerade", gerechnet: ungerade)
+Klasse 7: gerade [4099215, 39028039587479] · ungerade [209991, 117477414815]; Klasse 3: gerade [20256129307923] · ungerade [1752299]
+GESAMT ✅ (Werte stehen im Ergebnis; kein Text wird hier geaendert)

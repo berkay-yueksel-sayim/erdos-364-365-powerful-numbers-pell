@@ -1,0 +1,5 @@
+w161 · 2026-10-02 14:53
+PK E1 ✅  fund_fast(7): log10 T_1 = 0.903089986991944 gegen log10 8 = 0.903089986991944
+PK E2 ✅  Reste mod m stimmen fuer alle 3531 Kerne (2031 bis 2·10^4, 1500 zufaellig bis 10^8); laengste Periode 19591 (321 s)
+E3     groesster relativer Fehler von log10 T_1 (doppelte Genauigkeit): 2.22e-16 bei m = 85081911 — benoetigt < 3·10^-4
+NK E4 ✅  einfache Genauigkeit auf 400 Kernen: groesster relativer Fehler 6.38e-09 (deutlich groesser)

@@ -1,0 +1,14 @@
+====================================================================================================
+w103 — DIE ZWEIERPOTENZEN 2⁰ … 2⁶³: Aussagen, Zyklen, Benford, die Nachbarn 2ⁿ ± 1, Wieferich zur Basis 2
+====================================================================================================
+(A) geprueft ✅: Abstand = kleinere Zahl · Faktor 2 · Endziffer 2,4,8,6 · 1+…+128 = 255 = 2⁸ − 1 · 2³² − 1 = 4 294 967 295
+    dazu: allgemein 1 + 2 + … + 2^(n−1) = 2ⁿ − 1 (binaer n Einsen) · 2⁶⁴ − 1 = 18,446,744,073,709,551,615
+(B) Zyklen ✅ (zwangslaeufig): letzte 1/2/3/4 Ziffern 4/20/100/500 · mod 3/7/9/11/13/17: 2/3/6/10/12/8 · Quersumme mod 9: 6
+(C) Benford ✅: Leitziffern von 2¹ … 2¹⁰⁰⁰⁰: 1: 30.10 % (30.10) · 2: 17.61 % (17.61) · 3: 12.49 % (12.49) · 4: 9.70 % (9.69) · 5: 7.91 % (7.92) · 6: 6.70 % (6.69) · 7: 5.79 % (5.80) · 8: 5.12 % (5.12) · 9: 4.58 % (4.58)
+(D) Nachbarn 2ⁿ ± 1, n = 1 … 63: Mersenne-prim bei n = [2, 3, 5, 7, 13, 17, 19, 31, 61] · Fermat-prim bei n = [1, 2, 4, 8, 16]
+    powerful (n ≥ 2): [(3, 'plus')] ⇒ nur 2³ + 1 = 9 (das Paar 8 | 9) · Tripel 2ⁿ − 1, 2ⁿ, 2ⁿ + 1: keins
+    Quadratfaktoren: 31, alle vom Typ LTE (p teilt n) — z. B. 3^2 in 2^3+1, 3^2 in 2^6−1, 3^3 in 2^9+1, 5^2 in 2^10+1, 3^2 in 2^12−1, 3^2 in 2^15+1, 3^3 in 2^18−1, 5^2 in 2^20−1
+(E) p = 1093: Ordnung von 2 mod p = 364 · p² | 2^364 − 1: True · im primitiven Teil Φ_364(2) (44 St.) steckt p genau 2-mal
+(E) p = 3511: Ordnung von 2 mod p = 1755 · p² | 2^1755 − 1: True · im primitiven Teil Φ_1755(2) (261 St.) steckt p genau 2-mal
+(F) Paare aus w100: 9 von 24 aus x² − 8y² = 1 (8, 288, 9800, 332928, 11309768, 384199200, 13051463048, 443365544448, 15061377048200); jedes Paar loest b₂³·a₂² − b₁³·a₁² = 1.
+E1 ✅ E2 ✅ E3 ✅ E4 ✅ E5 ✅

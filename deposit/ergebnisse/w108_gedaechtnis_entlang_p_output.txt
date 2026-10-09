@@ -1,0 +1,32 @@
+====================================================================================================
+w108 — GEDAECHTNIS ENTLANG p: Autokorrelation der Wieferich-Quotienten, 25 Kerne, Abstand 1 … 20   2026-09-25 03:10
+====================================================================================================
+PK ✅  eingebaute 5-%-Erinnerung: z = +21.4 erkannt; dieselbe Folge gemischt: z = -1.81.
+  m =        7: n = 216,813 · groesstes |z| = 2.15 (Abstand 3) · Ljung–Box p = 0.435
+  m =       15: n = 216,813 · groesstes |z| = 2.58 (Abstand 14) · Ljung–Box p = 0.119
+  m =       23: n = 216,813 · groesstes |z| = 2.38 (Abstand 18) · Ljung–Box p = 0.741
+  m =       87: n = 216,813 · groesstes |z| = 2.63 (Abstand 13) · Ljung–Box p = 0.274
+  m =       39: n = 216,813 · groesstes |z| = 2.06 (Abstand 17) · Ljung–Box p = 0.078
+  m =      319: n = 216,810 · groesstes |z| = 3.14 (Abstand 13) · Ljung–Box p = 0.005
+  m =       47: n = 216,813 · groesstes |z| = 2.61 (Abstand 10) · Ljung–Box p = 0.505
+  m =   209991: n = 216,809 · groesstes |z| = 1.98 (Abstand 18) · Ljung–Box p = 0.491
+  m =     1903: n = 216,810 · groesstes |z| = 2.59 (Abstand 9) · Ljung–Box p = 0.505
+  m =       31: n = 216,811 · groesstes |z| = 2.25 (Abstand 4) · Ljung–Box p = 0.097
+  m =       55: n = 216,812 · groesstes |z| = 2.24 (Abstand 7) · Ljung–Box p = 0.350
+  m =      407: n = 216,812 · groesstes |z| = 1.58 (Abstand 11) · Ljung–Box p = 0.960
+  m =       79: n = 216,813 · groesstes |z| = 3.30 (Abstand 12) · Ljung–Box p = 0.394
+  m =       95: n = 216,813 · groesstes |z| = 1.64 (Abstand 19) · Ljung–Box p = 0.772
+  m =      159: n = 216,811 · groesstes |z| = 1.86 (Abstand 19) · Ljung–Box p = 0.666
+  m =      143: n = 216,813 · groesstes |z| = 1.54 (Abstand 5) · Ljung–Box p = 0.842
+  m =      183: n = 216,813 · groesstes |z| = 1.54 (Abstand 2) · Ljung–Box p = 0.773
+  m =       71: n = 216,812 · groesstes |z| = 2.35 (Abstand 19) · Ljung–Box p = 0.451
+  m =      119: n = 216,812 · groesstes |z| = 1.69 (Abstand 20) · Ljung–Box p = 0.932
+  m =      703: n = 216,810 · groesstes |z| = 2.14 (Abstand 13) · Ljung–Box p = 0.260
+  m =  4099215: n = 216,807 · groesstes |z| = 2.32 (Abstand 19) · Ljung–Box p = 0.621
+  m =      111: n = 216,812 · groesstes |z| = 2.37 (Abstand 13) · Ljung–Box p = 0.270
+  m =      255: n = 216,812 · groesstes |z| = 2.22 (Abstand 19) · Ljung–Box p = 0.802
+  m =      295: n = 216,811 · groesstes |z| = 1.17 (Abstand 18) · Ljung–Box p = 0.996
+  m =      327: n = 216,813 · groesstes |z| = 2.25 (Abstand 4) · Ljung–Box p = 0.182
+
+E1  500 Tests: |z| > 2,576 bei 7 (erwartet ~5); groesstes |z| = 3.30 (m = 79, Abstand 12), Bonferroni p = 0.481; Ljung–Box unter 0,05 bei 1 von 25 Kernen (erwartet ~1,25).
+    KEIN Gedaechtnis entlang der Primzahlen — die Quotienten folgen einander wie unabhaengige Wuerfe.

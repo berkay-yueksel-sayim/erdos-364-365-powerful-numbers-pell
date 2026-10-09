@@ -1,0 +1,640 @@
+{
+ "skript": "w162_inventar_wahrscheinliche_primzahlen_2026-10-02.py",
+ "datum": "2026-10-02 18:49",
+ "bausteine": 41,
+ "faktoren": 63,
+ "nur_wahrscheinlich": 24,
+ "bausteine_mit_unbewiesenem": 21,
+ "inventar": [
+  {
+   "m": 111,
+   "d": 5,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 1,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "5"
+  },
+  {
+   "m": 111,
+   "d": 5,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 11,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "24234373901"
+  },
+  {
+   "m": 39,
+   "d": 7,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 11,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "15581284993"
+  },
+  {
+   "m": 55,
+   "d": 7,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 14,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "31799775934081"
+  },
+  {
+   "m": 71,
+   "d": 7,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 12,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "331486662473"
+  },
+  {
+   "m": 71,
+   "d": 7,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 12,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "342917237041"
+  },
+  {
+   "m": 79,
+   "d": 7,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 7,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "3663073"
+  },
+  {
+   "m": 79,
+   "d": 7,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 7,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "4578841"
+  },
+  {
+   "m": 95,
+   "d": 7,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 12,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "224940580481"
+  },
+  {
+   "m": 143,
+   "d": 7,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 9,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "188788601"
+  },
+  {
+   "m": 39,
+   "d": 9,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 11,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "15587522497"
+  },
+  {
+   "m": 143,
+   "d": 9,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 1,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "3"
+  },
+  {
+   "m": 143,
+   "d": 9,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 8,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "63039167"
+  },
+  {
+   "m": 39,
+   "d": 11,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 17,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "97227249518887489"
+  },
+  {
+   "m": 319,
+   "d": 11,
+   "klasse": "voll",
+   "route": "prim",
+   "stellen": 75,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "130856794450428033814363563544037881962992310436426743266256672788695127989"
+  },
+  {
+   "m": 87,
+   "d": 13,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 8,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "48289123"
+  },
+  {
+   "m": 87,
+   "d": 13,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 14,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "19615790584207"
+  },
+  {
+   "m": 23,
+   "d": 15,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 7,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "4308961"
+  },
+  {
+   "m": 23,
+   "d": 15,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 7,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "6519841"
+  },
+  {
+   "m": 55,
+   "d": 15,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 9,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "229735559"
+  },
+  {
+   "m": 55,
+   "d": 15,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 10,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "4385668919"
+  },
+  {
+   "m": 87,
+   "d": 15,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 14,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "96501562375681"
+  },
+  {
+   "m": 39,
+   "d": 19,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 10,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "2278564283"
+  },
+  {
+   "m": 39,
+   "d": 19,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 22,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "1661484034444059587507"
+  },
+  {
+   "m": 95,
+   "d": 19,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 35,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "11385346068552408504327088645393601"
+  },
+  {
+   "m": 16057223,
+   "d": 19,
+   "klasse": "voll",
+   "route": "prim",
+   "stellen": 234,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "241652584266800387625174341368379044784700844480327432273439056263016294498304750554871556241036465756394999088138564108040626777248132166902543523612478683858594257552440416474563841392713874845482825115615517701849039661688277020461"
+  },
+  {
+   "m": 15,
+   "d": 23,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 20,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "51063980650397625961"
+  },
+  {
+   "m": 87,
+   "d": 25,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 10,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "1029500299"
+  },
+  {
+   "m": 87,
+   "d": 25,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 26,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "88789784530612304746434799"
+  },
+  {
+   "m": 15,
+   "d": 29,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 26,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "12160478479832564836254301"
+  },
+  {
+   "m": 15,
+   "d": 31,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 8,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "41392441"
+  },
+  {
+   "m": 15,
+   "d": 31,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 9,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "361500301"
+  },
+  {
+   "m": 15,
+   "d": 31,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 11,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "50373210061"
+  },
+  {
+   "m": 87,
+   "d": 31,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 8,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "21725047"
+  },
+  {
+   "m": 87,
+   "d": 31,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 19,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "9311443204779808789"
+  },
+  {
+   "m": 87,
+   "d": 31,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 27,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "136573972674894025418385547"
+  },
+  {
+   "m": 15,
+   "d": 33,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 7,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "4359961"
+  },
+  {
+   "m": 15,
+   "d": 33,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 12,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "195098028841"
+  },
+  {
+   "m": 87,
+   "d": 33,
+   "klasse": "voll",
+   "route": "prim",
+   "stellen": 35,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "91438276636807700966133216521909761"
+  },
+  {
+   "m": 15,
+   "d": 37,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 15,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "229228022728681"
+  },
+  {
+   "m": 15,
+   "d": 37,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 18,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "783064647183585181"
+  },
+  {
+   "m": 7,
+   "d": 43,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 26,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "12569415953329668840921539"
+  },
+  {
+   "m": 7,
+   "d": 43,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 26,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "25138831906659337681843079"
+  },
+  {
+   "m": 15,
+   "d": 43,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 17,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "21427567845878329"
+  },
+  {
+   "m": 15,
+   "d": 43,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 22,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "1994933592775393410109"
+  },
+  {
+   "m": 95,
+   "d": 45,
+   "klasse": "voll",
+   "route": "prim",
+   "stellen": 46,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "2561868588756938993372404350752922880092449281"
+  },
+  {
+   "m": 15,
+   "d": 49,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 7,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "9308041"
+  },
+  {
+   "m": 15,
+   "d": 49,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 31,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "4666525990426643722207098841201"
+  },
+  {
+   "m": 15,
+   "d": 51,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 29,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "48240020020452400251197614081"
+  },
+  {
+   "m": 15,
+   "d": 59,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 52,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "9313880184559289624540070947742491086227180976532101"
+  },
+  {
+   "m": 15,
+   "d": 61,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 7,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "7574491"
+  },
+  {
+   "m": 15,
+   "d": 61,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 10,
+   "exponent": 1,
+   "status": "bewiesen_psi12",
+   "zahl": "3053749549"
+  },
+  {
+   "m": 15,
+   "d": 61,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 38,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "24958727682225935618680212197631559939"
+  },
+  {
+   "m": 15,
+   "d": 63,
+   "klasse": "voll",
+   "route": "prim",
+   "stellen": 33,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "182397047322675070336382577515521"
+  },
+  {
+   "m": 15,
+   "d": 71,
+   "klasse": "voll",
+   "route": "prim",
+   "stellen": 63,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "528205160750063414080982868886668524381800276712050840011775801"
+  },
+  {
+   "m": 255,
+   "d": 75,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 26,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "54510299913983505074186101"
+  },
+  {
+   "m": 255,
+   "d": 75,
+   "klasse": "voll",
+   "route": "voll",
+   "stellen": 35,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "28348561646501413427884149355335901"
+  },
+  {
+   "m": 15,
+   "d": 111,
+   "klasse": "voll",
+   "route": "prim",
+   "stellen": 65,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "33804988334932632508630823867498426511435656464129134050780474881"
+  },
+  {
+   "m": 23,
+   "d": 161,
+   "klasse": "voll",
+   "route": "teile_voll",
+   "stellen": 111,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "726979751778001219384841682609039861687877525520977699545787240137570699246738068434976261582539823957740487041"
+  },
+  {
+   "m": 23,
+   "d": 161,
+   "klasse": "voll",
+   "route": "teile_voll",
+   "stellen": 112,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "1090465596102623782986893585017005222584646722640056934560924570878696535145212989450396257659026906163144760961"
+  },
+  {
+   "m": 39,
+   "d": 273,
+   "klasse": "voll",
+   "route": "prim",
+   "stellen": 245,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "42313253276075485489107233986669349587138667774328351981129600624551492936349899237817620268234089148091017712473462317148726033610096140393619885332838180906784613511800177261249621208489017951968547558936841709901330412995520671959677793280001"
+  },
+  {
+   "m": 15,
+   "d": 399,
+   "klasse": "voll",
+   "route": "prim",
+   "stellen": 194,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "36236567212335660943840495340984320258003329098733669850185601677525736252784440105076582639097278939145537836688492970829691546500441140694728271073963324299892493792772487213144205412092108801"
+  },
+  {
+   "m": 7,
+   "d": 1449,
+   "klasse": "prpzeuge",
+   "route": "teile_zeuge",
+   "stellen": 477,
+   "exponent": 1,
+   "status": "nur_wahrscheinlich",
+   "zahl": "146351762308629338780894247709899189634503570219872621127952396082687984504962401568269339772472511601818861634121587938248141349203884949920376491454712266210745823018383225218103407807127960008748555974985317675285158821818523294943995779398794259430205050480102539189854737180694032721304981421988997447775031640865955538029154127366847051313166408243052281772636940709795896840333523925907289414879265699406111884717474535880275398102624950480033524943199557374472805035521"
+  }
+ ]
+}

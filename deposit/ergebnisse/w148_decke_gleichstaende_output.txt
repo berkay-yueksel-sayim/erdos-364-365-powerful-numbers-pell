@@ -1,0 +1,15 @@
+PK1 ✅  21663503 powerful, 8235300 Werte, Top 1 = 44100 mit 163
+PK3 ✅  G200: 201 Werte (occ ≥ 89), davon nicht powerful 10
+   g =   63900  sqfull =    900  occ =  112  gcd = sqfull:  57 (50.9 %)  Rang sqfull 9–9  in w49: True
+   g =   82908  sqfull =   1764  occ =   98  gcd = sqfull:  48 (49.0 %)  Rang sqfull 36–41  in w49: True
+   g =   17100  sqfull =    900  occ =   97  gcd = sqfull:  42 (43.3 %)  Rang sqfull 9–9  in w49: True
+   g =   23324  sqfull =   1372  occ =   96  gcd = sqfull:  20 (20.8 %)  Rang sqfull 170–175  in w49: True
+   g =  151900  sqfull =   4900  occ =   90  gcd = sqfull:  41 (45.6 %)  Rang sqfull 10–11  in w49: True
+   g =  171900  sqfull =    900  occ =   90  gcd = sqfull:  47 (52.2 %)  Rang sqfull 9–9  in w49: True
+   g =    7100  sqfull =    100  occ =   89  gcd = sqfull:  55 (61.8 %)  Rang sqfull 357–381  in w49: True
+   g =   26100  sqfull =    900  occ =   89  gcd = sqfull:  33 (37.1 %)  Rang sqfull 9–9  in w49: True
+   g =  127800  sqfull =   1800  occ =   89  gcd = sqfull:  48 (53.9 %)  Rang sqfull 29–31  in w49: False
+   g =  215100  sqfull =    900  occ =   89  gcd = sqfull:  46 (51.7 %)  Rang sqfull 9–9  in w49: False
+PK2 ✅  die 8 Werte aus w49: occ und gcd-Anteil identisch
+G20: 21 Werte (occ ≥ 119), alle powerful: True, Anteil 24.2–44.9 %
+nicht-powerful in G200: Anteil 20.8–61.8 %

@@ -1,0 +1,150 @@
+====================================================================================================
+w137 — WIEFERICH-SUCHE (w77-Art) AUF ALLEN 79 KERNEN   2026-09-29 14:59
+====================================================================================================
+NK E4 ✅  Stufenfunktion: p·7 → 1, p²·7 → 2, 0 → ≥3, 7 → 0.
+   m =         7 (alt):    90414 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (12s)
+   m =        15 (alt):    72197 Rang-Primzahlen, Ereignisse gedeckelt  3, ungedeckelt  3   (22s)
+   m =        23 (alt):    90426 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (34s)
+   m =        87 (alt):    72178 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (44s)
+   m =        39 (alt):    72178 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (54s)
+   m =       319 (alt):    72247 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (63s)
+   m =        47 (alt):    90213 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (73s)
+   m =    209991 (alt):    72169 Rang-Primzahlen, Ereignisse gedeckelt  2, ungedeckelt  2   (84s)
+   m =      1903 (alt):    72399 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (94s)
+   m =        31 (alt):    90374 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (104s)
+   m =        55 (alt):    72369 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (115s)
+   m =       407 (alt):    72386 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (124s)
+   m =        79 (alt):    90396 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (134s)
+   m =        95 (alt):    72245 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (143s)
+   m =       159 (alt):    72282 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (153s)
+   m =       143 (alt):    72238 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (163s)
+   m =       183 (alt):    72361 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (173s)
+   m =        71 (alt):    90201 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (184s)
+   m =       119 (alt):    90270 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (195s)
+   m =       703 (alt):    72202 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (206s)
+   m =   4099215 (alt):    71946 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (218s)
+   m =       111 (alt):    72323 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (229s)
+   m =       255 (alt):    72198 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (241s)
+   m =       295 (alt):    72145 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (253s)
+   m =       327 (alt):    72315 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (263s)
+   m =       615 (neu):    72334 Rang-Primzahlen, Ereignisse gedeckelt  2, ungedeckelt  2   (275s)
+   m =    123879 (neu):    72359 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (287s)
+   m =       103 (neu):    90298 Rang-Primzahlen, Ereignisse gedeckelt  3, ungedeckelt  3   (298s)
+   m =       167 (neu):    90317 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (309s)
+   m =       215 (neu):    72183 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (320s)
+   m =       223 (neu):    90274 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (331s)
+   m =       231 (neu):    72147 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (342s)
+   m =       399 (neu):    72206 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (353s)
+   m =       935 (neu):    72299 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (363s)
+   m =      1343 (neu):    90337 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (374s)
+   m =      7735 (neu):    72284 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (384s)
+   m =       127 (neu):    90175 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (394s)
+   m =       151 (neu):    90328 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (404s)
+   m =       191 (neu):    90437 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (414s)
+   m =       239 (neu):    90430 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (424s)
+   m =       247 (neu):    72311 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (434s)
+   m =       263 (neu):    90394 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (444s)
+   m =       287 (neu):    90390 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (454s)
+   m =       303 (neu):    72251 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (463s)
+   m =       335 (neu):    72321 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (472s)
+   m =       359 (neu):    90281 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (483s)
+   m =       383 (neu):    90293 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (493s)
+   m =       439 (neu):    90329 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (503s)
+   m =       447 (neu):    72313 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (512s)
+   m =       455 (neu):    72208 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (521s)
+   m =       471 (neu):    72417 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (532s)
+   m =       511 (neu):    90278 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (543s)
+   m =       527 (neu):    90206 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (554s)
+   m =       623 (neu):    90326 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (564s)
+   m =       663 (neu):    72310 Rang-Primzahlen, Ereignisse gedeckelt  2, ungedeckelt  2   (575s)
+   m =      1023 (neu):    72232 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (585s)
+   m =      1335 (neu):    72194 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (595s)
+   m =      1351 (neu):    72111 Rang-Primzahlen, Ereignisse gedeckelt  4, ungedeckelt  4   (611s)
+   m =      1535 (neu):    72295 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (626s)
+   m =      1703 (neu):    72370 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (639s)
+   m =      1735 (neu):    71968 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (651s)
+   m =      2055 (neu):    72469 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (661s)
+   m =      2135 (neu):    72113 Rang-Primzahlen, Ereignisse gedeckelt  2, ungedeckelt  2   (670s)
+   m =      2343 (neu):    72235 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (680s)
+   m =      2415 (neu):    72439 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (690s)
+   m =      2495 (neu):    72145 Rang-Primzahlen, Ereignisse gedeckelt  2, ungedeckelt  2   (701s)
+   m =      3895 (neu):    72258 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (712s)
+   m =      7967 (neu):    90443 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (724s)
+   m =      9167 (neu):    90299 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (736s)
+   m =     10255 (neu):    72016 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (748s)
+   m =     10879 (neu):    72061 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (760s)
+   m =     20303 (neu):    72172 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (771s)
+   m =     32271 (neu):    72180 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (782s)
+   m =    105127 (neu):    72282 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (793s)
+   m =    161231 (neu):    90434 Rang-Primzahlen, Ereignisse gedeckelt  2, ungedeckelt  2   (805s)
+   m =    175791 (neu):    72226 Rang-Primzahlen, Ereignisse gedeckelt  1, ungedeckelt  1   (816s)
+   m =    313055 (neu):    72076 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (826s)
+   m =   2341391 (neu):    72382 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (837s)
+   m =  16057223 (neu):    72288 Rang-Primzahlen, Ereignisse gedeckelt  0, ungedeckelt  0   (847s)
+
+PK E1 ✅  gedeckelt auf den 25: v=1 1,932,631 · v=2 16 · v>=3 0 · Tripel wie w77: True
+PK E2 ✅  alle 54 Ereignisse (ungedeckelt) erfuellen p ≡ ±1 (mod 4d).
+        m       d         p  v Kern ged.  log10 Phi_d  2·log10 p  Zeugen<3e6 Frage-Pop.
+       15      45       181  2  alt   ja         21.5        4.5           1         ja
+       15     130      1039  2  alt   ja         86.0        6.0           0           
+       15  600364   2401457  2  alt   ja     538006.2       12.8           0           
+       31      39       157  2  alt   ja         83.6        4.4           1           
+       39       1         5  2  alt   ja          1.7        1.4           0           
+       79     253      4049  2  alt   ja        484.9        7.2           1           
+       87       4        17  2  alt   ja          7.0        2.5           1           
+       95    2734     10937  2  alt   ja       5169.0        8.1           0           
+      103       3        13  2  neu   ja         11.3        2.2           2           
+      103       3        59  2  neu   ja         11.3        3.5           2           
+      103   61794    494353  2  neu   ja     233021.7       11.4           0           
+      127       4        31  2  neu   ja         27.9        3.0           0           
+      143      13       311  2  alt   ja         16.6        5.0           4         ja
+      151      16       127  2  neu   ja        152.6        4.2           3           
+      167       3        11  2  neu   ja          5.0        2.1           1           
+      191       1         5  3  neu   ja          7.2        1.4           2           
+      215       2         7  2  neu   ja          3.9        1.7           1           
+      223      45       179  2  neu   ja         63.6        4.5           2           
+      255    1308      5231  2  alt   ja       1300.1        7.4           1           
+      287       1         3  2  neu   ja          2.8        0.9           0           
+      319       5     20161  2  alt   ja         29.6        8.6           0         ja
+      327     417      1667  2  alt   ja        728.0        6.4           2           
+      359       1         3  2  neu   ja          2.9        0.9           1           
+      383   21545    258539  2  neu   ja      75752.9       10.8           1           
+      407     166      1993  2  alt   ja        611.1        6.6           0           
+      447     413     24781  2  neu   ja        860.0        8.8           2           
+      455       9        37  2  neu   ja         12.6        3.1           2           
+      471   74312   1188991  2  neu   ja     457964.8       12.2           0           
+      615     162       647  2  neu   ja        258.6        5.6           1           
+      615     807      3229  2  neu   ja       1283.4        7.0           0           
+      663       2         7  2  neu   ja          4.6        1.7           1           
+      663      34       137  2  neu   ja         74.0        4.3           0           
+     1335       2         7  2  neu   ja          9.9        1.7           0           
+     1343       5        19  2  neu   ja         23.6        2.6           2           
+     1351       1         5  2  neu   ja          4.1        1.4           2           
+     1351       6       167  2  neu   ja         16.4        4.5           3           
+     1351    1727      6907  2  neu   ja       6383.0        7.7           1           
+     1351    3469     13877  2  neu   ja      14189.9        8.3           0           
+     1535      63       251  2  neu   ja        231.8        4.8           2           
+     1903       4        17  2  alt   ja         37.0        2.5           2           
+     2135      13        53  2  neu   ja         50.2        3.5           1           
+     2135      37       149  2  neu   ja        150.6        4.3           0           
+     2495       1         3  3  neu   ja          3.3        0.9           1           
+     2495       4        17  2  neu   ja         13.2        2.5           4           
+     7735       2        23  2  neu   ja         12.3        2.7           2           
+     9167       1         3  2  neu   ja         17.1        0.9           3           
+    32271       1       647  2  neu   ja         14.0        5.6           1           
+   105127      18        71  2  neu   ja        665.8        3.7           2           
+   123879       9        37  2  neu   ja        114.2        3.1           0           
+   161231       1         3  3  neu   ja         41.3        0.9           1           
+   161231       1         5  2  neu   ja         41.3        1.4           1           
+   175791     228       911  2  neu   ja       3043.2        5.9           0           
+   209991      18        71  2  alt   ja       1142.0        3.7           0           
+   209991     846     10151  2  alt   ja      52531.3        8.0           0           
+
+PK E3 ✅  Kein Ereignis mit d >= 5 hat Phi_d = p² (Groessenvergleich).
+====================================================================================================
+  54 NEUE KERNE: Ereignisse gedeckelt (NP = 5) 38 · ungedeckelt 38 · davon in der Frage-Population 0
+                 gedeckelte Zaehlung v=1 4,244,592 · v=2 35 · v>=3 3
+                 Heuristik (ungedeckelt): Summe 1/p ueber alle Rang-Primzahlen = 44.63 erwartete Ereignisse
+  25 ALTE KERNE: ungedeckelt 16 (gedeckelt 16 = w77)
+  Frage-Population, neue Kerne: keine
+====================================================================================================

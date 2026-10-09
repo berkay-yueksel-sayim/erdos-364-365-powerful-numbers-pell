@@ -1,0 +1,23 @@
+====================================================================================================
+w107 — NACHBARSCHAFTS-KORREKTUR FUER POWERFUL PAARE   2026-09-25 03:10
+====================================================================================================
+(1) C_p fuer p = 2 … 13: 2: 0.8889 · 3: 0.9184 · 5: 0.9637 · 7: 0.9805 · 11: 0.9919 · 13: 0.9942
+    C = ∏_(p ≤ 10⁷) C_p = 0.74821   ⇒ asymptotisch 0.8184 · C = 0.6124 Paare je Binaerabschnitt (naiv 0.8184)
+    Abschnitt 44: 3,765,629 powerful · 1 Paare  (3s)
+    Abschnitt 45: 5,326,925 powerful · 1 Paare  (3s)
+    Abschnitt 46: 7,535,417 powerful · 0 Paare  (3s)
+    Abschnitt 47: 10,659,085 powerful · 0 Paare  (4s)
+    Abschnitt 48: 15,077,360 powerful · 1 Paare  (5s)
+    Abschnitt 49: 21,326,528 powerful · 0 Paare  (7s)
+    Abschnitt 50: 30,165,179 powerful · 1 Paare  (9s)
+    Abschnitt 51: 42,666,196 powerful · 0 Paare  (12s)
+PK ✅  jede Abschnittszaehlung = Zaehlformel (w100); die 24 Paare bis 2⁴⁶ exakt wiedergefunden.
+(2) Paare bis 2^52: 26 — neu in den Abschnitten 46 … 51: 511643454094368, 1558709801289000
+    bis 10^8  : gemessen  10 · naiv  15.39 (z -1.37) · korrigiert  11.51 (z -0.45)
+    bis 10^10 : gemessen  14 · naiv  20.67 (z -1.47) · korrigiert  15.46 (z -0.37)
+    bis 10^12 : gemessen  18 · naiv  26.03 (z -1.57) · korrigiert  19.48 (z -0.33)
+    bis 2^46  : gemessen  24 · naiv  31.02 (z -1.26) · korrigiert  23.21 (z +0.16)
+    bis 2^48  : gemessen  24 · naiv  32.65 (z -1.51) · korrigiert  24.43 (z -0.09)
+    bis 2^50  : gemessen  25 · naiv  34.28 (z -1.59) · korrigiert  25.65 (z -0.13)
+    bis 2^52  : gemessen  26 · naiv  35.92 (z -1.65) · korrigiert  26.87 (z -0.17)
+    Abschnitte 30 … 51 allein: gemessen 14, korrigiert erwartet 13.33 (z +0.18), naiv 17.82 (z -0.90)

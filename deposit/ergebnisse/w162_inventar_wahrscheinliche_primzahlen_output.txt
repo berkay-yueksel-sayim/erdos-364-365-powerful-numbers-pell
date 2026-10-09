@@ -1,0 +1,30 @@
+w162 · 2026-10-02 18:49
+PK E1a ✅  41 Bausteine (voll 40 + prpzeuge 1)
+PK E2 ✅  (255, 75): grosse Faktoren mit [26, 35] Stellen (w83: 26 und 35)
+E3 ✅  kein zusammengesetzter Rest; alle 41 Produkte = M_d (bzw. B | M_d genau einmal) (28 s)
+E4     Faktoren insgesamt 63; bewiesen unter psi_12: 39; mit w95-Zertifikat: 0; NUR WAHRSCHEINLICH PRIM: 24 in 21 Bausteinen
+       nach Stellen: {'121–250': 3, '41–80': 5, '81–120': 2, '> 250': 1, '≤ 40': 13}
+       (87, 25) voll/voll: 26 Stellen
+       (15, 29) voll/voll: 26 Stellen
+       (7, 43) voll/voll: 26 Stellen
+       (7, 43) voll/voll: 26 Stellen
+       (255, 75) voll/voll: 26 Stellen
+       (87, 31) voll/voll: 27 Stellen
+       (15, 51) voll/voll: 29 Stellen
+       (15, 49) voll/voll: 31 Stellen
+       (15, 63) voll/prim: 33 Stellen
+       (95, 19) voll/voll: 35 Stellen
+       (87, 33) voll/prim: 35 Stellen
+       (255, 75) voll/voll: 35 Stellen
+       (15, 61) voll/voll: 38 Stellen
+       (95, 45) voll/prim: 46 Stellen
+       (15, 59) voll/voll: 52 Stellen
+       (15, 71) voll/prim: 63 Stellen
+       (15, 111) voll/prim: 65 Stellen
+       (319, 11) voll/prim: 75 Stellen
+       (23, 161) voll/teile_voll: 111 Stellen
+       (23, 161) voll/teile_voll: 112 Stellen
+       (15, 399) voll/prim: 194 Stellen
+       (16057223, 19) voll/prim: 234 Stellen
+       (39, 273) voll/prim: 245 Stellen
+       (7, 1449) prpzeuge/teile_zeuge: 477 Stellen

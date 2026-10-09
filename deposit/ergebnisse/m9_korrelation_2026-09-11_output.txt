@@ -1,0 +1,31 @@
+PK Grundfunktionen ok
+Schleife durch [18s]: Familien 750, Paare 120373, w2 470, w3 52, h1 486, h2 49.1
+PK+ ok: alle fuenf veroeffentlichten Zahlen exakt reproduziert.
+
+PK- ok: synthetisch unabhaengiger Datensatz gibt z = +0.74 (liegt im Rauschen).
+
+=== (A) Klumpung INNERHALB der Kerne ===
+  Kerne 750 | Paare 120373 | lambda_m: min 0.208  median 0.607  max 1.222
+  Treffer je Kern: [396 255  83  15   1]   (Index = Anzahl Treffer)
+  S_beobachtet = 411.7
+  S_null       = 436.2 +/- 28.2   (4000 Simulationen des Unabhaengigkeits-Modells)
+  z = -0.87   empirisches p (einseitig, Ueberstreuung) = 0.8040
+
+=== (B) Trennung: koppelt die EINHEIT, oder ist die PRIMZAHL oft Wieferich? ===
+  groesste POSITIVE Abweichungen (p, beobachtet, erwartet, z):
+     p =   181   beob    5   erw    1.78   z = +2.41
+     p =   163   beob    5   erw    1.81   z = +2.37
+     p =   157   beob    4   erw    1.94   z = +1.48
+     p =   167   beob    3   erw    1.43   z = +1.32
+     p =   223   beob    3   erw    1.49   z = +1.24
+     p =   127   beob    5   erw    2.95   z = +1.19
+     p =   107   beob    4   erw    2.34   z = +1.09
+     p =   199   beob    2   erw    1.11   z = +0.85
+  groesste NEGATIVE Abweichungen:
+     p =    71   beob    1   erw    3.31   z = -1.27
+     p =   137   beob    0   erw    1.78   z = -1.33
+     p =     5   beob   38   erw   49.20   z = -1.60
+     p =    67   beob    1   erw    4.51   z = -1.65
+     p =   101   beob    0   erw    2.75   z = -1.66
+
+JSON: m9_korrelation_result.json   [25s]

@@ -1,0 +1,20 @@
+====================================================================================================
+w155 — algebraische Teile der offenen Bloecke · 2026-10-01 00:37
+====================================================================================================
+PK+ ✅ (7, 5): M = 64261 = 179 · 359, A und B = 179 und 359
+PK+ ✅ alle 26 Quadrat-Kerne, d = 5, 7, 9: A · B = M_d, beide Teile > 1
+NK ✅ m = 15 (T_1 + 1 kein Quadrat) wird nicht zerlegt
+
+Offene Bloecke (w146): 10: [(399, 171), (23, 161), (407, 111), (39, 247), (111, 185), (95, 475), (407, 259), (663, 663), (7, 1449), (20303, 257)]
+  (399, 171) 173 Stellen: T_1 + 1 kein Quadrat — keine algebraische Zerlegung
+  (23, 161): M_d hat 222 Stellen = A (111 Stellen) · B (112 Stellen); Kosten je Kurve etwa 0.50× gegenueber der ungeteilten Zahl
+  (407, 111) 269 Stellen: T_1 + 1 kein Quadrat — keine algebraische Zerlegung
+  (39, 247) 367 Stellen: T_1 + 1 kein Quadrat — keine algebraische Zerlegung
+  (111, 185) 400 Stellen: T_1 + 1 kein Quadrat — keine algebraische Zerlegung
+  (95, 475) 682 Stellen: T_1 + 1 kein Quadrat — keine algebraische Zerlegung
+  (407, 259) 805 Stellen: T_1 + 1 kein Quadrat — keine algebraische Zerlegung
+  (663, 663) 889 Stellen: T_1 + 1 kein Quadrat — keine algebraische Zerlegung
+  (7, 1449): M_d hat 953 Stellen = A (477 Stellen) · B (477 Stellen); Kosten je Kurve etwa 0.50× gegenueber der ungeteilten Zahl
+  (20303, 257) 1893 Stellen: T_1 + 1 kein Quadrat — keine algebraische Zerlegung
+
+GESAMT ✅ genau die zwei erwarteten Bloecke zerfallen; ECM darauf ist nicht gestartet.

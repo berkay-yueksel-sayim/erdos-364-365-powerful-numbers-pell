@@ -1,0 +1,50 @@
+====================================================================================================
+w112 — QUADRAT-FAMILIEN: Geburt, Wachstum, Vergleich mit den 39 Paaren   2026-10-03 02:33
+====================================================================================================
+PK1 m_b direkt (Iteration mod b) gegen die Formel b/ggT(b, Y₁), 6082 quadratfreie b ≤ 10000: ✅ ueberall gleich
+PK2 Quadrat-Familien bis 3,9·10²¹: vorhergesagt 32 Paare in 10 Familien · in den Daten 32 in 10 · Abweichungen: keine ✅
+
+Die ersten 24 Geburten (t = ln n₁; F = Wachstumsfaktor je Glied, ln F; Anzahl bis 3,9·10²¹; Periode m):
+   (b,1) b =    2, d =    1:  t =    2.08 · ln F =     3.53 · m = 1 · bis 3,9·10²¹: 14
+   (b,1) b =    3, d =    1:  t =    6.51 · ln F =     7.90 · m = 3 · bis 3,9·10²¹: 6
+   (b,1) b =    6, d =    1:  t =   12.37 · ln F =    13.75 · m = 3 · bis 3,9·10²¹: 3
+   (1,d) b =    1, d =    5:  t =   13.05 · ln F =    28.87 · m = 5 · bis 3,9·10²¹: 2
+   (b,1) b =   46, d =    1:  t =   20.20 · ln F =    21.59 · m = 1 · bis 3,9·10²¹: 2
+   (b,1) b =    5, d =    1:  t =   27.49 · ln F =    28.87 · m = 5 · bis 3,9·10²¹: 1
+   (b,1) b =  430, d =    1:  t =   29.73 · ln F =    31.12 · m = 1 · bis 3,9·10²¹: 1
+   (b,1) b =   10, d =    1:  t =   34.98 · ln F =    36.37 · m = 5 · bis 3,9·10²¹: 1
+   (b,1) b =    7, d =    1:  t =   37.37 · ln F =    38.76 · m = 7 · bis 3,9·10²¹: 1
+   (b,1) b =   14, d =    1:  t =   46.21 · ln F =    47.60 · m = 7 · bis 3,9·10²¹: 1
+   (b,1) b =   15, d =    1:  t =   60.52 · ln F =    61.90 · m = 15 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (b,1) b = 1817, d =    1:  t =   61.61 · ln F =    63.00 · m = 1 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (b,1) b =   21, d =    1:  t =   64.42 · ln F =    65.81 · m = 7 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (b,1) b =   11, d =    1:  t =   64.46 · ln F =    65.85 · m = 11 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (1,d) b =    1, d =   17:  t =   69.83 · ln F =   142.44 · m = 17 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (b,1) b =  366, d =    1:  t =   85.09 · ln F =    86.47 · m = 3 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (b,1) b =   70, d =    1:  t =   85.67 · ln F =    87.06 · m = 7 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (b,1) b =   30, d =    1:  t =   91.28 · ln F =    92.67 · m = 15 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (1,d) b =    1, d =   13:  t =   91.81 · ln F =   186.38 · m = 13 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (b,1) b =  665, d =    1:  t =  100.81 · ln F =   102.20 · m = 5 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (b,1) b =   26, d =    1:  t =  118.86 · ln F =   120.25 · m = 13 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (b,1) b =   78, d =    1:  t =  119.86 · ln F =   121.25 · m = 13 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (b,1) b =   22, d =    1:  t =  130.09 · ln F =   131.48 · m = 11 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   (b,1) b =   42, d =    1:  t =  135.39 · ln F =   136.78 · m = 21 · bis 3,9·10²¹: 0   ← jenseits der Liste
+   Vorhersage b = 15: t ≈ 60.5 · hier 60.52 ✅
+   Vorhersage b = 21: t ≈ 64.4 · hier 64.42 ✅
+   Vorhersage b = 11: t ≈ 64.5 · hier 64.46 ✅
+Geburten bis T (Quadrat-Familien, b bzw. d ≤ 10⁴ — ab t ≈ 1000 fehlen Familien mit groesserem b, daher nur bis T = 1000 gezeigt):
+   T = 25: 5 · T = 50: 10 · T = 75: 15 · T = 100: 19 · T = 150: 27 · T = 200: 32 · T = 300: 40 · T = 500: 60 · T = 1000: 103
+   lokale Exponenten d ln N / d ln T: 1.00 · 1.00 · 0.82 · 0.87 · 0.59 · 0.55 · 0.79 · 0.78  (konstante Rate = 1, Vorhersage ~0,67)
+Σ 1/ln F ueber die Quadrat-Familien mit b bzw. d ≤ B (= asymptotische Steigung dieser Familien je Einheit ln x):
+   B = 10: 0.6055 · B = 100: 0.8949 · B = 1000: 1.1044 · B = 10000: 1.2235   (Zufallsmodell gesamt 0,8835)
+Exakte Anzahl der Quadrat-Paare (b, d ≤ 10⁴) bis x = e^L — eine UNTERGRENZE aller Paare — gegen die Zufallsmodelle fuer ALLE Paare:
+   L =   49.7 (x ≈ 10^22): Quadrat-Paare    32 · Zufallsmodell korrigiert    38.93 · naiv    52.03 · momentane Steigung der Quadrat-Familien 0.705
+   L =     75 (x ≈ 10^33): Quadrat-Paare    54 · Zufallsmodell korrigiert    61.28 · naiv    81.90 · momentane Steigung der Quadrat-Familien 0.774
+   L =    100 (x ≈ 10^43): Quadrat-Paare    76 · Zufallsmodell korrigiert    83.36 · naiv   111.42 · momentane Steigung der Quadrat-Familien 0.814
+   L =    150 (x ≈ 10^65): Quadrat-Paare   124 · Zufallsmodell korrigiert   127.54 · naiv   170.45 · momentane Steigung der Quadrat-Familien 0.875
+   L =    200 (x ≈ 10^87): Quadrat-Paare   171 · Zufallsmodell korrigiert   171.71 · naiv   229.49 · momentane Steigung der Quadrat-Familien 0.901
+   L =    300 (x ≈ 10^130): Quadrat-Paare   265 · Zufallsmodell korrigiert   260.05 · naiv   347.57 · momentane Steigung der Quadrat-Familien 0.930
+   L =    500 (x ≈ 10^217): Quadrat-Paare   468 · Zufallsmodell korrigiert   436.75 · naiv   583.72 · momentane Steigung der Quadrat-Familien 0.976
+   L =   1000 (x ≈ 10^434): Quadrat-Paare   997 · Zufallsmodell korrigiert   878.47 · naiv  1174.10 · momentane Steigung der Quadrat-Familien 1.035
+   ⇒ die Quadrat-Paare ALLEIN ueberholen die korrigierte Vorhersage fuer alle Paare ab L ≈ 192.9 (x ≈ 10^84)
+   ⇒ die naive Vorhersage wird bis L = 3000 nicht ueberholt

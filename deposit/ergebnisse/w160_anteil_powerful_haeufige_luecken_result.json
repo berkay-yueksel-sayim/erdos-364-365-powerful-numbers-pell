@@ -1,0 +1,36 @@
+{
+ "skript": "w160_anteil_powerful_haeufige_luecken_2026-10-02.py",
+ "datum": "2026-10-02 13:49",
+ "n_powerful": 21663503,
+ "n_werte": 8235300,
+ "powerful_werte": 8191,
+ "anteil_alle_prozent": 0.0995,
+ "je_mindestzahl": {
+  "2": {
+   "werte": 3839768,
+   "powerful": 7373,
+   "anteil_prozent": 0.192
+  },
+  "5": {
+   "werte": 1116512,
+   "powerful": 5938,
+   "anteil_prozent": 0.5318
+  },
+  "20": {
+   "werte": 62118,
+   "powerful": 2985,
+   "anteil_prozent": 4.8054
+  },
+  "100": {
+   "werte": 109,
+   "powerful": 108,
+   "anteil_prozent": 99.0826
+  }
+ },
+ "basis_mind": 20,
+ "basis_werte": 62118,
+ "basis_powerful": 2985,
+ "basis_anteil_prozent": 4.8054,
+ "nullmodell_50_basis": 2.4,
+ "nullmodell_50_alle": 0.0497
+}

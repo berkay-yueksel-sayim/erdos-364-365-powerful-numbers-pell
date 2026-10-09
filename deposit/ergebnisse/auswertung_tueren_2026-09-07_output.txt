@@ -1,0 +1,21 @@
+PK ok
+=== (1) 2-adische Asymmetrie, Kern <= 1e6, Hoehe 10^1000 ===
+  m = 7 mod 8 (Mitte = 0 mod 4, EMW-relevant): Familien 101329, Kandidaten 49 (davon T1 ungerade 15), Paare (T_k gerade) 174   [8s]
+  m = 3 mod 8 (Mitte = 2 mod 4, irrelevant): Familien 101321, Kandidaten 46 (davon T1 ungerade 9), Paare (T_k gerade) 410   [16s]
+=== (2) Exponent an der Apparition: lebende Familien m <= 1e4 (m = 7 mod 8), Primzahlen 3..3000 ===
+  Familien 750, (m,p)-Paare mit Apparitionsrang: 120373
+  v_p(T_alpha) >= 2 (eps-Wieferich an der Apparition): 470   Heuristik sum 1/p: 486
+  v_p(T_alpha) >= 3: 52   Heuristik sum 1/p^2: 49.1
+  Beispiele Exponent >= 3 (m, p, alpha): [(191, 5, 1), (431, 3, 1), (479, 3, 1), (599, 3, 1), (647, 3, 1), (719, 3, 1), (767, 3, 1), (887, 7, 1), (1031, 3, 1), (1279, 5, 1), (1279, 59, 5), (1319, 3, 1)]
+  Exponent >= 2, kleinste p: [(287, 3, 1), (359, 3, 1), (431, 3, 1), (479, 3, 1), (599, 3, 1), (647, 3, 1), (719, 3, 1), (743, 3, 1)]   [32s]
+=== (3) Turm-Struktur der 371 Paare (Kern <= 1e8, n < 10^2000) ===
+  Paare pro Kern (Top 12): [(7, 119), (15, 74), (23, 26), (87, 20), (319, 12), (47, 11), (1903, 10), (31, 9), (79, 6), (159, 6), (143, 5), (71, 4)]
+  Kerne mit genau 1 Paar: 32 von 58
+  k/m' Verteilung (Top 8): [(1, 58), (3, 26), (5, 18), (7, 15), (9, 11), (11, 10), (13, 8), (15, 8)]
+  Hoehen (Stellen) Quantile 10/50/90 %: 244 1052 1817
+  Paare mit <= 30 Stellen (Kern <= 1e8): 3   Heuristik 0.16*ln(10^X) = 11
+  Paare mit <= 100 Stellen (Kern <= 1e8): 14   Heuristik 0.16*ln(10^X) = 37
+  Paare mit <= 300 Stellen (Kern <= 1e8): 50   Heuristik 0.16*ln(10^X) = 111
+  Paare mit <= 1000 Stellen (Kern <= 1e8): 176   Heuristik 0.16*ln(10^X) = 368
+  Paare mit <= 2000 Stellen (Kern <= 1e8): 371   Heuristik 0.16*ln(10^X) = 737
+Zeit gesamt: 32s

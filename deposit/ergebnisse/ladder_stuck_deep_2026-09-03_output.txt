@@ -1,0 +1,16 @@
+m=  159 Stufe 2 k=17260434899: Zeugen [91153, 113209] -> naechstes k = 178116295873656657323  -> T hat ~10^20.8 Stellen   GELOEST
+m=  247 Stufe 2 k=240196912525063: Zeugen [21323, 32083] -> naechstes k = 164320103162260456390967  -> T hat ~10^23.9 Stellen   GELOEST
+m=  271 Stufe 2 k=122537257: Zeugen [42569] -> naechstes k = 5216288493233  -> T hat ~10^13.8 Stellen   GELOEST
+m=  719 Stufe 2 k=3219255554629: Zeugen [63521, 69031] -> naechstes k = 14116172114200274170979  -> T hat ~10^23.2 Stellen   GELOEST
+m=  767 Stufe 2 k=40651: Zeugen [20903] -> naechstes k = 849727853  -> T hat ~10^9.6 Stellen   GELOEST
+m=  815 Stufe 2 k=2388074418715: Zeugen [39161, 107581] -> naechstes k = 10060908668431762509815  -> T hat ~10^22.7 Stellen   GELOEST
+m=  951 Stufe 1 k=951: Zeugen [22273, 24091] -> naechstes k = 510286479693  -> T hat ~10^12.6 Stellen   GELOEST
+m=  967 Stufe 2 k=1042560160613: Zeugen [25373, 101489] -> naechstes k = 2684676232287707803361  -> T hat ~10^22.7 Stellen   GELOEST
+m= 1031 Stufe 2 k=12756563: Zeugen [235069, 236381] -> naechstes k = 708829206077381707  -> T hat ~10^19.0 Stellen   GELOEST
+m= 1111 Stufe 2 k=31825388597299: Zeugen [65851, 84437] -> naechstes k = 176957463431137423544213  -> T hat ~10^23.6 Stellen   GELOEST
+m= 1327 Stufe 2 k=894720461: Zeugen [31849, 42473] -> naechstes k = 1210308567698547997  -> T hat ~10^18.8 Stellen   GELOEST
+m= 1423 Stufe 2 k=866821873: Zeugen [85381, 169249] -> naechstes k = 12526138518691911637  -> T hat ~10^20.5 Stellen   GELOEST
+m= 1535 Stufe 2 k=4150333: Zeugen [31321] -> naechstes k = 129992579893  -> T hat ~10^11.9 Stellen   GELOEST
+m= 1671 Stufe 1 k=557: Zeugen [227257, 247309] -> naechstes k = 31304904687041  -> T hat ~10^14.4 Stellen   GELOEST
+
+geloest: 14 von 14

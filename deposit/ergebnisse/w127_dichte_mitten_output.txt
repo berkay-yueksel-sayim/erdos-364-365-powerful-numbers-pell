@@ -1,0 +1,5 @@
+N = 10^10: 134,635 powerful mit 4|n (1.3463·√N; Theorie 1,3705) · Quadrate 37.1374% · Kuben 0.7999% · weder 62.0797% · doppelte Quadrate 26.2599% · Bereich Satz A 63.3973% · PK ✅
+N = 10^12: 1,359,253 powerful mit 4|n (1.3593·√N; Theorie 1,3705) · Quadrate 36.7849% · Kuben 0.3678% · weder 62.8509% · doppelte Quadrate 26.0108% · Bereich Satz A 62.7957% · PK ✅
+N = 10^14: 13,652,581 powerful mit 4|n (1.3653·√N; Theorie 1,3705) · Quadrate 36.6231% · Kuben 0.1700% · weder 63.2077% · doppelte Quadrate 25.8964% · Bereich Satz A 62.5196% · PK ✅
+Grenzwert Quadrat-Anteil (Theorie): 36.4843% — die „~46 %" der Analyse vom 30.08. rechnete ohne die Bedingung 4 | n.
+Grenzwert Bereich von Satz A (Quadrate + doppelte Quadrate): 62.2826% (doppelte Quadrate allein 25.7983%).

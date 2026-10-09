@@ -1,0 +1,11 @@
+{
+ "skript": "w159_alekseyev_klasse3_bis_1e8_2026-10-02.py",
+ "datum": "2026-10-02 13:39",
+ "hash_wie_alekseyev_33_klasse3_1e6": true,
+ "hash_wie_alekseyev_33_klasse3_1e8": true,
+ "werte_bis_67_klasse3_1e8": 33,
+ "zusaetzliche_werte_1e6_1e8": 0,
+ "kern_klasse3_max": 100000000,
+ "kern_klasse7_max": 100000000,
+ "quelle": "eigene W9-Listen (w9_v31, w9_v32_c3 bis 10^6 und bis 10^8); Alekseyevs Tabelle nur per Hash aus w116 verglichen"
+}

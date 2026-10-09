@@ -1,0 +1,12 @@
+====================================================================================================
+w153 — Kerne mit T_1 + 1 = Quadrat: der Baustein M_d hat mindestens zwei Primteiler · 2026-09-30 18:59
+====================================================================================================
+(1) Kerne mit T_1 + 1 = Quadrat: 26 von 79: [7, 23, 31, 47, 71, 79, 103, 119, 127, 151, 167, 191, 223, 239, 263, 287, 359, 383, 439, 511, 527, 623, 1343, 7967, 9167, 161231]
+(2) ✅ T_d + 1 ist Quadrat fuer d = 3, 5, 7, 9 auf allen 26 Kernen (T_d = (s − 1)(s + 1))
+(3) Bausteine auf diesen Kernen: 361 von 961
+    geprueft 361 Bausteine (Stellenzahl ≤ 3000; uebersprungen 0): {'mind. zwei': 361} — 4 s
+    Vergleich log10(M_d) mit der Spalte lg aus w138 (nur M_d < 10^300): groesste Abweichung 1.465
+PK− ✅ die 18 primen Bausteine aus w78 (Kerne [15, 39, 55, 87, 95, 111, 143]) werden als „prim" erkannt — der Test unterscheidet
+NK ✅ kein prime Baustein aus w78 liegt auf einem der 26 Kerne
+(4) prime Kerne m ≡ 7 (mod 8), m < 5000: 171; T_1 + 1 ist Quadrat bei 171; Ausnahmen: []
+GESAMT ✅

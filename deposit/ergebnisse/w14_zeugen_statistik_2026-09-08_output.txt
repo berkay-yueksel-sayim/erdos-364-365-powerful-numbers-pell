@@ -1,0 +1,9 @@
+W14 Zeugen-Statistik: 371 tote Punkte (Zeuge) der Klasse 7, Kern <= 100000000, n < 10^2000
+PK ok: M-W-Punkt (7,7) Zeuge 29 mit alpha(29) = 7 (primitiv); LTE = 1 an allen Punkten; Negativ-Kontrolle v_197(T_1379(7)) = 2 exakt bestaetigt
+Zeuge primitiv (alpha(p) = k): 8 von 371 (2.2 %)
+Verteilung der kleinsten Zeugen-Primzahl p: [(3, 43), (5, 33), (7, 25), (11, 45), (13, 17), (17, 2), (19, 78), (23, 14), (29, 79), (37, 5), (41, 1), (43, 2), (47, 1), (53, 2), (59, 2), (61, 4)] ...
+groesster kleinster Zeuge: p = 114997; Median: 19
+Kofaktor k/alpha(p) (ungerade) Verteilung (Top 8): [(1, 8), (77, 5), (203, 5), (187, 5), (33, 5), (7, 4), (11, 4), (161, 4)]
+v_p(T_alpha) = 1 in allen Faellen: True | Punkte mit p | k (Index-Boost moeglich, aber Exponent trotzdem 1): 0
+Beispiele (m, m', k, Stellen, p, alpha, k/alpha): [(7, 7, 7, 9, 29, 7, 1), (7, 7, 21, 25, 11, 3, 7), (7, 7, 35, 42, 29, 7, 5), (7, 7, 49, 59, 29, 7, 7), (7, 7, 63, 76, 11, 3, 21), (7, 7, 77, 93, 29, 7, 11)]
+Zeit: 0.0s

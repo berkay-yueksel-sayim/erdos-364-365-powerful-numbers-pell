@@ -1,0 +1,87 @@
+{
+ "skript": "w147_offene_bloecke_dezimal_2026-09-30.py",
+ "datum": "2026-09-30 13:41",
+ "datei": "w147_offene_bloecke_dezimal.txt",
+ "bloecke": [
+  {
+   "m": 399,
+   "d": 171,
+   "herkunft": "neu",
+   "stellen": 173,
+   "phi_durch_M": 1,
+   "sha256": "a2c55b2ae1921a574a913db33b53876751d91f3f93004e5805e72f26477d1996"
+  },
+  {
+   "m": 23,
+   "d": 161,
+   "herkunft": "alt",
+   "stellen": 222,
+   "phi_durch_M": 1,
+   "sha256": "60b6bd26e6aaf8f385f66616e323679633c31a9aa1aabdfb4688ae92d9327a6a"
+  },
+  {
+   "m": 407,
+   "d": 111,
+   "herkunft": "alt",
+   "stellen": 269,
+   "phi_durch_M": 1,
+   "sha256": "7731d32e5e37f7090b35c84c0ac346e7649e030290bd87dcc3b29f474757178d"
+  },
+  {
+   "m": 39,
+   "d": 247,
+   "herkunft": "alt",
+   "stellen": 367,
+   "phi_durch_M": 1,
+   "sha256": "4ae155dda4c59d4b61a20946c7cf8679201823022b51da687a5bbd686f72f695"
+  },
+  {
+   "m": 111,
+   "d": 185,
+   "herkunft": "alt",
+   "stellen": 400,
+   "phi_durch_M": 1,
+   "sha256": "96818ed6245acc0db3fe5ab0700f8eb3c8ef9f85be9aa7df17b378c4d6455317"
+  },
+  {
+   "m": 95,
+   "d": 475,
+   "herkunft": "alt",
+   "stellen": 682,
+   "phi_durch_M": 1,
+   "sha256": "912cb39d3a3eff8502922c7572a1924c162d2936ebaa0724bdf17cffd69710c6"
+  },
+  {
+   "m": 407,
+   "d": 259,
+   "herkunft": "alt",
+   "stellen": 805,
+   "phi_durch_M": 1,
+   "sha256": "ec0eeb46271680f4653c9a6e1f1e467f20dc825a6ea1048b2f8dfc2fb14162ed"
+  },
+  {
+   "m": 663,
+   "d": 663,
+   "herkunft": "neu",
+   "stellen": 889,
+   "phi_durch_M": 1,
+   "sha256": "101632e40a938f8a1ab549b6cd70b3789be337717c75d1efe3daba4bd3b05807"
+  },
+  {
+   "m": 7,
+   "d": 1449,
+   "herkunft": "alt",
+   "stellen": 953,
+   "phi_durch_M": 1,
+   "sha256": "8097248a6ffb89b6c15fe5715495b12e394f6c679528012b294c4a94771081e6"
+  },
+  {
+   "m": 20303,
+   "d": 257,
+   "herkunft": "neu",
+   "stellen": 1893,
+   "phi_durch_M": 1,
+   "sha256": "713020d4d58fa2f13e5134cd2498d2dfb405dec53a969e81a0349cf5fa56191e"
+  }
+ ]
+}

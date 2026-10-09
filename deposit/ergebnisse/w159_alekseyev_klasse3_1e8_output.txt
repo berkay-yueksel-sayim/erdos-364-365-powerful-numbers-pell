@@ -1,0 +1,6 @@
+w159 · 2026-10-02 13:39
+PK E1 ✅  Klasse 3 bis 10⁶ + Klasse 7 bis 10⁸: 33 Werte bis 67 Stellen, Hash wie w116: True
+PK E2 ✅  Klasse-3-Liste bis 10⁸, eingeschraenkt auf m ≤ 10⁶, gleich der Liste bis 10⁶ (24 Treffer bis 70 Stellen)
+E3 ✅  Klasse 3 bis 10⁸: 33 Werte bis 67 Stellen, Hash wie Alekseyevs 33: True; zusaetzliche Werte aus Klasse-3-Kernen 10⁶ < m ≤ 10⁸ bis 67 Stellen: 0
+          Klasse-3-Kerne 10⁶ < m ≤ 10⁸ mit einem Paar bis 70 Stellen: 0
+NK E4 ✅  ein Wert weniger gibt einen anderen Hash

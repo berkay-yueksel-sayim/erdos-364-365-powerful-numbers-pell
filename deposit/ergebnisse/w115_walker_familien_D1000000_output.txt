@@ -1,0 +1,26 @@
+====================================================================================================
+w115 — WALKER-FAMILIEN (kein Quadrat im Paar), D = b·d ≤ 1,000,000   2026-09-26 22:03
+====================================================================================================
+PK0 Behauptung A (α² = ε), D ≤ 300, alle 380 geordneten Zerlegungen, Brute Force bis X = 2·10⁴: 380/380 gleich ✅ (79 loesbar)
+PK1 Restklassen-Formel gegen Iteration mod b·d (D ≤ 3000): 955/955 ✅
+E2 je D hoechstens eine loesbare geordnete Zerlegung: D mit mehreren = 0 ✅ · loesbare D: 369716
+Familien ohne Quadrat (Teilbarkeit erfuellbar): 275371
+Erzeugte Paare ohne Quadrat mit n + 1 ≤ 3,89·10²¹: 7 · unabhaengig vollfaktorisiert, beide powerful: ✅ · NK Glied k₀ + 1 kein Paar: 3/3 ✅
+PK2 Golomb 12167 → Familie (23, 2): ✅ · Walkers 7³x² = 3³y² + 1 → Familie (3, 7) vorhanden: ✅
+PK3 Paare ohne Quadrat der EIGENEN Liste bis 2⁵² (w107/w111): 5/5 erzeugt ✅
+VERGLEICH A060355, Glieder 27–39 ohne Quadrat: Glied 37 ✅ selbst erzeugt · Glied 39 ✅ selbst erzeugt
+   umgekehrt: selbst erzeugte Paare ohne Quadrat ≤ 3,89·10²¹, die NICHT in den 39 Gliedern stehen: 0 ✅
+Σ 1/ln F ueber die Familien ohne Quadrat: D ≤ 10^3: 0.1783 · D ≤ 10^4: 0.2385 · D ≤ 10^5: 0.2831 · D ≤ 10^6: 0.3137
+Die zwoelf frühesten Geburten (b, d; ln n der ersten Stelle; Periode M; ln F):
+   (23, 2)  D =     46  t =     9.407  M =      1  ln F = 21.586
+   (7, 2)  D =     14  t =    22.414  M =      7  ln F = 47.601
+   (79, 23)  D =   1817  t =    30.113  M =      1  ln F = 62.999
+   (3, 7)  D =     21  t =    31.516  M =      7  ln F = 65.806
+   (1022, 57)  D =  58254  t =    46.531  M =      1  ln F = 95.834
+   (19, 35)  D =    665  t =    49.712  M =      5  ln F = 102.197
+   (7, 22)  D =    154  t =    73.229  M =      7  ln F = 149.231
+   (11, 3)  D =     33  t =   124.943  M =     33  ln F = 252.659
+   (2, 57)  D =    114  t =   143.500  M =     19  ln F = 289.773
+   (31, 2)  D =     62  t =   148.536  M =     31  ln F = 299.846
+   (3, 13)  D =     39  t =   151.167  M =     39  ln F = 305.107
+   (2, 33)  D =     66  t =   159.240  M =     33  ln F = 321.253

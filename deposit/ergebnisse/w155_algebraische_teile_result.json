@@ -1,0 +1,23 @@
+{
+ "skript": "w155_algebraische_teile_offener_bloecke_2026-10-01.py",
+ "datum": "2026-10-01 00:37",
+ "quad_kerne": 26,
+ "bloecke": [
+  {
+   "m": 23,
+   "d": 161,
+   "stellen_M": 222,
+   "stellen_A": 111,
+   "stellen_B": 112,
+   "kosten_rel": 0.505
+  },
+  {
+   "m": 7,
+   "d": 1449,
+   "stellen_M": 953,
+   "stellen_A": 477,
+   "stellen_B": 477,
+   "kosten_rel": 0.501
+  }
+ ]
+}

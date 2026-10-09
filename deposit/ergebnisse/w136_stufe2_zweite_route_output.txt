@@ -1,0 +1,39 @@
+====================================================================================================
+w136 — ZWEITE ROUTE (A + L) UND PRIMBEWEIS FUER ALLE NEUEN ZEUGEN   2026-09-29 18:00
+====================================================================================================
+PK E1 ✅  (7, 5, 179) besteht A und L.
+NK E2 ✅  abgelehnt in A und L: (7, 7, 179) → (False, False), (7, 5, 29) → (False, False), (15, 45, 181) → (False, False), (143, 13, 311) → (False, False)
+PK E3 ✅  10³⁰+57 und 10⁴⁰+121 bewiesen und bestaetigt; Semiprim + Carmichael abgelehnt; Teil-Zertifikat (75 St., R mit 29 St.) angenommen, mit F² < N und mit falscher Basis abgelehnt.
+PK E4 ✅  Partition: w133 103 + w134 16 + w135 28 + offen 3 = 150 von 150 neuen Paaren, disjunkt.
+  (231, 7) w135/prim   Zeuge  14 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (231, 21) w135/prim   Zeuge  27 St.: ✅ A + L, bewiesen prim (pocklington, 1.1s)
+  (231, 33) w135/ecm135 Zeuge  24 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (303, 101) w135/ecm135 Zeuge  10 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (399, 7) w135/prim   Zeuge  10 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (399, 19) w135/prim   Zeuge  29 St.: ✅ A + L, bewiesen prim (pocklington, 1.1s)
+  (399, 63) w135/ecm135 Zeuge  13 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (399, 399) w135/ecm135 Zeuge  11 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (455, 13) w135/prim   Zeuge  26 St.: ✅ A + L, bewiesen prim (pocklington, 1.1s)
+  (455, 91) w135/ecm135 Zeuge  18 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (471, 157) w135/ecm135 Zeuge  12 St.: ✅ A + L, bewiesen prim (mr12, 0.1s)
+  (527, 31) w135/ecm135 Zeuge  16 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (935, 11) w135/ecm135 Zeuge  16 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (1023, 341) w135/ecm135 Zeuge  10 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (1343, 79) w135/ecm135 Zeuge  21 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (2415, 15) w135/prim   Zeuge  23 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (2415, 23) w135/ecm135 Zeuge  15 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (3895, 5) w135/prim   Zeuge  44 St.: ✅ A + L, bewiesen prim (pocklington, 1.1s)
+  (3895, 95) w135/ecm135 Zeuge  14 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (7735, 15) w135/ecm135 Zeuge  14 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (7735, 51) w135/ecm135 Zeuge  10 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (7735, 85) w135/ecm135 Zeuge  10 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (7967, 257) w135/ecm135 Zeuge  24 St.: ✅ A + L, bewiesen prim (pocklington, 1.1s)
+  (32271, 93) w135/ecm135 Zeuge  10 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (161231, 31) w135/ecm135 Zeuge  27 St.: ✅ A + L, bewiesen prim (pocklington, 1.1s)
+  (313055, 29) w135/ecm135 Zeuge  10 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+  (16057223, 19) w135/prim   Zeuge 234 St.: ✅ A + L · ⚠️ KEIN BEWEIS — Klasse (b) vollzerlegt, probable (12 Basen True, 12 andere True, BPSW True)
+  (16057223, 133) w135/ecm135 Zeuge  10 St.: ✅ A + L, bewiesen prim (mr12, 0.0s)
+
+ERGEBNIS: 147 Paare mit Fund · (a) zertifiziert 146 (Zeugen {'≤10⁹': 119, '<ψ₁₂': 21, '>ψ₁₂': 6}) · (b) vollzerlegt, probable 1 · nur wahrscheinlicher Faktor 0 · Fehler 0 · weitere Faktoren, die keine Zeugen sind: 0 · offen (w135) 3 ⇒ erledigt 147 von 150, offen 3
+Laufzeit 138s.
+Zweiter Pruefer: 146 Zertifikate aus der Datei gelesen und bestaetigt.

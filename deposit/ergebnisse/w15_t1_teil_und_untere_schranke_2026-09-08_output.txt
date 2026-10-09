@@ -1,0 +1,10 @@
+Klasse 7: 445 Punkte geprueft — T1 | T_k, T_k/T1 ungerade, v_2(T_k) = v_2(T1): alle OK; LTE-Rang-1-Kontrollen an ungeraden Primteilern von T1: 287 OK
+   v_2(T1) der Kerne mit Punkten: m=7: 3, m=15: 2, m=23: 3, m=31: 4, m=39: 0, m=47: 4, m=55: 0, m=71: 3 ...
+   Tuerme (T1 gerade): 60, c = 0.1817 Paare/Stelle; untere Schranke L(h) exakt = gezaehlt fuer h in (500, 1000, 2000)? True
+Klasse 3: 883 Punkte geprueft — T1 | T_k, T_k/T1 ungerade, v_2(T_k) = v_2(T1): alle OK; LTE-Rang-1-Kontrollen an ungeraden Primteilern von T1: 225 OK
+   v_2(T1) der Kerne mit Punkten: m=3: 1, m=11: 1, m=19: 1, m=35: 1, m=43: 1, m=51: 1, m=59: 1, m=67: 1 ...
+   Tuerme (T1 gerade): 62, c = 0.4134 Paare/Stelle; untere Schranke L(h) exakt = gezaehlt fuer h in (500, 1000, 2000)? True
+Beide Klassen: 122 Tuerme, c = 0.5951 Paare pro Dezimalstelle.
+Lineare Form: L(h) >= c*h - K mit K = 122: minimaler Ueberschuss L(h) - (c h - K) fuer h bis 10^6: 111.8 (>= 0 erwartet)
+Beispiele: L(10^3) = 586 | L(10^4) = 5955 | L(10^6) = 595127 | c*h fuer h=10^6: 595129
+PK ok. Aussage: P_2(10^h) >= L(h) >= 0.595*h - 122 fuer alle h >= 1 (elementar, unbedingt); fuer h <= 2000 ist L(h) = P_2(10^h; Kerne <= 1e8) exakt.

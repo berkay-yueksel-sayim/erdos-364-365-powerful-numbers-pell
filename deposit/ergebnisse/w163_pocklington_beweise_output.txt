@@ -1,0 +1,22 @@
+w163 · 2026-10-02 18:51
+PK E1 ✅  naechste Primzahl nach 10^40: Zertifikat erzeugt und vom zweiten Pruefer bestaetigt
+NK E2 ✅  Produkt zweier 20-stelliger Primzahlen: kein Zertifikat (True); verfaelschter Exponent abgelehnt (True); falsches N abgelehnt (True)
+  (87, 25)  26 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (15, 29)  26 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (7, 43)  26 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (7, 43)  26 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (255, 75)  26 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (87, 31)  27 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (15, 51)  29 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (15, 49)  31 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (15, 63)  33 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (95, 19)  35 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (87, 33)  35 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (255, 75)  35 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.4 s
+  (15, 61)  38 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.2 s
+  (95, 45)  46 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (15, 59)  52 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (15, 71)  63 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (15, 111)  65 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.0 s
+  (319, 11)  75 St.: ✅ bewiesen prim (Pocklington), zweiter Pruefer bestaetigt  0.1 s
+E3 ✅  18 von 18 Zahlen bis 80 Stellen bewiesen

@@ -1,0 +1,425 @@
+{
+ "215_43": {
+  "m": 215,
+  "d": 43,
+  "zeuge": 6470641,
+  "route": "sieb8",
+  "wieferich": [],
+  "kandidaten": 40358,
+  "sek": 0.2
+ },
+ "215_645": {
+  "m": 215,
+  "d": 645,
+  "zeuge": 3537181,
+  "route": "sieb8",
+  "wieferich": [],
+  "kandidaten": 418,
+  "sek": 0.0
+ },
+ "231_7": {
+  "m": 231,
+  "d": 7,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 71214286,
+  "sek": 184.3
+ },
+ "231_11": {
+  "m": 231,
+  "d": 11,
+  "zeuge": 132156553,
+  "route": "sieb9",
+  "wieferich": [],
+  "kandidaten": 5870754,
+  "sek": 17.0
+ },
+ "231_21": {
+  "m": 231,
+  "d": 21,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 23738094,
+  "sek": 83.7
+ },
+ "231_33": {
+  "m": 231,
+  "d": 33,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 15106060,
+  "sek": 53.1
+ },
+ "263_263": {
+  "m": 263,
+  "d": 263,
+  "zeuge": 19888061,
+  "route": "sieb8",
+  "wieferich": [],
+  "kandidaten": 32108,
+  "sek": 0.1
+ },
+ "303_101": {
+  "m": 303,
+  "d": 101,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 4935644,
+  "sek": 23.9
+ },
+ "399_7": {
+  "m": 399,
+  "d": 7,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 71214286,
+  "sek": 181.2
+ },
+ "399_19": {
+  "m": 399,
+  "d": 19,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 26236842,
+  "sek": 89.1
+ },
+ "399_63": {
+  "m": 399,
+  "d": 63,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 7912698,
+  "sek": 37.7
+ },
+ "399_133": {
+  "m": 399,
+  "d": 133,
+  "zeuge": 11237437,
+  "route": "sieb8",
+  "wieferich": [],
+  "kandidaten": 30968,
+  "sek": 0.1
+ },
+ "399_171": {
+  "m": 399,
+  "d": 171,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 2915206,
+  "sek": 15.3
+ },
+ "399_399": {
+  "m": 399,
+  "d": 399,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 1249374,
+  "sek": 7.3
+ },
+ "439_439": {
+  "m": 439,
+  "d": 439,
+  "zeuge": 10936369,
+  "route": "sieb8",
+  "wieferich": [],
+  "kandidaten": 9040,
+  "sek": 0.1
+ },
+ "455_5": {
+  "m": 455,
+  "d": 5,
+  "zeuge": 268353541,
+  "route": "sieb9",
+  "wieferich": [],
+  "kandidaten": 26535355,
+  "sek": 60.5
+ },
+ "455_13": {
+  "m": 455,
+  "d": 13,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 38346154,
+  "sek": 117.3
+ },
+ "455_91": {
+  "m": 455,
+  "d": 91,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 5478022,
+  "sek": 26.0
+ },
+ "471_157": {
+  "m": 471,
+  "d": 157,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 3175158,
+  "sek": 18.3
+ },
+ "527_31": {
+  "m": 527,
+  "d": 31,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 16080646,
+  "sek": 68.6
+ },
+ "615_41": {
+  "m": 615,
+  "d": 41,
+  "zeuge": 3365281,
+  "route": "sieb8",
+  "wieferich": [],
+  "kandidaten": 4456,
+  "sek": 0.0
+ },
+ "615_615": {
+  "m": 615,
+  "d": 615,
+  "zeuge": 119521561,
+  "route": "sieb9",
+  "wieferich": [],
+  "kandidaten": 94734,
+  "sek": 0.6
+ },
+ "663_51": {
+  "m": 663,
+  "d": 51,
+  "zeuge": 5884993,
+  "route": "sieb8",
+  "wieferich": [],
+  "kandidaten": 28286,
+  "sek": 0.1
+ },
+ "663_663": {
+  "m": 663,
+  "d": 663,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 751884,
+  "sek": 4.8
+ },
+ "935_11": {
+  "m": 935,
+  "d": 11,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 45318182,
+  "sek": 145.9
+ },
+ "1023_31": {
+  "m": 1023,
+  "d": 31,
+  "zeuge": 329527273,
+  "route": "sieb9",
+  "wieferich": [],
+  "kandidaten": 5266570,
+  "sek": 21.3
+ },
+ "1023_93": {
+  "m": 1023,
+  "d": 93,
+  "zeuge": 209158489,
+  "route": "sieb9",
+  "wieferich": [],
+  "kandidaten": 1108380,
+  "sek": 5.5
+ },
+ "1023_341": {
+  "m": 1023,
+  "d": 341,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 1461876,
+  "sek": 8.3
+ },
+ "1335_267": {
+  "m": 1335,
+  "d": 267,
+  "zeuge": 9622681,
+  "route": "sieb8",
+  "wieferich": [],
+  "kandidaten": 12404,
+  "sek": 0.1
+ },
+ "1343_79": {
+  "m": 1343,
+  "d": 79,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 6310126,
+  "sek": 32.9
+ },
+ "2055_685": {
+  "m": 2055,
+  "d": 685,
+  "zeuge": 62855599,
+  "route": "sieb8",
+  "wieferich": [],
+  "kandidaten": 43691,
+  "sek": 0.3
+ },
+ "2135_427": {
+  "m": 2135,
+  "d": 427,
+  "zeuge": 112642601,
+  "route": "sieb9",
+  "wieferich": [],
+  "kandidaten": 128388,
+  "sek": 0.9
+ },
+ "2415_15": {
+  "m": 2415,
+  "d": 15,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 33233333,
+  "sek": 118.6
+ },
+ "2415_23": {
+  "m": 2415,
+  "d": 23,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 21673914,
+  "sek": 84.4
+ },
+ "3895_5": {
+  "m": 3895,
+  "d": 5,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 99700000,
+  "sek": 274.4
+ },
+ "3895_95": {
+  "m": 3895,
+  "d": 95,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 5247368,
+  "sek": 30.0
+ },
+ "7735_15": {
+  "m": 7735,
+  "d": 15,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 33233333,
+  "sek": 126.3
+ },
+ "7735_51": {
+  "m": 7735,
+  "d": 51,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 9774510,
+  "sek": 45.2
+ },
+ "7735_85": {
+  "m": 7735,
+  "d": 85,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 5864706,
+  "sek": 28.7
+ },
+ "7967_257": {
+  "m": 7967,
+  "d": 257,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 1939688,
+  "sek": 9.8
+ },
+ "20303_257": {
+  "m": 20303,
+  "d": 257,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 1939688,
+  "sek": 9.8
+ },
+ "32271_93": {
+  "m": 32271,
+  "d": 93,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 5360216,
+  "sek": 29.5
+ },
+ "161231_31": {
+  "m": 161231,
+  "d": 31,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 16080646,
+  "sek": 73.4
+ },
+ "313055_29": {
+  "m": 313055,
+  "d": 29,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 17189654,
+  "sek": 72.7
+ },
+ "313055_145": {
+  "m": 313055,
+  "d": 145,
+  "zeuge": 240774239,
+  "route": "sieb9",
+  "wieferich": [],
+  "kandidaten": 819911,
+  "sek": 4.1
+ },
+ "16057223_19": {
+  "m": 16057223,
+  "d": 19,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 26236842,
+  "sek": 102.0
+ },
+ "16057223_133": {
+  "m": 16057223,
+  "d": 133,
+  "zeuge": null,
+  "route": null,
+  "wieferich": [],
+  "kandidaten": 3748120,
+  "sek": 18.8
+ }
+}

@@ -1,0 +1,353 @@
+{
+ "skript": "w113_familien_weit_2026-09-25.py",
+ "datum": "2026-09-26 22:17",
+ "b2": 1000000,
+ "familien": 676094,
+ "teilsummen": {
+  "10": 0.6054699894996955,
+  "100": 0.8948958105684046,
+  "1000": 1.1043681991617287,
+  "10000": 1.2234703852342175,
+  "30000": 1.2665163873857153,
+  "100000": 1.3110026101069785,
+  "200000": 1.3306913146780688,
+  "1000000": 1.3685495337650897
+ },
+ "groesste_ueber_1e4": [
+  {
+   "typ": "(b,1)",
+   "b": 58254,
+   "d": 1,
+   "m_period": 1,
+   "ln_eps": 47.917092,
+   "lnF": 95.834185,
+   "t": 94.44789,
+   "anzahl": 0
+  },
+  {
+   "typ": "(b,1)",
+   "b": 11802,
+   "d": 1,
+   "m_period": 3,
+   "ln_eps": 20.093118,
+   "lnF": 120.558707,
+   "t": 119.172413,
+   "anzahl": 0
+  },
+  {
+   "typ": "(b,1)",
+   "b": 525003,
+   "d": 1,
+   "m_period": 3,
+   "ln_eps": 58.552317,
+   "lnF": 351.3139,
+   "t": 349.927605,
+   "anzahl": 0
+  },
+  {
+   "typ": "(b,1)",
+   "b": 185910,
+   "d": 1,
+   "m_period": 3,
+   "ln_eps": 68.030682,
+   "lnF": 408.184093,
+   "t": 406.797799,
+   "anzahl": 0
+  },
+  {
+   "typ": "(b,1)",
+   "b": 209991,
+   "d": 1,
+   "m_period": 1,
+   "ln_eps": 219.126314,
+   "lnF": 438.252628,
+   "t": 436.866333,
+   "anzahl": 0
+  },
+  {
+   "typ": "(b,1)",
+   "b": 72523,
+   "d": 1,
+   "m_period": 11,
+   "ln_eps": 25.223984,
+   "lnF": 554.927654,
+   "t": 553.54136,
+   "anzahl": 0
+  },
+  {
+   "typ": "(b,1)",
+   "b": 145985,
+   "d": 1,
+   "m_period": 7,
+   "ln_eps": 74.954892,
+   "lnF": 1049.368484,
+   "t": 1047.982189,
+   "anzahl": 0
+  },
+  {
+   "typ": "(b,1)",
+   "b": 201090,
+   "d": 1,
+   "m_period": 15,
+   "ln_eps": 38.101954,
+   "lnF": 1143.058621,
+   "t": 1141.672327,
+   "anzahl": 0
+  },
+  {
+   "typ": "(b,1)",
+   "b": 698997,
+   "d": 1,
+   "m_period": 13,
+   "ln_eps": 46.500852,
+   "lnF": 1209.022145,
+   "t": 1207.63585,
+   "anzahl": 0
+  },
+  {
+   "typ": "(b,1)",
+   "b": 32970,
+   "d": 1,
+   "m_period": 35,
+   "ln_eps": 18.634473,
+   "lnF": 1304.413133,
+   "t": 1303.026839,
+   "anzahl": 0
+  },
+  {
+   "typ": "(b,1)",
+   "b": 14934,
+   "d": 1,
+   "m_period": 19,
+   "ln_eps": 35.108373,
+   "lnF": 1334.118163,
+   "t": 1332.731869,
+   "anzahl": 0
+  },
+  {
+   "typ": "(b,1)",
+   "b": 744758,
+   "d": 1,
+   "m_period": 7,
+   "ln_eps": 96.868008,
+   "lnF": 1356.152117,
+   "t": 1354.765823,
+   "anzahl": 0
+  }
+ ],
+ "geburten_bis_T": {
+  "25": 5,
+  "50": 10,
+  "75": 15,
+  "100": 20,
+  "150": 29,
+  "200": 34,
+  "300": 42,
+  "500": 65,
+  "1000": 109,
+  "2000": 188
+ },
+ "kerne": [
+  {
+   "m": 7,
+   "periode": 7,
+   "ln_eps": 2.7687,
+   "geburt_t": 37.375,
+   "geburt_log10": 16.2,
+   "anzahl_bis_liste": 1
+  },
+  {
+   "m": 15,
+   "periode": 15,
+   "ln_eps": 2.0634,
+   "geburt_t": 60.517,
+   "geburt_log10": 26.3,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 23,
+   "periode": 23,
+   "ln_eps": 3.8708,
+   "geburt_t": 176.669,
+   "geburt_log10": 76.7,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 87,
+   "periode": 29,
+   "ln_eps": 4.025,
+   "geburt_t": 232.066,
+   "geburt_log10": 100.8,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 39,
+   "periode": 39,
+   "ln_eps": 3.9116,
+   "geburt_t": 303.72,
+   "geburt_log10": 131.9,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 319,
+   "periode": 11,
+   "ln_eps": 17.066,
+   "geburt_t": 374.066,
+   "geburt_log10": 162.5,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 47,
+   "periode": 47,
+   "ln_eps": 4.5642,
+   "geburt_t": 427.652,
+   "geburt_log10": 185.7,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 209991,
+   "periode": 1,
+   "ln_eps": 219.1263,
+   "geburt_t": 436.866,
+   "geburt_log10": 189.7,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 1903,
+   "periode": 11,
+   "ln_eps": 21.2829,
+   "geburt_t": 466.838,
+   "geburt_log10": 202.7,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 31,
+   "periode": 31,
+   "ln_eps": 8.0196,
+   "geburt_t": 495.83,
+   "geburt_log10": 215.3,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 55,
+   "periode": 55,
+   "ln_eps": 5.1818,
+   "geburt_t": 568.606,
+   "geburt_log10": 246.9,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 407,
+   "periode": 37,
+   "ln_eps": 8.5804,
+   "geburt_t": 633.56,
+   "geburt_log10": 275.2,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 79,
+   "periode": 79,
+   "ln_eps": 5.0751,
+   "geburt_t": 800.485,
+   "geburt_log10": 347.6,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 95,
+   "periode": 95,
+   "ln_eps": 4.3565,
+   "geburt_t": 826.357,
+   "geburt_log10": 358.9,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 159,
+   "periode": 53,
+   "ln_eps": 7.8816,
+   "geburt_t": 834.059,
+   "geburt_log10": 362.2,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 143,
+   "periode": 143,
+   "ln_eps": 3.1763,
+   "geburt_t": 907.039,
+   "geburt_log10": 393.9,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 183,
+   "periode": 61,
+   "ln_eps": 6.8814,
+   "geburt_t": 838.146,
+   "geburt_log10": 364.0,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 71,
+   "periode": 71,
+   "ln_eps": 8.8479,
+   "geburt_t": 1255.02,
+   "geburt_log10": 545.0,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 119,
+   "periode": 119,
+   "ln_eps": 5.4806,
+   "geburt_t": 1303.002,
+   "geburt_log10": 565.9,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 703,
+   "periode": 37,
+   "ln_eps": 14.6564,
+   "geburt_t": 1083.185,
+   "geburt_log10": 470.4,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 4099215,
+   "periode": 1,
+   "ln_eps": 523.9666,
+   "geburt_t": 1046.547,
+   "geburt_log10": 454.5,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 111,
+   "periode": 111,
+   "ln_eps": 6.3801,
+   "geburt_t": 1415.0,
+   "geburt_log10": 614.5,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 255,
+   "periode": 255,
+   "ln_eps": 3.4648,
+   "geburt_t": 1765.64,
+   "geburt_log10": 766.8,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 295,
+   "periode": 59,
+   "ln_eps": 15.2142,
+   "geburt_t": 1793.892,
+   "geburt_log10": 779.1,
+   "anzahl_bis_liste": 0
+  },
+  {
+   "m": 327,
+   "periode": 109,
+   "ln_eps": 6.073,
+   "geburt_t": 1322.536,
+   "geburt_log10": 574.4,
+   "anzahl_bis_liste": 0
+  }
+ ],
+ "laufzeit_s": 883
+}

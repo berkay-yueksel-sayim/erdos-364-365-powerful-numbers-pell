@@ -1,0 +1,21 @@
+====================================================================================================
+w110 — PAAR-HEURISTIK GEGEN OEIS A060355 BIS 3,9·10²¹   2026-10-03 02:33
+====================================================================================================
+PK  die 26 eigenen Paare = Glieder 1 … 26 ✅ · Glieder 27 … 39: n und n+1 powerful: ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅ ✅
+   bis 10^8       : gemessen 10 · naiv  15.39 (z -1.37) · korrigiert  11.51 (z -0.45)
+   bis 10^9       : gemessen 12 · naiv  18.01 (z -1.42) · korrigiert  13.48 (z -0.40)
+   bis 10^10      : gemessen 14 · naiv  20.67 (z -1.47) · korrigiert  15.46 (z -0.37)
+   bis 10^11      : gemessen 15 · naiv  23.34 (z -1.73) · korrigiert  17.46 (z -0.59)
+   bis 10^12      : gemessen 18 · naiv  26.03 (z -1.57) · korrigiert  19.48 (z -0.33)
+   bis 10^13      : gemessen 19 · naiv  28.73 (z -1.82) · korrigiert  21.50 (z -0.54)
+   bis 10^14      : gemessen 24 · naiv  31.43 (z -1.33) · korrigiert  23.52 (z +0.10)
+   bis 10^15      : gemessen 25 · naiv  34.14 (z -1.56) · korrigiert  25.55 (z -0.11)
+   bis 10^16      : gemessen 26 · naiv  36.86 (z -1.79) · korrigiert  27.58 (z -0.30)
+   bis 10^17      : gemessen 29 · naiv  39.57 (z -1.68) · korrigiert  29.61 (z -0.11)
+   bis 10^18      : gemessen 31 · naiv  42.29 (z -1.74) · korrigiert  31.64 (z -0.11)
+   bis 10^19      : gemessen 33 · naiv  45.00 (z -1.79) · korrigiert  33.67 (z -0.12)
+   bis 10^20      : gemessen 35 · naiv  47.72 (z -1.84) · korrigiert  35.70 (z -0.12)
+   bis 10^21      : gemessen 38 · naiv  50.44 (z -1.75) · korrigiert  37.74 (z +0.04)
+   bis 3,888·10²¹ : gemessen 39 · naiv  52.04 (z -1.81) · korrigiert  38.94 (z +0.01)
+Gegenprobe (a) NEUER Teil (2⁵², 3,9·10²¹]: gemessen 13 · korrigiert 12.06 (z +0.27) · naiv 16.12 (z -0.78)
+Gegenprobe (b) Steigung mit freiem Achsenabschnitt ab 10⁸ (29 Glieder): a = 0.9453 je Einheit ln x · Heuristik C·c₁²/4 = 0.8835 · naiv c₁²/4 = 1.1808  [kumulative Punkte sind korreliert — nur grob]

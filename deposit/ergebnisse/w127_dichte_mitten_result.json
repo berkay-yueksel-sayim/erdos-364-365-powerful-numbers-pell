@@ -1,0 +1,54 @@
+{
+ "skript": "w127_dichte_mitten_2026-09-28.py",
+ "ergebnis": {
+  "10000000000": {
+   "powerful": 214122,
+   "mit_4": 134635,
+   "quadrate": 50000,
+   "kuben": 1077,
+   "beides": 23,
+   "doppelquadrate": 35355,
+   "anteil_quadrat": 0.3713744568648568,
+   "anteil_kubus": 0.007999405800869016,
+   "anteil_weder": 0.620796969584432,
+   "anteil_doppelquadrat": 0.26259887844914026,
+   "anteil_satz_a": 0.6339733353139971,
+   "verhaeltnis_4_zu_sqrtN": 1.34635,
+   "pk": true
+  },
+  "1000000000000": {
+   "powerful": 2158391,
+   "mit_4": 1359253,
+   "quadrate": 500000,
+   "kuben": 5000,
+   "beides": 50,
+   "doppelquadrate": 353553,
+   "anteil_quadrat": 0.36784910535419085,
+   "anteil_kubus": 0.0036784910535419086,
+   "anteil_weder": 0.6285091885028027,
+   "anteil_doppelquadrat": 0.2601083094905805,
+   "anteil_satz_a": 0.6279574148447714,
+   "verhaeltnis_4_zu_sqrtN": 1.359253,
+   "pk": true
+  },
+  "100000000000000": {
+   "powerful": 21663503,
+   "mit_4": 13652581,
+   "quadrate": 5000000,
+   "kuben": 23207,
+   "beides": 107,
+   "doppelquadrate": 3535533,
+   "anteil_quadrat": 0.36623111776447254,
+   "anteil_kubus": 0.0016998251099920227,
+   "anteil_weder": 0.6320768944714557,
+   "anteil_doppelquadrat": 0.25896444049663575,
+   "anteil_satz_a": 0.6251955582611083,
+   "verhaeltnis_4_zu_sqrtN": 1.3652581,
+   "pk": true
+  }
+ },
+ "grenzwert_quadrat": 0.36484307854824105,
+ "grenzwert_doppelquadrat": 0.25798301491043746,
+ "grenzwert_satz_a": 0.6228260934586785,
+ "laufzeit_s": 6.0
+}

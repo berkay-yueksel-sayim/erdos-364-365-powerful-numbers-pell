@@ -1,0 +1,14 @@
+====================================================================================================
+w122 — DESIGN A VOR DEM LAUF: Kerne mit kleiner Einheit, Rang m′ und erste Tripel-Kandidatin   2026-09-28 01:02
+====================================================================================================
+(1) Grundeinheit wie erwartet an allen 251 Kernen: ✅
+(2) m′ = m an allen: ✅
+(3) exakte Stellenzahl von T_(m′) ≥ Theorem-2.1-Schranke, wo exakt gerechnet: ✅
+   t²−2: 189 Kerne (t < 400, quadratfrei, ≡ 7 mod 8); erste Kandidatin unter 10^2000 nur bis m = 623 (12 Kerne) — groesster Kern hier m = 159,199: erste Kandidatin ≈ 10^876,068
+     m=7: 10^8 · m=23: 10^38 · m=47: 10^93 · m=79: 10^174 · m=119: 10^283 · m=167: 10^422 · m=223: 10^591 · m=287: 10^792
+   t²−1: 62 Kerne (t < 400, quadratfrei, ≡ 7 mod 8); erste Kandidatin unter 10^2000 nur bis m = 1,023 (5 Kerne) — groesster Kern hier m = 156,815: erste Kandidatin ≈ 10^454,563
+     m=15: 10^13 · m=143: 10^197 · m=255: 10^383 · m=399: 10^639 · m=1023: 10^1847 · m=1295: 10^2405 · m=1599: 10^3043 · m=2703: 10^5452
+(4) PK gegen w113 (Periode der Kerne 7, 23, 47, 79, 119): {7: (7, 7), 23: (23, 23), 47: (47, 47), 79: (79, 79), 119: (119, 119)} ✅
+
+FOLGERUNG (nur fuer diese Familien, gemessen): ihre Kandidaten unter 10^2000 liegen alle bei m ≤ 1,023, also in der Karte (Kerne ≤ 10⁸);
+   darueber beginnt die erste Kandidatin weit jenseits jedes Rechenfensters. Kleine Einheit bringt hier keine neuen Kerne ins Fenster.

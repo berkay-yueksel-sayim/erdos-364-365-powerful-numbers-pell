@@ -1,0 +1,173 @@
+{
+ "skript": "w158_teile_wahrscheinlich_prim_2026-10-01.py",
+ "datum": "2026-10-01 21:03",
+ "quelle": "w147_offene_bloecke_dezimal.txt",
+ "bloecke": [
+  {
+   "m": 399,
+   "d": 171,
+   "stellen": 173,
+   "zerlegt": false,
+   "M_prp": [
+    false,
+    false
+   ],
+   "klasse": "offen"
+  },
+  {
+   "m": 23,
+   "d": 161,
+   "stellen": 222,
+   "zerlegt": true,
+   "stellen_A": 111,
+   "stellen_B": 112,
+   "A_prp": true,
+   "B_prp": true,
+   "rang_genau_A": true,
+   "rang_genau_B": true,
+   "exponent_eins": true,
+   "klasse": "beide_prp"
+  },
+  {
+   "m": 407,
+   "d": 111,
+   "stellen": 269,
+   "zerlegt": false,
+   "M_prp": [
+    false,
+    false
+   ],
+   "klasse": "offen"
+  },
+  {
+   "m": 39,
+   "d": 247,
+   "stellen": 367,
+   "zerlegt": false,
+   "M_prp": [
+    false,
+    false
+   ],
+   "klasse": "offen"
+  },
+  {
+   "m": 111,
+   "d": 185,
+   "stellen": 400,
+   "zerlegt": false,
+   "M_prp": [
+    false,
+    false
+   ],
+   "klasse": "offen"
+  },
+  {
+   "m": 95,
+   "d": 475,
+   "stellen": 682,
+   "zerlegt": false,
+   "M_prp": [
+    false,
+    false
+   ],
+   "klasse": "offen"
+  },
+  {
+   "m": 407,
+   "d": 259,
+   "stellen": 805,
+   "zerlegt": false,
+   "M_prp": [
+    false,
+    false
+   ],
+   "klasse": "offen"
+  },
+  {
+   "m": 663,
+   "d": 663,
+   "stellen": 889,
+   "zerlegt": false,
+   "M_prp": [
+    false,
+    false
+   ],
+   "klasse": "offen"
+  },
+  {
+   "m": 7,
+   "d": 1449,
+   "stellen": 953,
+   "zerlegt": true,
+   "stellen_A": 477,
+   "stellen_B": 477,
+   "A_prp": false,
+   "B_prp": true,
+   "rang_genau_A": true,
+   "rang_genau_B": true,
+   "exponent_eins": true,
+   "klasse": "zeuge_prp"
+  },
+  {
+   "m": 20303,
+   "d": 257,
+   "stellen": 1893,
+   "zerlegt": false,
+   "M_prp": [
+    false,
+    false
+   ],
+   "klasse": "offen"
+  }
+ ],
+ "klassen": {
+  "beide_prp": [
+   [
+    23,
+    161
+   ]
+  ],
+  "zeuge_prp": [
+   [
+    7,
+    1449
+   ]
+  ],
+  "offen": [
+   [
+    399,
+    171
+   ],
+   [
+    407,
+    111
+   ],
+   [
+    39,
+    247
+   ],
+   [
+    111,
+    185
+   ],
+   [
+    95,
+    475
+   ],
+   [
+    407,
+    259
+   ],
+   [
+    663,
+    663
+   ],
+   [
+    20303,
+    257
+   ]
+  ],
+  "M_prim": []
+ },
+ "offen_danach": 8
+}

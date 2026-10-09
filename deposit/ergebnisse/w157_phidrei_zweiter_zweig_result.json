@@ -1,0 +1,25 @@
+{
+ "skript": "w157_phidrei_zweiter_zweig_2026-10-01.py",
+ "datum": "2026-10-01 21:18",
+ "jmax": 200,
+ "verletzungen": [
+  0,
+  0
+ ],
+ "glieder": [
+  29,
+  28
+ ],
+ "schnitt": 0,
+ "lavi_j": [
+  13
+ ],
+ "bpsw_prim_A": [],
+ "bpsw_prim_B": [
+  13
+ ],
+ "mbrute": 1000000,
+ "direkt_gefunden": 6,
+ "direkt_ausserhalb": 0,
+ "gesamt": 0
+}

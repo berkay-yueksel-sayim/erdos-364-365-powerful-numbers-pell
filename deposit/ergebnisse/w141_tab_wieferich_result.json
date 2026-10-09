@@ -1,0 +1,154 @@
+{
+ "skript": "w141_tab_wieferich_ungerade_2026-09-29.py",
+ "datum": "2026-09-29",
+ "ereignisse": 54,
+ "verschiedene_p": 40,
+ "ungerade_rang": 18,
+ "t1_gerade": 15,
+ "zeuge": 11,
+ "voll": 1,
+ "offen": 3,
+ "zeilen": [
+  {
+   "m": 15,
+   "d": 45,
+   "p": 181,
+   "kern": "alt",
+   "zeugen": 1,
+   "status": "zeuge",
+   "frage": true
+  },
+  {
+   "m": 31,
+   "d": 39,
+   "p": 157,
+   "kern": "alt",
+   "zeugen": 1,
+   "status": "zeuge",
+   "frage": false
+  },
+  {
+   "m": 79,
+   "d": 253,
+   "p": 4049,
+   "kern": "alt",
+   "zeugen": 1,
+   "status": "zeuge",
+   "frage": false
+  },
+  {
+   "m": 143,
+   "d": 13,
+   "p": 311,
+   "kern": "alt",
+   "zeugen": 4,
+   "status": "zeuge",
+   "frage": true
+  },
+  {
+   "m": 223,
+   "d": 45,
+   "p": 179,
+   "kern": "neu",
+   "zeugen": 2,
+   "status": "zeuge",
+   "frage": false
+  },
+  {
+   "m": 319,
+   "d": 5,
+   "p": 20161,
+   "kern": "alt",
+   "zeugen": 0,
+   "status": "voll",
+   "frage": true
+  },
+  {
+   "m": 383,
+   "d": 21545,
+   "p": 258539,
+   "kern": "neu",
+   "zeugen": 1,
+   "status": "zeuge",
+   "frage": false
+  },
+  {
+   "m": 447,
+   "d": 413,
+   "p": 24781,
+   "kern": "neu",
+   "zeugen": 2,
+   "status": "zeuge",
+   "frage": false
+  },
+  {
+   "m": 455,
+   "d": 9,
+   "p": 37,
+   "kern": "neu",
+   "zeugen": 2,
+   "status": "zeuge",
+   "frage": false
+  },
+  {
+   "m": 615,
+   "d": 807,
+   "p": 3229,
+   "kern": "neu",
+   "zeugen": 0,
+   "status": "offen",
+   "frage": false
+  },
+  {
+   "m": 1343,
+   "d": 5,
+   "p": 19,
+   "kern": "neu",
+   "zeugen": 2,
+   "status": "zeuge",
+   "frage": false
+  },
+  {
+   "m": 1535,
+   "d": 63,
+   "p": 251,
+   "kern": "neu",
+   "zeugen": 2,
+   "status": "zeuge",
+   "frage": false
+  },
+  {
+   "m": 2135,
+   "d": 13,
+   "p": 53,
+   "kern": "neu",
+   "zeugen": 1,
+   "status": "zeuge",
+   "frage": false
+  },
+  {
+   "m": 2135,
+   "d": 37,
+   "p": 149,
+   "kern": "neu",
+   "zeugen": 0,
+   "status": "offen",
+   "frage": false
+  },
+  {
+   "m": 123879,
+   "d": 9,
+   "p": 37,
+   "kern": "neu",
+   "zeugen": 0,
+   "status": "offen",
+   "frage": false
+  }
+ ],
+ "m319_zerlegung": {
+  "5": 1,
+  "20161": 2,
+  "1375502561": 1,
+  "158585313121": 1
+ }
+}

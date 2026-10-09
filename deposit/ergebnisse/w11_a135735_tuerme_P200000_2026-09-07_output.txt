@@ -1,0 +1,13 @@
+PK ok: Zeugen von T_7(7) = {29, 197, 2857}, von T_3(7) = {11, 23} (M-W 1986 S.111)
+m = 4099215 (T_1 gerade): log10 T_1 = 227.255 (228 Stellen), Konvergenten-Index 435
+  Stufe 1: k = 1  -> Zeugen v_p = 1 (p <= 200000): [701, 100469, 157049] (3 Stueck)
+  Stufe 2: k = 11060767742681  -> kein Zeuge <= 200000 (Kette endet hier)
+  ==> erster moeglicher Index k >= 11060767742681  (14 Stellen);  Mitte n hat >= 2.51e+15 Stellen  (= 10^15.40 Stellen)
+  [1s]
+m = 117477414815 (T_1 gerade): log10 T_1 = 11620.298 (11621 Stellen), Konvergenten-Index 22345
+  Stufe 1: k = 1  -> Zeugen v_p = 1 (p <= 200000): [3, 8839, 115589] (3 Stueck)
+  Stufe 2: k = 3065073513  -> Zeugen v_p = 1 (p <= 200000): [18049] (1 Stueck)
+  Stufe 3: k = 55321511836137  -> kein Zeuge <= 200000 (Kette endet hier)
+  ==> erster moeglicher Index k >= 55321511836137  (14 Stellen);  Mitte n hat >= 6.43e+17 Stellen  (= 10^17.81 Stellen)
+  [5s]
+Hinweis: Stufe 1 fuer m = 7 (Vergleich): k >= 7 * 29 * 197 * 2857 = 114254287 (M-W 1986), Satz C' treibt weiter auf > 10^17.6 Stellen.

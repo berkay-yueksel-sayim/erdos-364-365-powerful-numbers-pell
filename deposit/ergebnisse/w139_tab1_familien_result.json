@@ -1,0 +1,155 @@
+{
+ "skript": "w139_tab1_familien_2026-09-29.py",
+ "datum": "2026-09-29",
+ "familien": 16,
+ "paare": 39,
+ "mit_quadrat": 32,
+ "ohne_quadrat": 7,
+ "grenze": "n + 1 <= 3.888e21 (39 Glieder A060355, Johnson 2011 unzertifiziert vollstaendig)",
+ "zeilen": [
+  {
+   "b": 2,
+   "d": 1,
+   "quadrat": true,
+   "periode": 1,
+   "log10_n1": 0.9030719456696218,
+   "log10_F": 1.5311051959499142,
+   "anzahl": 14
+  },
+  {
+   "b": 3,
+   "d": 1,
+   "quadrat": true,
+   "periode": 3,
+   "log10_n1": 2.8292982612551145,
+   "log10_F": 3.4316647076549245,
+   "anzahl": 6
+  },
+  {
+   "b": 23,
+   "d": 2,
+   "quadrat": false,
+   "periode": 1,
+   "log10_n1": 4.085191044022937,
+   "log10_F": 9.37450696857083,
+   "anzahl": 2
+  },
+  {
+   "b": 6,
+   "d": 1,
+   "quadrat": true,
+   "periode": 3,
+   "log10_n1": 5.3714844405239885,
+   "log10_F": 5.973546880786467,
+   "anzahl": 3
+  },
+  {
+   "b": 1,
+   "d": 5,
+   "quadrat": true,
+   "periode": 5,
+   "log10_n1": 5.667586418285627,
+   "log10_F": 12.539254287648017,
+   "anzahl": 2
+  },
+  {
+   "b": 46,
+   "d": 1,
+   "quadrat": true,
+   "periode": 1,
+   "log10_n1": 8.772444528308354,
+   "log10_F": 9.37450696857083,
+   "anzahl": 2
+  },
+  {
+   "b": 7,
+   "d": 2,
+   "quadrat": false,
+   "periode": 7,
+   "log10_n1": 9.734406805724056,
+   "log10_F": 20.672938491973067,
+   "anzahl": 1
+  },
+  {
+   "b": 5,
+   "d": 1,
+   "quadrat": true,
+   "periode": 5,
+   "log10_n1": 11.93719184738554,
+   "log10_F": 12.539254287648017,
+   "anzahl": 1
+  },
+  {
+   "b": 430,
+   "d": 1,
+   "quadrat": true,
+   "periode": 1,
+   "log10_n1": 12.913398983807669,
+   "log10_F": 13.515461424070146,
+   "anzahl": 1
+  },
+  {
+   "b": 79,
+   "d": 23,
+   "quadrat": false,
+   "periode": 1,
+   "log10_n1": 13.078040021897191,
+   "log10_F": 27.36020492431934,
+   "anzahl": 1
+  },
+  {
+   "b": 3,
+   "d": 7,
+   "quadrat": false,
+   "periode": 7,
+   "log10_n1": 13.687442038903836,
+   "log10_F": 28.579008958332626,
+   "anzahl": 1
+  },
+  {
+   "b": 10,
+   "d": 1,
+   "quadrat": true,
+   "periode": 5,
+   "log10_n1": 15.192750142628695,
+   "log10_F": 15.794812582891172,
+   "anzahl": 1
+  },
+  {
+   "b": 7,
+   "d": 1,
+   "quadrat": true,
+   "periode": 7,
+   "log10_n1": 16.231712831685844,
+   "log10_F": 16.833775271948323,
+   "anzahl": 1
+  },
+  {
+   "b": 14,
+   "d": 1,
+   "quadrat": true,
+   "periode": 7,
+   "log10_n1": 20.07087605171059,
+   "log10_F": 20.672938491973067,
+   "anzahl": 1
+  },
+  {
+   "b": 1022,
+   "d": 57,
+   "quadrat": false,
+   "periode": 1,
+   "log10_n1": 20.20806967854383,
+   "log10_F": 41.62026423761261,
+   "anzahl": 1
+  },
+  {
+   "b": 19,
+   "d": 35,
+   "quadrat": false,
+   "periode": 5,
+   "log10_n1": 21.589690713822645,
+   "log10_F": 44.38350630817024,
+   "anzahl": 1
+  }
+ ]
+}

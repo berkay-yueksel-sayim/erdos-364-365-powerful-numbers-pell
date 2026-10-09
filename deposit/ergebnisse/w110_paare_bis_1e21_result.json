@@ -1,0 +1,136 @@
+{
+ "skript": "w110_paare_bis_1e21_2026-09-25.py",
+ "datum": "2026-10-03 02:33",
+ "quelle": "eigene Rechnung: w112 (Quadrat-Familien) und w115 (Walker-Familien), zusammengesetzt und zweifach geprueft in w166 (w166_weg_c_eigene_paare_result.json), 39 Paare; stimmt mit den ersten 39 Gliedern von OEIS A060355 ueberein (Vergleich w166)",
+ "C": 0.7482117277895187,
+ "vergleich": [
+  {
+   "X": "100000000",
+   "gemessen": 10,
+   "naiv": 15.389522,
+   "korrigiert": 11.514621,
+   "z_naiv": -1.3738,
+   "z_korr": -0.4464
+  },
+  {
+   "X": "1000000000",
+   "gemessen": 12,
+   "naiv": 18.013498,
+   "korrigiert": 13.477911,
+   "z_naiv": -1.4169,
+   "z_korr": -0.4026
+  },
+  {
+   "X": "10000000000",
+   "gemessen": 14,
+   "naiv": 20.66751,
+   "korrigiert": 15.463673,
+   "z_naiv": -1.4666,
+   "z_korr": -0.3722
+  },
+  {
+   "X": "100000000000",
+   "gemessen": 15,
+   "naiv": 23.342083,
+   "korrigiert": 17.46482,
+   "z_naiv": -1.7267,
+   "z_korr": -0.5898
+  },
+  {
+   "X": "1000000000000",
+   "gemessen": 18,
+   "naiv": 26.030711,
+   "korrigiert": 19.476483,
+   "z_naiv": -1.574,
+   "z_korr": -0.3346
+  },
+  {
+   "X": "10000000000000",
+   "gemessen": 19,
+   "naiv": 28.728935,
+   "korrigiert": 21.495326,
+   "z_naiv": -1.8151,
+   "z_korr": -0.5382
+  },
+  {
+   "X": "100000000000000",
+   "gemessen": 24,
+   "naiv": 31.433708,
+   "korrigiert": 23.519069,
+   "z_naiv": -1.3259,
+   "z_korr": 0.0992
+  },
+  {
+   "X": "1000000000000000",
+   "gemessen": 25,
+   "naiv": 34.142946,
+   "korrigiert": 25.546153,
+   "z_naiv": -1.5647,
+   "z_korr": -0.1081
+  },
+  {
+   "X": "10000000000000000",
+   "gemessen": 26,
+   "naiv": 36.855229,
+   "korrigiert": 27.575515,
+   "z_naiv": -1.7881,
+   "z_korr": -0.3
+  },
+  {
+   "X": "100000000000000000",
+   "gemessen": 29,
+   "naiv": 39.569587,
+   "korrigiert": 29.606429,
+   "z_naiv": -1.6803,
+   "z_korr": -0.1115
+  },
+  {
+   "X": "1000000000000000000",
+   "gemessen": 31,
+   "naiv": 42.28536,
+   "korrigiert": 31.638402,
+   "z_naiv": -1.7355,
+   "z_korr": -0.1135
+  },
+  {
+   "X": "10000000000000000000",
+   "gemessen": 33,
+   "naiv": 45.002096,
+   "korrigiert": 33.671096,
+   "z_naiv": -1.7891,
+   "z_korr": -0.1157
+  },
+  {
+   "X": "100000000000000000000",
+   "gemessen": 35,
+   "naiv": 47.719489,
+   "korrigiert": 35.704282,
+   "z_naiv": -1.8413,
+   "z_korr": -0.1179
+  },
+  {
+   "X": "1000000000000000000000",
+   "gemessen": 38,
+   "naiv": 50.43733,
+   "korrigiert": 37.737802,
+   "z_naiv": -1.7513,
+   "z_korr": 0.0427
+  },
+  {
+   "X": "3.8878e+21",
+   "gemessen": 39,
+   "naiv": 52.040196,
+   "korrigiert": 38.937085,
+   "z_naiv": -1.8077,
+   "z_korr": 0.0101
+  }
+ ],
+ "neuer_teil": {
+  "gemessen": 13,
+  "korrigiert": 12.06483,
+  "naiv": 16.124888
+ },
+ "steigung_frei_ab_1e8": 0.9453396921954892,
+ "steigung_heuristik": 0.8834574147908696,
+ "steigung_naiv": 1.18075857672121
+}

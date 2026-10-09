@@ -1,0 +1,42 @@
+{
+ "skript": "w153_t1plus1_quadrat_bloecke_2026-09-30.py",
+ "datum": "2026-09-30 18:59",
+ "kerne_quadrat": [
+  7,
+  23,
+  31,
+  47,
+  71,
+  79,
+  103,
+  119,
+  127,
+  151,
+  167,
+  191,
+  223,
+  239,
+  263,
+  287,
+  359,
+  383,
+  439,
+  511,
+  527,
+  623,
+  1343,
+  7967,
+  9167,
+  161231
+ ],
+ "n_kerne": 79,
+ "n_bloecke_quadrat": 361,
+ "geprueft": {
+  "mind. zwei": 361
+ },
+ "uebersprungen": 0,
+ "pk_prim": 18,
+ "prim_grenze": 5000,
+ "prim_kerne": 171,
+ "prim_kerne_ausnahmen": 0
+}

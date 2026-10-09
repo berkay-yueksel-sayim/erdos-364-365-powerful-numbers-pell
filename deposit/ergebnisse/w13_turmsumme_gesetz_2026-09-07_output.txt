@@ -1,0 +1,20 @@
+Klasse 7 (mod 8), Kerne <= 100000000: 83 Kandidaten-Familien, 60 mit T1 gerade; gezaehlte Paare bis 10^2000: 371
+   lineare Steigung Summe 1/(2 m' log10 eps) = 0.1817 Paare pro Dezimalstelle
+   groesste Beitraege (m, m', log10 eps, Anteil): (7, 7, 1.202, 0.327); (15, 15, 0.896, 0.205); (23, 23, 1.681, 0.071); (87, 29, 1.748, 0.054); (319, 11, 7.412, 0.034); (47, 47, 1.982, 0.030)
+   bis 10^ 100: gezaehlt   14 | Turm-Summe   14 OK | naiv (log10 T1)   21 | linear    18.2
+   bis 10^ 250: gezaehlt   39 | Turm-Summe   39 OK | naiv (log10 T1)   53 | linear    45.4
+   bis 10^ 500: gezaehlt   83 | Turm-Summe   83 OK | naiv (log10 T1)  111 | linear    90.9
+   bis 10^1000: gezaehlt  176 | Turm-Summe  176 OK | naiv (log10 T1)  224 | linear   181.7
+   bis 10^1500: gezaehlt  270 | Turm-Summe  270 OK | naiv (log10 T1)  345 | linear   272.6
+   bis 10^2000: gezaehlt  371 | Turm-Summe  371 OK | naiv (log10 T1)  467 | linear   363.4
+Klasse 3 (mod 8), Kerne <= 10000000: 86 Kandidaten-Familien, 62 mit T1 gerade; gezaehlte Paare bis 10^2000: 832
+   lineare Steigung Summe 1/(2 m' log10 eps) = 0.4134 Paare pro Dezimalstelle
+   groesste Beitraege (m, m', log10 eps, Anteil): (3, 3, 0.572, 0.705); (11, 11, 1.300, 0.085); (35, 35, 1.076, 0.032); (19, 19, 2.531, 0.025); (525003, 3, 25.429, 0.016); (115, 23, 3.353, 0.016)
+   bis 10^ 100: gezaehlt   37 | Turm-Summe   37 OK | naiv (log10 T1)   67 | linear    41.3
+   bis 10^ 250: gezaehlt   97 | Turm-Summe   97 OK | naiv (log10 T1)  168 | linear   103.4
+   bis 10^ 500: gezaehlt  199 | Turm-Summe  199 OK | naiv (log10 T1)  344 | linear   206.7
+   bis 10^1000: gezaehlt  410 | Turm-Summe  410 OK | naiv (log10 T1)  695 | linear   413.4
+   bis 10^1500: gezaehlt  616 | Turm-Summe  616 OK | naiv (log10 T1) 1049 | linear   620.1
+   bis 10^2000: gezaehlt  832 | Turm-Summe  832 OK | naiv (log10 T1) 1404 | linear   826.9
+Beide Klassen zusammen: Steigung 0.5951 Paare pro Dezimalstelle (Kerne <= 1e8 bzw. 1e7).
+PK ok: exakte Uebereinstimmung an allen Hoehen in beiden Klassen; naive log10-T1-Formel liegt daneben (Negativ-Kontrolle).

@@ -1,0 +1,56 @@
+====================================================================================================
+w134 — STUFE 2a: RANG-SIEB FUER DIE NEUEN PAARE (bis 1e+09)   2026-09-29 11:09
+====================================================================================================
+PK (7, 47) in (3e+06, 1e+08]: erster Zeuge 23971691 · Soll 23971691 (w71/w73) · 223103 Kandidaten · ✅
+PK (7, 51) in (1e+08, 1e+09]: erster Zeuge 582497521 · Soll 582497521 (w71/w73) · 4730368 Kandidaten · ✅
+Paare aus w133 (neu, ohne Zeugen ≤ 3·10⁶): 47 · schon im Checkpoint: 0
+  (215, 43): Zeuge 6470641 (sieb8) · 0.2 s
+  (215, 645): Zeuge 3537181 (sieb8) · 0.0 s
+  (231, 7): kein Zeuge bis 1e+09 · 184.3 s
+  (231, 11): Zeuge 132156553 (sieb9) · 17.0 s
+  (231, 21): kein Zeuge bis 1e+09 · 83.7 s
+  (231, 33): kein Zeuge bis 1e+09 · 53.1 s
+  (263, 263): Zeuge 19888061 (sieb8) · 0.1 s
+  (303, 101): kein Zeuge bis 1e+09 · 23.9 s
+  (399, 7): kein Zeuge bis 1e+09 · 181.2 s
+  (399, 19): kein Zeuge bis 1e+09 · 89.1 s
+  (399, 63): kein Zeuge bis 1e+09 · 37.7 s
+  (399, 133): Zeuge 11237437 (sieb8) · 0.1 s
+  (399, 171): kein Zeuge bis 1e+09 · 15.3 s
+  (399, 399): kein Zeuge bis 1e+09 · 7.3 s
+  (439, 439): Zeuge 10936369 (sieb8) · 0.1 s
+  (455, 5): Zeuge 268353541 (sieb9) · 60.5 s
+  (455, 13): kein Zeuge bis 1e+09 · 117.3 s
+  (455, 91): kein Zeuge bis 1e+09 · 26.0 s
+  (471, 157): kein Zeuge bis 1e+09 · 18.3 s
+  (527, 31): kein Zeuge bis 1e+09 · 68.6 s
+  (615, 41): Zeuge 3365281 (sieb8) · 0.0 s
+  (615, 615): Zeuge 119521561 (sieb9) · 0.6 s
+  (663, 51): Zeuge 5884993 (sieb8) · 0.1 s
+  (663, 663): kein Zeuge bis 1e+09 · 4.8 s
+  (935, 11): kein Zeuge bis 1e+09 · 145.9 s
+  (1023, 31): Zeuge 329527273 (sieb9) · 21.3 s
+  (1023, 93): Zeuge 209158489 (sieb9) · 5.5 s
+  (1023, 341): kein Zeuge bis 1e+09 · 8.3 s
+  (1335, 267): Zeuge 9622681 (sieb8) · 0.1 s
+  (1343, 79): kein Zeuge bis 1e+09 · 32.9 s
+  (2055, 685): Zeuge 62855599 (sieb8) · 0.3 s
+  (2135, 427): Zeuge 112642601 (sieb9) · 0.9 s
+  (2415, 15): kein Zeuge bis 1e+09 · 118.6 s
+  (2415, 23): kein Zeuge bis 1e+09 · 84.4 s
+  (3895, 5): kein Zeuge bis 1e+09 · 274.4 s
+  (3895, 95): kein Zeuge bis 1e+09 · 30.0 s
+  (7735, 15): kein Zeuge bis 1e+09 · 126.3 s
+  (7735, 51): kein Zeuge bis 1e+09 · 45.2 s
+  (7735, 85): kein Zeuge bis 1e+09 · 28.7 s
+  (7967, 257): kein Zeuge bis 1e+09 · 9.8 s
+  (20303, 257): kein Zeuge bis 1e+09 · 9.8 s
+  (32271, 93): kein Zeuge bis 1e+09 · 29.5 s
+  (161231, 31): kein Zeuge bis 1e+09 · 73.4 s
+  (313055, 29): kein Zeuge bis 1e+09 · 72.7 s
+  (313055, 145): Zeuge 240774239 (sieb9) · 4.1 s
+  (16057223, 19): kein Zeuge bis 1e+09 · 102.0 s
+  (16057223, 133): kein Zeuge bis 1e+09 · 18.8 s
+
+ERGEBNIS: 47 Paare · Zeuge gefunden 16 (sieb8 9, sieb9 7) · ohne Zeuge bis 1e+09: 31 · Wieferich-Ereignisse 0 · 2252 s
+⛔ Nicht hier: ECM auf den Resten (w135). Die Schwelle fuer neue offene Bloecke gilt NACH ECM, nicht nach dem Sieb.

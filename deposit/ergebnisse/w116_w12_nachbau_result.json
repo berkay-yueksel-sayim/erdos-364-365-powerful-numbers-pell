@@ -1,0 +1,13 @@
+{
+ "skript": "w116_w12_nachbau_2026-09-26.py",
+ "datum": "2026-09-26 20:44",
+ "hash_13_ok": true,
+ "hash_33_ok": true,
+ "vergleich_alt": {
+  "kreuz": "39/39 Zeilen gleich",
+  "lite": "15/15 Zeilen gleich",
+  "paare": "29/29 Zeilen gleich"
+ },
+ "paare_bis_67_stellen": 33,
+ "quelle": "eigene W9-Listen (w9_v31, w9_v32_c3); OEIS A076445 und Alekseyevs Tabelle nur per Hash verglichen"
+}

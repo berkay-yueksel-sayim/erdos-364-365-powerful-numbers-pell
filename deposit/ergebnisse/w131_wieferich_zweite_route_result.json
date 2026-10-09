@@ -1,0 +1,229 @@
+{
+ "skript": "w131_wieferich_zweite_route_2026-09-29.py",
+ "datum": "2026-09-29",
+ "ereignisse": [
+  {
+   "m": 15,
+   "d": 45,
+   "p": 181,
+   "T1_gerade": true,
+   "rang": 45,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": true
+  },
+  {
+   "m": 15,
+   "d": 130,
+   "p": 1039,
+   "T1_gerade": true,
+   "rang": 130,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": false
+  },
+  {
+   "m": 15,
+   "d": 600364,
+   "p": 2401457,
+   "T1_gerade": true,
+   "rang": 600364,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": false
+  },
+  {
+   "m": 31,
+   "d": 39,
+   "p": 157,
+   "T1_gerade": true,
+   "rang": 39,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": true
+  },
+  {
+   "m": 39,
+   "d": 1,
+   "p": 5,
+   "T1_gerade": false,
+   "rang": 1,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": false
+  },
+  {
+   "m": 79,
+   "d": 253,
+   "p": 4049,
+   "T1_gerade": true,
+   "rang": 253,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": true
+  },
+  {
+   "m": 87,
+   "d": 4,
+   "p": 17,
+   "T1_gerade": true,
+   "rang": 4,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": false
+  },
+  {
+   "m": 95,
+   "d": 2734,
+   "p": 10937,
+   "T1_gerade": false,
+   "rang": 2734,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": false
+  },
+  {
+   "m": 143,
+   "d": 13,
+   "p": 311,
+   "T1_gerade": true,
+   "rang": 13,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": true
+  },
+  {
+   "m": 255,
+   "d": 1308,
+   "p": 5231,
+   "T1_gerade": true,
+   "rang": 1308,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": false
+  },
+  {
+   "m": 319,
+   "d": 5,
+   "p": 20161,
+   "T1_gerade": true,
+   "rang": 5,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": true
+  },
+  {
+   "m": 327,
+   "d": 417,
+   "p": 1667,
+   "T1_gerade": false,
+   "rang": 417,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": false
+  },
+  {
+   "m": 407,
+   "d": 166,
+   "p": 1993,
+   "T1_gerade": false,
+   "rang": 166,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": false
+  },
+  {
+   "m": 1903,
+   "d": 4,
+   "p": 17,
+   "T1_gerade": true,
+   "rang": 4,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": false
+  },
+  {
+   "m": 209991,
+   "d": 18,
+   "p": 71,
+   "T1_gerade": false,
+   "rang": 18,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": false
+  },
+  {
+   "m": 209991,
+   "d": 846,
+   "p": 10151,
+   "T1_gerade": false,
+   "rang": 846,
+   "v": 2,
+   "bestaetigt": true,
+   "reichweite_611": false
+  }
+ ],
+ "verschiedene_primzahlen": 15,
+ "bloecke_reichweite": [
+  {
+   "m": 15,
+   "d": 45,
+   "p": 181,
+   "zeugen_unter_3e6": [
+    1997101
+   ],
+   "weg": "Zeuge unter 3·10⁶"
+  },
+  {
+   "m": 31,
+   "d": 39,
+   "p": 157,
+   "zeugen_unter_3e6": [
+    311
+   ],
+   "weg": "Zeuge unter 3·10⁶"
+  },
+  {
+   "m": 79,
+   "d": 253,
+   "p": 4049,
+   "zeugen_unter_3e6": [
+    1013
+   ],
+   "weg": "Zeuge unter 3·10⁶"
+  },
+  {
+   "m": 143,
+   "d": 13,
+   "p": 311,
+   "zeugen_unter_3e6": [
+    53,
+    103,
+    4889,
+    13831
+   ],
+   "weg": "Zeuge unter 3·10⁶"
+  },
+  {
+   "m": 319,
+   "d": 5,
+   "p": 20161,
+   "zeugen_unter_3e6": [],
+   "weg": "vollstaendige Zerlegung, Primzahlen deterministisch",
+   "zerlegung": {
+    "5": 1,
+    "20161": 2,
+    "1375502561": 1,
+    "158585313121": 1
+   },
+   "rang1_teiler": [
+    5
+   ]
+  }
+ ],
+ "wieferich_basis2_unter_1e6": [
+  1093,
+  3511
+ ],
+ "alle_ok": true
+}

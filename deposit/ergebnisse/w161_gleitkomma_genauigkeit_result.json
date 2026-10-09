@@ -1,0 +1,12 @@
+{
+ "skript": "w161_gleitkomma_genauigkeit_2026-10-02.py",
+ "datum": "2026-10-02 14:53",
+ "n_kerne": 3531,
+ "n_bis_2e4": 2031,
+ "n_zufall_bis_1e8": 1500,
+ "max_rel_fehler": 2.2170703586833134e-16,
+ "bei_m": 85081911,
+ "laengste_periode": 19591,
+ "f32_max_rel_fehler": 6.383931764195567e-09,
+ "seed": 20261002
+}

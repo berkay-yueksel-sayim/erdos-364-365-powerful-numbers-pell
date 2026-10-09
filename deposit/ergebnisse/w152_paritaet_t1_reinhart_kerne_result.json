@@ -1,0 +1,84 @@
+{
+ "skript": "w152_paritaet_t1_reinhart_kerne_2026-09-30.py",
+ "datum": "2026-09-30 18:48",
+ "kerne": [
+  {
+   "m": 209991,
+   "klasse": 7,
+   "periode": 186,
+   "T1_mod16": 7,
+   "T1_gerade": false,
+   "m_teilt_U1": true,
+   "route_b": "exakt, stimmt mit A",
+   "T1_stellen": 95
+  },
+  {
+   "m": 1752299,
+   "klasse": 3,
+   "periode": 236,
+   "T1_mod16": 9,
+   "T1_gerade": false,
+   "m_teilt_U1": true,
+   "route_b": "exakt, stimmt mit A",
+   "T1_stellen": 117
+  },
+  {
+   "m": 4099215,
+   "klasse": 7,
+   "periode": 436,
+   "T1_mod16": 4,
+   "T1_gerade": true,
+   "m_teilt_U1": true,
+   "route_b": "exakt, stimmt mit A",
+   "T1_stellen": 228
+  },
+  {
+   "m": 117477414815,
+   "klasse": 7,
+   "periode": 22346,
+   "T1_mod16": 9,
+   "T1_gerade": false,
+   "m_teilt_U1": true,
+   "route_b": "exakt, stimmt mit A",
+   "T1_stellen": 11621
+  },
+  {
+   "m": 20256129307923,
+   "klasse": 3,
+   "periode": 192220,
+   "T1_mod16": 10,
+   "T1_gerade": true,
+   "m_teilt_U1": true,
+   "route_b": "exakt, stimmt mit A",
+   "T1_stellen": null
+  },
+  {
+   "m": 39028039587479,
+   "klasse": 7,
+   "periode": 3650856,
+   "T1_mod16": 8,
+   "T1_gerade": true,
+   "m_teilt_U1": true,
+   "route_b": "nicht moeglich (Periode > 250000)",
+   "T1_stellen": null
+  }
+ ],
+ "gerade_klasse7": [
+  4099215,
+  39028039587479
+ ],
+ "ungerade_klasse7": [
+  209991,
+  117477414815
+ ],
+ "gerade_klasse3": [
+  20256129307923
+ ],
+ "ungerade_klasse3": [
+  1752299
+ ],
+ "w11_abweichung": [
+  117477414815
+ ],
+ "pk_sympy": 380
+}

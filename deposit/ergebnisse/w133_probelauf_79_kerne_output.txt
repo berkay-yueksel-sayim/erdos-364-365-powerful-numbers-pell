@@ -1,0 +1,16 @@
+====================================================================================================
+w133 — PROBELAUF ERSTE SUCHE (Zeuge ≤ 3·10⁶) AUF ALLEN 79 KERNEN   2026-09-29 01:47
+====================================================================================================
+PK Verdopplung = Rekursion (m = 7, k ≤ 21): ✅
+T₁ berechnet fuer 79 von 79 Kernen; groesstes T₁: 228 Stellen; Blocker: keine
+Kerne mit T₁ ungerade: in den 25 9, in den uebrigen 54 12
+PK: Route „erste" (w92) wiedergefunden: 605 von 606 · fehlend [(319, 5)], davon durch w131 als „kein Zeuge ≤ 3·10⁶" belegt: [(319, 5)] · unerklaert: keine ✅
+NK: Zeugen fuer die 7 offenen: keine ✅
+Kalibrierung: auf den 811 hier mit Zeugen ≤ 3·10⁶ insgesamt 605 (zusaetzlich zu „erste": keine — dort fand die erste Suche keinen, diese Suche schon)
+
+NEUE PAARE (54 Kerne): 150 · mit Zeugen ≤ 3·10⁶: 103 = 68.7 % · ohne: 47
+Vergleich: die 811 in der ersten Suche 606 = 74,7 %; Schwelle aus dem Kriterium (vorher festgelegt): 37 %
+ohne Zeugen, je Kern (m: Anzahl): {215: 2, 231: 4, 263: 1, 303: 1, 399: 6, 439: 1, 455: 3, 471: 1, 527: 1, 615: 2, 663: 2, 935: 1, 1023: 3, 1335: 1, 1343: 1, 2055: 1, 2135: 1, 2415: 2, 3895: 2, 7735: 3, 7967: 1, 20303: 1, 32271: 1, 161231: 1, 313055: 2, 16057223: 2}
+davon auf Kernen mit T₁ ungerade: 11
+Laufzeit 8 s
+Hinweis: diese Suche ist STRENGER als „erste" (keine Zerlegung kleiner Bloecke) — der Anteil der neuen Paare ist eher unter- als ueberschaetzt.

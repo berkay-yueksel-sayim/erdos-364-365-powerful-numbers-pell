@@ -1,0 +1,47 @@
+====================================================================================================
+w109 — ZAHLVARIANZ Σ²(L): Ordnung ueber lange Strecken   2026-09-25 03:26
+====================================================================================================
+Vorhersagen: C₂ = 0.6601618 (Produkt ueber p ≤ 10⁷) · Mittel von S(d), d ≤ 1038: 0.9966 (muss → 1) · ln N = 20.728
+   L      Poisson   GUE      Gitter   Hardy–Littlewood(P)
+   0.5    0.5      0.2802   0.2500   0.4111  (HL/L = 0.822)
+   1.0    1.0      0.3442   0.0000   0.7901  (HL/L = 0.790)
+   2.0    2.0      0.4157   0.0000   1.5031  (HL/L = 0.752)
+   5.0    5.0      0.5090   0.0000   3.5505  (HL/L = 0.710)
+   10     10       0.5793   0.0000   6.7394  (HL/L = 0.674)
+   20     20       0.6495   0.0000   12.8065  (HL/L = 0.640)
+   50     50       0.7424   0.0000   29.8435  (HL/L = 0.597)
+Gitter-Ueberlagerung: 25092 Familien im Fenster, Quadrate-Anteil 0.4613; I = 2.4961 ⇒ K(Q) = 0.6029, K(Q₃) = 0.9094
+   L = 0.5  : Q Summe   0.4371 · Q Asymptote   0.3798  |  Q₃ Summe   0.4667 · Q₃ Asymptote   0.5729
+   L = 1.0  : Q Summe   0.7486 · Q Asymptote   0.6029  |  Q₃ Summe   0.8669 · Q₃ Asymptote   0.9094
+   L = 2.0  : Q Summe   0.9943 · Q Asymptote   0.9571  |  Q₃ Summe   1.4675 · Q₃ Asymptote   1.4436
+   L = 5.0  : Q Summe   1.9402 · Q Asymptote   1.7630  |  Q₃ Summe   2.6992 · Q₃ Asymptote   2.6591
+   L = 10   : Q Summe   3.0227 · Q Asymptote   2.7986  |  Q₃ Summe   4.1476 · Q₃ Asymptote   4.2211
+   L = 20   : Q Summe   4.6169 · Q Asymptote   4.4426  |  Q₃ Summe   6.5762 · Q₃ Asymptote   6.7006
+   L = 50   : Q Summe   8.2724 · Q Asymptote   8.1833  |  Q₃ Summe  12.0589 · Q₃ Asymptote  12.3426
+   (Vorhersagen fertig, 3s — ab hier wird gemessen)
+
+K+ Radius: max|Eigenwert|/√N = 1.988 (Halbkreis-Rand 2 ⇒ Radius 2√N). Anteil s < 0,25: richtig entfaltet 0.0168 · mit der w105-Entfaltung 0.0170 (GUE-Theorie 0,0161; w105 meldete 0,0154)
+   (K−, K+, Z, W gemessen, 57s)
+   Entfaltung: mittlerer Abstand Q 1.00000 · Q₂ 1.00000 · Q₃ 1.00000 (soll 1)
+   (alles gemessen, 83s)
+
+PK1 K− gegen Poisson: groesste rel. Abweichung 0.010 (Grenze 0,06) ✅
+PK2 K+ gegen GUE-Formel (L ≥ 0,5): groesste rel. Abweichung 0.041 (Grenze 0,08) ✅
+PK3 Q₂ gegen {L}(1 − {L}): groesste Abweichung 0.0013 (Grenze 0,01) ✅
+
+   L     |  K−      K+      GUE    |  Z       |  W       |  P      HL      |  Q       Q-Summe  |  Q₃      Q₃-Summe |  Q₂
+   0.5   |   0.498   0.281  0.280 |   0.269  |   0.498  |   0.412   0.411 |   0.442    0.437  |   0.468    0.467  | 0.250
+   1.0   |   1.002   0.349  0.344 |   0.310  |   1.005  |   0.789   0.790 |   0.750    0.749  |   0.868    0.867  | 0.000
+   2.0   |   1.993   0.421  0.416 |   0.349  |   2.000  |   1.495   1.503 |   0.995    0.994  |   1.466    1.467  | 0.000
+   3.0   |   3.006   0.461  0.457 |   0.355  |   3.006  |   2.179   2.199 |   1.506    1.505  |   1.806    1.802  | 0.000
+   5.0   |   5.023   0.520  0.509 |   0.319  |   5.011  |   3.547   3.550 |   1.939    1.940  |   2.713    2.699  | 0.000
+   8     |   8.029   0.568  0.557 |   0.290  |   7.979  |   5.499   5.491 |   2.659    2.660  |   3.802    3.804  | 0.000
+   12    |  12.066   0.612  0.598 |   0.349  |  12.013  |   8.041   7.998 |   3.200    3.195  |   4.591    4.582  | 0.000
+   20    |  20.131   0.671  0.650 |   0.326  |  19.935  |  12.798  12.806 |   4.619    4.617  |   6.580    6.576  | 0.000
+   30    |  30.209   0.718  0.691 |   0.315  |  29.997  |  18.710  18.650 |   5.776    5.795  |   8.676    8.677  | 0.000
+   50    |  50.485   0.762  0.742 |   0.306  |  49.118  |  30.060  29.844 |   8.273    8.272  |  11.968   12.059  | 0.000
+
+E2  W gegen Poisson: groesste rel. Abweichung 0.018, groesstes |z| 1.5
+E3  P gegen Poisson: rel. 0.399 (|z| 160) · gegen Hardy–Littlewood: rel. 0.009 (|z| 4.1)
+E4  Q gegen Gitter-Summe: rel. 0.012 (|z| 5.5) · Q₃ gegen Gitter-Summe: rel. 0.010 (|z| 2.9)
+E5  Steigung log Σ² zwischen L = 10 und 50:  Q 0.626 · Q₃ 0.660 · (Poisson K− 1.004 · GUE K+ 0.159 · Primzahlen 0.928) — Hypothese 2/3 = 0,667

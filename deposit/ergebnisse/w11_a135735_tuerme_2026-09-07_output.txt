@@ -1,0 +1,24 @@
+PK ok: Zeugen von T_7(7) = {29, 197, 2857}, von T_3(7) = {11, 23} (M-W 1986 S.111)
+m = 4099215 (T_1 gerade): log10 T_1 = 227.255 (228 Stellen), Konvergenten-Index 435
+  Stufe 1: k = 1  -> Zeugen v_p = 1 (p <= 3000): [701] (1 Stueck)
+  Stufe 2: k = 701  -> kein Zeuge <= 3000 (Kette endet hier)
+  ==> erster moeglicher Index k >= 701  (3 Stellen);  Mitte n hat >= 1.59e+05 Stellen  (= 10^5.20 Stellen)
+  [0s]
+m = 117477414815 (T_1 gerade): log10 T_1 = 11620.298 (11621 Stellen), Konvergenten-Index 22345
+  Stufe 1: k = 1  -> Zeugen v_p = 1 (p <= 3000): [3] (1 Stueck)
+  Stufe 2: k = 3  -> kein Zeuge <= 3000 (Kette endet hier)
+  ==> erster moeglicher Index k >= 3  (1 Stellen);  Mitte n hat >= 3.49e+04 Stellen  (= 10^4.54 Stellen)
+  [0s]
+m = 39028039587479 (T_1 gerade): log10 T_1 = 1880029.100 (1880030 Stellen), Konvergenten-Index 3650855
+  Stufe 1: k = 1  -> Zeugen v_p = 1 (p <= 3000): [5, 7, 71, 1657] (4 Stueck)
+  Stufe 2: k = 4117645  -> Zeugen v_p = 1 (p <= 3000): [19, 29, 421, 569, 1987] (5 Stueck)
+  Stufe 3: k = 1079922848033011885  -> Zeugen v_p = 1 (p <= 3000): [379, 2089, 2203, 2437] (4 Stueck)
+  ==> erster moeglicher Index k >= 4590292982823697265099481086785  (31 Stellen);  Mitte n hat >= 8.63e+36 Stellen  (= 10^36.94 Stellen)
+  [25s]
+m = 209991 (T_1 UNGERADE: Familie paritaetstot, Turm nur zur Info): log10 T_1 = 94.864 (95 Stellen), Konvergenten-Index 185
+  Stufe 1: k = 1  -> Zeugen v_p = 1 (p <= 3000): [5] (1 Stueck)
+  Stufe 2: k = 5  -> Zeugen v_p = 1 (p <= 3000): [59, 179, 601, 941] (4 Stueck)
+  Stufe 3: k = 29863392505  -> kein Zeuge <= 3000 (Kette endet hier)
+  ==> erster moeglicher Index k >= 29863392505  (11 Stellen);  Mitte n hat >= 2.83e+12 Stellen  (= 10^12.45 Stellen)
+  [25s]
+Hinweis: Stufe 1 fuer m = 7 (Vergleich): k >= 7 * 29 * 197 * 2857 = 114254287 (M-W 1986), Satz C' treibt weiter auf > 10^17.6 Stellen.

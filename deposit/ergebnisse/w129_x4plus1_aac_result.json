@@ -1,0 +1,11 @@
+{
+ "skript": "w129_x4plus1_aac_2026-09-28.py",
+ "grenze": 100000,
+ "anzahl_q": 2384,
+ "treffer": [],
+ "treffer_unter_40000": [],
+ "groesste_periode": 635,
+ "gerade_perioden": [],
+ "pk": true,
+ "laufzeit_s": 0.2
+}

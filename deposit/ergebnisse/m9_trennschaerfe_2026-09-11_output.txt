@@ -1,0 +1,20 @@
+Geruest ok [23s]: 750 Kerne, 120373 Paare (identisch zum Hauptlauf)
+
+Null (rho=0): S = 436.2 +/- 28.2
+
+=== Trennschaerfe: bewegt Kopplung die Statistik ueberhaupt? ===
+  rho   mittleres z   Anteil Laeufe mit z > 2   (40 Laeufe je rho)
+  0.00       -0.19                      2 %
+  0.05       +6.03                     48 %
+  0.10      +29.93                     62 %
+  0.20      +67.69                     90 %
+  0.50     +283.38                    100 %
+  1.00     +652.27                    100 %
+
+PK ok: volle Kopplung hebt z von -0.19 auf +652.27. Die Statistik SIEHT Kopplung.
+
+KLEINSTE erkannte Kopplung: rho = 0.05
+Beobachtet im Hauptlauf: z = -0.87  =>  eine Kopplung dieser Staerke oder groesser ist ausgeschlossen;
+schwaechere Kopplung bleibt moeglich und ist mit diesen Daten NICHT entscheidbar.
+
+[28s]
