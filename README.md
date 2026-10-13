@@ -4,6 +4,8 @@ A positive integer is powerful if every prime that divides it divides it at leas
 
 > **Status: preprint (v1.0) with data release 1 (October 2026).** The papers are the v1.0 PDFs of the Zenodo records. The data deposit holds every result file that the papers cite, the inputs these result files depend on, the scripts that wrote them, and the LaTeX sources with the build tool. The remaining archive of the investigation and an English translation of the code comments will follow with v1.1.
 
+> **License:** papers, data, LaTeX sources and documentation under CC BY 4.0 (`LICENSE-paper`); code under Apache-2.0 (`LICENSE`, `NOTICE`). Details at the end of this file.
+
 ## Papers
 
 | | Title | Zenodo (all versions) | File |
@@ -51,6 +53,8 @@ These will be incorporated in v1.1. None of them changes a result or a number of
    - The heuristic of van Doorn is a product of factors over squarefree m, not over primes.
    - Locators: Reinhart's Definition 1.4 is on p. 2 of the arXiv version (his remark on 4099215, 39028039587479 and 7 is on p. 6); She's conjecture is on p. 8 of the Integers version; Tao's paper is now at arXiv version 3 (same numbering); Ryan 2026 should be cited by its version DOI 10.5281/zenodo.21456694.
 
+6. **The range up to 1.5 · 10¹².** The papers say that Reinhart's list is complete up to 1.5 · 10¹² and call the bound 1.83 · 10¹⁸ that rests on it a bound without any assumption. The list up to 1.5 · 10¹² rests on Reinhart's computer proof (Remark 5.5 of the paper in item 1). According to the table in Section 1 of the paper in item 3, no independent double check of the search interval was done for this range either; below 10¹⁰ the search was run with two different algorithms (Section 3 there). v1.1 will state the bound with this qualification.
+
 ## Author
 
 Berkay Yüksel Sayim, Independent Researcher, Germany · ORCID [0009-0004-4993-7352](https://orcid.org/0009-0004-4993-7352) · berksa@tutamail.com
@@ -59,4 +63,4 @@ These are partial results and do not settle Erdős problem #364. Generative AI t
 
 ## License
 
-The papers, the data, the LaTeX sources and the documentation are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), see `LICENSE.md` and `deposit/LICENSE-paper`. The code (the scripts, the build tool and the container recipes) is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), see `deposit/LICENSE` and `deposit/NOTICE`. Both licenses allow use for any purpose, including commercial use; both require that the source is credited. Programs of others that the scripts call as tools, such as GMP-ECM and PARI/GP, are not part of this repository and keep their own licenses.
+The papers, the data, the LaTeX sources and the documentation are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), see `LICENSE-paper` for the exact scope. The code (the scripts, the build tool and the container recipes) is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), see `LICENSE` and `NOTICE`; identical copies are in `deposit/`. Both licenses allow use for any purpose, including commercial use; both require that the source is credited. Programs of others that the scripts call as tools, such as GMP-ECM and PARI/GP, are not part of this repository and keep their own licenses.

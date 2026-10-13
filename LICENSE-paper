@@ -1,0 +1,32 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Berkay Yüksel Sayim
+
+This license applies to:
+
+    the papers (the PDFs in papers/),
+    the data (the result files in deposit/ergebnisse/ and deposit/ecpp/ergebnisse/, including the three PARI/GP files
+    w164_ecpp.gp, w165_ecpp.gp and w165_rest.gp in deposit/ergebnisse/w164_zertifikate/ and w165_zertifikate/, which belong to the data),
+    the LaTeX sources, bibliography and figures in deposit/series_source/ (the .tex, .bib, .bel, .pdf and .png files),
+    and the documentation (README.md, SHA256SUMS.txt, and DATA_README.md, OPEN_PROBLEMS.md,
+    CORE_FILES.txt and MANIFEST_sha256.txt in deposit/).
+
+You are free to:
+
+    Share - copy and redistribute the material in any medium or format.
+    Adapt - remix, transform, and build upon the material for any purpose, even commercially.
+
+Under the following terms:
+
+    Attribution - You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+    You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+    No additional restrictions - You may not apply legal terms or technological measures that legally restrict others
+    from doing anything the license permits.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+The code (the Python scripts in deposit/skripte/, deposit/series_source/werkzeug/ and deposit/ecpp/, the PARI/GP script in deposit/ecpp/, and the container
+recipes in deposit/werkzeug/) is licensed under the Apache License, Version 2.0; see the files LICENSE and NOTICE in this directory.
+Identical copies of LICENSE and NOTICE are in deposit/, together with deposit/LICENSE-paper, the same CC BY 4.0 notice with paths relative to deposit/.
